@@ -46,17 +46,24 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
         run: |
+          pids=""
           if [ -n "$ARK_API_KEY" ]; then
-            python scripts/generate_summaries.py --profile zh_standard --type x --max-workers 3
-            python scripts/generate_summaries.py --profile zh_standard --type papers --limit 12 --max-workers 4
+            python scripts/generate_summaries.py --profile zh_standard --type x --max-workers 3 &
+            pids="$pids $!"
+            python scripts/generate_summaries.py --profile zh_standard --type papers --limit 12 --max-workers 4 &
+            pids="$pids $!"
           else
             echo "ARK_API_KEY is not set; skipping Doubao X and paper summaries."
           fi
           if [ -n "$DEEPSEEK_API_KEY" ]; then
-            python scripts/generate_summaries.py --profile zh_short --profile zh_standard --profile zh_deep --type podcasts --limit 5
+            python scripts/generate_summaries.py --profile zh_short --profile zh_standard --profile zh_deep --type podcasts --limit 5 &
+            pids="$pids $!"
           else
             echo "DEEPSEEK_API_KEY is not set; skipping podcast summaries."
           fi
+          for pid in $pids; do
+            wait "$pid"
+          done
 
       - name: Commit feeds
         run: |

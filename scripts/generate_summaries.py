@@ -33,6 +33,7 @@ import httpx
 SCRIPT_DIR = Path(__file__).parent
 ROOT_DIR = SCRIPT_DIR.parent
 DEFAULT_CONFIG_PATH = ROOT_DIR / "config" / "summary.json"
+SUMMARY_KINDS = ("x", "podcasts", "papers")
 
 AI_KEYWORDS = (
     "agent", "agents", "model", "models",
@@ -105,6 +106,35 @@ def write_json(path: Path, data: Any) -> None:
             if attempt < 2:
                 time.sleep(1 + attempt)
     raise RuntimeError(f"Could not write {path}: {last_error}")
+
+
+class FileLock:
+    def __init__(self, path: Path, timeout_seconds: float = 600) -> None:
+        self.path = path
+        self.timeout_seconds = timeout_seconds
+        self.fd: int | None = None
+
+    def __enter__(self) -> "FileLock":
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        deadline = time.time() + self.timeout_seconds
+        while True:
+            try:
+                self.fd = os.open(str(self.path), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+                os.write(self.fd, str(os.getpid()).encode("ascii", errors="ignore"))
+                return self
+            except FileExistsError:
+                if time.time() > deadline:
+                    raise TimeoutError(f"Timed out waiting for lock: {self.path}") from None
+                time.sleep(0.5)
+
+    def __exit__(self, exc_type: Any, exc: Any, tb: Any) -> None:
+        if self.fd is not None:
+            os.close(self.fd)
+            self.fd = None
+        try:
+            self.path.unlink()
+        except FileNotFoundError:
+            pass
 
 
 def write_text(path: Path, text: str) -> None:
@@ -403,6 +433,45 @@ def merge_profile_items(profile_index: dict[str, Any], kind: str, updates: list[
         if item.get("id"):
             merged[item["id"]] = item
     profile_index[kind] = list(merged.values())
+
+
+def selected_kinds(kind: str) -> list[str]:
+    if kind == "all":
+        return list(SUMMARY_KINDS)
+    return [kind]
+
+
+def merge_index_for_write(
+    latest_index: dict[str, Any],
+    generated_index: dict[str, Any],
+    profile_names: list[str],
+    kinds: list[str],
+) -> dict[str, Any]:
+    merged = clean_data(latest_index or {"profiles": {}})
+    merged["generated_at"] = datetime.now(timezone.utc).isoformat()
+    if generated_index.get("model"):
+        merged["model"] = generated_index.get("model")
+    merged.setdefault("profiles", {})
+
+    for profile_name in profile_names:
+        generated_profile = (generated_index.get("profiles") or {}).get(profile_name) or {}
+        target_profile = merged["profiles"].setdefault(profile_name, {})
+        for key in (
+            "language",
+            "detail",
+            "target_chars",
+            "x_target_chars",
+            "podcast_target_chars",
+            "paper_target_chars",
+        ):
+            if key in generated_profile:
+                target_profile[key] = generated_profile.get(key)
+        for summary_kind in SUMMARY_KINDS:
+            target_profile.setdefault(summary_kind, [])
+        for summary_kind in kinds:
+            target_profile[summary_kind] = generated_profile.get(summary_kind, [])
+
+    return merged
 
 
 def is_task_cached(task: dict[str, Any], force: bool) -> bool:
@@ -798,6 +867,7 @@ def main() -> None:
     new_index.setdefault("profiles", {})
 
     profile_names = selected_profiles(cfg, args.profile, args.all_profiles)
+    run_kinds = selected_kinds(args.type)
     print(f"Summary profiles: {', '.join(profile_names)}")
     index_changed = False
 
@@ -923,7 +993,10 @@ def main() -> None:
         return
 
     if index_changed or not output_index_path.exists():
-        write_json(output_index_path, new_index)
+        with FileLock(output_index_path.with_suffix(output_index_path.suffix + ".lock")):
+            latest_index = load_json(output_index_path, {"profiles": {}})
+            merged_index = merge_index_for_write(latest_index, new_index, profile_names, run_kinds)
+            write_json(output_index_path, merged_index)
         print(f"\nWrote {rel_path(output_index_path)}")
     else:
         print("\nNo index changes.")
