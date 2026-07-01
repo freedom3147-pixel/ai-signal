@@ -125,6 +125,15 @@ def choose_summary_profile(config):
     return "en_standard"
 
 
+def wants_central_summaries(config):
+    value = config.get("include_central_summaries", False)
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str):
+        return value.strip().lower() in ("1", "true", "yes", "on")
+    return False
+
+
 def filter_summary_items(items, domains):
     if not domains:
         return items
@@ -160,7 +169,8 @@ def main():
     feed_x = fetch_feed(FEED_X_URL, "feed-x.json", "x")
     feed_podcasts = fetch_feed(FEED_PODCASTS_URL, "feed-podcasts.json", "podcasts")
     feed_arxiv = fetch_feed(FEED_ARXIV_URL, "feed-arxiv.json", "papers")
-    feed_summaries = fetch_feed(FEED_SUMMARIES_URL, "feed-summaries.json", "profiles")
+    include_central_summaries = wants_central_summaries(config)
+    feed_summaries = fetch_feed(FEED_SUMMARIES_URL, "feed-summaries.json", "profiles") if include_central_summaries else None
     if not feed_x:
         errors.append("Could not fetch tweet feed")
     if not feed_podcasts:
@@ -216,10 +226,12 @@ def main():
 
     output = {
         "status": "ok",
+        "mode": "json_first",
         "generated_at": (feed_x or {}).get("generated_at") or (feed_podcasts or {}).get("generated_at"),
         "config": {
             "language": config.get("language", "en"),
             "granularity": config.get("granularity", "summary"),
+            "include_central_summaries": include_central_summaries,
             "summary_profile": summary_profile,
             "available_summary_profiles": available_summary_profiles,
             "domains": domains,

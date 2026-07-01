@@ -11,9 +11,15 @@ and investors in AI — and delivers digestible summaries of what they're saying
 Philosophy: follow people who build products and have original opinions, not
 influencers who regurgitate information.
 
-**No API keys are required from users.** All content (X/Twitter posts, YouTube
-podcast transcripts, arXiv papers) is fetched centrally and served via a public
-feed. Users only need API keys if they choose Telegram, Feishu, or email delivery.
+**No content API keys are required from users.** All content (X/Twitter posts,
+YouTube podcast transcripts, arXiv papers) is fetched centrally and served via
+public JSON feeds. Users only need API keys if they choose Telegram, Feishu, or
+email delivery.
+
+Default mode is **JSON-first**: the central service provides raw feeds, and this
+local Agent reads the JSON and writes the digest. Do not depend on central
+Chinese summaries unless the user's config explicitly sets
+`include_central_summaries: true`.
 
 ## Auto-Install (Zero Command Line)
 
@@ -291,6 +297,8 @@ The script outputs a single JSON blob with everything needed:
 - `papers` — arXiv papers with titles and abstracts
 - `prompts` — remix instructions
 - `stats` — content counts
+- `mode` — should be `json_first`
+- `central_summaries` — optional and normally null; ignore unless present
 - `errors` — non-fatal issues (IGNORE these)
 
 If the script fails entirely (no JSON output), tell the user to check internet.
@@ -310,6 +318,14 @@ Only include content matching the user's `config.domains`:
 
 **Your ONLY job is to remix content from the JSON.** Do NOT fetch anything from
 the web, visit URLs, or call APIs. Everything is in the JSON.
+
+Use the raw JSON fields as the source of truth:
+- X/Twitter: use each tweet's original `text` and `url`.
+- Podcasts: use each episode's `transcript` when available; otherwise use
+  `description`.
+- Papers: use each paper's `title`, `abstract`, `abs_url`, and `pdf_url`.
+- If `central_summaries` exists, treat it only as optional reference material,
+  not as the canonical source.
 
 Read prompts from the `prompts` field:
 - `prompts.digest_intro` — overall framing

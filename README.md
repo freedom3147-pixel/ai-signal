@@ -10,11 +10,11 @@
 
 ## 你会得到什么
 
-每天一份推送（Telegram / 飞书 / 邮件 / 直接在聊天里看），包含：
+每天一份推送（Telegram / 飞书 / 邮件 / 直接在聊天里看），由你的 AI Agent 读取中央 JSON 后生成，包含：
 
 - 一线播客的最新内容（含全文字幕，不是摘要的摘要）
 - 精选推特账号的当日观点
-- arXiv 最新 AI/ML/NLP 论文摘要
+- arXiv 最新 AI/ML/NLP 论文标题、链接和摘要原文
 - 按你的偏好定制：中文 / 英文 / 双语，精华 / 标准 / 完整
 - 不需要任何 API key——所有内容由中央服务统一抓取
 
@@ -121,11 +121,14 @@ cd ai-signal/scripts && pip install -r ../requirements.txt
 
 你的机器（任意 AI Agent：OpenClaw / Claude Code / Cursor / WorkBuddy / Codex）
   └── prepare_digest.py → 从本 repo 拉 feed
-      → 你的 AI 按你的偏好生成摘要
+      → 输出一个 ASCII-safe JSON（默认不包含中央中文摘要）
+      → 你的 AI 直接读取 JSON，按你的偏好生成摘要
       → deliver.py → 推送到你的 Telegram / 飞书 / 邮件
 ```
 
-**你不需要任何 API key。** 内容抓取在中央完成，摘要由你自己的 AI 生成。
+**你不需要任何内容 API key。** 内容抓取在中央完成，摘要由你自己的 AI Agent 读取 JSON 后生成。
+
+默认是 **JSON-first**：中央只提供原始 feed，不生成中文版日报。这能减少中文、emoji、长播客字幕在命令行、定时任务和推送链路里的编码问题。中央 LLM 摘要能力仍保留为手动调试选项，但不是默认用户路径。
 
 ## 要求
 
