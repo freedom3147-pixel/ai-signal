@@ -1,0 +1,786 @@
+"""Generate cached central summaries for X posts, podcast episodes, and arXiv papers.
+
+This script is intended for the central feed repo. It reads raw feed JSON,
+calls one LLM once per new item/profile, writes small Markdown summaries, and
+publishes an index that subscriber-side agents can read later.
+
+Usage:
+    python scripts/generate_summaries.py --dry-run
+    python scripts/generate_summaries.py --profile zh_standard --limit 1
+
+Env vars:
+    DEEPSEEK_API_KEY - DeepSeek API key. Required unless --dry-run is used
+    with the default config.
+"""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import re
+import sys
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any
+
+import httpx
+
+SCRIPT_DIR = Path(__file__).parent
+ROOT_DIR = SCRIPT_DIR.parent
+DEFAULT_CONFIG_PATH = ROOT_DIR / "config" / "summary.json"
+
+
+def configure_stdio() -> None:
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
+
+
+def clean_text(text: str) -> str:
+    return "".join(ch for ch in text if not 0xD800 <= ord(ch) <= 0xDFFF)
+
+
+def clean_data(value: Any) -> Any:
+    if isinstance(value, str):
+        return clean_text(value)
+    if isinstance(value, list):
+        return [clean_data(item) for item in value]
+    if isinstance(value, dict):
+        return {clean_data(str(k)): clean_data(v) for k, v in value.items()}
+    return value
+
+
+def rel_path(path: Path) -> str:
+    return path.relative_to(ROOT_DIR).as_posix()
+
+
+def load_json(path: Path, default: Any = None) -> Any:
+    if not path.exists():
+        return default
+    return clean_data(json.loads(path.read_text("utf-8-sig", errors="replace")))
+
+
+def write_json(path: Path, data: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    text = json.dumps(clean_data(data), ensure_ascii=False, indent=2) + "\n"
+    last_error: Exception | None = None
+    for attempt in range(3):
+        try:
+            path.write_text(text, encoding="utf-8")
+            return
+        except PermissionError as exc:
+            last_error = exc
+            if attempt < 2:
+                time.sleep(1 + attempt)
+    raise RuntimeError(f"Could not write {path}: {last_error}")
+
+
+def write_text(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(clean_text(text).rstrip() + "\n", encoding="utf-8")
+
+
+def sha256_text(text: str) -> str:
+    return hashlib.sha256(clean_text(text).encode("utf-8", errors="replace")).hexdigest()
+
+
+def stable_id(*parts: str) -> str:
+    joined = "\n".join(part or "" for part in parts)
+    return hashlib.sha1(joined.encode("utf-8", errors="replace")).hexdigest()[:16]
+
+
+def slugify(text: str, fallback: str) -> str:
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", text.lower()).strip("-")
+    slug = re.sub(r"-+", "-", slug)[:80].strip("-")
+    return slug or fallback
+
+
+def trim_source_text(text: str, max_chars: int) -> str:
+    text = clean_text(re.sub(r"\s+", " ", text or "")).strip()
+    if len(text) <= max_chars:
+        return text
+
+    head_len = int(max_chars * 0.45)
+    middle_len = int(max_chars * 0.20)
+    tail_len = max_chars - head_len - middle_len
+    middle_start = max((len(text) - middle_len) // 2, head_len)
+    tail_start = max(len(text) - tail_len, middle_start + middle_len)
+
+    return (
+        text[:head_len]
+        + "\n\n[... middle excerpt ...]\n\n"
+        + text[middle_start : middle_start + middle_len]
+        + "\n\n[... final excerpt ...]\n\n"
+        + text[tail_start:]
+    )
+
+
+def language_instruction(language: str) -> str:
+    if language == "zh":
+        return "Write entirely in Simplified Chinese."
+    if language == "en":
+        return "Write entirely in English."
+    if language == "bilingual":
+        return (
+            "Write bilingually. For every section, give the English paragraph "
+            "first, then the Simplified Chinese version immediately below it."
+        )
+    return "Write in the same language as the source unless clarity requires translation."
+
+
+def detail_instruction(detail: str, target_chars: int) -> str:
+    if detail == "short":
+        return (
+            f"Keep it concise, around {target_chars} characters. Focus on the "
+            "single most useful takeaway and 3-5 bullets."
+        )
+    if detail == "deep":
+        return (
+            f"Make it detailed, around {target_chars} characters. Include the "
+            "argument structure, key evidence, caveats, and why it matters."
+        )
+    return (
+        f"Use a practical standard length, around {target_chars} characters. "
+        "Cover the core thesis, important details, and implications."
+    )
+
+
+def target_chars_for(profile: dict[str, Any], kind: str) -> int:
+    key = {
+        "podcast": "podcast_target_chars",
+        "paper": "paper_target_chars",
+        "x": "x_target_chars",
+    }.get(kind, "target_chars")
+    return int(profile.get(key) or profile.get("target_chars") or 1400)
+
+
+def build_x_prompt(item: dict[str, Any], profile: dict[str, Any]) -> str:
+    return f"""You are writing a cached single-tweet brief for AI Signal.
+
+{language_instruction(profile.get("language", "zh"))}
+{detail_instruction(profile.get("detail", "standard"), target_chars_for(profile, "x"))}
+
+Rules:
+- Summarize this one X/Twitter post only.
+- Preserve the original meaning. Do not add facts from outside the post.
+- If the post is mainly an announcement, say what changed and why it matters.
+- Return Markdown only.
+- Include the original URL.
+- The tracked account may be sharing, quoting, or discussing another post.
+  Do not say the tracked account "announced" or "launched" something unless
+  the original post itself makes that attribution clear.
+- Do not infer resharing/retweeting behavior from metadata. In the summary body,
+  prefer neutral wording such as "This post says..." / "这条内容介绍...".
+
+Post metadata:
+- Tracked account: {item.get("name", "")} (@{item.get("handle", "")})
+- Domain: {item.get("domain", "")}
+- Created: {item.get("created_at", "")}
+- Likes: {item.get("like_count", 0)}
+- Reposts: {item.get("retweet_count", 0)}
+- Replies: {item.get("reply_count", 0)}
+- URL: {item.get("url", "")}
+
+Original post:
+{item.get("text", "")}
+"""
+
+
+def build_podcast_prompt(item: dict[str, Any], profile: dict[str, Any], source_text: str, source_label: str) -> str:
+    return f"""You are writing a cached research brief for AI Signal.
+
+{language_instruction(profile.get("language", "zh"))}
+{detail_instruction(profile.get("detail", "standard"), target_chars_for(profile, "podcast"))}
+
+Rules:
+- Use only the supplied episode metadata and source text.
+- Do not invent facts, quotes, numbers, names, or links.
+- If the source text is incomplete or only a description, say so briefly.
+- Return Markdown only.
+- Always include the original link.
+
+Recommended structure:
+1. What this episode is about
+2. Core takeaways
+3. Details worth expanding
+4. Implications for AI, investing, products, or research
+5. Source link
+
+Episode metadata:
+- Channel: {item.get("channel", "")}
+- Title: {item.get("title", "")}
+- Domain: {item.get("domain", "")}
+- Published: {item.get("pub_date", "")}
+- Link: {item.get("link", "")}
+- Source type: {source_label}
+
+Source text:
+{source_text}
+"""
+
+
+def build_paper_prompt(item: dict[str, Any], profile: dict[str, Any]) -> str:
+    authors = ", ".join(item.get("authors", []) or [])
+    categories = ", ".join(item.get("categories", []) or [])
+    abstract = item.get("abstract", "")
+    return f"""You are writing a cached research brief for AI Signal.
+
+{language_instruction(profile.get("language", "zh"))}
+{detail_instruction(profile.get("detail", "standard"), target_chars_for(profile, "paper"))}
+
+Rules:
+- Use only the supplied paper metadata and abstract.
+- Do not claim results that are not in the abstract.
+- If benchmark numbers or limitations are not provided, say they are not provided.
+- Return Markdown only.
+- Always include the arXiv link.
+
+Recommended structure:
+1. Problem
+2. Method
+3. Claimed results
+4. Why it matters
+5. Limits / what to verify
+6. Source link
+
+Paper metadata:
+- arXiv ID: {item.get("arxiv_id", "")}
+- Title: {item.get("title", "")}
+- Authors: {authors}
+- Categories: {categories}
+- Published: {item.get("published", "")}
+- arXiv link: {item.get("abs_url", "")}
+- PDF: {item.get("pdf_url", "")}
+- Comment: {item.get("comment", "")}
+
+Abstract:
+{abstract}
+"""
+
+
+def call_chat_completion(
+    prompt: str,
+    llm_cfg: dict[str, Any],
+    timeout_seconds: float | None = None,
+    model: str | None = None,
+) -> str:
+    api_key_env = llm_cfg.get("api_key_env", "ARK_API_KEY")
+    api_key = os.environ.get(api_key_env, "")
+    if not api_key:
+        raise RuntimeError(f"{api_key_env} is not set")
+
+    provider = llm_cfg.get("provider", "ark")
+    payload = {
+        "model": model or llm_cfg["model"],
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a careful research summarizer. Be accurate, concise, and source-bound.",
+            },
+            {"role": "user", "content": prompt},
+        ],
+        "temperature": llm_cfg.get("temperature", 0.2),
+        "max_tokens": llm_cfg.get("max_tokens", 4096),
+    }
+    if provider == "deepseek":
+        payload["thinking"] = llm_cfg.get("thinking", {"type": "disabled"})
+
+    last_error: Exception | None = None
+    for attempt in range(3):
+        try:
+            resp = httpx.post(
+                llm_cfg["base_url"],
+                headers={
+                    "Content-Type": "application/json",
+                    "Authorization": f"Bearer {api_key}",
+                },
+                json=payload,
+                timeout=float(timeout_seconds or llm_cfg.get("timeout_seconds", 120)),
+                trust_env=False,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            content = data["choices"][0]["message"]["content"]
+            if isinstance(content, list):
+                content = "".join(part.get("text", "") for part in content if isinstance(part, dict))
+            return clean_text(str(content)).strip()
+        except Exception as exc:  # noqa: BLE001 - keep retries simple for Actions.
+            last_error = exc
+            if attempt < 2:
+                time.sleep(2 + attempt * 3)
+
+    raise RuntimeError(f"LLM request failed: {last_error}")
+
+
+def previous_items(index: dict[str, Any], profile_name: str, kind: str) -> dict[str, dict[str, Any]]:
+    profile = (index.get("profiles") or {}).get(profile_name) or {}
+    return {item.get("id"): item for item in profile.get(kind, []) if item.get("id")}
+
+
+def merge_profile_items(profile_index: dict[str, Any], kind: str, updates: list[dict[str, Any]]) -> None:
+    existing = profile_index.get(kind, [])
+    merged = {item.get("id"): item for item in existing if item.get("id")}
+    for item in updates:
+        if item.get("id"):
+            merged[item["id"]] = item
+    profile_index[kind] = list(merged.values())
+
+
+def is_task_cached(task: dict[str, Any], force: bool) -> bool:
+    old_item = task.get("old_item")
+    return bool(
+        old_item
+        and old_item.get("source_hash") == task["source_hash"]
+        and (ROOT_DIR / old_item.get("summary_path", "")).exists()
+        and not force
+    )
+
+
+def item_matches_domains(item: dict[str, Any], profile: dict[str, Any]) -> bool:
+    domains = profile.get("domains") or []
+    if not domains:
+        return True
+    return item.get("domain", "ai") in domains
+
+
+def select_podcast_source(item: dict[str, Any], podcast_cfg: dict[str, Any]) -> tuple[str, str] | None:
+    transcript = item.get("transcript") or ""
+    if transcript:
+        return transcript, "transcript"
+    if podcast_cfg.get("fallback_to_description", True) and item.get("description"):
+        return item.get("description", ""), "description"
+    if podcast_cfg.get("skip_without_text", True):
+        return None
+    return "", "metadata_only"
+
+
+def build_markdown(kind: str, item: dict[str, Any], profile_name: str, model: str, summary: str) -> str:
+    title = item.get("title") or item.get("arxiv_id") or item.get("tweet_id") or "Untitled"
+    link = item.get("url") or item.get("link") or item.get("abs_url") or ""
+    if kind == "x":
+        link = item.get("url") or link
+    generated_at = datetime.now(timezone.utc).isoformat()
+    lines = [
+        f"# {title}",
+        "",
+        f"- Type: {kind}",
+        f"- Profile: {profile_name}",
+        f"- Model: {model}",
+        f"- Generated: {generated_at}",
+    ]
+    if item.get("channel"):
+        lines.append(f"- Channel: {item.get('channel')}")
+    if item.get("handle"):
+        lines.append(f"- Tracked account: {item.get('name', '')} (@{item.get('handle')})")
+    if item.get("tweet_id"):
+        lines.append(f"- Tweet ID: {item.get('tweet_id')}")
+    if item.get("arxiv_id"):
+        lines.append(f"- arXiv ID: {item.get('arxiv_id')}")
+    if link:
+        lines.append(f"- Source: {link}")
+    if kind == "x" and item.get("text"):
+        lines.extend(["", "## Original", "", item.get("text", "")])
+    lines.extend(["", "## Summary", "", summary])
+    return "\n".join(lines)
+
+
+def x_tasks(
+    cfg: dict[str, Any],
+    profile_name: str,
+    profile: dict[str, Any],
+    old_index: dict[str, Any],
+    limit: int | None,
+) -> list[dict[str, Any]]:
+    if not profile.get("include_x", True) or not cfg.get("x", {}).get("enabled", True):
+        return []
+
+    x_cfg = cfg["x"]
+    feed_path = ROOT_DIR / x_cfg.get("input_path", "feeds/feed-x.json")
+    feed = load_json(feed_path, {"x": []})
+    old_by_id = previous_items(old_index, profile_name, "x")
+    tasks: list[dict[str, Any]] = []
+    max_tweets = int(x_cfg.get("max_tweets", 1000))
+    item_limit = min(max_tweets, limit) if limit else max_tweets
+
+    for account in feed.get("x", []):
+        if not item_matches_domains(account, profile):
+            continue
+        for tweet in account.get("tweets", []):
+            if len(tasks) >= item_limit:
+                return tasks
+            tweet_id = str(tweet.get("id", "") or stable_id(account.get("handle", ""), tweet.get("text", "")))
+            item = {
+                "tweet_id": tweet_id,
+                "title": f"@{account.get('handle', '')}: {tweet.get('text', '')[:80]}",
+                "handle": account.get("handle", ""),
+                "name": account.get("name", account.get("handle", "")),
+                "domain": account.get("domain", "ai"),
+                "tier": account.get("tier", ""),
+                "text": tweet.get("text", ""),
+                "created_at": tweet.get("created_at", ""),
+                "like_count": tweet.get("like_count", 0),
+                "retweet_count": tweet.get("retweet_count", 0),
+                "reply_count": tweet.get("reply_count", 0),
+                "url": tweet.get("url", ""),
+            }
+            source_hash = sha256_text(
+                json.dumps(
+                    {
+                        "model": cfg["llm"].get("model"),
+                        "profile": profile,
+                        "tweet": item,
+                    },
+                    ensure_ascii=False,
+                    sort_keys=True,
+                )
+            )
+            filename = slugify(f"{item['handle']}-{tweet_id}", stable_id(tweet_id)) + ".md"
+            output_path = ROOT_DIR / cfg["output"]["dir"] / "x" / profile_name / filename
+            tasks.append(
+                {
+                    "kind": "x",
+                    "id": tweet_id,
+                    "item": item,
+                    "source_hash": source_hash,
+                    "output_path": output_path,
+                    "old_item": old_by_id.get(tweet_id),
+                }
+            )
+
+    return tasks
+
+
+def podcast_tasks(
+    cfg: dict[str, Any],
+    profile_name: str,
+    profile: dict[str, Any],
+    old_index: dict[str, Any],
+    limit: int | None,
+) -> list[dict[str, Any]]:
+    if not profile.get("include_podcasts", True) or not cfg.get("podcasts", {}).get("enabled", True):
+        return []
+
+    podcast_cfg = cfg["podcasts"]
+    feed_path = ROOT_DIR / podcast_cfg.get("input_path", "feeds/feed-podcasts.json")
+    feed = load_json(feed_path, {"podcasts": []})
+    old_by_id = previous_items(old_index, profile_name, "podcasts")
+    tasks: list[dict[str, Any]] = []
+
+    for item in feed.get("podcasts", []):
+        if not item_matches_domains(item, profile):
+            continue
+
+        source = select_podcast_source(item, podcast_cfg)
+        if source is None:
+            continue
+        source_text, source_label = source
+        max_chars = int(podcast_cfg.get("max_input_chars", 60000))
+        trimmed = trim_source_text(source_text, max_chars)
+        item_id = stable_id(item.get("channel", ""), item.get("title", ""), item.get("link", ""), item.get("pub_date", ""))
+        source_hash = sha256_text(
+            json.dumps(
+                {
+                    "model": cfg["llm"].get("model"),
+                    "profile": profile,
+                    "source_label": source_label,
+                    "source_text": trimmed,
+                    "title": item.get("title", ""),
+                    "link": item.get("link", ""),
+                },
+                ensure_ascii=False,
+                sort_keys=True,
+            )
+        )
+        fallback = stable_id(item_id)
+        filename = slugify(f"{item.get('channel', '')}-{item.get('title', '')}", fallback) + ".md"
+        output_path = ROOT_DIR / cfg["output"]["dir"] / "podcasts" / profile_name / filename
+        old_item = old_by_id.get(item_id)
+
+        tasks.append(
+            {
+                "kind": "podcasts",
+                "id": item_id,
+                "item": item,
+                "source_text": trimmed,
+                "source_label": source_label,
+                "source_hash": source_hash,
+                "output_path": output_path,
+                "old_item": old_item,
+            }
+        )
+        if limit and len(tasks) >= limit:
+            break
+
+    return tasks
+
+
+def paper_tasks(
+    cfg: dict[str, Any],
+    profile_name: str,
+    profile: dict[str, Any],
+    old_index: dict[str, Any],
+    limit: int | None,
+) -> list[dict[str, Any]]:
+    if not profile.get("include_papers", True) or not cfg.get("papers", {}).get("enabled", True):
+        return []
+
+    paper_cfg = cfg["papers"]
+    feed_path = ROOT_DIR / paper_cfg.get("input_path", "feeds/feed-arxiv.json")
+    feed = load_json(feed_path, {"papers": []})
+    old_by_id = previous_items(old_index, profile_name, "papers")
+    tasks: list[dict[str, Any]] = []
+    max_items = int(paper_cfg.get("max_items", 30))
+    item_limit = min(max_items, limit) if limit else max_items
+
+    for item in feed.get("papers", [])[:item_limit]:
+        item_id = item.get("arxiv_id") or stable_id(item.get("title", ""), item.get("abs_url", ""))
+        source_hash = sha256_text(
+            json.dumps(
+                {
+                    "model": cfg["llm"].get("model"),
+                    "profile": profile,
+                    "paper": item,
+                },
+                ensure_ascii=False,
+                sort_keys=True,
+            )
+        )
+        filename = slugify(item_id, stable_id(item.get("title", ""))) + ".md"
+        output_path = ROOT_DIR / cfg["output"]["dir"] / "papers" / profile_name / filename
+        old_item = old_by_id.get(item_id)
+        tasks.append(
+            {
+                "kind": "papers",
+                "id": item_id,
+                "item": item,
+                "source_hash": source_hash,
+                "output_path": output_path,
+                "old_item": old_item,
+            }
+        )
+
+    return tasks
+
+
+def summarize_task(task: dict[str, Any], cfg: dict[str, Any], profile_name: str, profile: dict[str, Any], force: bool) -> dict[str, Any]:
+    old_item = task.get("old_item")
+    output_path = task["output_path"]
+    if (
+        old_item
+        and old_item.get("source_hash") == task["source_hash"]
+        and (ROOT_DIR / old_item.get("summary_path", "")).exists()
+        and not force
+    ):
+        return old_item | {"status": "cached"}
+
+    item = task["item"]
+    if task["kind"] == "x":
+        prompt = build_x_prompt(item, profile)
+        kind_label = "x"
+        timeout_seconds = cfg["llm"].get("x_timeout_seconds")
+        model = cfg["llm"].get("x_model") or cfg["llm"]["model"]
+    elif task["kind"] == "podcasts":
+        prompt = build_podcast_prompt(item, profile, task["source_text"], task["source_label"])
+        kind_label = "podcast"
+        timeout_seconds = cfg["llm"].get("podcast_timeout_seconds")
+        model = cfg["llm"].get("podcast_model") or cfg["llm"]["model"]
+    else:
+        prompt = build_paper_prompt(item, profile)
+        kind_label = "paper"
+        timeout_seconds = cfg["llm"].get("paper_timeout_seconds")
+        model = cfg["llm"].get("paper_model") or cfg["llm"]["model"]
+
+    summary = call_chat_completion(prompt, cfg["llm"], timeout_seconds=timeout_seconds, model=model)
+    markdown = build_markdown(kind_label, item, profile_name, model, summary)
+    write_text(output_path, markdown)
+
+    link = item.get("url") or item.get("link") or item.get("abs_url") or ""
+    result = {
+        "id": task["id"],
+        "title": item.get("title", ""),
+        "domain": item.get("domain", "ai"),
+        "source_url": link,
+        "summary_path": rel_path(output_path),
+        "summary_chars": len(summary),
+        "source_hash": task["source_hash"],
+        "model": model,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "status": "generated",
+    }
+    if item.get("channel"):
+        result["channel"] = item.get("channel")
+    if item.get("handle"):
+        result["handle"] = item.get("handle")
+        result["name"] = item.get("name", "")
+        result["tweet_id"] = item.get("tweet_id", "")
+        result["original_text"] = item.get("text", "")
+        result["created_at"] = item.get("created_at", "")
+        result["like_count"] = item.get("like_count", 0)
+        result["retweet_count"] = item.get("retweet_count", 0)
+        result["reply_count"] = item.get("reply_count", 0)
+    if item.get("pub_date"):
+        result["pub_date"] = item.get("pub_date")
+    if item.get("arxiv_id"):
+        result["arxiv_id"] = item.get("arxiv_id")
+        result["published"] = item.get("published", "")
+    if task.get("source_label"):
+        result["source_label"] = task["source_label"]
+    return result
+
+
+def selected_profiles(cfg: dict[str, Any], requested: list[str], all_profiles: bool) -> list[str]:
+    profiles = cfg.get("profiles", {})
+    if all_profiles:
+        names = list(profiles.keys())
+    elif requested:
+        names = requested
+    else:
+        names = cfg.get("default_profiles") or list(profiles.keys())
+
+    missing = [name for name in names if name not in profiles]
+    if missing:
+        raise SystemExit(f"Unknown profile(s): {', '.join(missing)}")
+    return names
+
+
+def main() -> None:
+    configure_stdio()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", default=str(DEFAULT_CONFIG_PATH), help="Path to summary config JSON")
+    parser.add_argument("--profile", action="append", default=[], help="Profile to generate; can be repeated")
+    parser.add_argument("--all-profiles", action="store_true", help="Generate every configured profile")
+    parser.add_argument("--type", choices=["all", "x", "podcasts", "papers"], default="all")
+    parser.add_argument("--limit", type=int, default=None, help="Max items per content type per profile")
+    parser.add_argument("--force", action="store_true", help="Regenerate even when cache is current")
+    parser.add_argument("--dry-run", action="store_true", help="Print planned work without calling the LLM")
+    parser.add_argument("--max-workers", type=int, default=1, help="Concurrent LLM requests for uncached items")
+    args = parser.parse_args()
+
+    cfg_path = Path(args.config)
+    cfg = load_json(cfg_path)
+    if not cfg:
+        raise SystemExit(f"Config not found: {cfg_path}")
+
+    output_index_path = ROOT_DIR / cfg["output"].get("index_path", "feeds/feed-summaries.json")
+    old_index = load_json(output_index_path, {"profiles": {}})
+    new_index: dict[str, Any] = clean_data(old_index or {"profiles": {}})
+    new_index["generated_at"] = datetime.now(timezone.utc).isoformat()
+    new_index["model"] = cfg["llm"].get("model", "")
+    new_index.setdefault("profiles", {})
+
+    profile_names = selected_profiles(cfg, args.profile, args.all_profiles)
+    print(f"Summary profiles: {', '.join(profile_names)}")
+    index_changed = False
+
+    for profile_name in profile_names:
+        profile = cfg["profiles"][profile_name]
+        tasks: list[dict[str, Any]] = []
+        if args.type in ("all", "x"):
+            tasks.extend(x_tasks(cfg, profile_name, profile, old_index, args.limit))
+        if args.type in ("all", "podcasts"):
+            tasks.extend(podcast_tasks(cfg, profile_name, profile, old_index, args.limit))
+        if args.type in ("all", "papers"):
+            tasks.extend(paper_tasks(cfg, profile_name, profile, old_index, args.limit))
+
+        print(f"\n[{profile_name}] {len(tasks)} item(s)")
+        needs_llm = any(not is_task_cached(task, args.force) for task in tasks)
+        api_key_env = cfg.get("llm", {}).get("api_key_env", "ARK_API_KEY")
+        if needs_llm and not args.dry_run and not os.environ.get(api_key_env):
+            raise SystemExit(f"{api_key_env} is not set. Use --dry-run to inspect planned work without an API key.")
+
+        profile_index = new_index["profiles"].setdefault(profile_name, {})
+        profile_index.update({
+            "language": profile.get("language"),
+            "detail": profile.get("detail"),
+            "target_chars": profile.get("target_chars"),
+            "x_target_chars": profile.get("x_target_chars"),
+            "podcast_target_chars": profile.get("podcast_target_chars"),
+            "paper_target_chars": profile.get("paper_target_chars"),
+        })
+        profile_index.setdefault("x", [])
+        profile_index.setdefault("podcasts", [])
+        profile_index.setdefault("papers", [])
+        profile_updates = {"x": [], "podcasts": [], "papers": []}
+
+        pending_tasks: list[dict[str, Any]] = []
+        for task in tasks:
+            item = task["item"]
+            title = item.get("title") or item.get("arxiv_id")
+            output_rel = rel_path(task["output_path"])
+            is_cached = is_task_cached(task, args.force)
+            action = "cached" if is_cached else "generate"
+            print(f"  - {action}: {task['kind']} | {title} -> {output_rel}")
+            if args.dry_run:
+                continue
+            if is_cached:
+                continue
+            pending_tasks.append(task)
+
+        def handle_result(result: dict[str, Any], kind: str) -> None:
+            if kind == "x":
+                profile_updates["x"].append(result)
+            elif kind == "podcasts":
+                profile_updates["podcasts"].append(result)
+            else:
+                profile_updates["papers"].append(result)
+
+        def run_task(task: dict[str, Any]) -> dict[str, Any]:
+            item = task["item"]
+            title = item.get("title") or item.get("arxiv_id")
+            try:
+                return summarize_task(task, cfg, profile_name, profile, args.force)
+            except Exception as exc:  # noqa: BLE001 - keep feed generation best-effort.
+                return {
+                    "id": task["id"],
+                    "title": title,
+                    "source_url": item.get("url") or item.get("link") or item.get("abs_url") or "",
+                    "summary_path": rel_path(task["output_path"]),
+                    "source_hash": task["source_hash"],
+                    "status": "error",
+                    "error": str(exc),
+                    "generated_at": datetime.now(timezone.utc).isoformat(),
+                    "handle": item.get("handle", ""),
+                    "name": item.get("name", ""),
+                    "tweet_id": item.get("tweet_id", ""),
+                    "original_text": item.get("text", ""),
+                    "created_at": item.get("created_at", ""),
+                    "like_count": item.get("like_count", 0),
+                    "retweet_count": item.get("retweet_count", 0),
+                    "reply_count": item.get("reply_count", 0),
+                }
+
+        if pending_tasks and args.max_workers > 1:
+            with ThreadPoolExecutor(max_workers=args.max_workers) as pool:
+                futures = {pool.submit(run_task, task): task for task in pending_tasks}
+                for fut in as_completed(futures):
+                    task = futures[fut]
+                    result = fut.result()
+                    handle_result(result, task["kind"])
+                    index_changed = True
+        else:
+            for task in pending_tasks:
+                result = run_task(task)
+                handle_result(result, task["kind"])
+                index_changed = True
+
+        merge_profile_items(profile_index, "x", profile_updates["x"])
+        merge_profile_items(profile_index, "podcasts", profile_updates["podcasts"])
+        merge_profile_items(profile_index, "papers", profile_updates["papers"])
+
+    if args.dry_run:
+        print("\nDry run complete. No files were written and no LLM was called.")
+        return
+
+    if index_changed or not output_index_path.exists():
+        write_json(output_index_path, new_index)
+        print(f"\nWrote {rel_path(output_index_path)}")
+    else:
+        print("\nNo index changes.")
+
+
+if __name__ == "__main__":
+    main()

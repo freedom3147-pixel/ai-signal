@@ -20,7 +20,7 @@
 
 ## 信息源
 
-### 播客（12 个频道）
+### 播客（13 个频道）
 
 | 频道 | 为什么选 |
 |------|----------|
@@ -30,6 +30,7 @@
 | [All-In Podcast](https://www.allinpodcast.co) | 四个顶级 VC 的周度辩论，AI + 宏观 |
 | [a16z](https://a16z.com/podcasts/) | 硅谷最大 VC 的一手投资视角 |
 | [No Priors](https://www.youtube.com/@NoPriorsPodcast) | Sarah Guo + Elad Gil，AI infra 创始人密度最高 |
+| [SemiAnalysis](https://www.youtube.com/@SemiAnalysis) | Dylan Patel，半导体与 AI 基础设施最深度的独立分析 |
 | [Google DeepMind](https://deepmind.com/podcast) | DeepMind 官方，前沿研究视角 |
 | [Lightcone (YC)](https://www.youtube.com/@ycombinator) | YC 合伙人看 AI 创业生态 |
 | [Lenny's Podcast](https://www.lennysnewsletter.com/) | AI 产品落地的一线反馈 |

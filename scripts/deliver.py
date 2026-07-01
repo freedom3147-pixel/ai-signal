@@ -24,6 +24,12 @@ ENV_PATH = USER_DIR / ".env"
 TELEGRAM_MAX_LEN = 4000
 
 
+def configure_stdio():
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
+
+
 def log(msg):
     print(msg, file=sys.stderr)
 
@@ -95,6 +101,7 @@ def send_email(text, api_key, to_email):
 
 
 def main():
+    configure_stdio()
     parser = argparse.ArgumentParser()
     parser.add_argument("--message", "-m", type=str)
     parser.add_argument("--file", "-f", type=str)

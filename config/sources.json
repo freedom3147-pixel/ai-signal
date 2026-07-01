@@ -32,6 +32,7 @@
       {"name": "a16z", "domain": "ai", "rss_url": "https://feeds.simplecast.com/JGE3yC0V"},
       {"name": "No Priors", "domain": "ai", "rss_url": "https://feeds.megaphone.fm/nopriors"},
       {"name": "Google DeepMind Podcast", "domain": "ai", "rss_url": "https://feeds.simplecast.com/JT6pbPkg"},
+      {"name": "SemiAnalysis", "domain": "ai", "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCf_KhBXw5TIV0A7butjgFhg"},
       {"name": "Lightcone Podcast", "domain": "ai", "rss_url": "https://anchor.fm/s/f58d3330/podcast/rss"},
       {"name": "Lenny's Podcast", "domain": "ai", "rss_url": "https://api.substack.com/feed/podcast/10845.rss"},
       {"name": "Invest Like the Best", "domain": "invest", "rss_url": "https://feeds.megaphone.fm/CLS2859450455", "needs_filter": true},

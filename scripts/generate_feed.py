@@ -31,6 +31,27 @@ STATE_PATH = FEEDS_DIR / "state-feed.json"
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 
+
+def configure_stdio():
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
+
+
+def clean_text(text):
+    return "".join(ch for ch in text if not 0xD800 <= ord(ch) <= 0xDFFF)
+
+
+def clean_data(value):
+    if isinstance(value, str):
+        return clean_text(value)
+    if isinstance(value, list):
+        return [clean_data(item) for item in value]
+    if isinstance(value, dict):
+        return {clean_data(k): clean_data(v) for k, v in value.items()}
+    return value
+
+
 # ── State management ──────────────────────────────────────────────────────────
 
 def load_state():
@@ -44,6 +65,20 @@ def save_state(state):
     for key in ("seen_tweets", "seen_episodes", "seen_papers"):
         state[key] = {k: v for k, v in state.get(key, {}).items() if v > cutoff}
     STATE_PATH.write_text(json.dumps(state, indent=2), encoding="utf-8")
+
+
+def load_feed(filename):
+    path = FEEDS_DIR / filename
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text("utf-8"))
+    except Exception:
+        return None
+
+
+def write_json(path, data):
+    path.write_text(json.dumps(clean_data(data), ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def load_sources():
@@ -214,7 +249,57 @@ def parse_rss(xml_text):
             "link": link, "audio_url": audio, "duration": duration,
             "description": desc[:2000],
         })
+
+    # Fallback: YouTube Atom feed format
+    if not episodes:
+        atom = "http://www.w3.org/2005/Atom"
+        media = "http://search.yahoo.com/mrss/"
+        yt = "http://www.youtube.com/xml/schemas/2015"
+        for entry in root.iter(f"{{{atom}}}entry"):
+            title = (entry.findtext(f"{{{atom}}}title") or "").strip()
+            vid_el = entry.find(f"{{{yt}}}videoId")
+            vid_id = vid_el.text.strip() if vid_el is not None and vid_el.text else ""
+            guid = vid_id or (entry.findtext(f"{{{atom}}}id") or title).strip()
+
+            pub_str = (entry.findtext(f"{{{atom}}}published") or "").strip()
+            parsed_date = None
+            if pub_str:
+                try:
+                    parsed_date = datetime.fromisoformat(pub_str.replace("Z", "+00:00"))
+                    if parsed_date.tzinfo is None:
+                        parsed_date = parsed_date.replace(tzinfo=timezone.utc)
+                except ValueError:
+                    pass
+
+            link = ""
+            for link_el in entry.findall(f"{{{atom}}}link"):
+                if link_el.get("rel") == "alternate":
+                    link = link_el.get("href", "")
+                    break
+
+            desc_el = entry.find(f"{{{media}}}group/{{{media}}}description")
+            desc = desc_el.text.strip() if desc_el is not None and desc_el.text else ""
+
+            episodes.append({
+                "title": title, "guid": guid, "pub_date": parsed_date,
+                "link": link, "audio_url": "", "duration": "",
+                "description": desc[:2000],
+            })
+
     return episodes
+
+
+def _youtube_video_id(link):
+    if not link:
+        return None
+    parsed = urlparse(link)
+    if "youtube.com" in parsed.netloc:
+        m = re.search(r"[?&]v=([a-zA-Z0-9_-]{11})", link)
+        return m.group(1) if m else None
+    if "youtu.be" in parsed.netloc:
+        vid = parsed.path.strip("/")[:11]
+        return vid if len(vid) == 11 else None
+    return None
 
 
 def _yt_transcript_by_id(vid):
@@ -229,27 +314,45 @@ def _yt_transcript_by_id(vid):
         api = YouTubeTranscriptApi(**kwargs)
         segs = api.fetch(vid)
         text = " ".join(s.text for s in segs)
-        return text if len(text) > 200 else None
-    except Exception:
-        return None
+        if len(text) > 200:
+            return {
+                "text": text,
+                "source": "youtube_transcript_api",
+                "video_id": vid,
+                "error": None,
+            }
+        return {
+            "text": None,
+            "source": "youtube_transcript_api",
+            "video_id": vid,
+            "error": "Transcript too short",
+        }
+    except Exception as e:
+        return {
+            "text": None,
+            "source": "youtube_transcript_api",
+            "video_id": vid,
+            "error": str(e),
+        }
 
 
 def get_youtube_transcript(link, title=""):
-    if link:
-        parsed = urlparse(link)
-        vid = None
-        if "youtube.com" in parsed.netloc:
-            m = re.search(r"[?&]v=([a-zA-Z0-9_-]{11})", link)
-            vid = m.group(1) if m else None
-        elif "youtu.be" in parsed.netloc:
-            vid = parsed.path.strip("/")[:11]
-        if vid:
-            text = _yt_transcript_by_id(vid)
-            if text:
-                return text
+    vid = _youtube_video_id(link)
+    if vid:
+        result = _yt_transcript_by_id(vid)
+        if result["text"]:
+            return result
+        direct_error = result["error"]
+    else:
+        direct_error = "No YouTube video id in link"
 
     if not title:
-        return None
+        return {
+            "text": None,
+            "source": "youtube_transcript_api",
+            "video_id": vid,
+            "error": direct_error,
+        }
 
     try:
         import subprocess
@@ -265,13 +368,21 @@ def get_youtube_transcript(link, title=""):
         )
         vid = result.stdout.strip()
         if vid and len(vid) == 11:
-            text = _yt_transcript_by_id(vid)
-            if text:
-                return text
-    except Exception:
-        pass
+            result = _yt_transcript_by_id(vid)
+            if result["text"]:
+                result["source"] = "youtube_transcript_api_search"
+                return result
+            return result
+        search_error = result.stderr.strip() or "No YouTube search result"
+    except Exception as e:
+        search_error = str(e)
 
-    return None
+    return {
+        "text": None,
+        "source": "youtube_transcript_api",
+        "video_id": vid,
+        "error": search_error or direct_error,
+    }
 
 
 def fetch_channel(channel, lookback_hours, state):
@@ -298,9 +409,12 @@ def fetch_channel(channel, lookback_hours, state):
 
         log(f"  🆕 {ep['title'][:60]}...")
 
-        transcript = get_youtube_transcript(ep["link"], title=f"{name} {ep['title']}")
+        transcript_result = get_youtube_transcript(ep["link"], title=f"{name} {ep['title']}")
+        transcript = transcript_result["text"]
         if transcript:
             log(f"    ✅ transcript ({len(transcript)} chars)")
+        else:
+            log(f"    ⏭️ transcript unavailable: {transcript_result['error']}")
 
         results.append({
             "channel": name,
@@ -312,6 +426,10 @@ def fetch_channel(channel, lookback_hours, state):
             "duration": ep["duration"],
             "description": ep["description"],
             "transcript": transcript,
+            "transcript_available": bool(transcript),
+            "transcript_source": transcript_result["source"] if transcript else None,
+            "transcript_video_id": transcript_result["video_id"],
+            "transcript_error": transcript_result["error"] if not transcript else None,
         })
 
     if not results:
@@ -445,6 +563,7 @@ def fetch_arxiv(sources, state):
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 async def main():
+    configure_stdio()
     parser = argparse.ArgumentParser()
     parser.add_argument("--twitter-only", action="store_true")
     parser.add_argument("--podcasts-only", action="store_true")
@@ -462,8 +581,7 @@ async def main():
         log("\n━━━ Twitter/X ━━━")
         twitter_feed = await fetch_twitter(sources, state)
         twitter_feed["generated_at"] = now.isoformat()
-        (FEEDS_DIR / "feed-x.json").write_text(
-            json.dumps(twitter_feed, ensure_ascii=False, indent=2), encoding="utf-8")
+        write_json(FEEDS_DIR / "feed-x.json", twitter_feed)
         active = sum(1 for a in twitter_feed["x"] if a["tweets"])
         log(f"✅ feed-x.json ({active}/{len(twitter_feed['x'])} accounts with content)")
 
@@ -471,16 +589,19 @@ async def main():
         log("\n━━━ Podcasts ━━━")
         podcast_feed = fetch_podcasts(sources, state)
         podcast_feed["generated_at"] = now.isoformat()
-        (FEEDS_DIR / "feed-podcasts.json").write_text(
-            json.dumps(podcast_feed, ensure_ascii=False, indent=2), encoding="utf-8")
+        write_json(FEEDS_DIR / "feed-podcasts.json", podcast_feed)
         with_transcript = sum(1 for e in podcast_feed["podcasts"] if e.get("transcript"))
         log(f"✅ feed-podcasts.json ({len(podcast_feed['podcasts'])} episodes, {with_transcript} with transcript)")
 
     if run_all or args.arxiv_only:
         arxiv_feed = fetch_arxiv(sources, state)
         arxiv_feed["generated_at"] = now.isoformat()
-        (FEEDS_DIR / "feed-arxiv.json").write_text(
-            json.dumps(arxiv_feed, ensure_ascii=False, indent=2), encoding="utf-8")
+        if not arxiv_feed["papers"]:
+            existing_arxiv = load_feed("feed-arxiv.json")
+            if existing_arxiv and existing_arxiv.get("papers"):
+                log("ℹ️  No new arXiv papers; keeping existing feed-arxiv.json")
+                arxiv_feed = existing_arxiv
+        write_json(FEEDS_DIR / "feed-arxiv.json", arxiv_feed)
         log(f"✅ feed-arxiv.json ({len(arxiv_feed['papers'])} papers)")
 
     save_state(state)

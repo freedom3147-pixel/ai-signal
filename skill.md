@@ -429,10 +429,10 @@ When the user invokes `/ai-signal` or asks for their digest:
 
 Central feed is updated daily at 6am Beijing time (UTC 22:00) with:
 
-### Podcasts (12 channels)
+### Podcasts (13 channels)
 Dwarkesh Patel, Lex Fridman, Latent Space, All-In Podcast, a16z, No Priors,
-Google DeepMind, Lightcone (YC), Lenny's Podcast, Invest Like the Best,
-Capital Allocators, The Acquirers Podcast
+SemiAnalysis (Dylan Patel), Google DeepMind, Lightcone (YC), Lenny's Podcast,
+Invest Like the Best, Capital Allocators, The Acquirers Podcast
 
 ### Twitter/X (14 accounts)
 **Analysts:** Karpathy, Swyx, Dylan Patel (SemiAnalysis), Leopold Aschenbrenner, Jim Keller

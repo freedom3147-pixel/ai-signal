@@ -11,7 +11,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
 
     steps:
       - uses: actions/checkout@v4
@@ -21,17 +21,31 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install httpx twscrape youtube-transcript-api yt-dlp
+        run: pip install -r requirements.txt
 
       - name: Generate feeds
         env:
           TWITTER_COOKIES: ${{ secrets.TWITTER_COOKIES }}
         run: python scripts/generate_feed.py
 
+      - name: Generate central summaries
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          if [ -z "$DEEPSEEK_API_KEY" ]; then
+            echo "DEEPSEEK_API_KEY is not set; skipping central summaries."
+            exit 0
+          fi
+          python scripts/generate_summaries.py --profile zh_standard --type x --max-workers 6
+          python scripts/generate_summaries.py --profile zh_short --profile zh_standard --profile zh_deep --type podcasts --limit 5
+          python scripts/generate_summaries.py --profile zh_standard --type papers --limit 30
+
       - name: Commit feeds
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add feeds/feed-x.json feeds/feed-podcasts.json feeds/feed-arxiv.json feeds/state-feed.json -f
-          git diff --staged --quiet || git commit -m "📰 Feed update $(date -u +%Y-%m-%d)"
+          [ -f feeds/feed-summaries.json ] && git add feeds/feed-summaries.json -f
+          [ -d content/summaries ] && git add content/summaries -f
+          git diff --staged --quiet || git commit -m "Feed update $(date -u +%Y-%m-%d)"
           git push
