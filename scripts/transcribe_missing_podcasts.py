@@ -33,6 +33,7 @@ SOURCES_PATH = ROOT_DIR / "config" / "sources.json"
 
 SUBMIT_URL = "https://openspeech.bytedance.com/api/v3/auc/bigmodel/submit"
 QUERY_URL = "https://openspeech.bytedance.com/api/v3/auc/bigmodel/query"
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 RESOURCE_ID = "volc.seedasr.auc"
 DONE = "20000000"
 RUNNING = {"20000001", "20000002"}
@@ -80,9 +81,23 @@ def is_youtube_url(url):
     return "youtube.com" in host or "youtu.be" in host
 
 
+def resolve_redirects(url):
+    """Podcast enclosure URLs sit behind tracking redirects (chtbl/megaphone);
+    Volc's downloader chokes on them, so hand it the final signed URL."""
+    try:
+        with httpx.Client(timeout=30, follow_redirects=True, headers={"User-Agent": UA}) as client:
+            resp = client.head(url)
+            if resp.status_code >= 400:
+                resp = client.get(url, headers={"User-Agent": UA, "Range": "bytes=0-0"})
+            return str(resp.url)
+    except Exception as exc:
+        log(f"  redirect resolution failed, using original URL: {exc}")
+        return url
+
+
 def resolve_audio_url(item):
     if item.get("audio_url"):
-        return item["audio_url"]
+        return resolve_redirects(item["audio_url"])
     link = item.get("link") or ""
     if not is_youtube_url(link):
         return ""
