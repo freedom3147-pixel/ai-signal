@@ -16,6 +16,7 @@ Env:
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
 import time
@@ -108,16 +109,41 @@ def resolve_audio_url(item):
     return urls[0] if urls else ""
 
 
+SPONSOR_MARKERS = (
+    "thanks to our partners",
+    "brought to you by",
+    "this episode is sponsored",
+    "sponsors:",
+    "our sponsors",
+)
+
+
+def strip_sponsor_tail(text):
+    lower = text.lower()
+    cut = min((lower.find(m) for m in SPONSOR_MARKERS if m in lower), default=-1)
+    return text[:cut] if cut >= 0 else text
+
+
 def text_blob(item):
-    return " ".join(
-        str(item.get(key) or "")
-        for key in ("title", "description", "channel", "link")
-    ).lower()
+    # sponsor reads mention "AI"/"agent" constantly; match episode content only
+    description = strip_sponsor_tail(str(item.get("description") or ""))
+    return " ".join([
+        str(item.get("title") or ""),
+        description,
+        str(item.get("channel") or ""),
+    ]).lower()
 
 
 def is_relevant(item, keywords):
     blob = text_blob(item)
-    return any(keyword.lower() in blob for keyword in keywords)
+    for keyword in keywords:
+        k = keyword.lower().strip()
+        if not k:
+            continue
+        # word-boundary match: bare substring would let "ai" hit "email"/"again"
+        if re.search(rf"(?<![a-z0-9]){re.escape(k)}(?![a-z0-9])", blob):
+            return True
+    return False
 
 
 def should_transcribe(item, policy, keywords):

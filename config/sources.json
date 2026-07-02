@@ -164,8 +164,7 @@
       {
         "name": "SemiAnalysis",
         "domain": "ai",
-        "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCf_KhBXw5TIV0A7butjgFhg",
-        "transcribe_missing": true
+        "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCf_KhBXw5TIV0A7butjgFhg"
       },
       {
         "name": "Lightcone Podcast",
@@ -185,7 +184,8 @@
         "name": "Invest Like the Best",
         "domain": "invest",
         "rss_url": "https://feeds.megaphone.fm/CLS2859450455",
-        "needs_filter": true
+        "needs_filter": true,
+        "transcribe_missing": "relevant"
       },
       {
         "name": "Capital Allocators",

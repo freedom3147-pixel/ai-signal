@@ -38,6 +38,7 @@ FEEDS_DIR = ROOT_DIR / "feeds"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 MIN_TRANSCRIPT_CHARS = 600
 MAX_TRANSCRIPT_CHARS = int(os.environ.get("MAX_TRANSCRIPT_CHARS", "500000"))
+MIN_TRANSCRIPT_CHARS_PER_MIN = int(os.environ.get("MIN_TRANSCRIPT_CHARS_PER_MIN", "150"))
 
 
 def configure_stdio():
@@ -625,15 +626,55 @@ def transcript_from_episode_page(url):
     )
 
 
+def duration_minutes(duration):
+    parts = str(duration or "").strip().split(":")
+    try:
+        parts = [int(float(p)) for p in parts if p != ""]
+    except ValueError:
+        return 0
+    if len(parts) == 3:
+        return parts[0] * 60 + parts[1]
+    if len(parts) == 2:
+        return parts[0]
+    if len(parts) == 1:
+        return parts[0] // 60
+    return 0
+
+
+def transcript_too_sparse(text, duration):
+    """Reject show-notes text masquerading as a transcript.
+
+    Real English speech transcribes to roughly 700-900 chars/min; page text
+    that passes the transcript heuristics but is far below that is show notes,
+    not a transcript. Only applies when the episode duration is known.
+    """
+    minutes = duration_minutes(duration)
+    if not text or minutes < 10:
+        return False
+    return len(text) / minutes < MIN_TRANSCRIPT_CHARS_PER_MIN
+
+
 def get_podcast_transcript(ep):
     errors = []
+    duration = ep.get("duration")
+
+    def usable(result, source_name):
+        if not result["text"]:
+            if result["error"]:
+                errors.append(f"{source_name}: {result['error']}")
+            return False
+        if transcript_too_sparse(result["text"], duration):
+            errors.append(
+                f"{source_name}: text too sparse to be a transcript "
+                f"({len(result['text'])} chars for {duration_minutes(duration)} min)"
+            )
+            return False
+        return True
 
     for url in ep.get("transcript_urls", []):
         result = transcript_from_url(url, source="rss_transcript")
-        if result["text"]:
+        if usable(result, "rss_transcript"):
             return result
-        if result["error"]:
-            errors.append(f"rss_transcript: {result['error']}")
 
     for source_name, html in (
         ("description_transcript_link", ep.get("raw_description") or ep.get("description") or ""),
@@ -641,22 +682,16 @@ def get_podcast_transcript(ep):
     ):
         for url in find_transcript_links(html, ep.get("link") or ""):
             result = transcript_from_url(url, source=source_name)
-            if result["text"]:
+            if usable(result, source_name):
                 return result
-            if result["error"]:
-                errors.append(f"{source_name}: {result['error']}")
 
     page_result = transcript_from_episode_page(ep.get("link"))
-    if page_result["text"]:
+    if usable(page_result, "episode_page"):
         return page_result
-    if page_result["error"]:
-        errors.append(f"episode_page: {page_result['error']}")
 
     youtube_result = get_youtube_transcript(ep.get("link"))
-    if youtube_result["text"]:
+    if usable(youtube_result, "youtube"):
         return youtube_result
-    if youtube_result["error"]:
-        errors.append(f"youtube: {youtube_result['error']}")
 
     return transcript_result(
         source=None,
@@ -739,6 +774,8 @@ def fetch_podcasts(sources):
     for entry in existing.get("podcasts", []):
         if not entry.get("transcript"):
             continue
+        if transcript_too_sparse(entry["transcript"], entry.get("duration")):
+            continue  # show notes that slipped in as "transcript"; refetch
         for key in (entry.get("guid"), entry.get("link")):
             if key:
                 transcript_cache[key] = entry
