@@ -120,11 +120,13 @@ cd ai-signal/scripts && pip install -r ../requirements.txt
   └── generate_feed.py
       → 抓推文原文 + 播客 RSS + YouTube 全文字幕 + arXiv 论文
       → feed-x.json、feed-podcasts.json、feed-arxiv.json（commit 到 repo）
+      → 同步生成 feed-summaries.json 中文摘要缓存（如果配置了 LLM keys）
       → feed = 最近 24-72 小时的滚动窗口快照，无状态，多跑几次也不会丢内容
 
 你的机器（任意 AI Agent：OpenClaw / Claude Code / Cursor / WorkBuddy / Codex）
   └── prepare_digest.py → 从本 repo 拉 feed
       → 读取 ~/.ai-signal/seen.json，过滤你已经看过的内容
+      → 如果中央摘要缓存比 raw feed 旧，自动忽略旧摘要
       → 完整内容写到 ~/.ai-signal/payload/（payload.json + 每集单独的 transcript 文件）
       → stdout 只输出一个几 KB 的 manifest，任何 Agent 都能直接读
       → 你的 AI 按需读取文件，按你的偏好生成摘要

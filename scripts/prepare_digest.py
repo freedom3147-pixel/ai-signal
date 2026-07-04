@@ -331,10 +331,92 @@ def wants_central_summaries(config):
     return False
 
 
+def parse_iso_datetime(value):
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def latest_feed_datetime(*feeds):
+    dates = [parse_iso_datetime((feed or {}).get("generated_at")) for feed in feeds]
+    dates = [date for date in dates if date is not None]
+    return max(dates) if dates else None
+
+
+def summaries_are_stale(feed_summaries, *feeds):
+    summary_dt = parse_iso_datetime((feed_summaries or {}).get("generated_at"))
+    raw_dt = latest_feed_datetime(*feeds)
+    if not feed_summaries or not raw_dt:
+        return False
+    if not summary_dt:
+        return True
+    return summary_dt < raw_dt
+
+
 def filter_summary_items(items, domains):
     if not domains:
         return items
     return [item for item in items if item.get("domain", "ai") in domains]
+
+
+def current_content_ids(x_accounts, episodes, papers):
+    tweet_ids = {
+        str(tweet.get("id"))
+        for account in x_accounts
+        for tweet in account.get("tweets", [])
+        if tweet.get("id")
+    }
+    episode_keys = set()
+    episode_urls = set()
+    episode_titles = set()
+    for episode in episodes:
+        key = episode_key(episode)
+        if key:
+            episode_keys.add(key)
+        if episode.get("guid"):
+            episode_keys.add(str(episode["guid"]))
+        if episode.get("link"):
+            episode_urls.add(str(episode["link"]))
+        if episode.get("title"):
+            episode_titles.add(str(episode["title"]))
+    paper_ids = {
+        str(paper.get("arxiv_id"))
+        for paper in papers
+        if paper.get("arxiv_id")
+    }
+    return {
+        "tweets": tweet_ids,
+        "episode_keys": episode_keys,
+        "episode_urls": episode_urls,
+        "episode_titles": episode_titles,
+        "papers": paper_ids,
+    }
+
+
+def filter_summary_items_for_current(items, kind, ids):
+    if kind == "x":
+        return [
+            item for item in items
+            if str(item.get("tweet_id") or item.get("id") or "") in ids["tweets"]
+        ]
+    if kind == "podcasts":
+        return [
+            item for item in items
+            if (
+                str(item.get("id") or "") in ids["episode_keys"]
+                or str(item.get("source_url") or "") in ids["episode_urls"]
+                or str(item.get("title") or "") in ids["episode_titles"]
+            )
+        ]
+    if kind == "papers":
+        return [
+            item for item in items
+            if str(item.get("arxiv_id") or item.get("id") or "") in ids["papers"]
+        ]
+    return items
 
 
 def attach_summary_text(items):
@@ -377,6 +459,11 @@ def main():
     feed_arxiv = fetch_feed(FEED_ARXIV_URL, "feed-arxiv.json", "papers")
     include_central_summaries = wants_central_summaries(config)
     feed_summaries = fetch_feed(FEED_SUMMARIES_URL, "feed-summaries.json", "profiles") if include_central_summaries else None
+    if feed_summaries and summaries_are_stale(feed_summaries, feed_x, feed_podcasts, feed_arxiv):
+        errors.append(
+            "Central summaries are older than raw feeds; ignoring feed-summaries.json for this run"
+        )
+        feed_summaries = None
     if not feed_x:
         errors.append("Could not fetch tweet feed")
     if not feed_podcasts:
@@ -433,14 +520,30 @@ def main():
 
     central_summaries = None
     if selected_summary:
+        ids = current_content_ids(x_accounts, episodes, papers)
+        summary_x = filter_summary_items_for_current(
+            filter_summary_items(selected_summary.get("x", []), domains),
+            "x",
+            ids,
+        )
+        summary_podcasts = filter_summary_items_for_current(
+            filter_summary_items(selected_summary.get("podcasts", []), domains),
+            "podcasts",
+            ids,
+        )
+        summary_papers = filter_summary_items_for_current(
+            filter_summary_items(selected_summary.get("papers", []), domains),
+            "papers",
+            ids,
+        )
         central_summaries = {
             "profile": summary_profile,
             "available_profiles": available_summary_profiles,
             "language": selected_summary.get("language"),
             "detail": selected_summary.get("detail"),
-            "x": attach_summary_text(filter_summary_items(selected_summary.get("x", []), domains)),
-            "podcasts": attach_summary_text(filter_summary_items(selected_summary.get("podcasts", []), domains)),
-            "papers": attach_summary_text(filter_summary_items(selected_summary.get("papers", []), domains)),
+            "x": attach_summary_text(summary_x),
+            "podcasts": attach_summary_text(summary_podcasts),
+            "papers": attach_summary_text(summary_papers),
         }
 
     stats = {
