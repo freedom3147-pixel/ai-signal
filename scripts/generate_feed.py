@@ -847,7 +847,9 @@ def fetch_channel(channel, lookback_hours, transcript_cache):
 # Filters keep the feed consistent with channel content: the person's name must
 # appear in the video title (cleanest false-positive guard — YouTube search
 # happily returns videos matching only the company keywords), short clips are
-# dropped by minimum duration, and routine market-news briefings are skipped.
+# dropped by minimum duration, routine market-news briefings are skipped, and
+# channels below min_channel_subscribers are rejected (small channels are
+# mostly re-upload accounts that pollute the source).
 
 DAILY_BRIEFING_RE = re.compile(
     r"\bmorning markets?\b|\bmarket (?:wrap|close|open)\b|\b(?:opening|closing) bell\b"
@@ -924,10 +926,37 @@ def run_ytdlp_search(query, max_n, recency=None, timeout=300):
         "id": e.get("id") or "",
         "title": e.get("title") or "",
         "channel": e.get("channel") or e.get("uploader") or "YouTube",
+        "channel_url": e.get("channel_url") or e.get("uploader_url") or "",
         "upload_date": "",
         "duration": e.get("duration") or 0,  # seconds; may be missing in flat mode
         "description": e.get("description") or "",
     } for e in entries if e]
+
+
+# Channel subscriber counts, cached per run: searches for different people
+# often surface the same channels, and each lookup is a full page fetch.
+# Benign races under the search ThreadPoolExecutor — worst case a duplicate fetch.
+_channel_subs_cache = {}
+
+
+def fetch_channel_subscribers(channel_url, timeout=90):
+    """Subscriber count from the channel page (flat, single entry, no video
+    extraction). Returns None when unknown (missing URL, bot-check, hidden
+    count) — callers decide the failure policy."""
+    if not channel_url:
+        return None
+    if channel_url in _channel_subs_cache:
+        return _channel_subs_cache[channel_url]
+    subs = None
+    try:
+        proc = _run_ytdlp(["--flat-playlist", "-J", "--playlist-items", "1",
+                           channel_url], timeout=timeout)
+        data = json.loads(proc.stdout or "{}")
+        subs = data.get("channel_follower_count")
+    except Exception:
+        subs = None
+    _channel_subs_cache[channel_url] = subs
+    return subs
 
 
 def fetch_video_meta(vid, timeout=120):
@@ -963,6 +992,7 @@ def search_person_appearances(search, people_cfg, since, known_ids):
         query = f"{search['query']} {datetime.now(timezone.utc).year}"
     max_n = int(people_cfg.get("max_results_per_search", 3))
     min_seconds = int(people_cfg.get("min_duration_minutes", 20)) * 60
+    min_subs = int(people_cfg.get("min_channel_subscribers", 0))
     log(f"🔍 {person}: {query}" + (f" [{recency}]" if recency in RECENCY_SP else ""))
 
     kept = []
@@ -980,6 +1010,18 @@ def search_person_appearances(search, people_cfg, since, known_ids):
         if v["duration"] and v["duration"] < min_seconds:
             log(f"  ⏭️ too short ({v['duration']}s, likely a clip): {title[:60]}")
             continue
+        # Small channels are mostly re-upload/clip accounts; require a real
+        # audience before accepting the video. Fail-open when the count is
+        # unavailable (bot-checked channel page) so an infra hiccup doesn't
+        # silently kill the whole feature — the log line keeps it auditable.
+        if min_subs:
+            subs = fetch_channel_subscribers(v.get("channel_url"))
+            if subs is not None and subs < min_subs:
+                log(f"  ⏭️ channel too small ({subs:,} subs < {min_subs:,}): "
+                    f"{v['channel']} | {title[:50]}")
+                continue
+            if subs is None:
+                log(f"  ⚠️ subscriber count unknown, kept: {v['channel']}")
         # Backfill date/description for the few survivors; returns None from
         # datacenter IPs, in which case first_seen governs the feed window.
         meta = fetch_video_meta(v["id"])

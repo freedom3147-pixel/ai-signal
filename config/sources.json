@@ -143,6 +143,7 @@
       "max_results_per_search": 3,
       "max_new_per_run": 5,
       "min_duration_minutes": 15,
+      "min_channel_subscribers": 50000,
       "searches": [
         {
           "person": "Sundar Pichai",
