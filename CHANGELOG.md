@@ -4,6 +4,15 @@
 
 ## 2026-07-05
 
+### 新增
+
+- 播客人物追踪：27 位 AI 关键人物（海外高管/分析师 20 人 + 中国 AI 一线 7 人）作为**嘉宾**上任何播客/访谈都会被抓到，不再限于 13 个订阅频道。每天用 yt-dlp 在 YouTube 全网按"人名 + interview/访谈"搜索，命中并入 `feed-podcasts.json`（带 `person` 字段，中国人物带 `region: "cn"`），字幕、摘要、日报管道零改动复用。
+  之所以这样改：RSS 频道只覆盖主持人自己发布的节目；高管上别人节目（往往是信息量最大的场合）此前完全漏掉。
+  搜索用 YouTube 服务端"本周上传"过滤器（`search_recency` 配置，可选 hour/day/week/month/year）限定时间范围——flat 搜索拿不到上传日期、逐视频取元数据又会被数据中心 IP bot-check，服务端过滤是唯一可靠的时间限制手段；旧访谈、几年前的演讲从源头进不来。
+  过滤规则（保证与频道内容同等质量）：标题必须含人名（最干净的同名假阳性过滤）、时长 ≥ 15 分钟（去切片/shorts）、剔除例行盘面播报与影视合集标题、与频道 RSS 命中的同一期自动去重；已入 feed 的命中在 7 天窗口内保留并每天重试补字幕（实测云端拿不到的字幕，次日本地/代理环境运行可补上）。
+  名单在 `config/sources.json` 的 `podcasts.people`，新增 `--people-only` 参数可单独刷新人物搜索。
+  防刷屏：每次运行最多新收 5 条人物命中（`max_new_per_run`，按发布时间新的优先，超出的记日志延后）。
+
 ### 修复
 
 - 修正 3 个 X 账号 handle：Dylan Patel `dylanpatel_`→`dylan522p`（原 handle 是同名假号，最近一条推是 7 年前的足球话题）、Leopold Aschenbrenner `leopoldaob`→`leopoldasch`（原 handle 不存在）、Jim Keller `jimkeller_`→`jimkxa`（原 handle 不存在）。三个真 handle 均已实测有近期推文。其余"0 条推文"的账号排查后确认 handle 无误，只是 48 小时窗口内没发推（每日运行 + 48h 窗口不会漏推文，属正常）。
