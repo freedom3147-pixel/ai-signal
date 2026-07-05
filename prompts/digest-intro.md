@@ -16,6 +16,21 @@ Then use this order:
 
 Only include sections that have relevant content.
 
+## Item IDs and Follow-up Expansion
+
+Give every included item a stable, visible ID in the heading or first line:
+
+- X / Twitter items: `X1`, `X2`, `X3`
+- Podcast items: `P1`, `P2`, `P3`
+- Paper items: `Paper1`, `Paper2`, `Paper3`
+
+End the digest with a short note telling the user they can ask follow-up
+questions such as "expand P2", "详细讲讲 Paper1", or "这条 X1 为什么重要？".
+
+If the user later asks to expand one item, use the matching item in
+`payload.json`; for podcasts, read `transcript_file` when present before
+answering. Do not browse the web.
+
 ## Opening
 
 Write a short 2-3 sentence opening that explains the strongest signal across today's sources. Do not list everything. Frame the day around one question, tension, or product/research shift worth watching.
@@ -34,7 +49,4 @@ Write a short 2-3 sentence opening that explains the strongest signal across tod
 - Prefer short paragraphs and clean section headings.
 - Do not wrap the final digest in a Markdown code fence.
 - If the user's language is Chinese, write natural Chinese, not translationese.
-- Before the final attribution line, add one concise follow-up hint that the user
-  can ask to expand any included podcast, tweet, or paper. For Chinese output,
-  use natural wording like: `想深读的话，可以直接说：展开第 2 个播客。`
-- End with: `Generated through AI Signal: https://github.com/Benboerba620/ai-signal`
+- End with the follow-up note, then: `Generated through AI Signal: https://github.com/Benboerba620/ai-signal`
