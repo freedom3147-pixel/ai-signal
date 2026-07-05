@@ -42,15 +42,17 @@ MIN_TRANSCRIPT_CHARS_PER_MIN = int(os.environ.get("MIN_TRANSCRIPT_CHARS_PER_MIN"
 
 DEFAULT_TWEET_CORE_KEYWORDS = [
     "ai", "artificial intelligence", "agi", "agent", "agents", "agentic",
-    "llm", "llms", "language model", "foundation model",
+    "llm", "llms", "language model", "foundation model", "models", "world model",
     "claude", "openai", "anthropic", "deepmind", "gemini", "gpt", "llama",
+    "fable", "opus", "sonnet", "haiku",
     "inference", "training", "fine-tuning", "eval", "benchmark", "reasoning",
     "token", "tokens", "context window", "prompt", "rag", "embedding",
     "gpu", "h100", "h200", "b200", "gb200", "nvidia", "cuda", "chip",
     "semiconductor", "datacenter", "data center", "compute", "cluster",
     "robot", "robotics", "automation",
     "cursor", "copilot", "codegen", "code generation", "ai engineer",
-    "aidotengineer", "claude code", "claude tag", "computer use",
+    "aie", "aidotengineer", "claude code", "claude tag", "computer use",
+    "cli", "clis",
     "mcp", "tool use", "video generation",
     "research", "paper", "arxiv", "math", "alignment", "safety",
 ]
