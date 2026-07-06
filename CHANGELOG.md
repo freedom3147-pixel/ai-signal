@@ -2,6 +2,19 @@
 
 记录 AI Signal 面向用户的变更。每日的 feed 数据更新（`Feed update` commit）不在此列。
 
+## 2026-07-06
+
+### 修复
+
+- feed 镜像从 2 个扩到 5 个：GitHub raw → jsDelivr 的 4 个 CDN 入口（cdn / fastly / gcore / testingcf）。
+  之所以这样改：有大陆无代理用户反馈装好后"没反应"、拉不到数据。raw.githubusercontent.com 在大陆常年被阻断，而 7/5 加的唯一兜底 cdn.jsdelivr.net 自 2022 年大陆节点撤出后同样时好时坏——两环都断时用户只能吃本地旧缓存。后 3 个入口分别走 Fastly / Gcore / Cloudflare 三张不同的 CDN 网络，封锁是按域名来的，总有能直连通的一个。
+- 镜像切换提速：连接超时从 30 秒降到 5 秒，被阻断的源几秒内跳过；某个镜像成功后记住它，后续文件直接从它拉取，不再每个文件都从头把镜像列表试一遍。
+  之所以这样改：日报一次要拉 4 个 feed + 5 个 prompt + 若干字幕文件，旧逻辑遇到挂起型阻断时每个文件都要先在坏源上等满 30 秒，整轮下来是分钟级的干等。
+
+### 文档
+
+- SKILL.md 安装一节补第二个 clone 加速前缀（ghfast.top），并注明 `AI_SIGNAL_BASE_URLS` 环境变量可自定义镜像列表。
+
 ## 2026-07-05
 
 ### 新增

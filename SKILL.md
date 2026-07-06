@@ -48,9 +48,12 @@ cd <install_path>/scripts && pip install -r ../requirements.txt
    If github.com is unreachable (common in mainland China without a proxy),
    retry the clone through a mirror prefix, e.g.
    `git clone https://gh-proxy.com/https://github.com/Benboerba620/ai-signal.git <install_path>`
-   (or another gh-proxy-style service if that one is down). Daily feed
+   or `git clone https://ghfast.top/https://github.com/Benboerba620/ai-signal.git <install_path>`
+   (or another gh-proxy-style service if both are down). Daily feed
    fetching does NOT need a proxy afterwards — prepare_digest.py falls back
-   to the jsDelivr CDN mirror automatically.
+   through 4 jsDelivr CDN endpoints (cdn / fastly / gcore / testingcf)
+   automatically, and `AI_SIGNAL_BASE_URLS` can override the mirror list
+   if a user's network needs a custom one.
 
 4. Proceed directly to the Onboarding flow below.
 
