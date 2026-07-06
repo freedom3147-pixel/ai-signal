@@ -31,11 +31,17 @@ ROOT_DIR = SCRIPT_DIR.parent
 
 RAW_BASE = "https://raw.githubusercontent.com/Benboerba620/ai-signal/main"
 # Tried in order. raw.githubusercontent.com is blocked in some regions
-# (notably mainland China); jsDelivr mirrors the same repo content.
+# (notably mainland China), and cdn.jsdelivr.net itself is unreliable there
+# since its mainland nodes were shut down. The extra jsDelivr endpoints serve
+# the same repo content through different CDN networks (Fastly / Gcore /
+# Cloudflare), so at least one is usually reachable without a proxy.
 # Override with AI_SIGNAL_BASE_URLS="https://base1,https://base2" if needed.
 MIRROR_BASES = [
     RAW_BASE,
     "https://cdn.jsdelivr.net/gh/Benboerba620/ai-signal@main",
+    "https://fastly.jsdelivr.net/gh/Benboerba620/ai-signal@main",
+    "https://gcore.jsdelivr.net/gh/Benboerba620/ai-signal@main",
+    "https://testingcf.jsdelivr.net/gh/Benboerba620/ai-signal@main",
 ]
 PROMPT_FILES = [
     "summarize-podcast.md",
@@ -279,9 +285,18 @@ def write_delivery_mark(out_dir, marks, generated_at):
     return path
 
 
+# Fail fast on unreachable hosts (connect=5s) so a blocked mirror costs
+# seconds, not a 30s hang per file.
+HTTP_TIMEOUT = httpx.Timeout(20.0, connect=5.0)
+
+# Once a base succeeds, later fetches try it first instead of re-walking
+# the mirror list from a base that already failed once.
+_preferred_base = None
+
+
 def fetch_json(url):
     try:
-        resp = httpx.get(url, timeout=30, follow_redirects=True)
+        resp = httpx.get(url, timeout=HTTP_TIMEOUT, follow_redirects=True)
         resp.raise_for_status()
         text = resp.content.decode("utf-8", errors="replace")
         return clean_data(json.loads(clean_text(text)))
@@ -291,7 +306,7 @@ def fetch_json(url):
 
 def fetch_text(url):
     try:
-        resp = httpx.get(url, timeout=15, follow_redirects=True)
+        resp = httpx.get(url, timeout=HTTP_TIMEOUT, follow_redirects=True)
         resp.raise_for_status()
         return clean_text(resp.content.decode("utf-8", errors="replace"))
     except Exception:
@@ -302,26 +317,35 @@ def candidate_bases():
     env = os.environ.get("AI_SIGNAL_BASE_URLS")
     if env:
         bases = [b.strip().rstrip("/") for b in env.split(",") if b.strip()]
-        if bases:
-            return bases
-    return MIRROR_BASES
+    else:
+        bases = []
+    if not bases:
+        bases = list(MIRROR_BASES)
+    if _preferred_base in bases:
+        bases.remove(_preferred_base)
+        bases.insert(0, _preferred_base)
+    return bases
 
 
 def fetch_json_any(path):
     """Fetch a repo-relative JSON file, trying each mirror base in order."""
+    global _preferred_base
     for base in candidate_bases():
         url = f"{base}/{path}"
         data = fetch_json(url)
         if data is not None:
+            _preferred_base = base
             return data, url
     return None, f"{candidate_bases()[0]}/{path}"
 
 
 def fetch_text_any(path):
     """Fetch a repo-relative text file, trying each mirror base in order."""
+    global _preferred_base
     for base in candidate_bases():
         text = fetch_text(f"{base}/{path}")
         if text is not None:
+            _preferred_base = base
             return text
     return None
 
