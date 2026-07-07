@@ -370,7 +370,7 @@
     ]
   },
   "arxiv": {
-    "lookback_hours": 48,
+    "lookback_hours": 72,
     "max_papers": 30,
     "categories": [
       {

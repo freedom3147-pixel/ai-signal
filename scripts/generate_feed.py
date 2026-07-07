@@ -1296,8 +1296,12 @@ def fetch_arxiv(sources):
         return {"papers": [], "errors": ["No arXiv categories configured"]}
 
     cat_query = "+OR+".join(f"cat:{c['id']}" for c in categories)
+    # NOTE: arXiv 的 sortBy=submittedDate 索引会滞后好几天（已知 bug），
+    # 会让"最新论文"卡在 3-4 天前。改用 lastUpdatedDate 排序（实时），
+    # 再在下面按 submitted 日期窗口过滤掉"旧论文改版"混进来的条目。
+    # 用 lastUpdatedDate 时新旧混排，slot 会被改版老论文占用，故多拉一些。
     url = (f"https://export.arxiv.org/api/query?search_query={cat_query}"
-           f"&sortBy=submittedDate&sortOrder=descending&max_results={max_papers * 2}")
+           f"&sortBy=lastUpdatedDate&sortOrder=descending&max_results={max_papers * 3}")
 
     log(f"\n━━━ arXiv Papers ━━━")
     log(f"🔬 Categories: {', '.join(c['id'] for c in categories)}")
