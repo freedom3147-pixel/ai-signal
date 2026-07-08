@@ -342,7 +342,8 @@
         "name": "Naval",
         "domain": "ai",
         "rss_url": "https://nav.al/feed",
-        "lookback_hours": 336
+        "lookback_hours": 336,
+        "transcribe_missing": true
       },
       {
         "name": "No Priors",
