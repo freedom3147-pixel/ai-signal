@@ -101,6 +101,62 @@ def send_email(text, api_key, to_email):
     return resp.is_success
 
 
+def deliver_obsidian(text, vault_daily):
+    """Write digest markdown into an Obsidian vault daily/ folder."""
+    from datetime import date
+
+    daily_dir = Path(vault_daily).expanduser()
+    daily_dir.mkdir(parents=True, exist_ok=True)
+    day = date.today().isoformat()
+    filepath = daily_dir / f"{day}.md"
+
+    body = text.lstrip()
+    if not body.startswith("---"):
+        body = (
+            f"---\n"
+            f"date: {day}\n"
+            f"tags:\n"
+            f"  - AI日报\n"
+            f"  - 每日简报\n"
+            f"status: 已完成\n"
+            f"---\n\n"
+            f"{body}"
+        )
+
+    if filepath.exists():
+        existing = filepath.read_text("utf-8")
+        filepath.write_text(existing.rstrip() + "\n\n---\n\n" + body, encoding="utf-8")
+    else:
+        filepath.write_text(body, encoding="utf-8")
+    log(f"✅ Wrote Obsidian daily: {filepath}")
+    return True
+
+
+def send_wxpusher(text, app_token, uid):
+    """Push markdown summary to WeChat via WxPusher."""
+    content = text
+    if len(content) > 4000:
+        content = content[:3900] + "\n\n...(全文已写入 Obsidian 日报)"
+    resp = httpx.post(
+        "https://wxpusher.zjiecode.com/api/send/message",
+        json={
+            "appToken": app_token,
+            "content": content,
+            "contentType": 3,
+            "uids": [uid],
+        },
+        timeout=30,
+    )
+    if not resp.is_success:
+        log(f"❌ WxPusher HTTP {resp.status_code}: {resp.text[:200]}")
+        return False
+    data = resp.json()
+    if data.get("success") or data.get("code") == 1000:
+        return True
+    log(f"❌ WxPusher: {data}")
+    return False
+
+
 def mark_delivered(mark_file):
     if not mark_file:
         return
@@ -180,6 +236,33 @@ def main():
         log("✅ Sent to email" if ok else "❌ Email failed")
         if ok:
             mark_delivered(args.mark_delivered_file)
+
+    elif method in ("obsidian", "obsidian_wechat"):
+        vault_daily = delivery.get(
+            "obsidian_vault_daily",
+            r"D:\我的研究库\daily",
+        )
+        ok = deliver_obsidian(text, vault_daily)
+        if method == "obsidian_wechat":
+            app_token = os.environ.get(
+                "WXPUSHER_APP_TOKEN",
+                delivery.get("wxpusher_app_token", ""),
+            )
+            uid = delivery.get(
+                "wxpusher_uid",
+                os.environ.get("WXPUSHER_UID", ""),
+            )
+            if not app_token or not uid:
+                log("⚠️ Obsidian written, but WxPusher token/uid missing — skip WeChat")
+            else:
+                wx_ok = send_wxpusher(text, app_token, uid)
+                log("✅ Sent to WeChat (WxPusher)" if wx_ok else "❌ WeChat push failed")
+                ok = ok and wx_ok
+        if ok:
+            mark_delivered(args.mark_delivered_file)
+        else:
+            print(text)
+            sys.exit(1)
 
     else:
         print(text)
