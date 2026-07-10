@@ -2,151 +2,89 @@
   "twitter": {
     "lookback_hours": 48,
     "max_tweets_per_user": 5,
-    "min_engagement": 10,
+    "min_engagement": 5,
     "accounts": [
       {
-        "handle": "karpathy",
-        "name": "Andrej Karpathy",
+        "handle": "Brad_Setser",
+        "name": "Brad Setser",
+        "domain": "invest",
+        "tier": "analyst"
+      },
+      {
+        "handle": "michaelxpettis",
+        "name": "Michael Pettis",
+        "domain": "invest",
+        "tier": "analyst"
+      },
+      {
+        "handle": "RobinBrooksIIF",
+        "name": "Robin Brooks",
+        "domain": "invest",
+        "tier": "analyst"
+      },
+      {
+        "handle": "DanWangTech",
+        "name": "Dan Wang",
+        "domain": "invest",
+        "tier": "analyst"
+      },
+      {
+        "handle": "PaulTriolo",
+        "name": "Paul Triolo",
         "domain": "ai",
         "tier": "analyst"
       },
       {
-        "handle": "swyx",
-        "name": "Swyx (Shawn Wang)",
-        "domain": "ai",
+        "handle": "TomOrlik",
+        "name": "Tom Orlik",
+        "domain": "invest",
         "tier": "analyst"
       },
       {
-        "handle": "dylan522p",
-        "name": "Dylan Patel (SemiAnalysis)",
-        "domain": "ai",
+        "handle": "YuanTalks",
+        "name": "Yuan Talks",
+        "domain": "invest",
         "tier": "analyst"
       },
       {
-        "handle": "insane_analyst",
-        "name": "Irrational Analysis",
-        "domain": "ai",
-        "tier": "analyst"
-      },
-      {
-        "handle": "naval",
-        "name": "Naval Ravikant",
-        "domain": "ai",
-        "tier": "analyst"
-      },
-      {
-        "handle": "leopoldasch",
-        "name": "Leopold Aschenbrenner",
-        "domain": "ai",
-        "tier": "analyst"
-      },
-      {
-        "handle": "jimkxa",
-        "name": "Jim Keller",
-        "domain": "ai",
-        "tier": "analyst"
-      },
-      {
-        "handle": "sama",
-        "name": "Sam Altman",
-        "domain": "ai",
+        "handle": "RayDalio",
+        "name": "Ray Dalio",
+        "domain": "invest",
         "tier": "exec"
       },
       {
-        "handle": "DarioAmodei",
-        "name": "Dario Amodei",
-        "domain": "ai",
+        "handle": "CliffordAsness",
+        "name": "Cliff Asness",
+        "domain": "invest",
         "tier": "exec"
       },
       {
-        "handle": "demishassabis",
-        "name": "Demis Hassabis (Google DeepMind)",
-        "domain": "ai",
+        "handle": "BillAckman",
+        "name": "Bill Ackman",
+        "domain": "invest",
         "tier": "exec"
-      },
-      {
-        "handle": "jietang",
-        "name": "Tang Jie (Z.ai / Tsinghua)",
-        "domain": "ai",
-        "tier": "exec"
-      },
-      {
-        "handle": "nvidia",
-        "name": "NVIDIA (Jensen Huang / AI infrastructure)",
-        "domain": "ai",
-        "tier": "infra"
-      },
-      {
-        "handle": "AmandaAskell",
-        "name": "Amanda Askell (Anthropic)",
-        "domain": "ai",
-        "tier": "builder"
-      },
-      {
-        "handle": "bcherny",
-        "name": "Boris Cherny (Claude Code)",
-        "domain": "ai",
-        "tier": "builder"
-      },
-      {
-        "handle": "_catwu",
-        "name": "Cat Wu (Anthropic)",
-        "domain": "ai",
-        "tier": "builder"
-      },
-      {
-        "handle": "alexalbert__",
-        "name": "Alex Albert (Anthropic)",
-        "domain": "ai",
-        "tier": "builder"
-      },
-      {
-        "handle": "rauchg",
-        "name": "Guillermo Rauch (Vercel)",
-        "domain": "ai",
-        "tier": "builder"
-      },
-      {
-        "handle": "amasad",
-        "name": "Amjad Masad (Replit)",
-        "domain": "ai",
-        "tier": "builder"
-      },
-      {
-        "handle": "joshwoodward",
-        "name": "Josh Woodward (Google Labs)",
-        "domain": "ai",
-        "tier": "builder"
       }
     ]
   },
   "podcasts": {
-    "lookback_hours": 72,
+    "lookback_hours": 168,
     "transcription": {
       "provider": "volc_asr_auc",
-      "enabled_by_default": true,
-      "default_limit": 2,
+      "enabled_by_default": false,
+      "default_limit": 0,
       "poll_interval_seconds": 10,
       "max_wait_seconds": 1800,
       "relevance_keywords": [
-        "ai",
-        "artificial intelligence",
-        "agent",
-        "agents",
-        "llm",
-        "model",
-        "openai",
-        "anthropic",
-        "google deepmind",
-        "deepmind",
-        "nvidia",
+        "china",
+        "macro",
+        "fed",
+        "liquidity",
         "semiconductor",
-        "gpu",
-        "inference",
-        "data center",
-        "datacenter",
-        "robotics",
-        "automation"
+        "supply chain",
+        "monetary",
+        "fiscal",
+        "credit",
+        "ai"
       ]
     },
     "people": {
@@ -156,223 +94,15 @@
       "max_new_per_run": 5,
       "min_duration_minutes": 15,
       "min_channel_subscribers": 50000,
-      "searches": [
-        {
-          "person": "Sundar Pichai",
-          "query": "Sundar Pichai interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Greg Brockman",
-          "query": "Greg Brockman interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Sam Altman",
-          "query": "Sam Altman interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Dario Amodei",
-          "query": "Dario Amodei interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Demis Hassabis",
-          "query": "Demis Hassabis interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Jensen Huang",
-          "query": "Jensen Huang interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Satya Nadella",
-          "query": "Satya Nadella AI interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Mark Zuckerberg",
-          "query": "Mark Zuckerberg AI interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Daniela Amodei",
-          "query": "Daniela Amodei Anthropic interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Krishna Rao",
-          "query": "Krishna Rao Anthropic CFO interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Mike Krieger",
-          "query": "Mike Krieger Anthropic interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Sholto Douglas",
-          "query": "Sholto Douglas Anthropic interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Amanda Askell",
-          "query": "Amanda Askell Anthropic interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Boris Cherny",
-          "query": "Boris Cherny Claude Code interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Cat Wu",
-          "query": "Cat Wu Anthropic Claude Code interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Alex Albert",
-          "query": "Alex Albert Anthropic Claude interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Kevin Weil",
-          "query": "Kevin Weil OpenAI interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Ivan Zhao",
-          "query": "Ivan Zhao Notion interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Dylan Patel",
-          "query": "Dylan Patel SemiAnalysis interview",
-          "domain": "ai"
-        },
-        {
-          "person": "Gavin Baker",
-          "query": "Gavin Baker AI interview",
-          "domain": "invest"
-        },
-        {
-          "person": "Naval Ravikant",
-          "query": "Naval Ravikant AI interview",
-          "domain": "ai"
-        },
-        {
-          "person": "闫俊杰",
-          "query": "闫俊杰 MiniMax 访谈",
-          "domain": "ai",
-          "region": "cn"
-        },
-        {
-          "person": "杨植麟",
-          "query": "杨植麟 Kimi Moonshot 访谈",
-          "domain": "ai",
-          "region": "cn"
-        },
-        {
-          "person": "梁文锋",
-          "query": "梁文锋 DeepSeek 访谈",
-          "domain": "ai",
-          "region": "cn"
-        },
-        {
-          "person": "唐杰",
-          "query": "唐杰 智谱AI 访谈",
-          "domain": "ai",
-          "region": "cn"
-        },
-        {
-          "person": "罗福莉",
-          "query": "罗福莉 大模型 访谈",
-          "domain": "ai",
-          "region": "cn"
-        },
-        {
-          "person": "李广密",
-          "query": "李广密 拾象 访谈",
-          "domain": "ai",
-          "region": "cn"
-        },
-        {
-          "person": "肖弘",
-          "query": "肖弘 Manus 访谈",
-          "domain": "ai",
-          "region": "cn"
-        }
-      ]
+      "searches": []
     },
     "channels": [
       {
-        "name": "Dwarkesh Patel",
-        "domain": "ai",
-        "rss_url": "https://www.dwarkesh.com/feed"
-      },
-      {
-        "name": "Lex Fridman",
-        "domain": "ai",
-        "rss_url": "https://lexfridman.com/feed/podcast/"
-      },
-      {
-        "name": "Latent Space",
-        "domain": "ai",
-        "rss_url": "https://www.latent.space/feed",
-        "fallback_rss_urls": [
-          "https://api.substack.com/feed/podcast/1084089.rss"
-        ],
-        "transcribe_missing": true
-      },
-      {
-        "name": "All-In Podcast",
-        "domain": "ai",
-        "rss_url": "https://rss.libsyn.com/shows/254861/destinations/1928300.xml",
+        "name": "Odd Lots",
+        "domain": "invest",
+        "rss_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/podcast.rss",
         "needs_filter": true,
         "transcribe_missing": "relevant"
-      },
-      {
-        "name": "a16z",
-        "domain": "ai",
-        "rss_url": "https://feeds.simplecast.com/JGE3yC0V"
-      },
-      {
-        "name": "Naval",
-        "domain": "ai",
-        "rss_url": "https://nav.al/feed",
-        "lookback_hours": 336,
-        "transcribe_missing": true
-      },
-      {
-        "name": "No Priors",
-        "domain": "ai",
-        "rss_url": "https://feeds.megaphone.fm/nopriors"
-      },
-      {
-        "name": "Google DeepMind Podcast",
-        "domain": "ai",
-        "rss_url": "https://feeds.simplecast.com/JT6pbPkg"
-      },
-      {
-        "name": "SemiAnalysis",
-        "domain": "ai",
-        "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCf_KhBXw5TIV0A7butjgFhg"
-      },
-      {
-        "name": "Lightcone Podcast",
-        "domain": "ai",
-        "rss_url": "https://anchor.fm/s/f58d3330/podcast/rss"
-      },
-      {
-        "name": "Lenny's Podcast",
-        "domain": "ai",
-        "rss_url": "https://www.lennysnewsletter.com/feed",
-        "fallback_rss_urls": [
-          "https://api.substack.com/feed/podcast/10845.rss"
-        ],
-        "transcribe_missing": true
       },
       {
         "name": "Invest Like the Best",
@@ -382,61 +112,109 @@
         "transcribe_missing": "relevant"
       },
       {
-        "name": "Capital Allocators",
+        "name": "MacroVoices",
         "domain": "invest",
-        "rss_url": "https://rss.libsyn.com/shows/94820/destinations/482814.xml"
+        "rss_url": "https://feed.podbean.com/macrovoices/feed.xml"
       },
       {
-        "name": "The Acquirers Podcast",
+        "name": "Acquired",
         "domain": "invest",
-        "rss_url": "https://anchor.fm/s/9603714/podcast/rss"
+        "rss_url": "https://feeds.transistor.fm/acquired"
       }
     ]
   },
   "arxiv": {
     "lookback_hours": 72,
-    "max_papers": 30,
-    "categories": [
-      {
-        "id": "cs.AI",
-        "name": "Artificial Intelligence"
-      },
-      {
-        "id": "cs.CL",
-        "name": "Computation and Language"
-      },
-      {
-        "id": "cs.LG",
-        "name": "Machine Learning"
-      }
-    ]
+    "max_papers": 20,
+    "categories": []
   },
   "blogs": {
-    "lookback_hours": 48,
+    "lookback_hours": 168,
     "max_per_source": 5,
     "sources": [
       {
-        "id": "anthropic",
-        "name": "Anthropic",
-        "type": "sitemap",
-        "url": "https://www.anthropic.com/sitemap.xml",
-        "include_prefixes": [
-          "https://www.anthropic.com/news/",
-          "https://www.anthropic.com/engineering/",
-          "https://www.anthropic.com/research/"
-        ]
+        "id": "bis",
+        "name": "BIS Research Papers",
+        "type": "rss",
+        "url": "https://www.bis.org/doclist/bis_fsi_publs.rss"
       },
       {
-        "id": "openai",
-        "name": "OpenAI",
+        "id": "nyfed_lse",
+        "name": "NY Fed Liberty Street Economics",
         "type": "rss",
-        "url": "https://openai.com/news/rss.xml"
+        "url": "https://libertystreeteconomics.newyorkfed.org/feed"
       },
       {
-        "id": "deepmind",
-        "name": "Google DeepMind",
+        "id": "nber",
+        "name": "NBER Working Papers",
         "type": "rss",
-        "url": "https://deepmind.google/blog/rss.xml"
+        "url": "https://www.nber.org/rss/new.xml"
+      },
+      {
+        "id": "ft_alphaville",
+        "name": "FT Alphaville",
+        "type": "rss",
+        "url": "https://ftav.substack.com/feed"
+      },
+      {
+        "id": "pekingnology",
+        "name": "Pekingnology",
+        "type": "rss",
+        "url": "https://www.pekingnology.com/feed"
+      },
+      {
+        "id": "east_is_read",
+        "name": "The East is Read",
+        "type": "rss",
+        "url": "https://www.eastisread.com/feed"
+      },
+      {
+        "id": "sinocism",
+        "name": "Sinocism",
+        "type": "rss",
+        "url": "https://sinocism.com/feed"
+      },
+      {
+        "id": "high_capacity",
+        "name": "High Capacity",
+        "type": "rss",
+        "url": "https://www.highcapacity.org/feed"
+      },
+      {
+        "id": "chinatalk",
+        "name": "ChinaTalk",
+        "type": "rss",
+        "url": "https://www.chinatalk.media/feed"
+      },
+      {
+        "id": "newsletter_2060",
+        "name": "2060 Newsletter",
+        "type": "rss",
+        "url": "https://yijing2060advisory.substack.com/feed"
+      },
+      {
+        "id": "baiguan",
+        "name": "Baiguan (BigOne Lab)",
+        "type": "rss",
+        "url": "https://www.baiguan.news/feed"
+      },
+      {
+        "id": "voice_of_context",
+        "name": "Voice of Context",
+        "type": "rss",
+        "url": "https://voiceofcontext.substack.com/feed"
+      },
+      {
+        "id": "china_translated",
+        "name": "China Translated / Robert Wu",
+        "type": "rss",
+        "url": "https://www.china-translated.com/feed"
+      },
+      {
+        "id": "moatless_musings",
+        "name": "Moatless Musings",
+        "type": "rss",
+        "url": "https://realmoatlesscapital.substack.com/feed"
       }
     ]
   }
