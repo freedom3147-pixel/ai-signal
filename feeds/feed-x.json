@@ -1,7 +1,133 @@
 {
-  "tweets": [],
-  "errors": [
-    "TWITTER_COOKIES not configured"
+  "x": [
+    {
+      "handle": "Brad_Setser",
+      "name": "Brad Setser",
+      "domain": "invest",
+      "tier": "analyst",
+      "tweets": [
+        {
+          "id": "2075675976349241500",
+          "text": "do read the paper, they have a lower estimate for tax and goods trade\n\nand i have always said tech avoids tax on their non US profit via ireland and singapore.  see my aspen paper among others. wyden hearing was specific to pharma but all the ip heavy sectors with big rents avoid tax",
+          "created_at": "2026-07-10T20:18:11+00:00",
+          "like_count": 0,
+          "retweet_count": 0,
+          "reply_count": 0,
+          "url": "https://x.com/Brad_Setser/status/2075675976349241500"
+        },
+        {
+          "id": "2075664778966786399",
+          "text": "we agree that the tax writing committees in congress and at time Treasury office of tax policy politicos are captured by the tax avoidance lobby, and the int. side by the pharma and tech lobby in particular (who direct their ire at the OECD, not tax avoidance by US MNEs).  no debate there.   The IPE paper does suggest tax avoidance drives more services trade than goods trade-- so do check it out",
+          "created_at": "2026-07-10T19:33:41+00:00",
+          "like_count": 0,
+          "retweet_count": 0,
+          "reply_count": 1,
+          "url": "https://x.com/Brad_Setser/status/2075664778966786399"
+        },
+        {
+          "id": "2075662084142928078",
+          "text": "@marcmakingsense and do real the underlying paper -- they have a lower number for goods trade through tax havens than you, and think there is an important difference in the trend line; see the first chart here https://t.co/YKFS3iiRC1",
+          "created_at": "2026-07-10T19:22:59+00:00",
+          "like_count": 0,
+          "retweet_count": 0,
+          "reply_count": 0,
+          "url": "https://x.com/Brad_Setser/status/2075662084142928078"
+        }
+      ]
+    },
+    {
+      "handle": "michaelxpettis",
+      "name": "Michael Pettis",
+      "domain": "invest",
+      "tier": "analyst",
+      "tweets": [
+        {
+          "id": "2075189445993640028",
+          "text": "A Chinese researcher told me the trick to getting big research funding in China: say the U.S. is way ahead and China will never catch up without more investment.\nI said the trick in the U.S. is to say China is already ahead and we're falling behind. Apparently this keeps money flowing on both sides. Whether it keeps the science flowing is another question.",
+          "created_at": "2026-07-09T12:04:53+00:00",
+          "like_count": 1620,
+          "retweet_count": 124,
+          "reply_count": 70,
+          "url": "https://x.com/HenryYin19/status/2075189445993640028"
+        },
+        {
+          "id": "2075439285868667266",
+          "text": "1/4\nInteresting paper by UCL's Mariana Mazzucato in which she argues that in Europe, \"for two decades, capital has been abundant and cheap, and corporate profits strong; yet investment, productivity, and wages have stalled.\"\nhttps://t.co/X9WW3ELrNf",
+          "created_at": "2026-07-10T04:37:40+00:00",
+          "like_count": 377,
+          "retweet_count": 80,
+          "reply_count": 16,
+          "url": "https://x.com/michaelxpettis/status/2075439285868667266"
+        }
+      ]
+    },
+    {
+      "handle": "RobinBrooksIIF",
+      "name": "Robin Brooks",
+      "domain": "invest",
+      "tier": "analyst",
+      "tweets": []
+    },
+    {
+      "handle": "DanWangTech",
+      "name": "Dan Wang",
+      "domain": "invest",
+      "tier": "analyst",
+      "tweets": []
+    },
+    {
+      "handle": "PaulTriolo",
+      "name": "Paul Triolo",
+      "domain": "ai",
+      "tier": "analyst",
+      "tweets": []
+    },
+    {
+      "handle": "TomOrlik",
+      "name": "Tom Orlik",
+      "domain": "invest",
+      "tier": "analyst",
+      "tweets": []
+    },
+    {
+      "handle": "YuanTalks",
+      "name": "Yuan Talks",
+      "domain": "invest",
+      "tier": "analyst",
+      "tweets": [
+        {
+          "id": "2075471269798055965",
+          "text": "Global Capital Pivots to #Chinese #Tech: Northbound A-Share Holdings Tops 3 Trillion Yuan for First Time Amid AI and Semiconductor Surge\n\nhttps://t.co/9zfPlDLJbW",
+          "created_at": "2026-07-10T06:44:45+00:00",
+          "like_count": 3,
+          "retweet_count": 1,
+          "reply_count": 0,
+          "url": "https://x.com/YuanTalks/status/2075471269798055965"
+        }
+      ]
+    },
+    {
+      "handle": "RayDalio",
+      "name": "Ray Dalio",
+      "domain": "invest",
+      "tier": "exec",
+      "tweets": []
+    },
+    {
+      "handle": "CliffordAsness",
+      "name": "Cliff Asness",
+      "domain": "invest",
+      "tier": "exec",
+      "tweets": []
+    },
+    {
+      "handle": "BillAckman",
+      "name": "Bill Ackman",
+      "domain": "invest",
+      "tier": "exec",
+      "tweets": []
+    }
   ],
-  "generated_at": "2026-07-10T06:50:40.543741+00:00"
+  "errors": null,
+  "generated_at": "2026-07-11T01:55:46.282410+00:00"
 }

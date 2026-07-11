@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://www.chinatalk.media/p/eastern-data-western-compute-is-fake",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "“Eastern Data, Western Compute” is Fake",
+      "url": "https://www.chinatalk.media/p/eastern-data-western-compute-is-fake",
+      "published": "2026-07-10T15:39:04+00:00",
+      "summary": "China promised to move its data centers west. Now it’s backtracking."
+    },
+    {
+      "id": "https://www.highcapacity.org/p/china-tech-risk-framework",
+      "source": "high_capacity",
+      "source_name": "High Capacity",
+      "title": "How the US should deal with Chinese tech risks",
+      "url": "https://www.highcapacity.org/p/china-tech-risk-framework",
+      "published": "2026-07-10T13:42:23+00:00",
+      "summary": "We need a more systematic approach than ad hoc bans and fragmented regulation."
+    },
+    {
       "id": "https://www.eastisread.com/p/india-in-chinas-discourse-a-thaw",
       "source": "east_is_read",
       "source_name": "The East is Read",
@@ -161,46 +179,14 @@
       "url": "https://sinocism.com/p/two-new-pla-generals-submarine-launched",
       "published": "2026-07-06T21:48:32+00:00",
       "summary": "These two new generals have survived the PLA purges, but as the PLA Daily reminds everyone in a full page article in the Monday edition - Carry the Rectification of Thought Through to the End 将思想整风进行到底 - the rectification will continue:\nRectify in defeat, and rectify likewise in victory; the tempering of thought has never ceased. From the Sanwan Reorganization to the Gutian Conference, from the Yan’an Rectification to the New-Type Army Rectification Movement, from the rectification of Party work styles and Party organization in the early days of New China to the comprehensive Party rectificati"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/the-robots-are-here",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "The Robots Are Here",
-      "url": "https://www.chinatalk.media/p/the-robots-are-here",
-      "published": "2026-07-06T11:02:54+00:00",
-      "summary": "Unitree's advantage"
-    },
-    {
-      "id": "https://voiceofcontext.substack.com/p/anthropics-china-anthropics-china",
-      "source": "voice_of_context",
-      "source_name": "Voice of Context",
-      "title": "Anthropic's China Anthropic's China Access Fight, DeepSeek's Hiring Spree, and Meituan's 1.6 Trillion-Parameter Bet",
-      "url": "https://voiceofcontext.substack.com/p/anthropics-china-anthropics-china",
-      "published": "2026-07-03T16:33:14+00:00",
-      "summary": "Anthropic restored Fable 5 and brought Mythos 5 back on a limited basis after weeks of China-linked access anxiety."
-    },
-    {
-      "id": "https://www.highcapacity.org/p/podcast-chinas-biotech-rise",
-      "source": "high_capacity",
-      "source_name": "High Capacity",
-      "title": "Podcast: What explains China's biotech rise?",
-      "url": "https://www.highcapacity.org/p/podcast-chinas-biotech-rise",
-      "published": "2026-07-03T11:55:39+00:00",
-      "summary": "A conversation with Prof. Abigail Coplin at Vassar College"
-    },
-    {
-      "id": "https://ftav.substack.com/p/the-cops-are-here-to-protect-your",
-      "source": "ft_alphaville",
-      "source_name": "FT Alphaville",
-      "title": "The cops are here to protect your stupid business",
-      "url": "https://ftav.substack.com/p/the-cops-are-here-to-protect-your",
-      "published": "2026-07-03T10:01:01+00:00",
-      "summary": "Also: Maslow, Medallia, contango, quants, Ozempic, mozzarella sticks, and picky bits"
     }
   ],
   "errors": [
-    "NBER Working Papers: Client error '403 Forbidden' for url 'https://www.nber.org/rss/new.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "NBER Working Papers: Client error '403 Forbidden' for url 'https://www.nber.org/rss/new.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+    "FT Alphaville: Client error '403 Forbidden' for url 'https://ftav.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+    "2060 Newsletter: Client error '403 Forbidden' for url 'https://yijing2060advisory.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+    "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+    "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-10T06:49:16.073570+00:00"
+  "generated_at": "2026-07-11T01:55:46.282410+00:00"
 }
