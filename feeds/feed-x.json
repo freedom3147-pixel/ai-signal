@@ -5,35 +5,7 @@
       "name": "Brad Setser",
       "domain": "invest",
       "tier": "analyst",
-      "tweets": [
-        {
-          "id": "2075675976349241500",
-          "text": "do read the paper, they have a lower estimate for tax and goods trade\n\nand i have always said tech avoids tax on their non US profit via ireland and singapore.  see my aspen paper among others. wyden hearing was specific to pharma but all the ip heavy sectors with big rents avoid tax",
-          "created_at": "2026-07-10T20:18:11+00:00",
-          "like_count": 0,
-          "retweet_count": 0,
-          "reply_count": 0,
-          "url": "https://x.com/Brad_Setser/status/2075675976349241500"
-        },
-        {
-          "id": "2075664778966786399",
-          "text": "we agree that the tax writing committees in congress and at time Treasury office of tax policy politicos are captured by the tax avoidance lobby, and the int. side by the pharma and tech lobby in particular (who direct their ire at the OECD, not tax avoidance by US MNEs).  no debate there.   The IPE paper does suggest tax avoidance drives more services trade than goods trade-- so do check it out",
-          "created_at": "2026-07-10T19:33:41+00:00",
-          "like_count": 0,
-          "retweet_count": 0,
-          "reply_count": 1,
-          "url": "https://x.com/Brad_Setser/status/2075664778966786399"
-        },
-        {
-          "id": "2075662084142928078",
-          "text": "@marcmakingsense and do real the underlying paper -- they have a lower number for goods trade through tax havens than you, and think there is an important difference in the trend line; see the first chart here https://t.co/YKFS3iiRC1",
-          "created_at": "2026-07-10T19:22:59+00:00",
-          "like_count": 0,
-          "retweet_count": 0,
-          "reply_count": 0,
-          "url": "https://x.com/Brad_Setser/status/2075662084142928078"
-        }
-      ]
+      "tweets": []
     },
     {
       "handle": "michaelxpettis",
@@ -42,21 +14,12 @@
       "tier": "analyst",
       "tweets": [
         {
-          "id": "2075189445993640028",
-          "text": "A Chinese researcher told me the trick to getting big research funding in China: say the U.S. is way ahead and China will never catch up without more investment.\nI said the trick in the U.S. is to say China is already ahead and we're falling behind. Apparently this keeps money flowing on both sides. Whether it keeps the science flowing is another question.",
-          "created_at": "2026-07-09T12:04:53+00:00",
-          "like_count": 1620,
-          "retweet_count": 124,
-          "reply_count": 70,
-          "url": "https://x.com/HenryYin19/status/2075189445993640028"
-        },
-        {
           "id": "2075439285868667266",
           "text": "1/4\nInteresting paper by UCL's Mariana Mazzucato in which she argues that in Europe, \"for two decades, capital has been abundant and cheap, and corporate profits strong; yet investment, productivity, and wages have stalled.\"\nhttps://t.co/X9WW3ELrNf",
           "created_at": "2026-07-10T04:37:40+00:00",
-          "like_count": 377,
-          "retweet_count": 80,
-          "reply_count": 16,
+          "like_count": 402,
+          "retweet_count": 89,
+          "reply_count": 18,
           "url": "https://x.com/michaelxpettis/status/2075439285868667266"
         }
       ]
@@ -100,7 +63,7 @@
           "text": "Global Capital Pivots to #Chinese #Tech: Northbound A-Share Holdings Tops 3 Trillion Yuan for First Time Amid AI and Semiconductor Surge\n\nhttps://t.co/9zfPlDLJbW",
           "created_at": "2026-07-10T06:44:45+00:00",
           "like_count": 3,
-          "retweet_count": 1,
+          "retweet_count": 0,
           "reply_count": 0,
           "url": "https://x.com/YuanTalks/status/2075471269798055965"
         }
@@ -118,16 +81,45 @@
       "name": "Cliff Asness",
       "domain": "invest",
       "tier": "exec",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2075959908978065508",
+          "text": "A) Yes his math is just a flat out lie.\n\nB) He does not have the nightmares he claims.\n\nC) If he did, does he have them for innocent children attending a music festival whose elected government didn’t commit an epic atrocity and wasn’t using them at the time as a human shield?",
+          "created_at": "2026-07-11T15:06:26+00:00",
+          "like_count": 92,
+          "retweet_count": 11,
+          "reply_count": 9,
+          "url": "https://x.com/CliffordAsness/status/2075959908978065508"
+        },
+        {
+          "id": "2075959100865675341",
+          "text": "Check out @JimPethokoukis’s latest Substack for some interesting insights on why declining fertility might boost living standards, based on new research. And stay for his lists of Up Wing films! \n\n🍼 Debunking demographic doom https://t.co/XKvTXYzJLD",
+          "created_at": "2026-07-11T15:03:13+00:00",
+          "like_count": 4,
+          "retweet_count": 3,
+          "reply_count": 0,
+          "url": "https://x.com/MichaelRStrain/status/2075959100865675341"
+        }
+      ]
     },
     {
       "handle": "BillAckman",
       "name": "Bill Ackman",
       "domain": "invest",
       "tier": "exec",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2075590815083028989",
+          "text": "In a hotel room in northeast Nigeria, I opened a leading AI chatbot, turned my laptop toward a former Boko Haram commander, and asked if he'd used it. He nodded.\n\n\"You type in the question… like 'How can I build a bomb?', and then it tells you how. It is like a human robot. We used it a lot.\"\n\nMy new study on how the jihadist terrorist group Boko Haram uses frontier AI with @CamAISciPolicy, covered today in @nytimes 🧵/9",
+          "created_at": "2026-07-10T14:39:47+00:00",
+          "like_count": 7106,
+          "retweet_count": 1755,
+          "reply_count": 265,
+          "url": "https://x.com/AntoniaJuelich/status/2075590815083028989"
+        }
+      ]
     }
   ],
   "errors": null,
-  "generated_at": "2026-07-11T01:55:46.282410+00:00"
+  "generated_at": "2026-07-11T22:45:35.575390+00:00"
 }
