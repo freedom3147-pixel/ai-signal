@@ -1,11 +1,14 @@
 # Central summary generation
 
-`scripts/generate_summaries.py` is the central LLM cache layer.
+`scripts/generate_summaries.py` is the central LLM cache layer. It is a
+legacy/debug path — the documented user flow (see `SKILL.md`) has the Agent
+read `feeds/*.json` directly and remix a digest itself, so most users never
+need this.
 
 It reads:
 
+- `feeds/feed-x.json`
 - `feeds/feed-podcasts.json`
-- `feeds/feed-arxiv.json`
 - `config/summary.json`
 
 It writes:
@@ -19,18 +22,14 @@ Summary profiles live in `config/summary.json`.
 
 Examples:
 
-- `zh_short`: short Chinese podcast briefs, no paper summaries
-- `zh_standard`: standard Chinese podcast and paper briefs
-- `zh_deep`: longer Chinese podcast and paper briefs
+- `zh_short`: short Chinese briefs
+- `zh_standard`: standard Chinese briefs
+- `zh_deep`: longer Chinese briefs
 - `en_standard`: standard English briefs
-- `bilingual_short`: short bilingual podcast briefs
+- `bilingual_short`: short bilingual briefs
 
 Users can choose a profile later. The central repo only has to generate the
 preconfigured profiles once per new item.
-
-Podcast and paper length can be controlled separately with
-`podcast_target_chars` and `paper_target_chars`. This keeps podcast briefs rich
-while preventing arXiv abstract summaries from becoming artificially long.
 
 ## Run locally
 
@@ -59,9 +58,9 @@ python scripts/generate_summaries.py --profile zh_standard --limit 1
 For GitHub Actions, save the keys as repository secrets named
 `DEEPSEEK_API_KEY` and `ARK_API_KEY`.
 
-The default setup uses DeepSeek for podcast summaries and Ark/Doubao for X and
-paper summaries. You can override each content type with `x_llm`, `papers_llm`,
-or `podcasts_llm` in `config/summary.json`.
+The default setup uses DeepSeek for podcast summaries and Ark/Doubao for X
+summaries. You can override each content type with `x_llm` or `podcasts_llm`
+in `config/summary.json`.
 
 ## Notes
 

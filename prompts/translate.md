@@ -5,7 +5,7 @@ Use this when `config.language` is `zh` or `bilingual`.
 ## Chinese
 
 - Write natural Simplified Chinese.
-- Preserve technical terms when they are commonly used in English: AI, LLM, GPU, API, token, prompt, agent, inference, fine-tuning, benchmark, eval.
+- Preserve technical/financial terms when they are commonly used in English or have no natural Chinese shorthand: Fed, FOMC, PBOC, GDP, CPI, PMI, basis points, yield, spread, QE/QT.
 - Translate meaning, not word order.
 - Avoid stiff phrases like "该内容介绍了" or "本文讨论了".
 - Keep names, company names, model names, and product names unchanged unless there is a widely used Chinese name.

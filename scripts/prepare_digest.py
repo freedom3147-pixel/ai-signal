@@ -47,7 +47,6 @@ MIRROR_BASES = [
 PROMPT_FILES = [
     "summarize-podcast.md",
     "summarize-tweets.md",
-    "summarize-papers.md",
     "summarize-articles.md",
     "digest-intro.md",
     "translate.md",
@@ -165,17 +164,16 @@ def build_output_contract(config):
         }
 
     return {
-        "role": "You are the user's Agent-side AI Signal digest writer.",
+        "role": "You are the user's Agent-side Macro Signal digest writer.",
         "source_of_truth": "Use only the JSON fields in this payload. Do not browse the web or call external APIs.",
         "language": language_policy,
         "granularity": granularity,
         "content_rules": [
-            "Select only AI/product/research/infrastructure/investing-relevant items.",
+            "Select only macro-economics/China-economy/markets/investing-relevant items.",
             "Every included item must keep its original URL.",
             "For X/Twitter, keep each selected tweet as its own item and preserve the original text.",
             "For podcasts, use transcript first and description only when transcript is missing.",
-            "For papers, keep title, arXiv link, and a short summary.",
-            "For official blog articles, keep source name, title, link, and a short summary of what was announced.",
+            "For research/policy blog articles, keep source name, title, link, and a short summary of the finding.",
             "Do not fabricate quotes, numbers, claims, or source details.",
         ],
     }
@@ -190,14 +188,14 @@ def load_seen():
             seen = json.loads(SEEN_PATH.read_text("utf-8"))
         except Exception:
             seen = {}
-    for key in ("tweets", "episodes", "papers", "articles"):
+    for key in ("tweets", "episodes", "articles"):
         seen.setdefault(key, {})
     return seen
 
 
 def save_seen(seen):
     cutoff = (datetime.now(timezone.utc) - timedelta(days=SEEN_RETENTION_DAYS)).isoformat()
-    for key in ("tweets", "episodes", "papers", "articles"):
+    for key in ("tweets", "episodes", "articles"):
         seen[key] = {k: v for k, v in seen.get(key, {}).items() if v > cutoff}
     SEEN_PATH.parent.mkdir(parents=True, exist_ok=True)
     SEEN_PATH.write_text(json.dumps(seen, indent=2), encoding="utf-8")
@@ -207,9 +205,9 @@ def episode_key(episode):
     return episode.get("guid") or episode.get("link") or episode.get("title") or ""
 
 
-def filter_unseen(feed_x, feed_podcasts, papers, articles, seen):
+def filter_unseen(feed_x, feed_podcasts, articles, seen):
     now = datetime.now(timezone.utc).isoformat()
-    new_ids = {"tweets": [], "episodes": [], "papers": [], "articles": []}
+    new_ids = {"tweets": [], "episodes": [], "articles": []}
 
     accounts = []
     for account in (feed_x or {}).get("x", []):
@@ -226,15 +224,6 @@ def filter_unseen(feed_x, feed_podcasts, papers, articles, seen):
             new_ids["episodes"].append(key)
         episodes.append(ep)
 
-    fresh_papers = []
-    for paper in papers:
-        pid = paper.get("arxiv_id") or ""
-        if pid and pid in seen["papers"]:
-            continue
-        if pid:
-            new_ids["papers"].append(pid)
-        fresh_papers.append(paper)
-
     fresh_articles = []
     for article in articles:
         aid = article.get("id") or article.get("url") or ""
@@ -245,7 +234,7 @@ def filter_unseen(feed_x, feed_podcasts, papers, articles, seen):
         fresh_articles.append(article)
 
     marks = {kind: {i: now for i in ids} for kind, ids in new_ids.items()}
-    return accounts, episodes, fresh_papers, fresh_articles, marks
+    return accounts, episodes, fresh_articles, marks
 
 
 # ── Payload files ─────────────────────────────────────────────────────────────
@@ -501,7 +490,7 @@ def filter_summary_items(items, domains):
     return [item for item in items if item.get("domain", "ai") in domains]
 
 
-def current_content_ids(x_accounts, episodes, papers):
+def current_content_ids(x_accounts, episodes):
     tweet_ids = {
         str(tweet.get("id"))
         for account in x_accounts
@@ -521,17 +510,11 @@ def current_content_ids(x_accounts, episodes, papers):
             episode_urls.add(str(episode["link"]))
         if episode.get("title"):
             episode_titles.add(str(episode["title"]))
-    paper_ids = {
-        str(paper.get("arxiv_id"))
-        for paper in papers
-        if paper.get("arxiv_id")
-    }
     return {
         "tweets": tweet_ids,
         "episode_keys": episode_keys,
         "episode_urls": episode_urls,
         "episode_titles": episode_titles,
-        "papers": paper_ids,
     }
 
 
@@ -549,11 +532,6 @@ def filter_summary_items_for_current(items, kind, ids):
                 or str(item.get("source_url") or "") in ids["episode_urls"]
                 or str(item.get("title") or "") in ids["episode_titles"]
             )
-        ]
-    if kind == "papers":
-        return [
-            item for item in items
-            if str(item.get("arxiv_id") or item.get("id") or "") in ids["papers"]
         ]
     return items
 
@@ -596,7 +574,6 @@ def main():
     # 2. Fetch feeds
     feed_x, x_source = fetch_feed("feed-x.json", "x")
     feed_podcasts, podcast_source = fetch_feed("feed-podcasts.json", "podcasts")
-    feed_arxiv, arxiv_source = fetch_feed("feed-arxiv.json", "papers")
     feed_blogs, blogs_source = fetch_feed("feed-blogs.json", "articles")
     include_central_summaries = wants_central_summaries(config)
     if include_central_summaries:
@@ -608,20 +585,18 @@ def main():
         {
             "x": x_source,
             "podcasts": podcast_source,
-            "arxiv": arxiv_source,
             "blogs": blogs_source,
             "summaries": summaries_source,
         },
         {
             "x": feed_x,
             "podcasts": feed_podcasts,
-            "arxiv": feed_arxiv,
             "blogs": feed_blogs,
             "summaries": feed_summaries,
         },
     )
     warnings.extend(source_warnings)
-    if feed_summaries and summaries_are_stale(feed_summaries, feed_x, feed_podcasts, feed_arxiv):
+    if feed_summaries and summaries_are_stale(feed_summaries, feed_x, feed_podcasts):
         warnings.append(
             "Central summaries are older than raw feeds; ignoring feed-summaries.json for this run"
         )
@@ -632,8 +607,6 @@ def main():
         errors.append("Could not fetch tweet feed")
     if not feed_podcasts:
         errors.append("Could not fetch podcast feed")
-    if not feed_arxiv:
-        errors.append("Could not fetch arXiv feed")
     if not feed_blogs:
         # Newer feed: older central snapshots/mirror caches may not have it yet
         warnings.append("Could not fetch official blog feed; skipping blog articles this run")
@@ -666,21 +639,19 @@ def main():
     if args.include_seen:
         x_accounts = (feed_x or {}).get("x", [])
         episodes = (feed_podcasts or {}).get("podcasts", [])
-        papers = (feed_arxiv or {}).get("papers", [])
         articles = (feed_blogs or {}).get("articles", [])
-        marks = {"tweets": {}, "episodes": {}, "papers": {}, "articles": {}}
+        marks = {"tweets": {}, "episodes": {}, "articles": {}}
     else:
-        x_accounts, episodes, papers, articles, marks = filter_unseen(
+        x_accounts, episodes, articles, marks = filter_unseen(
             feed_x,
             feed_podcasts,
-            (feed_arxiv or {}).get("papers", []),
             (feed_blogs or {}).get("articles", []),
             seen,
         )
 
     # 5. Build output
     language = normalize_language(config.get("language", "en"))
-    domains = config.get("domains", ["ai", "invest"])
+    domains = config.get("domains", ["macro"])
     summary_profile = choose_summary_profile(config)
     available_summary_profiles = sorted(((feed_summaries or {}).get("profiles") or {}).keys())
     selected_summary = ((feed_summaries or {}).get("profiles") or {}).get(summary_profile)
@@ -692,7 +663,7 @@ def main():
 
     central_summaries = None
     if selected_summary:
-        ids = current_content_ids(x_accounts, episodes, papers)
+        ids = current_content_ids(x_accounts, episodes)
         summary_x = filter_summary_items_for_current(
             filter_summary_items(selected_summary.get("x", []), domains),
             "x",
@@ -703,11 +674,6 @@ def main():
             "podcasts",
             ids,
         )
-        summary_papers = filter_summary_items_for_current(
-            filter_summary_items(selected_summary.get("papers", []), domains),
-            "papers",
-            ids,
-        )
         central_summaries = {
             "profile": summary_profile,
             "available_profiles": available_summary_profiles,
@@ -715,7 +681,6 @@ def main():
             "detail": selected_summary.get("detail"),
             "x": attach_summary_text(summary_x),
             "podcasts": attach_summary_text(summary_podcasts),
-            "papers": attach_summary_text(summary_papers),
         }
 
     stats = {
@@ -723,10 +688,8 @@ def main():
         "podcast_with_transcript": sum(1 for e in episodes if e.get("transcript")),
         "central_x_summaries": len((central_summaries or {}).get("x", [])),
         "central_podcast_summaries": len((central_summaries or {}).get("podcasts", [])),
-        "central_paper_summaries": len((central_summaries or {}).get("papers", [])),
-        "x_builders": len(x_accounts),
+        "x_accounts": len(x_accounts),
         "total_tweets": sum(len(a.get("tweets", [])) for a in x_accounts),
-        "arxiv_papers": len(papers),
         "blog_articles": len(articles),
     }
     config_out = {
@@ -752,7 +715,6 @@ def main():
         "central_summaries": central_summaries,
         "podcasts": episodes,
         "x": x_accounts,
-        "papers": papers,
         "articles": articles,
         "stats": stats,
         "prompts": prompts,
@@ -812,7 +774,6 @@ def main():
             {"handle": a.get("handle"), "tweets": len(a.get("tweets", []))}
             for a in x_accounts if a.get("tweets")
         ],
-        "papers_count": len(papers),
         "articles": [
             {
                 "source": a.get("source_name") or a.get("source"),

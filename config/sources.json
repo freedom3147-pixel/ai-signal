@@ -3,65 +3,93 @@
     "lookback_hours": 48,
     "max_tweets_per_user": 5,
     "min_engagement": 5,
+    "relevance_keywords": [
+      "china", "chinese", "prc", "beijing", "pboc", "people's bank",
+      "rmb", "yuan", "renminbi", "hong kong",
+      "fed", "federal reserve", "fomc", "powell", "ecb", "boj", "boe",
+      "rate cut", "rate hike", "rates", "yield", "yields", "curve",
+      "treasury", "treasuries", "bond", "bonds", "credit", "liquidity",
+      "monetary", "fiscal", "stimulus", "deficit", "debt", "default",
+      "inflation", "cpi", "pce", "disinflation", "deflation",
+      "gdp", "growth", "recession", "soft landing", "hard landing",
+      "unemployment", "jobs report", "payrolls", "labor market", "wages",
+      "trade", "tariff", "tariffs", "export", "exports", "import",
+      "supply chain", "current account", "capital flows", "reserves",
+      "dollar", "currency", "exchange rate", "devaluation", "peg",
+      "housing", "real estate", "property market", "mortgage",
+      "manufacturing", "pmi", "industrial production", "overcapacity",
+      "consumer spending", "retail sales", "savings rate",
+      "equities", "stocks", "markets", "valuation", "portfolio",
+      "hedge fund", "allocation", "risk", "volatility", "drawdown",
+      "imf", "world bank", "bis", "g7", "g20", "sanctions",
+      "geopolitics", "semiconductor", "chip", "chips", "export control",
+      "commodities", "oil", "energy", "opec"
+    ],
+    "exclude_keywords": [
+      "independence day", "july 4", "4th of july", "fourth of july",
+      "🇺🇸", "🦅", "freedom 250", "holiday", "happy birthday",
+      "merry christmas", "happy new year", "thanksgiving", "halloween",
+      "baby", "dinner", "vacation", "wedding"
+    ],
     "accounts": [
       {
         "handle": "Brad_Setser",
         "name": "Brad Setser",
-        "domain": "invest",
+        "domain": "macro",
         "tier": "analyst"
       },
       {
         "handle": "michaelxpettis",
         "name": "Michael Pettis",
-        "domain": "invest",
+        "domain": "macro",
         "tier": "analyst"
       },
       {
         "handle": "RobinBrooksIIF",
         "name": "Robin Brooks",
-        "domain": "invest",
+        "domain": "macro",
         "tier": "analyst"
       },
       {
         "handle": "DanWangTech",
         "name": "Dan Wang",
-        "domain": "invest",
+        "domain": "macro",
         "tier": "analyst"
       },
       {
         "handle": "PaulTriolo",
         "name": "Paul Triolo",
-        "domain": "ai",
+        "domain": "macro",
         "tier": "analyst"
       },
       {
         "handle": "TomOrlik",
         "name": "Tom Orlik",
-        "domain": "invest",
+        "domain": "macro",
         "tier": "analyst"
       },
       {
         "handle": "YuanTalks",
         "name": "Yuan Talks",
-        "domain": "invest",
+        "domain": "macro",
         "tier": "analyst"
       },
       {
         "handle": "RayDalio",
         "name": "Ray Dalio",
-        "domain": "invest",
+        "domain": "macro",
         "tier": "exec"
       },
       {
         "handle": "CliffordAsness",
         "name": "Cliff Asness",
-        "domain": "invest",
+        "domain": "macro",
         "tier": "exec"
       },
       {
         "handle": "BillAckman",
         "name": "Bill Ackman",
-        "domain": "invest",
+        "domain": "macro",
         "tier": "exec"
       }
     ]
@@ -75,16 +103,10 @@
       "poll_interval_seconds": 10,
       "max_wait_seconds": 1800,
       "relevance_keywords": [
-        "china",
-        "macro",
-        "fed",
-        "liquidity",
-        "semiconductor",
-        "supply chain",
-        "monetary",
-        "fiscal",
-        "credit",
-        "ai"
+        "china", "macro", "fed", "liquidity", "semiconductor",
+        "supply chain", "monetary", "fiscal", "credit", "tariff",
+        "trade", "inflation", "rates", "yields", "dollar", "yuan",
+        "pboc", "treasury"
       ]
     },
     "people": {
@@ -99,34 +121,29 @@
     "channels": [
       {
         "name": "Odd Lots",
-        "domain": "invest",
+        "domain": "macro",
         "rss_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/podcast.rss",
         "needs_filter": true,
         "transcribe_missing": "relevant"
       },
       {
         "name": "Invest Like the Best",
-        "domain": "invest",
+        "domain": "macro",
         "rss_url": "https://feeds.megaphone.fm/CLS2859450455",
         "needs_filter": true,
         "transcribe_missing": "relevant"
       },
       {
         "name": "MacroVoices",
-        "domain": "invest",
+        "domain": "macro",
         "rss_url": "https://feed.podbean.com/macrovoices/feed.xml"
       },
       {
         "name": "Acquired",
-        "domain": "invest",
+        "domain": "macro",
         "rss_url": "https://feeds.transistor.fm/acquired"
       }
     ]
-  },
-  "arxiv": {
-    "lookback_hours": 72,
-    "max_papers": 20,
-    "categories": []
   },
   "blogs": {
     "lookback_hours": 168,

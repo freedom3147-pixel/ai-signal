@@ -6,7 +6,6 @@
     "model": "deepseek-v4-pro",
     "x_model": "deepseek-v4-flash",
     "podcast_model": "deepseek-v4-pro",
-    "paper_model": "deepseek-v4-pro",
     "thinking": {
       "type": "disabled"
     },
@@ -14,8 +13,7 @@
     "max_tokens": 4096,
     "timeout_seconds": 120,
     "x_timeout_seconds": 45,
-    "podcast_timeout_seconds": 180,
-    "paper_timeout_seconds": 90
+    "podcast_timeout_seconds": 180
   },
   "x_llm": {
     "provider": "ark",
@@ -25,15 +23,6 @@
     "temperature": 0.2,
     "max_tokens": 2048,
     "timeout_seconds": 120
-  },
-  "papers_llm": {
-    "provider": "ark",
-    "api_key_env": "ARK_API_KEY",
-    "base_url": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
-    "model": "doubao-seed-2-1-pro-260628",
-    "temperature": 0.2,
-    "max_tokens": 512,
-    "timeout_seconds": 45
   },
   "output": {
     "dir": "content/summaries",
@@ -50,14 +39,11 @@
       "detail": "short",
       "target_chars": 600,
       "podcast_target_chars": 800,
-      "paper_target_chars": 300,
       "x_target_chars": 120,
       "include_x": true,
       "include_podcasts": true,
-      "include_papers": false,
       "domains": [
-        "ai",
-        "invest"
+        "macro"
       ]
     },
     "zh_standard": {
@@ -65,14 +51,11 @@
       "detail": "standard",
       "target_chars": 1600,
       "podcast_target_chars": 2000,
-      "paper_target_chars": 180,
       "x_target_chars": 160,
       "include_x": true,
       "include_podcasts": true,
-      "include_papers": true,
       "domains": [
-        "ai",
-        "invest"
+        "macro"
       ]
     },
     "zh_deep": {
@@ -80,14 +63,11 @@
       "detail": "deep",
       "target_chars": 3000,
       "podcast_target_chars": 4500,
-      "paper_target_chars": 220,
       "x_target_chars": 180,
       "include_x": true,
       "include_podcasts": true,
-      "include_papers": true,
       "domains": [
-        "ai",
-        "invest"
+        "macro"
       ]
     },
     "en_standard": {
@@ -95,14 +75,11 @@
       "detail": "standard",
       "target_chars": 1200,
       "podcast_target_chars": 1600,
-      "paper_target_chars": 500,
       "x_target_chars": 180,
       "include_x": true,
       "include_podcasts": true,
-      "include_papers": true,
       "domains": [
-        "ai",
-        "invest"
+        "macro"
       ]
     },
     "bilingual_short": {
@@ -110,13 +87,11 @@
       "detail": "short",
       "target_chars": 1000,
       "podcast_target_chars": 1200,
-      "paper_target_chars": 400,
       "x_target_chars": 220,
       "include_x": true,
       "include_podcasts": true,
-      "include_papers": false,
       "domains": [
-        "ai"
+        "macro"
       ]
     }
   },
@@ -131,10 +106,5 @@
     "enabled": true,
     "input_path": "feeds/feed-x.json",
     "max_tweets": 1000
-  },
-  "papers": {
-    "enabled": true,
-    "input_path": "feeds/feed-arxiv.json",
-    "max_items": 30
   }
 }

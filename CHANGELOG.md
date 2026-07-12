@@ -1,6 +1,35 @@
 # Changelog
 
-记录 AI Signal 面向用户的变更。每日的 feed 数据更新（`Feed update` commit）不在此列。
+记录本项目面向用户的变更。每日的 feed 数据更新（`Feed update` commit）不在此列。
+
+## 2026-07-12
+
+### 改造
+
+- **定位改为宏观信号（Macro Signal）**：项目此前是 AI 一线信号追踪器（`Benboerba620/ai-signal` 上游），7/10 已把信源换成宏观/中国经济/投资方向，本次完成剩余改造——`README.md`/`SKILL.md`/全部 `prompts/*.md` 重写为宏观框架，不再按"AI 相关性"过滤内容。技术上仍保留 `ai-signal` 目录名和 `/ai-signal` 触发词，兼容已有的定时任务与本地配置。
+
+### 修复
+
+- **Twitter 过滤器误杀宏观推文**：`config/sources.json` 里的 twitter 配置此前没有自己的 `relevance_keywords`，会静默退回到 `generate_feed.py` 里的 AI 关键词白名单（`llm`、`gpu`、`benchmark` 等）。这意味着 Michael Pettis 一条完全不提 AI 的宏观推文，只是因为碰巧含有"research"这个词才被放行——换一个说法就会被误杀。现在 `sources.json` 的 twitter 配置带上专属的宏观/中国经济/市场关键词白名单，`generate_feed.py` 的默认关键词也同步换成宏观向，避免以后新加账号忘配关键词时掉回 AI 语境。
+- **arXiv 论文板块移除**：宏观经济研究基本不发 arXiv（更多在 NBER/BIS/Fed working papers，已经用研究博客源覆盖），此前 `categories` 留空导致这块一直报错且空转。彻底移除 `generate_feed.py`/`prepare_digest.py`/`config/summary.json`/workflow 里的 arXiv 抓取与 papers 字段，减少噪音和维护成本。
+- **研究/政策博客请求头加固**：给博客抓取请求加上更完整的浏览器请求头（Accept / Accept-Language / Referer），尝试缓解部分源的 403。已知限制：NBER、FT Alphaville、2060 Newsletter、Voice of Context、Moatless Musings 目前仍会被拦截，大概率是 Substack/Cloudflare 对 GitHub Actions 云端 IP 的封锁，不是单纯请求头能解决的，暂时接受这个限制。
+
+### 清理
+
+- 删除了 AI 时期遗留的缓存摘要（`content/summaries/` 下的 AI 论文/推文/播客摘要，共 180+ 个文件）和过期索引 `feeds/feed-summaries.json`，避免和当前宏观信源混淆；下次运行中央摘要生成脚本时会用新信源重新生成。
+- 删除未被引用的 `scripts/render_digest.py`（旧的无 LLM 兜底渲染器，硬编码 AI 关键词过滤，且不在文档化的日报流程里）。
+
+## 2026-07-11
+
+### 修复
+
+- X 推文抓不到的根因不是 cookie 格式问题，而是 fork 仓库的 GitHub Actions 从未真正跑过（配了 Secret 不会自动触发）。手动点 Run workflow 一次后跑通，`TWITTER_COOKIES` 验证有效，首次抓到真实推文（Brad Setser、Michael Pettis、Yuan Talks 等）。新增 `scripts/test_twitter_cookies.py` 本地验证脚本，只输出 OK/FAIL，不打印 cookie 明文。
+
+## 2026-07-10
+
+### 新增
+
+- 信息源整体换血：推特账号换成 Brad Setser / Michael Pettis / Robin Brooks / Dan Wang / Paul Triolo / Tom Orlik / Yuan Talks / Ray Dalio / Cliff Asness / Bill Ackman；播客换成 Odd Lots / Invest Like the Best / MacroVoices / Acquired；新增 14 个研究与政策博客（BIS、NY Fed、NBER、FT Alphaville、Sinocism、ChinaTalk、Pekingnology 等）。
 
 ## 2026-07-08
 

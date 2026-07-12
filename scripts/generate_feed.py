@@ -1,4 +1,5 @@
-"""Central feed generator — fetches raw content from Twitter + podcasts + arXiv.
+"""Central feed generator — fetches raw macro/China/investing content from
+Twitter, podcasts, and research/policy blogs (BIS, NY Fed, NBER, Sinocism, etc).
 
 Runs on GitHub Actions daily. Outputs raw content (no LLM summarization).
 Subscribers pull the feed JSON and use their own LLM to generate digests.
@@ -8,7 +9,7 @@ inside each source's lookback window, so extra manual runs never eat content.
 Per-user "already seen" dedup happens client-side in prepare_digest.py.
 
 Usage:
-    python scripts/generate_feed.py [--twitter-only | --podcasts-only | --arxiv-only | --people-only]
+    python scripts/generate_feed.py [--twitter-only | --podcasts-only | --blogs-only | --people-only]
 
 --people-only refreshes just the person-appearance searches (config
 podcasts.people) and keeps existing channel episodes in feed-podcasts.json.
@@ -40,36 +41,36 @@ ROOT_DIR = SCRIPT_DIR.parent
 FEEDS_DIR = ROOT_DIR / "feeds"
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+BROWSER_HEADERS = {
+    "User-Agent": UA,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 MIN_TRANSCRIPT_CHARS = 600
 MAX_TRANSCRIPT_CHARS = int(os.environ.get("MAX_TRANSCRIPT_CHARS", "500000"))
 MIN_TRANSCRIPT_CHARS_PER_MIN = int(os.environ.get("MIN_TRANSCRIPT_CHARS_PER_MIN", "150"))
 
+# Fallback keyword filter, only used when sources.json doesn't supply its own
+# twitter.relevance_keywords. The macro/China/investing accounts in this fork
+# always set their own list (see config/sources.json), so this mainly guards
+# against a future account added without one.
 DEFAULT_TWEET_CORE_KEYWORDS = [
-    "ai", "artificial intelligence", "agi", "agent", "agents", "agentic",
-    "llm", "llms", "language model", "foundation model", "models", "world model",
-    "claude", "openai", "anthropic", "deepmind", "gemini", "gpt", "llama",
-    "fable", "opus", "sonnet", "haiku",
-    "inference", "training", "fine-tuning", "eval", "benchmark", "reasoning",
-    "token", "tokens", "context window", "prompt", "rag", "embedding",
-    "gpu", "h100", "h200", "b200", "gb200", "nvidia", "cuda", "chip",
-    "semiconductor", "datacenter", "data center", "compute", "cluster",
-    "robot", "robotics", "automation",
-    "cursor", "copilot", "codegen", "code generation", "ai engineer",
-    "aie", "aidotengineer", "claude code", "claude tag", "computer use",
-    "cli", "clis",
-    "mcp", "tool use", "video generation",
-    "research", "paper", "arxiv", "math", "alignment", "safety",
-]
-
-DEFAULT_TWEET_CONTEXT_KEYWORDS = [
-    "developer tool", "developer tools", "devtools", "sdk", "api",
-    "dockerfile", "docker", "sandbox", "microvm", "microvms", "fuse",
-    "deploy", "deployment", "rollback", "serverless", "full stack",
-    "workflow", "productivity", "artifact", "artifacts",
-]
-
-DEFAULT_TWEET_PLATFORM_KEYWORDS = [
-    "vercel", "replit", "cursor", "copilot", "next.js", "react",
+    "china", "chinese", "prc", "beijing", "pboc", "rmb", "yuan", "renminbi",
+    "fed", "federal reserve", "fomc", "ecb", "boj", "boe",
+    "rate cut", "rate hike", "rates", "yield", "yields", "curve",
+    "treasury", "treasuries", "bond", "bonds", "credit", "liquidity",
+    "monetary", "fiscal", "stimulus", "deficit", "debt", "default",
+    "inflation", "cpi", "pce", "deflation", "gdp", "growth", "recession",
+    "unemployment", "jobs report", "payrolls", "labor market", "wages",
+    "trade", "tariff", "tariffs", "export", "exports", "import",
+    "supply chain", "current account", "capital flows", "reserves",
+    "dollar", "currency", "exchange rate", "devaluation",
+    "housing", "real estate", "property market", "mortgage",
+    "manufacturing", "pmi", "overcapacity", "consumer spending",
+    "equities", "stocks", "markets", "valuation", "portfolio",
+    "hedge fund", "allocation", "imf", "world bank", "bis",
+    "geopolitics", "semiconductor", "chip", "chips", "export control",
+    "commodities", "oil", "energy", "opec",
 ]
 
 DEFAULT_TWEET_EXCLUDE_KEYWORDS = [
@@ -192,7 +193,7 @@ def keyword_match(text, keywords):
 
 
 def is_relevant_tweet(text, twitter_cfg):
-    """Keep AI/devtools/investing signal, drop pure social or holiday posts."""
+    """Keep macro/China/investing signal, drop pure social or holiday posts."""
     text = normalize_text(text)
     if not text:
         return False
@@ -202,19 +203,12 @@ def is_relevant_tweet(text, twitter_cfg):
         return False
 
     custom_keywords = twitter_cfg.get("relevance_keywords")
-    if custom_keywords:
-        return keyword_match(text, custom_keywords)
-
-    if keyword_match(text, DEFAULT_TWEET_CORE_KEYWORDS):
-        return True
-
-    has_platform = keyword_match(text, DEFAULT_TWEET_PLATFORM_KEYWORDS)
-    has_context = keyword_match(text, DEFAULT_TWEET_CONTEXT_KEYWORDS)
-    return has_platform and has_context
+    keywords = custom_keywords or DEFAULT_TWEET_CORE_KEYWORDS
+    return keyword_match(text, keywords)
 
 
 def fetch_text_url(url, timeout=30):
-    resp = httpx.get(url, headers={"User-Agent": UA}, timeout=timeout, follow_redirects=True)
+    resp = httpx.get(url, headers=BROWSER_HEADERS, timeout=timeout, follow_redirects=True)
     resp.raise_for_status()
     return resp.text, str(resp.url), resp.headers.get("content-type", "")
 
@@ -235,7 +229,7 @@ def fetch_rss_with_fallback(channel, attempts=3):
     for url in rss_url_candidates(channel):
         for attempt in range(1, attempts + 1):
             try:
-                resp = httpx.get(url, headers={"User-Agent": UA}, timeout=45, follow_redirects=True)
+                resp = httpx.get(url, headers=BROWSER_HEADERS, timeout=45, follow_redirects=True)
                 resp.raise_for_status()
                 return resp.text, str(resp.url), None
             except Exception as e:
@@ -1320,112 +1314,7 @@ def fetch_podcasts(sources, people_only=False):
     return {"podcasts": all_episodes, "errors": errors if errors else None}
 
 
-# ── arXiv fetching ───────────────────────────────────────────────────────────
-
-def fetch_arxiv(sources):
-    arxiv_cfg = sources.get("arxiv", {})
-    categories = arxiv_cfg.get("categories", [])
-    max_papers = arxiv_cfg.get("max_papers", 30)
-    lookback = arxiv_cfg.get("lookback_hours", 48)
-
-    if not categories:
-        return {"papers": [], "errors": ["No arXiv categories configured"]}
-
-    cat_query = "+OR+".join(f"cat:{c['id']}" for c in categories)
-    # NOTE: arXiv 的 sortBy=submittedDate 索引会滞后好几天（已知 bug），
-    # 会让"最新论文"卡在 3-4 天前。改用 lastUpdatedDate 排序（实时），
-    # 再在下面按 submitted 日期窗口过滤掉"旧论文改版"混进来的条目。
-    # 用 lastUpdatedDate 时新旧混排，slot 会被改版老论文占用，故多拉一些。
-    url = (f"https://export.arxiv.org/api/query?search_query={cat_query}"
-           f"&sortBy=lastUpdatedDate&sortOrder=descending&max_results={max_papers * 3}")
-
-    log(f"\n━━━ arXiv Papers ━━━")
-    log(f"🔬 Categories: {', '.join(c['id'] for c in categories)}")
-
-    try:
-        resp = httpx.get(url, timeout=30, headers={"User-Agent": UA})
-        resp.raise_for_status()
-    except Exception as e:
-        log(f"  ⚠️ arXiv API failed: {e}")
-        return {"papers": [], "errors": [str(e)]}
-
-    ns = {
-        "atom": "http://www.w3.org/2005/Atom",
-        "arxiv": "http://arxiv.org/schemas/atom",
-    }
-
-    try:
-        root = ET.fromstring(resp.text)
-    except ET.ParseError as e:
-        log(f"  ⚠️ XML parse error: {e}")
-        return {"papers": [], "errors": [str(e)]}
-
-    since = datetime.now(timezone.utc) - timedelta(hours=lookback)
-    papers = []
-    seen_ids = set()
-
-    for entry in root.findall("atom:entry", ns):
-        id_url = entry.findtext("atom:id", "", ns)
-        arxiv_id = id_url.split("/abs/")[-1] if "/abs/" in id_url else id_url
-
-        if arxiv_id in seen_ids:
-            continue
-        seen_ids.add(arxiv_id)
-
-        pub_str = entry.findtext("atom:published", "", ns)
-        pub_date = None
-        if pub_str:
-            try:
-                pub_date = datetime.fromisoformat(pub_str.replace("Z", "+00:00"))
-            except ValueError:
-                pass
-
-        if pub_date and pub_date < since:
-            continue
-
-        title = entry.findtext("atom:title", "", ns).strip()
-        title = re.sub(r"\s+", " ", title)
-        abstract = entry.findtext("atom:summary", "", ns).strip()
-        abstract = re.sub(r"\s+", " ", abstract)
-
-        authors = []
-        for author_el in entry.findall("atom:author", ns):
-            name = author_el.findtext("atom:name", "", ns).strip()
-            if name:
-                authors.append(name)
-
-        cats = [cat.get("term", "") for cat in entry.findall("atom:category", ns) if cat.get("term")]
-        primary_el = entry.find("arxiv:primary_category", ns)
-        primary_cat = primary_el.get("term", "") if primary_el is not None else ""
-
-        pdf_url = ""
-        for link_el in entry.findall("atom:link", ns):
-            if link_el.get("title") == "pdf":
-                pdf_url = link_el.get("href", "")
-                break
-
-        comment = (entry.findtext("arxiv:comment", "", ns) or "").strip()
-
-        papers.append({
-            "arxiv_id": arxiv_id,
-            "title": title,
-            "authors": authors[:5],
-            "abstract": abstract,
-            "primary_category": primary_cat,
-            "categories": cats,
-            "pdf_url": pdf_url,
-            "abs_url": f"https://arxiv.org/abs/{arxiv_id}",
-            "published": pub_date.isoformat() if pub_date else pub_str,
-            "comment": comment,
-        })
-
-    papers.sort(key=lambda p: p.get("published") or "", reverse=True)
-    papers = papers[:max_papers]
-    log(f"  ✅ {len(papers)} papers")
-    return {"papers": papers, "errors": None}
-
-
-# ── Official blogs (Anthropic / OpenAI / DeepMind) ────────────────────────────
+# ── Research & policy blogs (BIS, NY Fed, NBER, China-watcher Substacks) ─────
 
 def parse_iso_datetime(value):
     if not value:
@@ -1530,7 +1419,7 @@ def parse_visible_date(html):
 def blog_page_meta(url):
     """Fetch an article page: <title>, meta description, visible publish date."""
     try:
-        resp = httpx.get(url, timeout=20, headers={"User-Agent": UA}, follow_redirects=True)
+        resp = httpx.get(url, timeout=20, headers=BROWSER_HEADERS, follow_redirects=True)
         resp.raise_for_status()
     except Exception:
         return "", "", None
@@ -1618,7 +1507,7 @@ def fetch_blogs(sources):
     for src in blog_sources:
         name = src.get("name", src.get("id", "?"))
         try:
-            resp = httpx.get(src["url"], timeout=30, headers={"User-Agent": UA}, follow_redirects=True)
+            resp = httpx.get(src["url"], timeout=30, headers={**BROWSER_HEADERS, "Referer": src["url"]}, follow_redirects=True)
             resp.raise_for_status()
             if src.get("type") == "sitemap":
                 found = blog_items_from_sitemap(resp.text, src, since, max_per_source)
@@ -1643,7 +1532,6 @@ async def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--twitter-only", action="store_true")
     parser.add_argument("--podcasts-only", action="store_true")
-    parser.add_argument("--arxiv-only", action="store_true")
     parser.add_argument("--blogs-only", action="store_true")
     parser.add_argument("--people-only", action="store_true",
                         help="refresh person-appearance searches only; keep channel episodes as-is")
@@ -1653,7 +1541,7 @@ async def main():
     now = datetime.now(timezone.utc)
     FEEDS_DIR.mkdir(parents=True, exist_ok=True)
 
-    run_all = not (args.twitter_only or args.podcasts_only or args.arxiv_only
+    run_all = not (args.twitter_only or args.podcasts_only
                    or args.blogs_only or args.people_only)
 
     if run_all or args.twitter_only:
@@ -1673,17 +1561,6 @@ async def main():
         person_hits = sum(1 for e in podcast_feed["podcasts"] if e.get("person"))
         log(f"✅ feed-podcasts.json ({len(podcast_feed['podcasts'])} episodes, "
             f"{with_transcript} with transcript, {person_hits} person hits)")
-
-    if run_all or args.arxiv_only:
-        arxiv_feed = fetch_arxiv(sources)
-        arxiv_feed["generated_at"] = now.isoformat()
-        if not arxiv_feed["papers"]:
-            existing_arxiv = load_feed("feed-arxiv.json")
-            if existing_arxiv and existing_arxiv.get("papers"):
-                log("ℹ️  arXiv fetch returned nothing; keeping existing feed-arxiv.json")
-                arxiv_feed = existing_arxiv
-        write_json(FEEDS_DIR / "feed-arxiv.json", arxiv_feed)
-        log(f"✅ feed-arxiv.json ({len(arxiv_feed['papers'])} papers)")
 
     if run_all or args.blogs_only:
         blogs_feed = fetch_blogs(sources)

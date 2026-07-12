@@ -871,7 +871,7 @@ def paper_tasks(
     old_index: dict[str, Any],
     limit: int | None,
 ) -> list[dict[str, Any]]:
-    if not profile.get("include_papers", True) or not cfg.get("papers", {}).get("enabled", True):
+    if not cfg.get("papers") or not profile.get("include_papers", True) or not cfg.get("papers", {}).get("enabled", True):
         return []
 
     paper_cfg = cfg["papers"]

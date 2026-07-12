@@ -116,7 +116,7 @@ def deliver_obsidian(text, vault_daily):
             f"---\n"
             f"date: {day}\n"
             f"tags:\n"
-            f"  - AI日报\n"
+            f"  - 宏观信号\n"
             f"  - 每日简报\n"
             f"status: 已完成\n"
             f"---\n\n"
