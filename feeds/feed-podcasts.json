@@ -2,7 +2,7 @@
   "podcasts": [
     {
       "channel": "Odd Lots",
-      "domain": "invest",
+      "domain": "macro",
       "guid": "59c7d65a-dfbb-447c-8ed4-b482014569c9",
       "title": "The Korean Levered ETFs Shaking Markets All Around the World",
       "pub_date": "2026-07-10T08:00:00+00:00",
@@ -19,7 +19,7 @@
     },
     {
       "channel": "MacroVoices",
-      "domain": "invest",
+      "domain": "macro",
       "guid": "macrovoices.podbean.com/d7c6ccc9-836d-397f-855f-e7567149f27f",
       "title": "MacroVoices #540 Adam Parker: Beyond the AI Bubble: Diversifying Portfolios in an Earnings-Driven Market",
       "pub_date": "2026-07-09T13:36:36-05:00",
@@ -36,7 +36,7 @@
     },
     {
       "channel": "Odd Lots",
-      "domain": "invest",
+      "domain": "macro",
       "guid": "ee665e22-5abb-4981-a58d-b481016ff97e",
       "title": "One of the World's Largest Hedge Funds on Its 86x Growth in Token Spending",
       "pub_date": "2026-07-09T08:00:00+00:00",
@@ -71,7 +71,7 @@
     },
     {
       "channel": "Odd Lots",
-      "domain": "invest",
+      "domain": "macro",
       "guid": "7ed31c1e-3cf5-467d-a302-b47b014db8c5",
       "title": "These Are the Sharps Actually Making Money on Prediction Markets",
       "pub_date": "2026-07-06T08:00:00+00:00",
@@ -88,5 +88,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-07-11T22:45:35.575390+00:00"
+  "generated_at": "2026-07-12T22:46:08.917045+00:00"
 }

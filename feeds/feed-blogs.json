@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://www.chinatalk.media/p/wartalk-randy-schriver-on-asian-defense",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "WarTalk: Randy Schriver on Asian Defense",
+      "url": "https://www.chinatalk.media/p/wartalk-randy-schriver-on-asian-defense",
+      "published": "2026-07-12T11:38:10+00:00",
+      "summary": "More own goals than Scotland"
+    },
+    {
       "id": "https://www.china-translated.com/p/what-china-really-steals-from-elon",
       "source": "china_translated",
       "source_name": "China Translated / Robert Wu",
@@ -154,15 +163,6 @@
       "summary": "Banking crises are commonly associated with bank runs and banking panics, yet our empirical understanding of bank runs is constrained by a lack of bank-level data. In a new paper , we use large language models (LLMs) to extract information on bank runs from millions of digitized historical newspaper pages, creating the most comprehensive database of bank runs in U.S. history. Every bank run episode that we identify is documented on a companion website where users can browse and examine individual episodes, and read the original newspaper articles. In this post, we describe how we built this da"
     },
     {
-      "id": "https://www.chinatalk.media/p/the-20-most-interesting-ideas-weve",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "The 20 Most Interesting Ideas We've Found in 2026",
-      "url": "https://www.chinatalk.media/p/the-20-most-interesting-ideas-weve",
-      "published": "2026-07-07T10:33:27+00:00",
-      "summary": "So far"
-    },
-    {
       "id": "https://www.baiguan.news/p/china-global-champions-30-overseas-revenue-export-power-ai-supply-chain-consumer-brands-digital-platforms-investment",
       "source": "baiguan",
       "source_name": "Baiguan (BigOne Lab)",
@@ -197,5 +197,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-11T22:45:35.575390+00:00"
+  "generated_at": "2026-07-12T22:46:08.917045+00:00"
 }

@@ -3,123 +3,186 @@
     {
       "handle": "Brad_Setser",
       "name": "Brad Setser",
-      "domain": "invest",
+      "domain": "macro",
       "tier": "analyst",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2076339870469857444",
+          "text": "A new blog, with Brian Peters ( @bpetershome ) on some technical features of China's customs data. \n\nBottom line: there is no evidence that the customs data had significant problems, and that calls into question the logic China has provided for its adjustments\n\n1/\n\nhttps://t.co/pQhaqjmGk9",
+          "created_at": "2026-07-12T16:16:16+00:00",
+          "like_count": 24,
+          "retweet_count": 2,
+          "reply_count": 2,
+          "url": "https://x.com/Brad_Setser/status/2076339870469857444"
+        },
+        {
+          "id": "2076040838858084825",
+          "text": "And the European bilateral trade deficit with China by weight (the unit here is kilos) has doubled in the last few years in Europe's key export categories.   Aircraft (which are light) are also down ... sure looks like a China shock to me\n\n8/ https://t.co/ZX8VHKX2ar",
+          "created_at": "2026-07-11T20:28:01+00:00",
+          "like_count": 17,
+          "retweet_count": 3,
+          "reply_count": 1,
+          "url": "https://x.com/Brad_Setser/status/2076040838858084825"
+        },
+        {
+          "id": "2076042545373589877",
+          "text": "@SanderTordoir p.s. the original China shock in the US was a rise in  US imports (and the trade deficit) from China/ Asia of about 1 pp of GDP.   The second China shock isn't over &amp; it is already of similar size for Europe -- tho more of the impact is from a fall in exports.  See machinery https://t.co/AtJhWuqCDO",
+          "created_at": "2026-07-11T20:34:48+00:00",
+          "like_count": 18,
+          "retweet_count": 2,
+          "reply_count": 0,
+          "url": "https://x.com/Brad_Setser/status/2076042545373589877"
+        },
+        {
+          "id": "2076041811915596056",
+          "text": "Back to euros.  The value of European exports of autos, engines, &amp; batteries (not many batteries tho) has held up in third party markets better than in China ... but as @SanderTordoir has noted, there are signs of a broader deterioration.   And China is too big to ignore\n\n9/9 https://t.co/AmsC0MUfdV",
+          "created_at": "2026-07-11T20:31:53+00:00",
+          "like_count": 18,
+          "retweet_count": 2,
+          "reply_count": 1,
+          "url": "https://x.com/Brad_Setser/status/2076041811915596056"
+        },
+        {
+          "id": "2076340398541115833",
+          "text": "This is the key graph -- the customs data reported by China and its trade partners generally lines up.    There doesn't appear to me a significant data problem (over invoicing to maximize VAT refunds for example)\n\n2/ https://t.co/hrj2iqELxd",
+          "created_at": "2026-07-12T16:18:22+00:00",
+          "like_count": 4,
+          "retweet_count": 1,
+          "reply_count": 1,
+          "url": "https://x.com/Brad_Setser/status/2076340398541115833"
+        }
+      ]
     },
     {
       "handle": "michaelxpettis",
       "name": "Michael Pettis",
-      "domain": "invest",
+      "domain": "macro",
       "tier": "analyst",
       "tweets": [
         {
-          "id": "2075439285868667266",
-          "text": "1/4\nInteresting paper by UCL's Mariana Mazzucato in which she argues that in Europe, \"for two decades, capital has been abundant and cheap, and corporate profits strong; yet investment, productivity, and wages have stalled.\"\nhttps://t.co/X9WW3ELrNf",
-          "created_at": "2026-07-10T04:37:40+00:00",
-          "like_count": 402,
-          "retweet_count": 89,
-          "reply_count": 18,
-          "url": "https://x.com/michaelxpettis/status/2075439285868667266"
+          "id": "2076139826676646063",
+          "text": "One of the most persistent misconceptions about Social Security is that it must function like a private pension fund. Many people assume payroll taxes are deposited into an account, invested over time, and eventually returned to workers in retirement. That has never been how the program operates.\n\nSocial Security is a public social insurance system administered by a government that issues its own currency. Payroll taxes are not placed into individual investment accounts waiting to be redeemed decades later. Benefits are paid because Congress authorizes those payments as part of the federal budget. The Trust Fund serves as an accounting record of past fiscal operations, not a vault filled with financial assets that retirees eventually draw down.\n\nThis distinction matters because it changes the entire debate. The ability to make benefit payments is not determined by the balance of a savings account. It depends on the government's fiscal authority and, more importantly, the productive capacity of the economy. The real challenge of an aging population is not whether enough dollars exist to pay retirees. It is whether the economy can produce enough housing, healthcare, food, energy, and other goods and services for both workers and retirees without creating inflationary pressures.\n\nDemographic trends are certainly important. As the ratio of workers to retirees declines, a greater share of current production must be devoted to supporting those who have left the workforce. That is a real economic constraint, but it is fundamentally different from a financial one. It reflects the productive capacity of the economy, not the government's ability to issue its own currency.\n\nThis is why discussions about Social Security \"running out of money\" often create more confusion than clarity. The federal government cannot become unable to make payments denominated in the currency it alone issues. What can happen is that Congress chooses to reduce benefits, raise payroll taxes, increase the retirement age, or pursue other policy changes. Those are political decisions, not financial necessities imposed by an empty bank account.\n\nNone of this implies that payroll taxes are meaningless. They affect the distribution of income, influence aggregate demand, and shape the overall fiscal stance of the economy. They also reinforce the political perception that workers have earned their benefits through contributions. But they are not the source of the government's capacity to make Social Security payments.\n\nThe future of Social Security therefore depends less on accounting balances than on the nation's productive potential and the political choices surrounding how that output is distributed. A wealthier, more productive economy can support a larger retired population more easily than a stagnant one. Likewise, policy choices regarding productivity growth, labour force participation, immigration, healthcare, and investment will ultimately do more to determine the program's sustainability than any balance recorded in the Trust Fund.\n\nThe real debate should not be whether the government can find enough dollars to pay retirees. The debate should be whether the economy can generate the real goods and services retirees need, and whether society chooses to dedicate a sufficient share of those resources to providing a dignified retirement.",
+          "created_at": "2026-07-12T03:01:22+00:00",
+          "like_count": 102,
+          "retweet_count": 45,
+          "reply_count": 16,
+          "url": "https://x.com/RelearningEcon/status/2076139826676646063"
+        },
+        {
+          "id": "2076248518105477287",
+          "text": "1/5\nBloomberg: \"Beijing has been open to exploring how to increase imports from the EU but less keen to find ways to tame its own exports. Both are key to the EU given the vast trade gap as well as China’s market barriers and moderate consumption levels.\"\nhttps://t.co/V2BsaOqdjS",
+          "created_at": "2026-07-12T10:13:16+00:00",
+          "like_count": 129,
+          "retweet_count": 23,
+          "reply_count": 11,
+          "url": "https://x.com/michaelxpettis/status/2076248518105477287"
+        },
+        {
+          "id": "2076208972487610395",
+          "text": "\"The ability to make benefit payments is not determined by the balance of a savings account. It depends on the government's fiscal authority and, more importantly, the productive capacity of the economy.\"",
+          "created_at": "2026-07-12T07:36:07+00:00",
+          "like_count": 93,
+          "retweet_count": 11,
+          "reply_count": 6,
+          "url": "https://x.com/michaelxpettis/status/2076208972487610395"
+        },
+        {
+          "id": "2076248522790502574",
+          "text": "3/5\nWithout the EU market absorbing advanced Chinese manufacturing, its manufacturers would face a huge, almost insurmountable, problem.\n\nAs for increasing imports, Beijing's inability to get consumption growth to accelerate makes increasing overall imports extremely difficult.",
+          "created_at": "2026-07-12T10:13:17+00:00",
+          "like_count": 27,
+          "retweet_count": 2,
+          "reply_count": 2,
+          "url": "https://x.com/michaelxpettis/status/2076248522790502574"
+        },
+        {
+          "id": "2076248520521318902",
+          "text": "2/5\nThis makes sense. With the US partly closed, and Japan reluctant (and probably unable) to accommodate a large shift in its trade balance, the EU has become the main destination for the high-tech and high-value-added manufacturing Beijing has so heavily supported.",
+          "created_at": "2026-07-12T10:13:16+00:00",
+          "like_count": 26,
+          "retweet_count": 2,
+          "reply_count": 1,
+          "url": "https://x.com/michaelxpettis/status/2076248520521318902"
         }
       ]
     },
     {
       "handle": "RobinBrooksIIF",
       "name": "Robin Brooks",
-      "domain": "invest",
+      "domain": "macro",
       "tier": "analyst",
       "tweets": []
     },
     {
       "handle": "DanWangTech",
       "name": "Dan Wang",
-      "domain": "invest",
+      "domain": "macro",
       "tier": "analyst",
       "tweets": []
     },
     {
       "handle": "PaulTriolo",
       "name": "Paul Triolo",
-      "domain": "ai",
+      "domain": "macro",
       "tier": "analyst",
       "tweets": []
     },
     {
       "handle": "TomOrlik",
       "name": "Tom Orlik",
-      "domain": "invest",
+      "domain": "macro",
       "tier": "analyst",
       "tweets": []
     },
     {
       "handle": "YuanTalks",
       "name": "Yuan Talks",
-      "domain": "invest",
+      "domain": "macro",
       "tier": "analyst",
-      "tweets": [
-        {
-          "id": "2075471269798055965",
-          "text": "Global Capital Pivots to #Chinese #Tech: Northbound A-Share Holdings Tops 3 Trillion Yuan for First Time Amid AI and Semiconductor Surge\n\nhttps://t.co/9zfPlDLJbW",
-          "created_at": "2026-07-10T06:44:45+00:00",
-          "like_count": 3,
-          "retweet_count": 0,
-          "reply_count": 0,
-          "url": "https://x.com/YuanTalks/status/2075471269798055965"
-        }
-      ]
+      "tweets": []
     },
     {
       "handle": "RayDalio",
       "name": "Ray Dalio",
-      "domain": "invest",
+      "domain": "macro",
       "tier": "exec",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2076346198860927328",
+          "text": "Dependence on one person produces too much key-man risk, limits the range of expertise (because nobody is good at everything), and fails to establish adequate checks and balances. It also creates a burden because there's generally too much to do. #principleoftheday https://t.co/4b6KgAdaM3",
+          "created_at": "2026-07-12T16:41:25+00:00",
+          "like_count": 308,
+          "retweet_count": 39,
+          "reply_count": 29,
+          "url": "https://x.com/RayDalio/status/2076346198860927328"
+        }
+      ]
     },
     {
       "handle": "CliffordAsness",
       "name": "Cliff Asness",
-      "domain": "invest",
+      "domain": "macro",
       "tier": "exec",
       "tweets": [
         {
-          "id": "2075959908978065508",
-          "text": "A) Yes his math is just a flat out lie.\n\nB) He does not have the nightmares he claims.\n\nC) If he did, does he have them for innocent children attending a music festival whose elected government didn’t commit an epic atrocity and wasn’t using them at the time as a human shield?",
-          "created_at": "2026-07-11T15:06:26+00:00",
-          "like_count": 92,
-          "retweet_count": 11,
-          "reply_count": 9,
-          "url": "https://x.com/CliffordAsness/status/2075959908978065508"
-        },
-        {
-          "id": "2075959100865675341",
-          "text": "Check out @JimPethokoukis’s latest Substack for some interesting insights on why declining fertility might boost living standards, based on new research. And stay for his lists of Up Wing films! \n\n🍼 Debunking demographic doom https://t.co/XKvTXYzJLD",
-          "created_at": "2026-07-11T15:03:13+00:00",
-          "like_count": 4,
-          "retweet_count": 3,
-          "reply_count": 0,
-          "url": "https://x.com/MichaelRStrain/status/2075959100865675341"
+          "id": "2075973101360144415",
+          "text": "Hey @RoKhanna. We understand your experience did not live up to your expectations. We will review the 4 seconds of video you posted with utmost sincerity. \n\nIn the meantime, we're sure the folks in the gigantic Palestinian multimillion dollar mansion behind you will comfort you with a tall glass of OJ.",
+          "created_at": "2026-07-11T15:58:51+00:00",
+          "like_count": 6425,
+          "retweet_count": 1039,
+          "reply_count": 381,
+          "url": "https://x.com/TheMossadIL/status/2075973101360144415"
         }
       ]
     },
     {
       "handle": "BillAckman",
       "name": "Bill Ackman",
-      "domain": "invest",
+      "domain": "macro",
       "tier": "exec",
-      "tweets": [
-        {
-          "id": "2075590815083028989",
-          "text": "In a hotel room in northeast Nigeria, I opened a leading AI chatbot, turned my laptop toward a former Boko Haram commander, and asked if he'd used it. He nodded.\n\n\"You type in the question… like 'How can I build a bomb?', and then it tells you how. It is like a human robot. We used it a lot.\"\n\nMy new study on how the jihadist terrorist group Boko Haram uses frontier AI with @CamAISciPolicy, covered today in @nytimes 🧵/9",
-          "created_at": "2026-07-10T14:39:47+00:00",
-          "like_count": 7106,
-          "retweet_count": 1755,
-          "reply_count": 265,
-          "url": "https://x.com/AntoniaJuelich/status/2075590815083028989"
-        }
-      ]
+      "tweets": []
     }
   ],
   "errors": null,
-  "generated_at": "2026-07-11T22:45:35.575390+00:00"
+  "generated_at": "2026-07-12T22:46:08.917045+00:00"
 }
