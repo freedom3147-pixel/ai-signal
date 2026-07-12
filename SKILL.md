@@ -1,6 +1,6 @@
 ---
 name: ai-signal
-description: Macro Signal daily digest for Agent users — tracks named macro/China-economy analysts on X, macro & investing podcasts, and central-bank/research/policy blogs (BIS, NY Fed, NBER, China-watcher newsletters), then remixes central JSON feeds into a personalized macro-economics digest. Use when the user wants macro/China-economy/markets insights or invokes /ai-signal. No content API keys required.
+description: Macro Signal daily digest for Agent users — tracks named macro/China-economy analysts on X, macro & investing podcasts, and central-bank/research/policy blogs (BIS, NY Fed, NBER, China-watcher newsletters), then remixes central JSON feeds into a personalized macro-economics digest. Use when the user wants macro/China-economy/markets insights or invokes /资讯推送. No content API keys required.
 ---
 
 # Macro Signal — 追踪全球宏观与中国经济的一线信号
@@ -180,7 +180,7 @@ Tell the user:
 
 "你现在不是在持久化 Agent 上，所以我可以帮你生成当下这份日报，但不能保证每天自动运行。
 
-如果你想每天自动收到，需要使用支持定时任务的 Agent（例如 OpenClaw）。如果只是手动查看，每次输入 /ai-signal 就行。"
+如果你想每天自动收到，需要使用支持定时任务的 Agent（例如 OpenClaw）。如果只是手动查看，每次输入 /资讯推送 就行。"
 
 You may still configure Telegram, Feishu, email, or Obsidian as a delivery
 target for manual runs, but do not promise unattended daily delivery unless a
@@ -223,7 +223,7 @@ ask for `wxpusher_app_token` and `wxpusher_uid` in that case).
 
 **If on-demand:**
 Set `delivery.method` to `"stdout"`. Tell them:
-"好的，每次想看时输入 /ai-signal 就行。"
+"好的，每次想看时输入 /资讯推送 就行。"
 
 ### Step 6: Save Config & API Keys
 
@@ -329,10 +329,10 @@ section above).
 Do not create a system cron or Windows Task Scheduler job that runs
 `prepare_digest.py | deliver.py`. That delivers raw JSON and bypasses the Agent.
 Set `delivery.method` to `"stdout"` by default and tell the user:
-"每次想看时输入 /ai-signal。我会读取最新 JSON，然后在这里生成日报。"
+"每次想看时输入 /资讯推送。我会读取最新 JSON，然后在这里生成日报。"
 
 **Non-persistent agent + on-demand only:**
-Skip cron. Tell the user: "每次想看时输入 /ai-signal 就行。"
+Skip cron. Tell the user: "每次想看时输入 /资讯推送 就行。"
 
 ### Step 8: Welcome Digest
 
@@ -348,14 +348,14 @@ Run the full Content Delivery workflow below. After delivering, ask:
 - 有什么想多看或少看的？
 告诉我，我来调整。"
 
-Then confirm their next automatic delivery time (or remind them to use /ai-signal).
+Then confirm their next automatic delivery time (or remind them to use /资讯推送).
 
 ---
 
 ## Content Delivery — Digest Run
 
 This workflow runs when a persistent Agent scheduler triggers it, or when the
-user invokes `/ai-signal` manually.
+user invokes `/资讯推送` manually.
 
 ### Step 1: Load Config
 
@@ -622,7 +622,7 @@ After any change, confirm what was changed.
 
 ## Manual Trigger
 
-When the user invokes `/ai-signal` or asks for their digest:
+When the user invokes `/资讯推送` or asks for their digest:
 1. Skip cron — run immediately
 2. Same fetch → remix → deliver flow
 3. Tell the user you're fetching fresh content

@@ -6,7 +6,7 @@
 
 **这份清单本身就是产品。**
 
-> 本项目由 [ai-signal](https://github.com/Benboerba620/ai-signal)（AI 一线信号追踪）fork 而来，2026-07 起改造为宏观经济 / 中国经济 / 市场信号追踪系统。技术上仍沿用 `ai-signal` 的目录名和 `/ai-signal` 触发词，便于复用已有的定时任务和配置。
+> 本项目由 [ai-signal](https://github.com/Benboerba620/ai-signal)（AI 一线信号追踪）fork 而来，2026-07 起改造为宏观经济 / 中国经济 / 市场信号追踪系统。技术上仍沿用 `ai-signal` 的目录名，便于复用已有的定时任务和配置；触发词已改为 `/资讯推送`。
 
 ## 最近更新
 
@@ -164,7 +164,7 @@ flowchart LR
 - 一个 AI Agent（OpenClaw、Claude Code、Cursor、WorkBuddy、Codex 等均可）
 - 网络连接（拉取中央 feed；不需要 VPN——GitHub 不可达时自动走 jsDelivr CDN 镜像）
 
-就这些。不需要内容 API key。所有内容由中央统一抓取，每天自动更新。若要无人值守地每天自动收到，需要使用支持定时任务的 Agent；普通非持久 Agent 更适合手动输入 `/ai-signal` 查看。
+就这些。不需要内容 API key。所有内容由中央统一抓取，每天自动更新。若要无人值守地每天自动收到，需要使用支持定时任务的 Agent；普通非持久 Agent 更适合手动输入 `/资讯推送` 查看。
 
 ## 隐私
 
