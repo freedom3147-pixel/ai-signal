@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/xi-to-speak-at-waic-preparing-for",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Xi to speak at WAIC; Preparing for July Politburo meeting on the economy; Unemployment at 10.2%?; Another American arrested for spying",
+      "url": "https://sinocism.com/p/xi-to-speak-at-waic-preparing-for",
+      "published": "2026-07-13T22:38:53+00:00",
+      "summary": "The July Politburo meeting is usually about the economy, and adjustments needed for the rest of the year, and as part of the work ahead of that meeting the Premier solicits feedback. Today he held a meeting with several experts and entrepreneurs to “hear their views and suggestions on the current economic situation and the next steps in economic work.”"
+    },
+    {
+      "id": "https://www.pekingnology.com/p/sang-baichuan-on-why-foreign-investment",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Sang Baichuan on Why Foreign Investment in China Is Falling",
+      "url": "https://www.pekingnology.com/p/sang-baichuan-on-why-foreign-investment",
+      "published": "2026-07-13T15:51:01+00:00",
+      "summary": "The UIBE professor argues that weak domestic demand, structural change and Western investment restrictions matter more than any retreat from opening-up."
+    },
+    {
+      "id": "https://www.eastisread.com/p/dandan-zhang-on-ai-and-jobs-neither",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Dandan Zhang on AI and Jobs: Neither Pause nor Panic",
+      "url": "https://www.eastisread.com/p/dandan-zhang-on-ai-and-jobs-neither",
+      "published": "2026-07-13T13:05:32+00:00",
+      "summary": "Leading Chinese labour economist argues that the policy priority should not be to halt innovation, but to monitor labour-market risks, expand retraining, and strengthen safety nets."
+    },
+    {
       "id": "https://www.chinatalk.media/p/wartalk-randy-schriver-on-asian-defense",
       "source": "chinatalk",
       "source_name": "ChinaTalk",
@@ -179,15 +206,6 @@
       "url": "https://www.eastisread.com/p/feng-kaidong-the-myth-of-chinas-easy",
       "published": "2026-07-07T09:02:23+00:00",
       "summary": "The prevailing narrative casts multinationals as naïve victims of forced transfer. Tsinghua Prof tells a sharper story of foreign firms guarding innovation and Chinese companies fighting to reclaim it"
-    },
-    {
-      "id": "https://sinocism.com/p/two-new-pla-generals-submarine-launched",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Two new PLA generals; Submarine-launched missile test; Ezra Jin released; \"Routine\" patrols of waters east of Taiwan",
-      "url": "https://sinocism.com/p/two-new-pla-generals-submarine-launched",
-      "published": "2026-07-06T21:48:32+00:00",
-      "summary": "These two new generals have survived the PLA purges, but as the PLA Daily reminds everyone in a full page article in the Monday edition - Carry the Rectification of Thought Through to the End 将思想整风进行到底 - the rectification will continue:\nRectify in defeat, and rectify likewise in victory; the tempering of thought has never ceased. From the Sanwan Reorganization to the Gutian Conference, from the Yan’an Rectification to the New-Type Army Rectification Movement, from the rectification of Party work styles and Party organization in the early days of New China to the comprehensive Party rectificati"
     }
   ],
   "errors": [
@@ -197,5 +215,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-12T22:46:08.917045+00:00"
+  "generated_at": "2026-07-13T22:55:18.875647+00:00"
 }
