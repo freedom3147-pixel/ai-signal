@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/ma-xingrui-case-trade-data-themes",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Ma Xingrui case; Trade data; Themes for Xi's WAIC speech; Kevin Rudd on Xi and China",
+      "url": "https://sinocism.com/p/ma-xingrui-case-trade-data-themes",
+      "published": "2026-07-14T22:07:57+00:00",
+      "summary": "At present two entirely different logics of development exist in the AI field: some media have summed them up as \"oil thinking\" and \"water-flow thinking\" — the former treats data and computing power as exclusive scarce resources, fostering barriers, blockades and zero-sum games; the latter treats AI as a universally beneficial public good, nurturing connectivity, sharing and mutual benefit. The vitality of technology lies in open flow. The development of AI must never move toward a technological monopoly that walls itself in, but should always be anchored to the fundamental goal of serving hum"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/the-monkey-supply-chain",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "The Monkey Supply Chain",
+      "url": "https://www.chinatalk.media/p/the-monkey-supply-chain",
+      "published": "2026-07-14T16:09:16+00:00",
+      "summary": "Can the world fix its monkey dependence on China?"
+    },
+    {
+      "id": "https://www.baiguan.news/p/is-hefei-model-a-rule-or-an-exception",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "The \"Hefei Model\" behind CXMT: a rule or an exception?",
+      "url": "https://www.baiguan.news/p/is-hefei-model-a-rule-or-an-exception",
+      "published": "2026-07-14T10:07:17+00:00",
+      "summary": "Is China's government venture capital patient?"
+    },
+    {
       "id": "https://sinocism.com/p/xi-to-speak-at-waic-preparing-for",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -143,69 +170,6 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/more-tariff-pass-through-is-in-the-pipeline/",
       "published": "2026-07-08T11:00:00+00:00",
       "summary": "The past year brought dramatic changes to U.S. trade policy, including sweeping new tariffs , as well as a Supreme Court decision that further reshaped the tariff landscape. Many businesses saw their costs increase significantly and faced complex decisions about whether to absorb the tariffs through lower profit margins, raise their prices to recover the higher costs, or some combination of the two. Last year, we found that most businesses had passed on at least some of these higher costs to their customers through higher prices. Now, over a year later, have businesses finished adjusting price"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/the-chemistry-of-chips",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "The Chemistry of Chips",
-      "url": "https://www.chinatalk.media/p/the-chemistry-of-chips",
-      "published": "2026-07-08T10:41:26+00:00",
-      "summary": "The unseen infrastructure of chipmaking"
-    },
-    {
-      "id": "https://sinocism.com/p/floods-and-xis-instructions-prc-to",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Floods and Xi’s instructions; PRC to limit access to top AI models?; PBoC policy support for Hong Kong; Tax burden on private firms",
-      "url": "https://sinocism.com/p/floods-and-xis-instructions-prc-to",
-      "published": "2026-07-07T21:49:43+00:00",
-      "summary": "Reuters reported Tuesday that the Ministry of Commerce convened a meeting to discuss “putting limits on the most advanced AI models — ⁠both closed-source and more open versions”. This report comes ten days before the start of the WorldAI Conference in Shanghai, where we should expect much discussion about PRC leadership in AI governance as well corporate announcements about advances in models, chips and other AI tech and services. There is even talk that Xi Jinping will give the keynote speech. \nGiven what we have seen wit the US government and Anthropic’s Mythos, it makes sense that the PRC g"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/gao-shanwen-on-chinese-government",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Gao Shanwen on Chinese government and overcapacity: historical patterns, current context, and response strategies",
-      "url": "https://www.pekingnology.com/p/gao-shanwen-on-chinese-government",
-      "published": "2026-07-07T14:54:31+00:00",
-      "summary": "In memory of the widely respected economist who spoke truth to power"
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/what-do-over-3000-bank-runs-teach-us-about-banking-crises/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "What Do Over 3,000 Bank Runs Teach Us About Banking Crises?",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/what-do-over-3000-bank-runs-teach-us-about-banking-crises/",
-      "published": "2026-07-07T14:01:00+00:00",
-      "summary": "Runs on financial institutions are one of the salient markers of financial crises. But the role of runs in crises is a topic of longstanding debate. Runs can be seen as the key turning point, whereby even small shocks can generate severe crises with widespread bank failures. Another view is that runs are mainly a symptom of deeper rot in the financial system, exacerbating crises rather than being their primary cause. Understanding this debate has first order implications for how to think about financial crises and the appropriate policy responses. In this post, we use a new database of more th"
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/using-ai-to-let-history-speak-about-bank-runs/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "Using AI to Let History Speak About Bank Runs",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/using-ai-to-let-history-speak-about-bank-runs/",
-      "published": "2026-07-07T14:00:00+00:00",
-      "summary": "Banking crises are commonly associated with bank runs and banking panics, yet our empirical understanding of bank runs is constrained by a lack of bank-level data. In a new paper , we use large language models (LLMs) to extract information on bank runs from millions of digitized historical newspaper pages, creating the most comprehensive database of bank runs in U.S. history. Every bank run episode that we identify is documented on a companion website where users can browse and examine individual episodes, and read the original newspaper articles. In this post, we describe how we built this da"
-    },
-    {
-      "id": "https://www.baiguan.news/p/china-global-champions-30-overseas-revenue-export-power-ai-supply-chain-consumer-brands-digital-platforms-investment",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "China Global Champions 30 is here, but it is not easy to trade them",
-      "url": "https://www.baiguan.news/p/china-global-champions-30-overseas-revenue-export-power-ai-supply-chain-consumer-brands-digital-platforms-investment",
-      "published": "2026-07-07T10:03:38+00:00",
-      "summary": "China’s vast and still-fast export engine has produced a large class of companies with real global influence."
-    },
-    {
-      "id": "https://www.eastisread.com/p/feng-kaidong-the-myth-of-chinas-easy",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Feng Kaidong: the myth of China’s easy technology grab",
-      "url": "https://www.eastisread.com/p/feng-kaidong-the-myth-of-chinas-easy",
-      "published": "2026-07-07T09:02:23+00:00",
-      "summary": "The prevailing narrative casts multinationals as naïve victims of forced transfer. Tsinghua Prof tells a sharper story of foreign firms guarding innovation and Chinese companies fighting to reclaim it"
     }
   ],
   "errors": [
@@ -215,5 +179,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-13T22:55:18.875647+00:00"
+  "generated_at": "2026-07-14T22:55:52.266552+00:00"
 }
