@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/xi-inspects-shanghai-gdp-data-problems",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Xi inspects Shanghai; GDP data; Problems in the US-China trade deal; Foreign Correspondents Club on reporting challenges",
+      "url": "https://sinocism.com/p/xi-inspects-shanghai-gdp-data-problems",
+      "published": "2026-07-15T22:20:30+00:00",
+      "summary": "The PRC economy slowed more than expected in Q2. Real GDP growth declined from 5.0% year-on-year in Q1 to 4.3%, below the 4.5% consensus and the lower bound of the government’s 4.5–5.0% full-year target. First-half growth was 4.7%. Sequential Q2 growth of 0.9% was in line with expectations.\nAI, high-tech manufacturing, exports and selected modern services are expanding rapidly. Property, private investment, conventional infrastructure and household consumption remain weak. The official Q&A noted that “new growth drivers” contributed more than 40% of economic growth, while officials largely avo"
+    },
+    {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/capitalizing-on-nonbanks-regulatory-arbitrage-within-bank-holding-companies/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "Capitalizing on Nonbanks: Regulatory Arbitrage Within Bank Holding Companies",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/capitalizing-on-nonbanks-regulatory-arbitrage-within-bank-holding-companies/",
+      "published": "2026-07-15T17:00:00+00:00",
+      "summary": "This post is the first in a three-part series on how bank regulation interacts with the organizational structure of banking firms. The series draws on the authors' recent Staff Report, \" Regulatory Arbitrage Within the Firm .\""
+    },
+    {
       "id": "https://sinocism.com/p/ma-xingrui-case-trade-data-themes",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -143,33 +161,6 @@
       "url": "https://sinocism.com/p/sharp-china-a-missile-test-and-new",
       "published": "2026-07-09T09:00:43+00:00",
       "summary": "This episode of Sharp China is outside the paywall."
-    },
-    {
-      "id": "https://sinocism.com/p/xi-on-science-and-technology-pboc",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Xi on Science and Technology; PBoC Q2 Monetary Policy Committee meeting; H200 orders?; PRC open-source and global AI governance",
-      "url": "https://sinocism.com/p/xi-on-science-and-technology-pboc",
-      "published": "2026-07-08T22:28:39+00:00",
-      "summary": "It is necessary to seize the window period of global talent flows and actively recruit outstanding young talent and teams from overseas. 要抓住全球人才流动窗口期，积极引进海外优秀青年人才和团队。- Xi Jinping at the July 8, 2026 National Science and Technology Award Conference"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/were-hiring-to-make-great-video",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "We're Hiring to Make Great Video!",
-      "url": "https://www.chinatalk.media/p/were-hiring-to-make-great-video",
-      "published": "2026-07-08T21:00:53+00:00",
-      "summary": "we need help on YouTube + have real money to invest in production"
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/more-tariff-pass-through-is-in-the-pipeline/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "More Tariff Pass‑Through Is in the Pipeline",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/more-tariff-pass-through-is-in-the-pipeline/",
-      "published": "2026-07-08T11:00:00+00:00",
-      "summary": "The past year brought dramatic changes to U.S. trade policy, including sweeping new tariffs , as well as a Supreme Court decision that further reshaped the tariff landscape. Many businesses saw their costs increase significantly and faced complex decisions about whether to absorb the tariffs through lower profit margins, raise their prices to recover the higher costs, or some combination of the two. Last year, we found that most businesses had passed on at least some of these higher costs to their customers through higher prices. Now, over a year later, have businesses finished adjusting price"
     }
   ],
   "errors": [
@@ -179,5 +170,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-14T22:55:52.266552+00:00"
+  "generated_at": "2026-07-15T22:57:11.313592+00:00"
 }
