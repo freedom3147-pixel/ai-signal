@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/waic-another-order-for-ai-kimis-new",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "WAIC; Another order for AI; Kimi's new model; Smart China hire by Australian government; Consumption; Extended dog days of summer 三伏天",
+      "url": "https://sinocism.com/p/waic-another-order-for-ai-kimis-new",
+      "published": "2026-07-16T22:11:28+00:00",
+      "summary": "Moonshot is the latest PRC firm showing the way to building open-source AI, with the release today of Kimi K3, which from early reviews is a frontier-class model. Kimi obviously timed the release for the eve of the WAIC, and I will assume they coordinated it with the relevant organs. If it is as good as the initial reviews say it is, this could change lots of assumptions."
+    },
+    {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/how-basel-iii-changes-where-capital-sits-nonbank-subsidiaries-as-equity-reservoirs/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "How Basel III Changes Where Capital Sits: Nonbank Subsidiaries as Equity Reservoirs",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/how-basel-iii-changes-where-capital-sits-nonbank-subsidiaries-as-equity-reservoirs/",
+      "published": "2026-07-16T13:00:00+00:00",
+      "summary": "This post is the second in a three-part series on how bank regulation interacts with the organizational structure of banking firms. The first post documented that nonbank subsidiaries inside bank holding companies (BHCs) are large, equity-rich \"reservoirs,\" and that bank-level capital diverged sharply from consolidated capital after Basel III took effect in 2015. This post asks why, and traces the answer through the internal plumbing of the holding company. The series draws on the authors' recent Staff Report, \" Regulatory Arbitrage Within the Firm .\""
+    },
+    {
+      "id": "https://www.pekingnology.com/p/cai-fangs-prescription-for-ai-job",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Cai Fang's prescription for AI job disruption in China",
+      "url": "https://www.pekingnology.com/p/cai-fangs-prescription-for-ai-job",
+      "published": "2026-07-16T12:07:41+00:00",
+      "summary": "In a front-page Study Times article, the vice-minister-level economist at CASS suggests lifelong training, a transition towards living wages, and unconditional basic pensions for older people."
+    },
+    {
+      "id": "https://www.chinatalk.media/p/chinas-mythos-moment",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "China’s Mythos Moment",
+      "url": "https://www.chinatalk.media/p/chinas-mythos-moment",
+      "published": "2026-07-16T11:02:08+00:00",
+      "summary": "How will Beijing respond when it comes?"
+    },
+    {
+      "id": "https://www.baiguan.news/p/china-consumer-data-june-2026-sportswear-footwear-lululemon-adidas-gold-jewelry-laopu-luxury-hermes-lv-gucci-618-tmall-jd-douyin-kuaishou-popmart-labubu-tea-coffee-luckin-guming-delivery-war",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "Data Update — June 2026",
+      "url": "https://www.baiguan.news/p/china-consumer-data-june-2026-sportswear-footwear-lululemon-adidas-gold-jewelry-laopu-luxury-hermes-lv-gucci-618-tmall-jd-douyin-kuaishou-popmart-labubu-tea-coffee-luckin-guming-delivery-war",
+      "published": "2026-07-16T10:02:24+00:00",
+      "summary": "Sportswear, Gold & Jewelry, Luxury, E-commerce & 618, Pop Mart, and Tea & Coffee"
+    },
+    {
+      "id": "https://sinocism.com/p/sharp-china-k-shaped-economic-data",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Sharp China: K-Shaped Economic Data And Its Implications; Ma Xingrui News; Closing Window for Open Source AI?; The SCS and International Law",
+      "url": "https://sinocism.com/p/sharp-china-k-shaped-economic-data",
+      "published": "2026-07-16T09:01:11+00:00",
+      "summary": "On today’s show, Andrew and Bill begin by parsing the economic data released by the PRC this week, including slower-than-expected growth, the Party’s response to the status quo, export-powered growth that is widening trade imbalances, and the questions all of this will raise for foreign policymakers. From there: The Party's findings on Ma Xingrui, questions that remain unanswered, and cadre risk aversion for the next 18 months. Then: PRC messaging around openness in AI, an ongoing U.S. debate over open-source AI models, three chip bills that may end up in the NDAA, and the continued adventures"
+    },
+    {
       "id": "https://sinocism.com/p/xi-inspects-shanghai-gdp-data-problems",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -116,51 +170,6 @@
       "url": "https://www.eastisread.com/p/india-in-chinas-discourse-a-thaw",
       "published": "2026-07-10T04:07:26+00:00",
       "summary": "Chinese diplomats rebuilding ties with India are navigating — and pushing back against — an online backlash over renewed travel and visas."
-    },
-    {
-      "id": "https://sinocism.com/p/china-russia-military-cooperation",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "China-Russia military cooperation; Deadly shoe factory fire; June price data; Developing the retail sector; Carbon peaking action plan",
-      "url": "https://sinocism.com/p/china-russia-military-cooperation",
-      "published": "2026-07-09T22:25:34+00:00",
-      "summary": "A joint investigation by The Insider, Der Spiegel, and Le Monde provides shocking but unsurprising revelations about China-Russia military cooperation. The reports should destroy any lingering illusions of PRC “neutrality” in the Russia-Ukraine war."
-    },
-    {
-      "id": "https://www.chinatalk.media/p/does-mythos-change-cyber-risk-on",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "Does Mythos change cyber risk on Chinese hardware?",
-      "url": "https://www.chinatalk.media/p/does-mythos-change-cyber-risk-on",
-      "published": "2026-07-09T20:07:22+00:00",
-      "summary": "yes, says Mieke Eoyang"
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/effect-of-tariffs-on-u-s-small-businesses/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "Effect of Tariffs on U.S. Small Businesses",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/effect-of-tariffs-on-u-s-small-businesses/",
-      "published": "2026-07-09T11:00:00+00:00",
-      "summary": "How has the recent implementation of tariffs affected small businesses? Due to lack of data, little is known about this issue. In this Liberty Street Economics post, we use data from the 2025 edition of the Small Business Credit Survey (SBCS) to explore this question for businesses nationally and in the Second District (defined, for the purpose of this study, as New York, New Jersey, and Connecticut). We find that the majority of national firms in the goods and retail sectors reported experiencing financial challenges due to tariffs in 2025, with even larger shares of regional firms doing so."
-    },
-    {
-      "id": "https://www.baiguan.news/p/china-ai-token-export-openrouter-market-share-chinese-models-performance-gap-cost-efficiency-semiconductor-energy-self-sufficiency-investment-opportunities",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "The Token Export",
-      "url": "https://www.baiguan.news/p/china-ai-token-export-openrouter-market-share-chinese-models-performance-gap-cost-efficiency-semiconductor-energy-self-sufficiency-investment-opportunities",
-      "published": "2026-07-09T10:01:21+00:00",
-      "summary": "China turning inference into a good trade"
-    },
-    {
-      "id": "https://sinocism.com/p/sharp-china-a-missile-test-and-new",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Sharp China: A Missile Test and New PLA Generals; The CITIC Plane Crash; America's Taiwan Interests; Guo Wengui Jailed and Ezra Jin Released",
-      "url": "https://sinocism.com/p/sharp-china-a-missile-test-and-new",
-      "published": "2026-07-09T09:00:43+00:00",
-      "summary": "This episode of Sharp China is outside the paywall."
     }
   ],
   "errors": [
@@ -170,5 +179,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-15T22:57:11.313592+00:00"
+  "generated_at": "2026-07-16T22:55:58.505061+00:00"
 }

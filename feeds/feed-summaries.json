@@ -10,6 +10,21 @@
       "x": [],
       "podcasts": [
         {
+          "id": "3cd788c7a6138893",
+          "title": "NY Governor Kathy Hochul on Her One Year Data Center Moratorium",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium",
+          "summary_path": "content/summaries/podcasts/zh_short/odd-lots-ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium.md",
+          "summary_chars": 531,
+          "source_hash": "fcb2bcbf662b7e9c24b15f9be06baabf3efc3cf2ea8cfc803bfbb6c7f6ff0461",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-15T22:57:32.302069+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-15T08:00:00+00:00",
+          "source_label": "description"
+        },
+        {
           "id": "9f6f8f05d8dffa40",
           "title": "John Kim - How to Raise a Few Billion Dollars - [Invest Like the Best, EP.482]",
           "domain": "macro",
@@ -55,33 +70,18 @@
           "source_label": "description"
         },
         {
-          "id": "67dd384537f621d1",
-          "title": "MacroVoices #540 Adam Parker: Beyond the AI Bubble: Diversifying Portfolios in an Earnings-Driven Market",
+          "id": "1422dd7927ee82dc",
+          "title": "Why Soccer Analytics Works Like Volatility Arbitrage Trading",
           "domain": "macro",
-          "source_url": "https://macrovoices.podbean.com/e/macrovoices-540-adam-parker-beyond-the-ai-bubble-diversifying-portfolios-in-an-earnings-driven-market/",
-          "summary_path": "content/summaries/podcasts/zh_short/macrovoices-macrovoices-540-adam-parker-beyond-the-ai-bubble-diversifying-portfo.md",
-          "summary_chars": 538,
-          "source_hash": "932013e00e73f9b46bd901eac229c6a73bb5b2fdeb3476084fa725cdcaefb4f9",
+          "source_url": "https://omny.fm/shows/odd-lots/why-soccer-analytics-works-like-volatility-arbitrage-trading",
+          "summary_path": "content/summaries/podcasts/zh_short/odd-lots-why-soccer-analytics-works-like-volatility-arbitrage-trading.md",
+          "summary_chars": 596,
+          "source_hash": "b32b983841547f56a02755da6735d20d105fc1ea80b6afc9179ba7ced351c235",
           "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-14T22:56:43.861929+00:00",
-          "status": "generated",
-          "channel": "MacroVoices",
-          "pub_date": "2026-07-09T13:36:36-05:00",
-          "source_label": "description"
-        },
-        {
-          "id": "3cd788c7a6138893",
-          "title": "NY Governor Kathy Hochul on Her One Year Data Center Moratorium",
-          "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium",
-          "summary_path": "content/summaries/podcasts/zh_short/odd-lots-ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium.md",
-          "summary_chars": 531,
-          "source_hash": "fcb2bcbf662b7e9c24b15f9be06baabf3efc3cf2ea8cfc803bfbb6c7f6ff0461",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-15T22:57:32.302069+00:00",
+          "generated_at": "2026-07-16T22:56:20.211351+00:00",
           "status": "generated",
           "channel": "Odd Lots",
-          "pub_date": "2026-07-15T08:00:00+00:00",
+          "pub_date": "2026-07-16T08:00:00+00:00",
           "source_label": "description"
         }
       ],
@@ -96,6 +96,21 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
+        {
+          "id": "3cd788c7a6138893",
+          "title": "NY Governor Kathy Hochul on Her One Year Data Center Moratorium",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium",
+          "summary_path": "content/summaries/podcasts/zh_standard/odd-lots-ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium.md",
+          "summary_chars": 1254,
+          "source_hash": "d4e454be5ed4eb70ed5ff9d23db21fbaa201f9c3bee75e715459e86a2837c7e5",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-15T22:57:48.090608+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-15T08:00:00+00:00",
+          "source_label": "description"
+        },
         {
           "id": "9f6f8f05d8dffa40",
           "title": "John Kim - How to Raise a Few Billion Dollars - [Invest Like the Best, EP.482]",
@@ -142,33 +157,18 @@
           "source_label": "description"
         },
         {
-          "id": "67dd384537f621d1",
-          "title": "MacroVoices #540 Adam Parker: Beyond the AI Bubble: Diversifying Portfolios in an Earnings-Driven Market",
+          "id": "1422dd7927ee82dc",
+          "title": "Why Soccer Analytics Works Like Volatility Arbitrage Trading",
           "domain": "macro",
-          "source_url": "https://macrovoices.podbean.com/e/macrovoices-540-adam-parker-beyond-the-ai-bubble-diversifying-portfolios-in-an-earnings-driven-market/",
-          "summary_path": "content/summaries/podcasts/zh_standard/macrovoices-macrovoices-540-adam-parker-beyond-the-ai-bubble-diversifying-portfo.md",
-          "summary_chars": 1083,
-          "source_hash": "6931b9ca14f5c7eff235b57aec07647c652b134e08b6e95d9220fafccb27a21e",
+          "source_url": "https://omny.fm/shows/odd-lots/why-soccer-analytics-works-like-volatility-arbitrage-trading",
+          "summary_path": "content/summaries/podcasts/zh_standard/odd-lots-why-soccer-analytics-works-like-volatility-arbitrage-trading.md",
+          "summary_chars": 1311,
+          "source_hash": "5253e3ddbdf47b36ee45687792dea664aef0aaa84c620bad69b87b97416eec6e",
           "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-14T22:57:56.540646+00:00",
-          "status": "generated",
-          "channel": "MacroVoices",
-          "pub_date": "2026-07-09T13:36:36-05:00",
-          "source_label": "description"
-        },
-        {
-          "id": "3cd788c7a6138893",
-          "title": "NY Governor Kathy Hochul on Her One Year Data Center Moratorium",
-          "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium",
-          "summary_path": "content/summaries/podcasts/zh_standard/odd-lots-ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium.md",
-          "summary_chars": 1254,
-          "source_hash": "d4e454be5ed4eb70ed5ff9d23db21fbaa201f9c3bee75e715459e86a2837c7e5",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-15T22:57:48.090608+00:00",
+          "generated_at": "2026-07-16T22:56:35.789460+00:00",
           "status": "generated",
           "channel": "Odd Lots",
-          "pub_date": "2026-07-15T08:00:00+00:00",
+          "pub_date": "2026-07-16T08:00:00+00:00",
           "source_label": "description"
         }
       ],
@@ -183,6 +183,21 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
+        {
+          "id": "3cd788c7a6138893",
+          "title": "NY Governor Kathy Hochul on Her One Year Data Center Moratorium",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium",
+          "summary_path": "content/summaries/podcasts/zh_deep/odd-lots-ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium.md",
+          "summary_chars": 2457,
+          "source_hash": "afd8664178a911c6732fcd08342e39c907af4909c85e8e453d001db1e979534d",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-15T22:58:21.085623+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-15T08:00:00+00:00",
+          "source_label": "description"
+        },
         {
           "id": "9f6f8f05d8dffa40",
           "title": "John Kim - How to Raise a Few Billion Dollars - [Invest Like the Best, EP.482]",
@@ -229,39 +244,24 @@
           "source_label": "description"
         },
         {
-          "id": "67dd384537f621d1",
-          "title": "MacroVoices #540 Adam Parker: Beyond the AI Bubble: Diversifying Portfolios in an Earnings-Driven Market",
+          "id": "1422dd7927ee82dc",
+          "title": "Why Soccer Analytics Works Like Volatility Arbitrage Trading",
           "domain": "macro",
-          "source_url": "https://macrovoices.podbean.com/e/macrovoices-540-adam-parker-beyond-the-ai-bubble-diversifying-portfolios-in-an-earnings-driven-market/",
-          "summary_path": "content/summaries/podcasts/zh_deep/macrovoices-macrovoices-540-adam-parker-beyond-the-ai-bubble-diversifying-portfo.md",
-          "summary_chars": 2054,
-          "source_hash": "8b2f3782fb2f666cb96ea4a6d5d17d7f9c1cda4fb91d2d3e7d0ad686450fb5cc",
+          "source_url": "https://omny.fm/shows/odd-lots/why-soccer-analytics-works-like-volatility-arbitrage-trading",
+          "summary_path": "content/summaries/podcasts/zh_deep/odd-lots-why-soccer-analytics-works-like-volatility-arbitrage-trading.md",
+          "summary_chars": 3018,
+          "source_hash": "9795158242bd2e4d605bd27ca0fdaf50b30aea6b2899145b33fb92437ce3f228",
           "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-14T23:00:00.943399+00:00",
-          "status": "generated",
-          "channel": "MacroVoices",
-          "pub_date": "2026-07-09T13:36:36-05:00",
-          "source_label": "description"
-        },
-        {
-          "id": "3cd788c7a6138893",
-          "title": "NY Governor Kathy Hochul on Her One Year Data Center Moratorium",
-          "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium",
-          "summary_path": "content/summaries/podcasts/zh_deep/odd-lots-ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium.md",
-          "summary_chars": 2457,
-          "source_hash": "afd8664178a911c6732fcd08342e39c907af4909c85e8e453d001db1e979534d",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-15T22:58:21.085623+00:00",
+          "generated_at": "2026-07-16T22:57:12.583849+00:00",
           "status": "generated",
           "channel": "Odd Lots",
-          "pub_date": "2026-07-15T08:00:00+00:00",
+          "pub_date": "2026-07-16T08:00:00+00:00",
           "source_label": "description"
         }
       ],
       "papers": []
     }
   },
-  "generated_at": "2026-07-15T22:58:21.087286+00:00",
+  "generated_at": "2026-07-16T22:57:12.585545+00:00",
   "model": "deepseek-v4-pro"
 }
