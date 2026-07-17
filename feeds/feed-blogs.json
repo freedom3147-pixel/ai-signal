@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/nonbank-subsidiaries-and-the-hidden-fragility-of-internal-capital-markets-reallocation/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "Nonbank Subsidiaries and the Hidden Fragility of Internal Capital Markets Reallocation",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/nonbank-subsidiaries-and-the-hidden-fragility-of-internal-capital-markets-reallocation/",
+      "published": "2026-07-17T11:00:00+00:00",
+      "summary": "This post concludes a three-part series on how bank regulation interacts with the organizational structure of banking firms. The first post documented the equity-rich nonbank subsidiaries inside bank holding companies (BHCs); the second post showed that BHCs met Basel III by reallocating capital internally, moving equity from nonbank affiliates to bank subsidiaries rather than raising new external capital. Here we ask what that reallocation meant for financial stability. The series draws on the authors' recent Staff Report, \" Regulatory Arbitrage Within the Firm .\""
+    },
+    {
+      "id": "https://www.baiguan.news/p/chinas-ai-bubble-checkup-cxmts-ipo",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "China’s AI Bubble Checkup, CXMT’s IPO, and Beijing’s Market Calculus",
+      "url": "https://www.baiguan.news/p/chinas-ai-bubble-checkup-cxmts-ipo",
+      "published": "2026-07-17T10:03:13+00:00",
+      "summary": "This is a follow-up to our earlier Baiguan Pro note tracking the A-share AI boom."
+    },
+    {
       "id": "https://sinocism.com/p/waic-another-order-for-ai-kimis-new",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -143,33 +161,6 @@
       "url": "https://www.china-translated.com/p/what-china-really-steals-from-elon",
       "published": "2026-07-11T11:33:14+00:00",
       "summary": "A new episode in the great China-Musk tech competition"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/eastern-data-western-compute-is-fake",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "“Eastern Data, Western Compute” is Fake",
-      "url": "https://www.chinatalk.media/p/eastern-data-western-compute-is-fake",
-      "published": "2026-07-10T15:39:04+00:00",
-      "summary": "China promised to move its data centers west. Now it’s backtracking."
-    },
-    {
-      "id": "https://www.highcapacity.org/p/china-tech-risk-framework",
-      "source": "high_capacity",
-      "source_name": "High Capacity",
-      "title": "How the US should deal with Chinese tech risks",
-      "url": "https://www.highcapacity.org/p/china-tech-risk-framework",
-      "published": "2026-07-10T13:42:23+00:00",
-      "summary": "We need a more systematic approach than ad hoc bans and fragmented regulation."
-    },
-    {
-      "id": "https://www.eastisread.com/p/india-in-chinas-discourse-a-thaw",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "India in China's discourse: A Thaw and Its Online Discontents",
-      "url": "https://www.eastisread.com/p/india-in-chinas-discourse-a-thaw",
-      "published": "2026-07-10T04:07:26+00:00",
-      "summary": "Chinese diplomats rebuilding ties with India are navigating — and pushing back against — an online backlash over renewed travel and visas."
     }
   ],
   "errors": [
@@ -179,5 +170,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-16T22:55:58.505061+00:00"
+  "generated_at": "2026-07-17T22:48:38.501931+00:00"
 }

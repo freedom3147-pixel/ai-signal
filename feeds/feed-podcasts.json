@@ -1,6 +1,23 @@
 {
   "podcasts": [
     {
+      "channel": "Odd Lots",
+      "domain": "macro",
+      "guid": "4e48ebd0-0b41-4721-8e45-b489014fc1c7",
+      "title": "Lev Menand and Nathan Tankus on Why Fed Independence Is Now Hanging by a Thread",
+      "pub_date": "2026-07-17T08:00:00+00:00",
+      "link": "https://omny.fm/shows/odd-lots/lev-menand-and-nathan-tankus-on-why-fed-independence-is-now",
+      "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/4e48ebd0-0b41-4721-8e45-b489014fc1c7/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "duration": "3948",
+      "description": "<p>Last August, President Trump made the unprecedented choice of moving to fire Fed governor Lisa Cook. The administration claimed she was being terminated with cause, citing an ongoing investigation in alleged mortgage fraud committed by Cook. The legal battle between Cook and the administration has been tangled in the courts for the last year, eventually reaching the Supreme Court. This June, in a 5-4 decision, the court ruled in favor of Cook. However at the same time, in a different case, the court allowed the President to fire individual members of the FTC, undermining its role as quasi-independent body not beholden to the executive branch. So what are the implications here? How can the court change the status of a body like the FTC while allowing the Fed to continue operating as is? And for how long will the Fed maintain some amount of operational autonomy? On this episode we speak with Columbia Law School's Lev Menand who just wrote a piece on these two cases for Just Security called The Federal Reserve Exception to the&nbsp;<em>Slaughter</em> Rule as well as Nathan Tankus (writer and president of Notes on the Crises). The two of them lay out the consequences of these two decisions and they dig into the generations-long legal history, starting with Alexander Hamilton, that explains how we got here.<br><br>Read more: <a href=\"https://www.bloomberg.com/news/articles/2026-07-02/can-trump-still-fire-lisa-cook-after-supreme-court-ruling?utm_medium=referral&amp;utm_source=podcast&amp;utm_campaign=odd_lots&amp;utm_content=article\">Can Trump Still Fire Lisa Cook After Her Supreme Court Win?</a><br><br></p> <p>Only Bloomberg.com subscribers can get the <em>Odd Lots</em> newsletter in their inbox now delivered every weekday plus unlimited access to the site and app.&nbsp;<a href=\"https://www.bloomberg.com/subscriptions/oddlots?in_source=oddlotspodcast\"><strong>bloomberg.com/subscriptions/oddlots</strong></a></p><p>See <a href=\"https://omnystudio.com/listener\">omnystudi",
+      "transcript": null,
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "rss_transcript: Fetched text was too short or did not look like a transcript (71129 chars); rss_transcript: Fetched text was too short or did not look like a transcript (89595 chars); rss_transcript: Fetched text was too short or did not look like a transcript (61898 chars); episode_page: text too sparse to be a transcript (2634 chars for 65 min); youtube: No YouTube video id in link"
+    },
+    {
       "channel": "MacroVoices",
       "domain": "macro",
       "guid": "macrovoices.podbean.com/254af187-c86e-3fcb-85a3-7ba1b39290ba",
@@ -32,7 +49,7 @@
       "transcript_source": null,
       "transcript_url": null,
       "transcript_video_id": null,
-      "transcript_error": "rss_transcript: Fetched text was too short or did not look like a transcript (57598 chars); rss_transcript: Fetched text was too short or did not look like a transcript (73189 chars); rss_transcript: Fetched text was too short or did not look like a transcript (50015 chars); episode_page: text too sparse to be a transcript (2591 chars for 51 min); youtube: No YouTube video id in link"
+      "transcript_error": "rss_transcript: Fetched text was too short or did not look like a transcript (57598 chars); rss_transcript: Fetched text was too short or did not look like a transcript (73189 chars); rss_transcript: Fetched text was too short or did not look like a transcript (50015 chars); episode_page: text too sparse to be a transcript (2612 chars for 51 min); youtube: No YouTube video id in link"
     },
     {
       "channel": "Odd Lots",
@@ -49,7 +66,7 @@
       "transcript_source": null,
       "transcript_url": null,
       "transcript_video_id": null,
-      "transcript_error": "rss_transcript: Fetched text was too short or did not look like a transcript (51045 chars); rss_transcript: Fetched text was too short or did not look like a transcript (64633 chars); rss_transcript: Fetched text was too short or did not look like a transcript (43760 chars); episode_page: text too sparse to be a transcript (1950 chars for 42 min); youtube: No YouTube video id in link"
+      "transcript_error": "rss_transcript: Fetched text was too short or did not look like a transcript (51045 chars); rss_transcript: Fetched text was too short or did not look like a transcript (64633 chars); rss_transcript: Fetched text was too short or did not look like a transcript (43760 chars); episode_page: text too sparse to be a transcript (1971 chars for 42 min); youtube: No YouTube video id in link"
     },
     {
       "channel": "Invest Like the Best",
@@ -84,25 +101,8 @@
       "transcript_url": "https://api.omny.fm/orgs/e73c998e-6e60-432f-8610-ae210140c5b1/clips/bf18344e-5dd0-4852-be82-b483013dfb22/transcript?format=SubRip&t=1783712792",
       "transcript_video_id": null,
       "transcript_error": null
-    },
-    {
-      "channel": "Odd Lots",
-      "domain": "macro",
-      "guid": "59c7d65a-dfbb-447c-8ed4-b482014569c9",
-      "title": "The Korean Levered ETFs Shaking Markets All Around the World",
-      "pub_date": "2026-07-10T08:00:00+00:00",
-      "link": "https://omny.fm/shows/odd-lots/the-korean-levered-etfs-shaking-markets-all-around-the-world",
-      "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/59c7d65a-dfbb-447c-8ed4-b482014569c9/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
-      "duration": "2608",
-      "description": "<p>Retail participation in the stock market is booming. And of course the biggest story in markets is the AI trade, which has created an incredible amount of demand for chips and memory. These two broad themes have come together in the form of leveraged, single-stock ETFs. And while these products are popular in the US, the scale coming out of Korea is enormous. It's a good week to talk about this intersection, because some of the biggest stories of the week include Samsung's earnings and SK Hynix's new US listing. Barclays's Global Head of Equities Tactical Strategies Alexander Altmann has used the word &ldquo;terrifying&rdquo; to describe the amount of notional exposure coming from these levered ETFs. He explains to us why that is and we talk to him about why, in such a short period of time, the world of levered ETFs has gotten to be so large, with AUM increasing threefold in Asia alone. He also us gets into how he is thinking through risk management and how we as society &mdash; and retail investors in particular &mdash; got to be overexposed on equities and why that keeps him up at night.</p> <p>Read: <a href=\"https://bloom.bg/4f68KA5\">SK Hynix&rsquo;s $26.5 Billion Listing Reopens Asia Route to US Market</a><br><br>Only Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox, plus unlimited access to the site and app. Sign up: <a href=\"https://www.bloomberg.com/subscriptions/oddlots?in_source=oddlotspodcast\" data-link-cookie=\"1\" data-destination=\"https://www.bloomberg.com/subscriptions/oddlots?in_source=oddlotspodcast\">bloomberg.com/subscriptions/oddlots</a></p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>",
-      "transcript": null,
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "rss_transcript: Fetched text was too short or did not look like a transcript (53129 chars); rss_transcript: Fetched text was too short or did not look like a transcript (67547 chars); rss_transcript: Fetched text was too short or did not look like a transcript (46025 chars); episode_page: text too sparse to be a transcript (2349 chars for 43 min); youtube: No YouTube video id in link"
     }
   ],
   "errors": null,
-  "generated_at": "2026-07-16T22:55:58.505061+00:00"
+  "generated_at": "2026-07-17T22:48:38.501931+00:00"
 }

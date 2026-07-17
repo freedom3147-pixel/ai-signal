@@ -10,6 +10,21 @@
       "x": [],
       "podcasts": [
         {
+          "id": "1422dd7927ee82dc",
+          "title": "Why Soccer Analytics Works Like Volatility Arbitrage Trading",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/why-soccer-analytics-works-like-volatility-arbitrage-trading",
+          "summary_path": "content/summaries/podcasts/zh_short/odd-lots-why-soccer-analytics-works-like-volatility-arbitrage-trading.md",
+          "summary_chars": 596,
+          "source_hash": "b32b983841547f56a02755da6735d20d105fc1ea80b6afc9179ba7ced351c235",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-16T22:56:20.211351+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-16T08:00:00+00:00",
+          "source_label": "description"
+        },
+        {
           "id": "3cd788c7a6138893",
           "title": "NY Governor Kathy Hochul on Her One Year Data Center Moratorium",
           "domain": "macro",
@@ -55,33 +70,18 @@
           "source_label": "transcript"
         },
         {
-          "id": "e112d332e82d342e",
-          "title": "The Korean Levered ETFs Shaking Markets All Around the World",
+          "id": "440a93e65ba4eb4f",
+          "title": "Lev Menand and Nathan Tankus on Why Fed Independence Is Now Hanging by a Thread",
           "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/the-korean-levered-etfs-shaking-markets-all-around-the-world",
-          "summary_path": "content/summaries/podcasts/zh_short/odd-lots-the-korean-levered-etfs-shaking-markets-all-around-the-world.md",
-          "summary_chars": 566,
-          "source_hash": "91aec9833f5a4aff902a0e0bf358fae074c34e8c55b0efc10908876df3ce3702",
+          "source_url": "https://omny.fm/shows/odd-lots/lev-menand-and-nathan-tankus-on-why-fed-independence-is-now",
+          "summary_path": "content/summaries/podcasts/zh_short/odd-lots-lev-menand-and-nathan-tankus-on-why-fed-independence-is-now-hanging-by.md",
+          "summary_chars": 705,
+          "source_hash": "396d4a1ea67a5831d900e7fbeb83316e8b823ec85a03442a513bbc327bef7f34",
           "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-14T22:56:36.895532+00:00",
+          "generated_at": "2026-07-17T22:48:59.665103+00:00",
           "status": "generated",
           "channel": "Odd Lots",
-          "pub_date": "2026-07-10T08:00:00+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "1422dd7927ee82dc",
-          "title": "Why Soccer Analytics Works Like Volatility Arbitrage Trading",
-          "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/why-soccer-analytics-works-like-volatility-arbitrage-trading",
-          "summary_path": "content/summaries/podcasts/zh_short/odd-lots-why-soccer-analytics-works-like-volatility-arbitrage-trading.md",
-          "summary_chars": 596,
-          "source_hash": "b32b983841547f56a02755da6735d20d105fc1ea80b6afc9179ba7ced351c235",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-16T22:56:20.211351+00:00",
-          "status": "generated",
-          "channel": "Odd Lots",
-          "pub_date": "2026-07-16T08:00:00+00:00",
+          "pub_date": "2026-07-17T08:00:00+00:00",
           "source_label": "description"
         }
       ],
@@ -96,6 +96,21 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
+        {
+          "id": "1422dd7927ee82dc",
+          "title": "Why Soccer Analytics Works Like Volatility Arbitrage Trading",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/why-soccer-analytics-works-like-volatility-arbitrage-trading",
+          "summary_path": "content/summaries/podcasts/zh_standard/odd-lots-why-soccer-analytics-works-like-volatility-arbitrage-trading.md",
+          "summary_chars": 1311,
+          "source_hash": "5253e3ddbdf47b36ee45687792dea664aef0aaa84c620bad69b87b97416eec6e",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-16T22:56:35.789460+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-16T08:00:00+00:00",
+          "source_label": "description"
+        },
         {
           "id": "3cd788c7a6138893",
           "title": "NY Governor Kathy Hochul on Her One Year Data Center Moratorium",
@@ -142,33 +157,18 @@
           "source_label": "transcript"
         },
         {
-          "id": "e112d332e82d342e",
-          "title": "The Korean Levered ETFs Shaking Markets All Around the World",
+          "id": "440a93e65ba4eb4f",
+          "title": "Lev Menand and Nathan Tankus on Why Fed Independence Is Now Hanging by a Thread",
           "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/the-korean-levered-etfs-shaking-markets-all-around-the-world",
-          "summary_path": "content/summaries/podcasts/zh_standard/odd-lots-the-korean-levered-etfs-shaking-markets-all-around-the-world.md",
-          "summary_chars": 1213,
-          "source_hash": "c46d8e031bcab7e2a44890630cd844dc8af46a51236a398c3ace17f380346d2c",
+          "source_url": "https://omny.fm/shows/odd-lots/lev-menand-and-nathan-tankus-on-why-fed-independence-is-now",
+          "summary_path": "content/summaries/podcasts/zh_standard/odd-lots-lev-menand-and-nathan-tankus-on-why-fed-independence-is-now-hanging-by.md",
+          "summary_chars": 1330,
+          "source_hash": "7992ace6623f3435b2f0dfb0039f7e7de595bdccb6000aacfed95e844cb31d9a",
           "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-14T22:57:44.747687+00:00",
+          "generated_at": "2026-07-17T22:49:12.570879+00:00",
           "status": "generated",
           "channel": "Odd Lots",
-          "pub_date": "2026-07-10T08:00:00+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "1422dd7927ee82dc",
-          "title": "Why Soccer Analytics Works Like Volatility Arbitrage Trading",
-          "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/why-soccer-analytics-works-like-volatility-arbitrage-trading",
-          "summary_path": "content/summaries/podcasts/zh_standard/odd-lots-why-soccer-analytics-works-like-volatility-arbitrage-trading.md",
-          "summary_chars": 1311,
-          "source_hash": "5253e3ddbdf47b36ee45687792dea664aef0aaa84c620bad69b87b97416eec6e",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-16T22:56:35.789460+00:00",
-          "status": "generated",
-          "channel": "Odd Lots",
-          "pub_date": "2026-07-16T08:00:00+00:00",
+          "pub_date": "2026-07-17T08:00:00+00:00",
           "source_label": "description"
         }
       ],
@@ -183,6 +183,21 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
+        {
+          "id": "1422dd7927ee82dc",
+          "title": "Why Soccer Analytics Works Like Volatility Arbitrage Trading",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/why-soccer-analytics-works-like-volatility-arbitrage-trading",
+          "summary_path": "content/summaries/podcasts/zh_deep/odd-lots-why-soccer-analytics-works-like-volatility-arbitrage-trading.md",
+          "summary_chars": 3018,
+          "source_hash": "9795158242bd2e4d605bd27ca0fdaf50b30aea6b2899145b33fb92437ce3f228",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-16T22:57:12.583849+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-16T08:00:00+00:00",
+          "source_label": "description"
+        },
         {
           "id": "3cd788c7a6138893",
           "title": "NY Governor Kathy Hochul on Her One Year Data Center Moratorium",
@@ -229,39 +244,24 @@
           "source_label": "transcript"
         },
         {
-          "id": "e112d332e82d342e",
-          "title": "The Korean Levered ETFs Shaking Markets All Around the World",
+          "id": "440a93e65ba4eb4f",
+          "title": "Lev Menand and Nathan Tankus on Why Fed Independence Is Now Hanging by a Thread",
           "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/the-korean-levered-etfs-shaking-markets-all-around-the-world",
-          "summary_path": "content/summaries/podcasts/zh_deep/odd-lots-the-korean-levered-etfs-shaking-markets-all-around-the-world.md",
-          "summary_chars": 2105,
-          "source_hash": "732a486af448d3318dc046371aa285f682672f789c2857f038767d5ea0f35d87",
+          "source_url": "https://omny.fm/shows/odd-lots/lev-menand-and-nathan-tankus-on-why-fed-independence-is-now",
+          "summary_path": "content/summaries/podcasts/zh_deep/odd-lots-lev-menand-and-nathan-tankus-on-why-fed-independence-is-now-hanging-by.md",
+          "summary_chars": 2545,
+          "source_hash": "466ce72a63b6bb517538e87b72a6eece263b25d6ab4acfc05149743dcbb2a8d0",
           "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-14T22:59:38.694316+00:00",
+          "generated_at": "2026-07-17T22:49:34.915231+00:00",
           "status": "generated",
           "channel": "Odd Lots",
-          "pub_date": "2026-07-10T08:00:00+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "1422dd7927ee82dc",
-          "title": "Why Soccer Analytics Works Like Volatility Arbitrage Trading",
-          "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/why-soccer-analytics-works-like-volatility-arbitrage-trading",
-          "summary_path": "content/summaries/podcasts/zh_deep/odd-lots-why-soccer-analytics-works-like-volatility-arbitrage-trading.md",
-          "summary_chars": 3018,
-          "source_hash": "9795158242bd2e4d605bd27ca0fdaf50b30aea6b2899145b33fb92437ce3f228",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-16T22:57:12.583849+00:00",
-          "status": "generated",
-          "channel": "Odd Lots",
-          "pub_date": "2026-07-16T08:00:00+00:00",
+          "pub_date": "2026-07-17T08:00:00+00:00",
           "source_label": "description"
         }
       ],
       "papers": []
     }
   },
-  "generated_at": "2026-07-16T22:57:12.585545+00:00",
+  "generated_at": "2026-07-17T22:49:34.916861+00:00",
   "model": "deepseek-v4-pro"
 }
