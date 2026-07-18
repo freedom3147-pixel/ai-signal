@@ -10,6 +10,21 @@
       "x": [],
       "podcasts": [
         {
+          "id": "440a93e65ba4eb4f",
+          "title": "Lev Menand and Nathan Tankus on Why Fed Independence Is Now Hanging by a Thread",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/lev-menand-and-nathan-tankus-on-why-fed-independence-is-now",
+          "summary_path": "content/summaries/podcasts/zh_short/odd-lots-lev-menand-and-nathan-tankus-on-why-fed-independence-is-now-hanging-by.md",
+          "summary_chars": 705,
+          "source_hash": "396d4a1ea67a5831d900e7fbeb83316e8b823ec85a03442a513bbc327bef7f34",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-17T22:48:59.665103+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-17T08:00:00+00:00",
+          "source_label": "description"
+        },
+        {
           "id": "1422dd7927ee82dc",
           "title": "Why Soccer Analytics Works Like Volatility Arbitrage Trading",
           "domain": "macro",
@@ -68,21 +83,6 @@
           "channel": "Odd Lots",
           "pub_date": "2026-07-13T08:00:00+00:00",
           "source_label": "transcript"
-        },
-        {
-          "id": "440a93e65ba4eb4f",
-          "title": "Lev Menand and Nathan Tankus on Why Fed Independence Is Now Hanging by a Thread",
-          "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/lev-menand-and-nathan-tankus-on-why-fed-independence-is-now",
-          "summary_path": "content/summaries/podcasts/zh_short/odd-lots-lev-menand-and-nathan-tankus-on-why-fed-independence-is-now-hanging-by.md",
-          "summary_chars": 705,
-          "source_hash": "396d4a1ea67a5831d900e7fbeb83316e8b823ec85a03442a513bbc327bef7f34",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-17T22:48:59.665103+00:00",
-          "status": "generated",
-          "channel": "Odd Lots",
-          "pub_date": "2026-07-17T08:00:00+00:00",
-          "source_label": "description"
         }
       ],
       "papers": []
@@ -96,6 +96,21 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
+        {
+          "id": "440a93e65ba4eb4f",
+          "title": "Lev Menand and Nathan Tankus on Why Fed Independence Is Now Hanging by a Thread",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/lev-menand-and-nathan-tankus-on-why-fed-independence-is-now",
+          "summary_path": "content/summaries/podcasts/zh_standard/odd-lots-lev-menand-and-nathan-tankus-on-why-fed-independence-is-now-hanging-by.md",
+          "summary_chars": 1330,
+          "source_hash": "7992ace6623f3435b2f0dfb0039f7e7de595bdccb6000aacfed95e844cb31d9a",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-17T22:49:12.570879+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-17T08:00:00+00:00",
+          "source_label": "description"
+        },
         {
           "id": "1422dd7927ee82dc",
           "title": "Why Soccer Analytics Works Like Volatility Arbitrage Trading",
@@ -155,21 +170,6 @@
           "channel": "Odd Lots",
           "pub_date": "2026-07-13T08:00:00+00:00",
           "source_label": "transcript"
-        },
-        {
-          "id": "440a93e65ba4eb4f",
-          "title": "Lev Menand and Nathan Tankus on Why Fed Independence Is Now Hanging by a Thread",
-          "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/lev-menand-and-nathan-tankus-on-why-fed-independence-is-now",
-          "summary_path": "content/summaries/podcasts/zh_standard/odd-lots-lev-menand-and-nathan-tankus-on-why-fed-independence-is-now-hanging-by.md",
-          "summary_chars": 1330,
-          "source_hash": "7992ace6623f3435b2f0dfb0039f7e7de595bdccb6000aacfed95e844cb31d9a",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-17T22:49:12.570879+00:00",
-          "status": "generated",
-          "channel": "Odd Lots",
-          "pub_date": "2026-07-17T08:00:00+00:00",
-          "source_label": "description"
         }
       ],
       "papers": []
@@ -183,6 +183,21 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
+        {
+          "id": "440a93e65ba4eb4f",
+          "title": "Lev Menand and Nathan Tankus on Why Fed Independence Is Now Hanging by a Thread",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/lev-menand-and-nathan-tankus-on-why-fed-independence-is-now",
+          "summary_path": "content/summaries/podcasts/zh_deep/odd-lots-lev-menand-and-nathan-tankus-on-why-fed-independence-is-now-hanging-by.md",
+          "summary_chars": 2545,
+          "source_hash": "466ce72a63b6bb517538e87b72a6eece263b25d6ab4acfc05149743dcbb2a8d0",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-17T22:49:34.915231+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-17T08:00:00+00:00",
+          "source_label": "description"
+        },
         {
           "id": "1422dd7927ee82dc",
           "title": "Why Soccer Analytics Works Like Volatility Arbitrage Trading",
@@ -242,26 +257,11 @@
           "channel": "Odd Lots",
           "pub_date": "2026-07-13T08:00:00+00:00",
           "source_label": "transcript"
-        },
-        {
-          "id": "440a93e65ba4eb4f",
-          "title": "Lev Menand and Nathan Tankus on Why Fed Independence Is Now Hanging by a Thread",
-          "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/lev-menand-and-nathan-tankus-on-why-fed-independence-is-now",
-          "summary_path": "content/summaries/podcasts/zh_deep/odd-lots-lev-menand-and-nathan-tankus-on-why-fed-independence-is-now-hanging-by.md",
-          "summary_chars": 2545,
-          "source_hash": "466ce72a63b6bb517538e87b72a6eece263b25d6ab4acfc05149743dcbb2a8d0",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-17T22:49:34.915231+00:00",
-          "status": "generated",
-          "channel": "Odd Lots",
-          "pub_date": "2026-07-17T08:00:00+00:00",
-          "source_label": "description"
         }
       ],
       "papers": []
     }
   },
-  "generated_at": "2026-07-17T22:49:34.916861+00:00",
+  "generated_at": "2026-07-18T22:47:59.461809+00:00",
   "model": "deepseek-v4-pro"
 }

@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://www.pekingnology.com/p/the-rice-that-grew-only-on-paper",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "The rice that grew only on paper",
+      "url": "https://www.pekingnology.com/p/the-rice-that-grew-only-on-paper",
+      "published": "2026-07-18T19:18:20+00:00",
+      "summary": "A state broadcaster investigation into false planting figures in Hunan exposed a deeper conflict between China’s food-security policies and the interests of its farmers."
+    },
+    {
       "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/nonbank-subsidiaries-and-the-hidden-fragility-of-internal-capital-markets-reallocation/",
       "source": "nyfed_lse",
       "source_name": "NY Fed Liberty Street Economics",
@@ -152,15 +161,6 @@
       "url": "https://www.chinatalk.media/p/wartalk-randy-schriver-on-asian-defense",
       "published": "2026-07-12T11:38:10+00:00",
       "summary": "More own goals than Scotland"
-    },
-    {
-      "id": "https://www.china-translated.com/p/what-china-really-steals-from-elon",
-      "source": "china_translated",
-      "source_name": "China Translated / Robert Wu",
-      "title": "What China really “steals” from Elon Musk",
-      "url": "https://www.china-translated.com/p/what-china-really-steals-from-elon",
-      "published": "2026-07-11T11:33:14+00:00",
-      "summary": "A new episode in the great China-Musk tech competition"
     }
   ],
   "errors": [
@@ -170,5 +170,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-17T22:48:38.501931+00:00"
+  "generated_at": "2026-07-18T22:47:42.577228+00:00"
 }
