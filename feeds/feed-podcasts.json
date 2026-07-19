@@ -32,7 +32,7 @@
       "transcript_source": null,
       "transcript_url": null,
       "transcript_video_id": null,
-      "transcript_error": "episode_page: text too sparse to be a transcript (1567 chars for 116 min); youtube: No YouTube video id in link"
+      "transcript_error": "episode_page: text too sparse to be a transcript (2035 chars for 116 min); youtube: No YouTube video id in link"
     },
     {
       "channel": "Odd Lots",
@@ -104,5 +104,5 @@
     }
   ],
   "errors": null,
-  "generated_at": "2026-07-18T22:47:42.577228+00:00"
+  "generated_at": "2026-07-19T22:50:45.194047+00:00"
 }

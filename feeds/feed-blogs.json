@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://www.pekingnology.com/p/xiaohongshus-silence-becomes-part",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Xiaohongshu’s silence becomes part of its IPO story",
+      "url": "https://www.pekingnology.com/p/xiaohongshus-silence-becomes-part",
+      "published": "2026-07-19T12:55:20+00:00",
+      "summary": "RedNote may consider the labor dispute too weak to merit an answer. For a platform built on authentic sharing, that strategy looks increasingly peculiar."
+    },
+    {
+      "id": "https://www.eastisread.com/p/zhang-ming-a-chinese-model-for-currency",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Zhang Ming: A Chinese model for currency internationalisation is taking shape",
+      "url": "https://www.eastisread.com/p/zhang-ming-a-chinese-model-for-currency",
+      "published": "2026-07-19T11:06:36+00:00",
+      "summary": "Manufacturing strength and growing overseas investment are giving Beijing a path different from the United States's."
+    },
+    {
       "id": "https://www.pekingnology.com/p/the-rice-that-grew-only-on-paper",
       "source": "pekingnology",
       "source_name": "Pekingnology",
@@ -152,15 +170,6 @@
       "url": "https://www.eastisread.com/p/dandan-zhang-on-ai-and-jobs-neither",
       "published": "2026-07-13T13:05:32+00:00",
       "summary": "Leading Chinese labour economist argues that the policy priority should not be to halt innovation, but to monitor labour-market risks, expand retraining, and strengthen safety nets."
-    },
-    {
-      "id": "https://www.chinatalk.media/p/wartalk-randy-schriver-on-asian-defense",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "WarTalk: Randy Schriver on Asian Defense",
-      "url": "https://www.chinatalk.media/p/wartalk-randy-schriver-on-asian-defense",
-      "published": "2026-07-12T11:38:10+00:00",
-      "summary": "More own goals than Scotland"
     }
   ],
   "errors": [
@@ -170,5 +179,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-18T22:47:42.577228+00:00"
+  "generated_at": "2026-07-19T22:50:45.194047+00:00"
 }
