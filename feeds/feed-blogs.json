@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/stock-market-rescue-world-ai-conference",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Stock market rescue; World AI Conference and open models; Second Thomas Shoal fight; Involution battles",
+      "url": "https://sinocism.com/p/stock-market-rescue-world-ai-conference",
+      "published": "2026-07-20T22:32:10+00:00",
+      "summary": "Operation stock market rescue - The National team is back to try to turn around the stock market, after losses approaching ten trillion RMB this month. China Reform Holdings Corp. Ltd. and China Chengtong Holdings Group Ltd. announced Sunday they were buying around 60B RMB of ETFs and domestic stocks, five insurance firms and multiple SOEs announced Monday they were buying stocks, and CSRC head Wu Qing held an “investor symposium” at a brokerage branch in Beijing to meet “with 8 representatives from various categories of investors — large, medium, small, and retail — to hear their opinions and"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/chinas-mythos-moment-366",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "China's Mythos Moment",
+      "url": "https://www.chinatalk.media/p/chinas-mythos-moment-366",
+      "published": "2026-07-20T16:36:42+00:00",
+      "summary": "Will Xi license, lock down, or let it rip?"
+    },
+    {
+      "id": "https://www.bis.org/publ/bisbull129.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "A Mythos moment? Frontier AI and cyber risk",
+      "url": "https://www.bis.org/publ/bisbull129.htm",
+      "published": "2026-07-20T06:49:00+00:00",
+      "summary": "by Iñaki Aldasoro, Raphael Auer, Jon Frost, Fernando Perez-Cruz \nFrontier artificial intelligence (AI) models increase the speed, scale and complexity of cyber attacks, and they also strengthen cyber defence. But the costs are asymmetric and may favour attackers. The medium-term impact on systemic cyber risk depends on the various actors' access to the most advanced tools, on compute power to run the tools and on economic incentives. Given the pace of recent developments, swift adoption of frontier AI models to review code bases and fix vulnerabilities is essential. International coordination"
+    },
+    {
       "id": "https://www.pekingnology.com/p/xiaohongshus-silence-becomes-part",
       "source": "pekingnology",
       "source_name": "Pekingnology",
@@ -26,24 +53,6 @@
       "url": "https://www.pekingnology.com/p/the-rice-that-grew-only-on-paper",
       "published": "2026-07-18T19:18:20+00:00",
       "summary": "A state broadcaster investigation into false planting figures in Hunan exposed a deeper conflict between China’s food-security policies and the interests of its farmers."
-    },
-    {
-      "id": "https://voiceofcontext.substack.com/p/china-validated-a-new-way-to-recover",
-      "source": "voice_of_context",
-      "source_name": "Voice of Context",
-      "title": "China Validated a New Way to Recover Rockets. Now 39 Companies Have to Make It Economic.",
-      "url": "https://voiceofcontext.substack.com/p/china-validated-a-new-way-to-recover",
-      "published": "2026-07-17T15:31:21+00:00",
-      "summary": "China’s state space program proved reusable rockets can work. The next challenge belongs to a growing commercial launch industry that must prove they can become a business."
-    },
-    {
-      "id": "https://ftav.substack.com/p/a-country-is-only-as-valuable-as",
-      "source": "ft_alphaville",
-      "source_name": "FT Alphaville",
-      "title": "A country is only as valuable as its eccentrics",
-      "url": "https://ftav.substack.com/p/a-country-is-only-as-valuable-as",
-      "published": "2026-07-17T13:11:20+00:00",
-      "summary": "Also: parenting by spreadsheet, history by restaurant menus, coding by vibes, and the golden age of music piracy"
     },
     {
       "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/nonbank-subsidiaries-and-the-hidden-fragility-of-internal-capital-markets-reallocation/",
@@ -197,46 +206,14 @@
       "url": "https://www.bis.org/publ/bisbull128.htm",
       "published": "2026-07-14T06:10:00+00:00",
       "summary": "by Fernando Avalos, Giulio Cornelli, Egemen Eren \nBusiness development companies (BDCs) have lent around $115 billion to software firms, which represents about a fifth of all their lending and over 80% of their fast-growing technology portfolios. Borrowers' revenue uncertainty posed by generative artificial intelligence has not affected these loans yet, and neither BDCs nor their equity investors have priced software exposure differently. Recently, credit spreads have narrowed, reducing the buffers to absorb losses, and a few large BDCs are exposed to a shared pool of borrowers, though low lev"
-    },
-    {
-      "id": "https://sinocism.com/p/xi-to-speak-at-waic-preparing-for",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Xi to speak at WAIC; Preparing for July Politburo meeting on the economy; Unemployment at 10.2%?; Another American arrested for spying",
-      "url": "https://sinocism.com/p/xi-to-speak-at-waic-preparing-for",
-      "published": "2026-07-13T22:38:53+00:00",
-      "summary": "The July Politburo meeting is usually about the economy, and adjustments needed for the rest of the year, and as part of the work ahead of that meeting the Premier solicits feedback. Today he held a meeting with several experts and entrepreneurs to “hear their views and suggestions on the current economic situation and the next steps in economic work.”"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/sang-baichuan-on-why-foreign-investment",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Sang Baichuan on Why Foreign Investment in China Is Falling",
-      "url": "https://www.pekingnology.com/p/sang-baichuan-on-why-foreign-investment",
-      "published": "2026-07-13T15:51:01+00:00",
-      "summary": "The UIBE professor argues that weak domestic demand, structural change and Western investment restrictions matter more than any retreat from opening-up."
-    },
-    {
-      "id": "https://www.eastisread.com/p/dandan-zhang-on-ai-and-jobs-neither",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Dandan Zhang on AI and Jobs: Neither Pause nor Panic",
-      "url": "https://www.eastisread.com/p/dandan-zhang-on-ai-and-jobs-neither",
-      "published": "2026-07-13T13:05:32+00:00",
-      "summary": "Leading Chinese labour economist argues that the policy priority should not be to halt innovation, but to monitor labour-market risks, expand retraining, and strengthen safety nets."
-    },
-    {
-      "id": "https://www.bis.org/publ/bisbull127.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "Competition in retail digital payments",
-      "url": "https://www.bis.org/publ/bisbull127.htm",
-      "published": "2026-07-13T07:14:00+00:00",
-      "summary": "by Daniele Natalizi, Vatsala Shreeti \nRetail payments have digitalised rapidly in both advanced economies and emerging market and developing economies. Digitalisation has altered the competitive landscape, with new entrants (eg fintechs and big techs) and new technologies, yet incumbent banks and card networks retain their dominant position in key markets. In their role as operators, overseers and catalysts in payment systems, central banks support competition in diverse ways, depending on their mandates and institutional arrangements."
     }
   ],
   "errors": [
-    "NBER Working Papers: Client error '403 Forbidden' for url 'https://www.nber.org/rss/new.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "NBER Working Papers: Client error '403 Forbidden' for url 'https://www.nber.org/rss/new.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+    "FT Alphaville: Client error '403 Forbidden' for url 'https://ftav.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+    "2060 Newsletter: Client error '403 Forbidden' for url 'https://yijing2060advisory.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+    "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+    "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-20T01:44:40.483691+00:00"
+  "generated_at": "2026-07-20T22:59:33.129040+00:00"
 }
