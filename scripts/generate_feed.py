@@ -1340,15 +1340,40 @@ def parse_rfc822_datetime(value):
     return dt
 
 
+def _local_tag(tag):
+    """Strip the {namespace} prefix ElementTree attaches to qualified tags."""
+    return tag.rsplit("}", 1)[-1] if "}" in tag else tag
+
+
+def _findtext_local(el, name, default=""):
+    """Namespace-agnostic child lookup by local tag name.
+
+    RSS 1.0/RDF feeds (e.g. BIS) declare a default namespace on <rdf:RDF>,
+    so every unprefixed element (item/title/link/description) is actually
+    namespace-qualified under the hood. A plain el.findtext("title") then
+    silently returns nothing. Matching on the local tag name works for both
+    plain RSS 2.0 and namespaced RSS 1.0/RDF.
+    """
+    for child in el:
+        if _local_tag(child.tag) == name and child.text:
+            return child.text
+    return default
+
+
 def blog_items_from_rss(xml_text, src, since):
-    """Parse RSS 2.0 <item> or Atom <entry> elements into article dicts."""
+    """Parse RSS 2.0/1.0(RDF) <item> or Atom <entry> elements into article dicts."""
     root = ET.fromstring(xml_text)
     items = []
-    for el in root.iter("item"):
-        title = re.sub(r"\s+", " ", (el.findtext("title") or "")).strip()
-        link = (el.findtext("link") or "").strip()
-        pub = parse_rfc822_datetime(el.findtext("pubDate")) or parse_iso_datetime(el.findtext("pubDate"))
-        summary = html_to_text(el.findtext("description") or "")
+    for el in root.iter():
+        if _local_tag(el.tag) != "item":
+            continue
+        title = re.sub(r"\s+", " ", _findtext_local(el, "title")).strip()
+        link = _findtext_local(el, "link").strip()
+        # RSS 2.0 uses <pubDate> (RFC822); RSS 1.0/RDF feeds (BIS) instead
+        # carry a Dublin Core <dc:date> in ISO8601 — check both.
+        pub_raw = _findtext_local(el, "pubDate") or _findtext_local(el, "date")
+        pub = parse_rfc822_datetime(pub_raw) or parse_iso_datetime(pub_raw)
+        summary = html_to_text(_findtext_local(el, "description"))
         items.append((title, link, pub, summary))
     if not items:  # Atom fallback
         ns = {"atom": "http://www.w3.org/2005/Atom"}

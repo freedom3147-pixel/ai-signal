@@ -3,23 +3,29 @@
 Pulls feed JSONs from the central GitHub repo, combines them with the user's
 local config and prompt preferences, then:
 
-1. Filters out items this user has already been shown (~/.ai-signal/seen.json).
+1. Optionally refreshes research/policy blogs from this machine
+   (`generate_feed.py --blogs-only`). Residential IPs can reach Substack RSS
+   that GitHub Actions cloud IPs often get 403'd on; the fresher local
+   feed-blogs.json then wins over the central snapshot.
+2. Filters out items this user has already been shown (~/.ai-signal/seen.json).
    Central feeds are rolling-window snapshots; per-user dedup happens here.
-2. Writes the full payload to files (default ~/.ai-signal/payload/):
+3. Writes the full payload to files (default ~/.ai-signal/payload/):
    - payload.json      — everything except transcript full text
    - transcripts/*.txt — one file per podcast episode
-3. Prints a compact JSON manifest to stdout (stats, config, output contract,
+4. Prints a compact JSON manifest to stdout (stats, config, output contract,
    item overview, file paths). The manifest is intentionally small so any
    agent can read it from stdout; the big content is read from files.
 
 Usage:
     python scripts/prepare_digest.py [--out DIR] [--include-seen] [--mark-seen]
+                                     [--no-refresh-blogs]
 """
 
 import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -381,12 +387,50 @@ def feed_meta(filename, url, source, feed, reason=None):
     }
 
 
-def fetch_feed(filename, content_key=None):
+def refresh_local_blogs():
+    """Re-fetch blog RSS on this machine so Substack sources blocked in CI land locally."""
+    script = SCRIPT_DIR / "generate_feed.py"
+    if not script.exists():
+        return False, f"missing {script}"
+    try:
+        proc = subprocess.run(
+            [sys.executable, str(script), "--blogs-only"],
+            cwd=str(SCRIPT_DIR),
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=300,
+        )
+    except Exception as e:
+        return False, str(e)
+    if proc.stderr:
+        print(proc.stderr, file=sys.stderr, end="" if proc.stderr.endswith("\n") else "\n")
+    if proc.returncode != 0:
+        tail = (proc.stderr or proc.stdout or "").strip()[-500:]
+        return False, tail or f"generate_feed.py --blogs-only exited {proc.returncode}"
+    local = load_local_json("feed-blogs.json")
+    if not local or not local.get("articles"):
+        return False, "local feed-blogs.json empty after refresh"
+    return True, None
+
+
+def fetch_feed(filename, content_key=None, prefer_newer_local=False):
     remote, url = fetch_json_any(f"feeds/{filename}")
     local = load_local_json(filename)
-    if remote and (not content_key or remote.get(content_key)):
+    remote_ok = bool(remote and (not content_key or remote.get(content_key)))
+    local_ok = bool(local and (not content_key or local.get(content_key)))
+
+    if prefer_newer_local and local_ok:
+        local_dt = parse_iso_datetime(local.get("generated_at"))
+        remote_dt = parse_iso_datetime((remote or {}).get("generated_at")) if remote_ok else None
+        if local_dt and (remote_dt is None or local_dt >= remote_dt):
+            reason = "local_newer_than_remote" if remote_ok else "remote_unavailable"
+            return local, feed_meta(filename, url, "local_fresh", local, reason)
+
+    if remote_ok:
         return remote, feed_meta(filename, url, "remote", remote)
-    if local:
+    if local_ok or local:
         reason = "remote_unavailable"
         if remote and content_key and not remote.get(content_key):
             reason = f"remote_missing_{content_key}"
@@ -474,9 +518,12 @@ def annotate_feed_sources(feed_sources, feeds):
             warnings.append(
                 f"{key} feed used local cache because {item.get('reason')}; data may not be latest"
             )
+        elif item["source"] == "local_fresh":
+            # Intentional: residential IP re-fetch for Substack/Cloudflare blocks on Actions.
+            pass
         elif item["source"] == "unavailable":
             warnings.append(f"{key} feed unavailable; no remote or local cache data")
-        if item["is_stale"]:
+        if item["is_stale"] and item["source"] != "local_fresh":
             warnings.append(
                 f"{key} feed generated_at is older than {FEED_STALE_AFTER_HOURS} hours"
             )
@@ -559,6 +606,16 @@ def main():
     parser.add_argument("--mark-seen", action="store_true",
                         help="Legacy mode: immediately record prepared items as seen")
     parser.add_argument("--no-mark-seen", action="store_true", help=argparse.SUPPRESS)
+    parser.add_argument(
+        "--no-refresh-blogs",
+        action="store_true",
+        help="Skip local blog RSS refresh (keep central feed-blogs.json as-is)",
+    )
+    parser.add_argument(
+        "--refresh-blogs",
+        action="store_true",
+        help=argparse.SUPPRESS,  # default-on; kept for explicit callers
+    )
     args = parser.parse_args()
     errors = []
     warnings = []
@@ -571,10 +628,30 @@ def main():
         except Exception as e:
             errors.append(f"Config read error: {e}")
 
+    # 1b. Local blog refresh (Substack often 403 on GitHub Actions cloud IPs)
+    env_refresh = os.environ.get("AI_SIGNAL_REFRESH_BLOGS", "").strip().lower()
+    refresh_blogs = not args.no_refresh_blogs
+    if env_refresh in ("0", "false", "no", "off"):
+        refresh_blogs = False
+    elif env_refresh in ("1", "true", "yes", "on"):
+        refresh_blogs = True
+    if args.refresh_blogs:
+        refresh_blogs = True
+    if refresh_blogs:
+        ok, detail = refresh_local_blogs()
+        if ok:
+            print("Local blog refresh OK (Substack overlay)", file=sys.stderr)
+        else:
+            warnings.append(
+                f"Local blog refresh failed ({detail}); using central blog feed if available"
+            )
+
     # 2. Fetch feeds
     feed_x, x_source = fetch_feed("feed-x.json", "x")
     feed_podcasts, podcast_source = fetch_feed("feed-podcasts.json", "podcasts")
-    feed_blogs, blogs_source = fetch_feed("feed-blogs.json", "articles")
+    feed_blogs, blogs_source = fetch_feed(
+        "feed-blogs.json", "articles", prefer_newer_local=True
+    )
     include_central_summaries = wants_central_summaries(config)
     if include_central_summaries:
         feed_summaries, summaries_source = fetch_feed("feed-summaries.json", "profiles")

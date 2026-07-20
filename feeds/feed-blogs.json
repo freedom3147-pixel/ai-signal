@@ -28,6 +28,24 @@
       "summary": "A state broadcaster investigation into false planting figures in Hunan exposed a deeper conflict between China’s food-security policies and the interests of its farmers."
     },
     {
+      "id": "https://voiceofcontext.substack.com/p/china-validated-a-new-way-to-recover",
+      "source": "voice_of_context",
+      "source_name": "Voice of Context",
+      "title": "China Validated a New Way to Recover Rockets. Now 39 Companies Have to Make It Economic.",
+      "url": "https://voiceofcontext.substack.com/p/china-validated-a-new-way-to-recover",
+      "published": "2026-07-17T15:31:21+00:00",
+      "summary": "China’s state space program proved reusable rockets can work. The next challenge belongs to a growing commercial launch industry that must prove they can become a business."
+    },
+    {
+      "id": "https://ftav.substack.com/p/a-country-is-only-as-valuable-as",
+      "source": "ft_alphaville",
+      "source_name": "FT Alphaville",
+      "title": "A country is only as valuable as its eccentrics",
+      "url": "https://ftav.substack.com/p/a-country-is-only-as-valuable-as",
+      "published": "2026-07-17T13:11:20+00:00",
+      "summary": "Also: parenting by spreadsheet, history by restaurant menus, coding by vibes, and the golden age of music piracy"
+    },
+    {
       "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/nonbank-subsidiaries-and-the-hidden-fragility-of-internal-capital-markets-reallocation/",
       "source": "nyfed_lse",
       "source_name": "NY Fed Liberty Street Economics",
@@ -100,6 +118,15 @@
       "summary": "On today’s show, Andrew and Bill begin by parsing the economic data released by the PRC this week, including slower-than-expected growth, the Party’s response to the status quo, export-powered growth that is widening trade imbalances, and the questions all of this will raise for foreign policymakers. From there: The Party's findings on Ma Xingrui, questions that remain unanswered, and cadre risk aversion for the next 18 months. Then: PRC messaging around openness in AI, an ongoing U.S. debate over open-source AI models, three chip bills that may end up in the NDAA, and the continued adventures"
     },
     {
+      "id": "https://www.bis.org/publ/work1369.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "The evolving nexus: sovereigns, banks and NBFIs",
+      "url": "https://www.bis.org/publ/work1369.htm",
+      "published": "2026-07-16T08:32:00+00:00",
+      "summary": "by Stefan Avdjiev, Bryan Hardy, Maximilian Jager \nThis paper documents that the traditional sovereign-bank nexus has morphed into a broader nexus that now also includes non-bank financial institutions (NBFIs): the sovereign-bank-NBFI nexus. The classical sovereign-bank nexus has been a major financial stability concern following the eurozone crisis. Since then, sovereign debt levels have increased substantially in many major economies, while NBFIs' footprint in sovereign bond markets has grown significantly."
+    },
+    {
       "id": "https://sinocism.com/p/xi-inspects-shanghai-gdp-data-problems",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -116,6 +143,15 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/capitalizing-on-nonbanks-regulatory-arbitrage-within-bank-holding-companies/",
       "published": "2026-07-15T17:00:00+00:00",
       "summary": "This post is the first in a three-part series on how bank regulation interacts with the organizational structure of banking firms. The series draws on the authors' recent Staff Report, \" Regulatory Arbitrage Within the Firm .\""
+    },
+    {
+      "id": "https://www.bis.org/publ/work1368.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Geopolitical risk and emerging market sovereign risk premia",
+      "url": "https://www.bis.org/publ/work1368.htm",
+      "published": "2026-07-15T08:32:00+00:00",
+      "summary": "by Fredy Gamboa, José Vicente Romero \nThis study examines how geopolitical risk (GPR) transmits to sovereign credit risk in emerging market economies (EMEs), using monthly data on the 5-year sovereign credit default swap (SCDS) and the J.P. Morgan Emerging Markets Bond Index (EMBI) spread for 13 EMEs over the period of January 2005–October 2025. Using fixed-effects panel local projections, the framework is extended to allow for state-dependent transmission. Differences in impulse responses across states are attributed to specific macro financial fundamentals. Three main findings are identified"
     },
     {
       "id": "https://sinocism.com/p/ma-xingrui-case-trade-data-themes",
@@ -145,6 +181,24 @@
       "summary": "Is China's government venture capital patient?"
     },
     {
+      "id": "https://www.bis.org/publ/work1367.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "The AI investment race",
+      "url": "https://www.bis.org/publ/work1367.htm",
+      "published": "2026-07-14T09:32:00+00:00",
+      "summary": "by Phurichai Rungcharoenkitkul \nThe AI build-out ranks among the largest technology-driven investment booms in US history. Its scale, reliance on debt and circular equity ties raise questions about the boom's sustainability and financial stability. We study a dynamic contest in which firms competing for a few dominant positions over-commit resources. The over-investment leaves the sector exposed to revenue disappointment that could turn boom into bust. The larger the boom, the deeper the eventual bust. The race to commit early through debt and circular financing also makes a bust more likely."
+    },
+    {
+      "id": "https://www.bis.org/publ/bisbull128.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "AI disruption in private credit: exposure to software firms in BDCs",
+      "url": "https://www.bis.org/publ/bisbull128.htm",
+      "published": "2026-07-14T06:10:00+00:00",
+      "summary": "by Fernando Avalos, Giulio Cornelli, Egemen Eren \nBusiness development companies (BDCs) have lent around $115 billion to software firms, which represents about a fifth of all their lending and over 80% of their fast-growing technology portfolios. Borrowers' revenue uncertainty posed by generative artificial intelligence has not affected these loans yet, and neither BDCs nor their equity investors have priced software exposure differently. Recently, credit spreads have narrowed, reducing the buffers to absorb losses, and a few large BDCs are exposed to a shared pool of borrowers, though low lev"
+    },
+    {
       "id": "https://sinocism.com/p/xi-to-speak-at-waic-preparing-for",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -170,14 +224,19 @@
       "url": "https://www.eastisread.com/p/dandan-zhang-on-ai-and-jobs-neither",
       "published": "2026-07-13T13:05:32+00:00",
       "summary": "Leading Chinese labour economist argues that the policy priority should not be to halt innovation, but to monitor labour-market risks, expand retraining, and strengthen safety nets."
+    },
+    {
+      "id": "https://www.bis.org/publ/bisbull127.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Competition in retail digital payments",
+      "url": "https://www.bis.org/publ/bisbull127.htm",
+      "published": "2026-07-13T07:14:00+00:00",
+      "summary": "by Daniele Natalizi, Vatsala Shreeti \nRetail payments have digitalised rapidly in both advanced economies and emerging market and developing economies. Digitalisation has altered the competitive landscape, with new entrants (eg fintechs and big techs) and new technologies, yet incumbent banks and card networks retain their dominant position in key markets. In their role as operators, overseers and catalysts in payment systems, central banks support competition in diverse ways, depending on their mandates and institutional arrangements."
     }
   ],
   "errors": [
-    "NBER Working Papers: Client error '403 Forbidden' for url 'https://www.nber.org/rss/new.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
-    "FT Alphaville: Client error '403 Forbidden' for url 'https://ftav.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
-    "2060 Newsletter: Client error '403 Forbidden' for url 'https://yijing2060advisory.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
-    "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
-    "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "NBER Working Papers: Client error '403 Forbidden' for url 'https://www.nber.org/rss/new.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-19T22:50:45.194047+00:00"
+  "generated_at": "2026-07-20T01:36:45.642152+00:00"
 }

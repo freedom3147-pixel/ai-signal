@@ -1,6 +1,6 @@
 ---
 name: ai-signal
-description: Macro Signal daily digest for Agent users — tracks named macro/China-economy analysts on X, macro & investing podcasts, and central-bank/research/policy blogs (BIS, NY Fed, NBER, China-watcher newsletters), then remixes central JSON feeds into a personalized macro-economics digest. Use when the user wants macro/China-economy/markets insights or invokes /资讯推送. No content API keys required.
+description: Macro Signal daily digest for Agent users — tracks named macro/China-economy analysts on X, macro & investing podcasts, and central-bank/research/policy blogs (BIS, NY Fed, NBER, China-watcher newsletters), then remixes central JSON feeds into a personalized macro-economics digest. Use when the user wants macro/China-economy/markets insights or invokes /资讯追踪, /资讯推送, or /ai-signal. Must deliver via deliver.py (Obsidian YYYY-MM-DD日报-HHMM.md + Feishu). No content API keys required.
 ---
 
 # Macro Signal — 追踪全球宏观与中国经济的一线信号
@@ -367,6 +367,12 @@ Read `~/.ai-signal/config.json` for user preferences.
 cd ${SKILL_DIR}/scripts && python prepare_digest.py 2>/dev/null
 ```
 
+By default this also refreshes research/policy blogs from the local network
+(`generate_feed.py --blogs-only`) so Substack sources blocked on GitHub Actions
+still appear. Pass `--no-refresh-blogs` only if the user is offline or asks to
+skip. When `feed_sources.blogs.source` is `local_fresh`, that is expected — not
+a stale-cache warning.
+
 The script writes the full content to files and prints a **small JSON manifest**
 to stdout (a few KB — safe to read in any agent). The manifest contains:
 - `payload_file` — absolute path to `payload.json` (full content minus transcripts)
@@ -651,12 +657,18 @@ FT Alphaville, Sinocism, ChinaTalk, Pekingnology, The East is Read, Baiguan
 (BigOne Lab), High Capacity, 2060 Newsletter, Voice of Context, China
 Translated, Moatless Musings
 
-Known limitation: NBER, FT Alphaville, 2060 Newsletter, Voice of Context, and
-Moatless Musings currently return HTTP 403 (likely Substack/Cloudflare
-blocking the Actions runner's cloud IP, not a header problem alone). The feed
-generator skips them gracefully; other sources are unaffected.
+Known limitation (central Actions only): NBER and some `*.substack.com` sources
+(FT Alphaville, 2060 Newsletter, Voice of Context, Moatless Musings) often
+return HTTP 403 from GitHub Actions cloud IPs (Cloudflare). The central feed
+skips them gracefully.
 
-All feeds are fetched centrally. **No API keys needed for content.**
+**Subscriber fix (default on):** `prepare_digest.py` runs
+`generate_feed.py --blogs-only` on the user's machine before reading feeds, then
+prefers the newer local `feed-blogs.json`. Residential IPs usually reach
+Substack. Disable with `--no-refresh-blogs` or `AI_SIGNAL_REFRESH_BLOGS=0`.
+NBER may still 403 even locally.
+
+All other feeds are fetched centrally. **No API keys needed for content.**
 
 ### Person-appearance tracking (currently inactive)
 The underlying mechanism for tracking named people as podcast/interview

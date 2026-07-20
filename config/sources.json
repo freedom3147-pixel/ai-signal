@@ -45,26 +45,20 @@
         "tier": "analyst"
       },
       {
-        "handle": "RobinBrooksIIF",
+        "handle": "robin_j_brooks",
         "name": "Robin Brooks",
         "domain": "macro",
         "tier": "analyst"
       },
       {
-        "handle": "DanWangTech",
+        "handle": "danwwang",
         "name": "Dan Wang",
         "domain": "macro",
         "tier": "analyst"
       },
       {
-        "handle": "PaulTriolo",
+        "handle": "pstAsiatech",
         "name": "Paul Triolo",
-        "domain": "macro",
-        "tier": "analyst"
-      },
-      {
-        "handle": "TomOrlik",
-        "name": "Tom Orlik",
         "domain": "macro",
         "tier": "analyst"
       },
@@ -91,6 +85,18 @@
         "name": "Bill Ackman",
         "domain": "macro",
         "tier": "exec"
+      },
+      {
+        "handle": "RobinSeun",
+        "name": "RobinSeun_维京黑船",
+        "domain": "macro",
+        "tier": "analyst"
+      },
+      {
+        "handle": "STANLEES4",
+        "name": "小陆师傅",
+        "domain": "macro",
+        "tier": "analyst"
       }
     ]
   },
@@ -142,6 +148,21 @@
         "name": "Acquired",
         "domain": "macro",
         "rss_url": "https://feeds.transistor.fm/acquired"
+      },
+      {
+        "name": "解读君",
+        "domain": "macro",
+        "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA"
+      },
+      {
+        "name": "ARK Invest",
+        "domain": "macro",
+        "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCK-zlnUfoDHzUwXcbddtnkg"
+      },
+      {
+        "name": "老厉害",
+        "domain": "macro",
+        "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw"
       }
     ]
   },

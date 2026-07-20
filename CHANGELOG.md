@@ -2,6 +2,20 @@
 
 记录本项目面向用户的变更。每日的 feed 数据更新（`Feed update` commit）不在此列。
 
+## 2026-07-19
+
+### 修复
+
+- **本机补抓 Substack 博客**：中央 Actions 对 `*.substack.com` RSS 常 403，导致 FT Alphaville / 2060 / Voice of Context / Moatless 进不了日报。`prepare_digest.py` 默认先跑 `generate_feed.py --blogs-only`，若本地 `feed-blogs.json` 的 `generated_at` 不低于中央快照则优先使用（`feed_sources.blogs.source = local_fresh`）。关闭：`--no-refresh-blogs` 或 `AI_SIGNAL_REFRESH_BLOGS=0`。自动日报 bat 走同一路径，无需改计划任务。
+
+## 2026-07-13
+
+### 新增
+
+- **本地 08:30 自动日报**：Windows 计划任务 `MacroSignalAutoDigest` 每天 08:30 运行 `prepare_digest.py` → DeepSeek `auto_remix.py` → `deliver.py`，写入 Obsidian 并（配置 webhook 后）推送飞书。手动 `/资讯推送` 仍由 Agent 高质量 remix，两条路径并存。
+- **Obsidian 日报命名**：改为 `YYYY-MM-DD日报-HHMM.md`（例如 `2026-07-13日报-0830.md`），不再追加到当天同名笔记。
+- **投递方式 `obsidian_feishu`**：本机写 Obsidian 的同时推飞书自定义机器人，方便手机查阅。
+
 ## 2026-07-12
 
 ### 改造

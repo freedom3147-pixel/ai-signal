@@ -79,13 +79,29 @@ def send_telegram(text, bot_token, chat_id):
 
 
 def send_feishu(text, webhook_url):
-    resp = httpx.post(webhook_url, json={"msg_type": "text", "content": {"text": text}}, timeout=30)
-    if resp.is_success:
+    """Push text to a Feishu/Lark custom bot webhook. Split long digests."""
+    # Custom bot text messages are safest under ~20KB per request.
+    max_len = 18000
+    chunks = split_message(text, max_len=max_len) or [text]
+    import time
+
+    for i, chunk in enumerate(chunks):
+        prefix = f"[{i + 1}/{len(chunks)}]\n" if len(chunks) > 1 else ""
+        resp = httpx.post(
+            webhook_url,
+            json={"msg_type": "text", "content": {"text": prefix + chunk}},
+            timeout=30,
+        )
+        if not resp.is_success:
+            log(f"❌ Feishu HTTP {resp.status_code}: {resp.text[:200]}")
+            return False
         r = resp.json()
-        if r.get("code") == 0 or r.get("StatusCode") == 0:
-            return True
-        log(f"❌ Feishu: {r}")
-    return False
+        if not (r.get("code") == 0 or r.get("StatusCode") == 0):
+            log(f"❌ Feishu: {r}")
+            return False
+        if i < len(chunks) - 1:
+            time.sleep(0.4)
+    return True
 
 
 def send_email(text, api_key, to_email):
@@ -102,19 +118,27 @@ def send_email(text, api_key, to_email):
 
 
 def deliver_obsidian(text, vault_daily):
-    """Write digest markdown into an Obsidian vault daily/ folder."""
-    from datetime import date
+    """Write digest as a new note: YYYY-MM-DD日报-HHMM.md."""
+    from datetime import datetime
 
     daily_dir = Path(vault_daily).expanduser()
     daily_dir.mkdir(parents=True, exist_ok=True)
-    day = date.today().isoformat()
-    filepath = daily_dir / f"{day}.md"
+
+    now = datetime.now()
+    day = now.strftime("%Y-%m-%d")
+    time_str = now.strftime("%H%M")
+    filepath = daily_dir / f"{day}日报-{time_str}.md"
+
+    # Avoid overwrite if two digests land in the same minute.
+    if filepath.exists():
+        filepath = daily_dir / f"{day}日报-{time_str}-{now.strftime('%S')}.md"
 
     body = text.lstrip()
     if not body.startswith("---"):
         body = (
             f"---\n"
             f"date: {day}\n"
+            f"time: {now.strftime('%H:%M')}\n"
             f"tags:\n"
             f"  - 宏观信号\n"
             f"  - 每日简报\n"
@@ -123,11 +147,7 @@ def deliver_obsidian(text, vault_daily):
             f"{body}"
         )
 
-    if filepath.exists():
-        existing = filepath.read_text("utf-8")
-        filepath.write_text(existing.rstrip() + "\n\n---\n\n" + body, encoding="utf-8")
-    else:
-        filepath.write_text(body, encoding="utf-8")
+    filepath.write_text(body, encoding="utf-8")
     log(f"✅ Wrote Obsidian daily: {filepath}")
     return True
 
@@ -237,7 +257,7 @@ def main():
         if ok:
             mark_delivered(args.mark_delivered_file)
 
-    elif method in ("obsidian", "obsidian_wechat"):
+    elif method in ("obsidian", "obsidian_wechat", "obsidian_feishu"):
         vault_daily = delivery.get(
             "obsidian_vault_daily",
             r"D:\我的研究库\daily",
@@ -258,6 +278,14 @@ def main():
                 wx_ok = send_wxpusher(text, app_token, uid)
                 log("✅ Sent to WeChat (WxPusher)" if wx_ok else "❌ WeChat push failed")
                 ok = ok and wx_ok
+        elif method == "obsidian_feishu":
+            webhook = delivery.get("webhook_url", os.environ.get("FEISHU_WEBHOOK_URL", ""))
+            if not webhook:
+                log("⚠️ Obsidian written, but Feishu webhook missing — skip Feishu")
+            else:
+                feishu_ok = send_feishu(text, webhook)
+                log("✅ Sent to Feishu" if feishu_ok else "❌ Feishu push failed")
+                ok = ok and feishu_ok
         if ok:
             mark_delivered(args.mark_delivered_file)
         else:

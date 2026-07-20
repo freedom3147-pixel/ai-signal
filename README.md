@@ -78,7 +78,7 @@
 | [China Translated](https://www.china-translated.com) | 中国媒体一手翻译 |
 | [Moatless Musings](https://realmoatlesscapital.substack.com) | 投资与商业分析 |
 
-> 已知限制：NBER、FT Alphaville、2060 Newsletter、Voice of Context、Moatless Musings 目前会被 403 拦截（多半是 Substack/Cloudflare 对云端 IP 的封锁，已加强请求头但不保证根治）。日报会略过这些源，不影响其他源正常更新。
+> 已知限制：中央 GitHub Actions 抓取时，NBER 与部分 `*.substack.com` 源（FT Alphaville、2060 Newsletter、Voice of Context、Moatless Musings）常被 Cloudflare 返回 403。**订阅端已默认用本机 IP 补抓博客**（`prepare_digest.py` 内嵌 `generate_feed.py --blogs-only`，本地 feed 更新则优先于中央快照），住宅网络一般能拿到 Substack。可用 `--no-refresh-blogs` 或环境变量 `AI_SIGNAL_REFRESH_BLOGS=0` 关闭。NBER 在本机也常 403，仍可能缺席。
 
 ## 快速开始
 
