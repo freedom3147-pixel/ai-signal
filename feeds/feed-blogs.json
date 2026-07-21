@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/stock-market-rescue-progress-open",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Stock market rescue progress; \"Open\" AI with Chinese characteristics?; PRC-Philippines trade accusations as Wang Yi arrives for ASEAN; EU-China discussions",
+      "url": "https://sinocism.com/p/stock-market-rescue-progress-open",
+      "published": "2026-07-21T22:45:10+00:00",
+      "summary": "“Strengthening the guidance of capital-market expectations” likely means more positive talk about market prospects, and “further institutionalizing mechanisms for market stabilization” sounds like a call for more “national team” support, SOE buybacks, and long-term institutional money, in a more institutionalized way...“Industry institutions would step up counter-cyclical positioning and earnestly raise the level of their investor services; and that experts and scholars would actively offer advice and proposals and speak out rationally, so as to jointly foster a sound market environment” sound"
+    },
+    {
+      "id": "https://www.pekingnology.com/p/henry-huiyao-wang-to-prosper-china",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Henry Huiyao Wang: To prosper, China must become a magnet for international students",
+      "url": "https://www.pekingnology.com/p/henry-huiyao-wang-to-prosper-china",
+      "published": "2026-07-21T20:17:36+00:00",
+      "summary": "CCG President says China must seize the opportunity to become a global education hub. Reform of its universities should begin now"
+    },
+    {
+      "id": "https://www.baiguan.news/p/china-60-trillion-retail-target-15th-five-year-plan-consumption-beta-trade-services-experience-economy-valuation-divergence-csi300-ai-agents-h2-2026-catalyst",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "Will China's RMB 60 trillion retail target unlock a consumption beta trade? Charts of the Week",
+      "url": "https://www.baiguan.news/p/china-60-trillion-retail-target-15th-five-year-plan-consumption-beta-trade-services-experience-economy-valuation-divergence-csi300-ai-agents-h2-2026-catalyst",
+      "published": "2026-07-21T10:02:32+00:00",
+      "summary": "“Charts of the Week” is Baiguan’s series that features key data points to help you quickly grasp the general state of affairs in China in just a few minutes. We handpick the highlights of the data charts from a variety of sources, analyzing and delivering insights"
+    },
+    {
+      "id": "https://sinocism.com/p/sharp-china-kimi-madness-xis-ai-vision",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Sharp China: Kimi Madness; Xi's AI Vision and US Questions; Trump's Election Data Claims; The Connected Vehicle Security Act",
+      "url": "https://sinocism.com/p/sharp-china-kimi-madness-xis-ai-vision",
+      "published": "2026-07-21T09:01:59+00:00",
+      "summary": "Show Notes:"
+    },
+    {
+      "id": "https://www.bis.org/publ/work1370.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Dollarisation and monetary control: what lessons for the rise of stablecoins?",
+      "url": "https://www.bis.org/publ/work1370.htm",
+      "published": "2026-07-21T06:24:00+00:00",
+      "summary": "by Boris Hofmann, Aaron Mehrotra, Jan Paulick \nThe emergence of stablecoins has created a new channel to access US dollar liquidity in emerging market and developing economies (EMDEs), similar to the historical role of foreign currency deposits, or \"deposit dollarisation\". This has raised concerns about the possible implications for monetary control in EMDEs. Drawing on data on foreign currency deposits and dollar-pegged stablecoin inflows for more than 130 economies, we compare the dynamics and drivers of \"stablecoin dollarisation\" with those of conventional deposit dollarisation."
+    },
+    {
       "id": "https://sinocism.com/p/stock-market-rescue-world-ai-conference",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -136,15 +181,6 @@
       "summary": "by Stefan Avdjiev, Bryan Hardy, Maximilian Jager \nThis paper documents that the traditional sovereign-bank nexus has morphed into a broader nexus that now also includes non-bank financial institutions (NBFIs): the sovereign-bank-NBFI nexus. The classical sovereign-bank nexus has been a major financial stability concern following the eurozone crisis. Since then, sovereign debt levels have increased substantially in many major economies, while NBFIs' footprint in sovereign bond markets has grown significantly."
     },
     {
-      "id": "https://sinocism.com/p/xi-inspects-shanghai-gdp-data-problems",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Xi inspects Shanghai; GDP data; Problems in the US-China trade deal; Foreign Correspondents Club on reporting challenges",
-      "url": "https://sinocism.com/p/xi-inspects-shanghai-gdp-data-problems",
-      "published": "2026-07-15T22:20:30+00:00",
-      "summary": "The PRC economy slowed more than expected in Q2. Real GDP growth declined from 5.0% year-on-year in Q1 to 4.3%, below the 4.5% consensus and the lower bound of the government’s 4.5–5.0% full-year target. First-half growth was 4.7%. Sequential Q2 growth of 0.9% was in line with expectations.\nAI, high-tech manufacturing, exports and selected modern services are expanding rapidly. Property, private investment, conventional infrastructure and household consumption remain weak. The official Q&A noted that “new growth drivers” contributed more than 40% of economic growth, while officials largely avo"
-    },
-    {
       "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/capitalizing-on-nonbanks-regulatory-arbitrage-within-bank-holding-companies/",
       "source": "nyfed_lse",
       "source_name": "NY Fed Liberty Street Economics",
@@ -161,51 +197,6 @@
       "url": "https://www.bis.org/publ/work1368.htm",
       "published": "2026-07-15T08:32:00+00:00",
       "summary": "by Fredy Gamboa, José Vicente Romero \nThis study examines how geopolitical risk (GPR) transmits to sovereign credit risk in emerging market economies (EMEs), using monthly data on the 5-year sovereign credit default swap (SCDS) and the J.P. Morgan Emerging Markets Bond Index (EMBI) spread for 13 EMEs over the period of January 2005–October 2025. Using fixed-effects panel local projections, the framework is extended to allow for state-dependent transmission. Differences in impulse responses across states are attributed to specific macro financial fundamentals. Three main findings are identified"
-    },
-    {
-      "id": "https://sinocism.com/p/ma-xingrui-case-trade-data-themes",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Ma Xingrui case; Trade data; Themes for Xi's WAIC speech; Kevin Rudd on Xi and China",
-      "url": "https://sinocism.com/p/ma-xingrui-case-trade-data-themes",
-      "published": "2026-07-14T22:07:57+00:00",
-      "summary": "At present two entirely different logics of development exist in the AI field: some media have summed them up as \"oil thinking\" and \"water-flow thinking\" — the former treats data and computing power as exclusive scarce resources, fostering barriers, blockades and zero-sum games; the latter treats AI as a universally beneficial public good, nurturing connectivity, sharing and mutual benefit. The vitality of technology lies in open flow. The development of AI must never move toward a technological monopoly that walls itself in, but should always be anchored to the fundamental goal of serving hum"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/the-monkey-supply-chain",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "The Monkey Supply Chain",
-      "url": "https://www.chinatalk.media/p/the-monkey-supply-chain",
-      "published": "2026-07-14T16:09:16+00:00",
-      "summary": "Can the world fix its monkey dependence on China?"
-    },
-    {
-      "id": "https://www.baiguan.news/p/is-hefei-model-a-rule-or-an-exception",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "The \"Hefei Model\" behind CXMT: a rule or an exception?",
-      "url": "https://www.baiguan.news/p/is-hefei-model-a-rule-or-an-exception",
-      "published": "2026-07-14T10:07:17+00:00",
-      "summary": "Is China's government venture capital patient?"
-    },
-    {
-      "id": "https://www.bis.org/publ/work1367.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "The AI investment race",
-      "url": "https://www.bis.org/publ/work1367.htm",
-      "published": "2026-07-14T09:32:00+00:00",
-      "summary": "by Phurichai Rungcharoenkitkul \nThe AI build-out ranks among the largest technology-driven investment booms in US history. Its scale, reliance on debt and circular equity ties raise questions about the boom's sustainability and financial stability. We study a dynamic contest in which firms competing for a few dominant positions over-commit resources. The over-investment leaves the sector exposed to revenue disappointment that could turn boom into bust. The larger the boom, the deeper the eventual bust. The race to commit early through debt and circular financing also makes a bust more likely."
-    },
-    {
-      "id": "https://www.bis.org/publ/bisbull128.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "AI disruption in private credit: exposure to software firms in BDCs",
-      "url": "https://www.bis.org/publ/bisbull128.htm",
-      "published": "2026-07-14T06:10:00+00:00",
-      "summary": "by Fernando Avalos, Giulio Cornelli, Egemen Eren \nBusiness development companies (BDCs) have lent around $115 billion to software firms, which represents about a fifth of all their lending and over 80% of their fast-growing technology portfolios. Borrowers' revenue uncertainty posed by generative artificial intelligence has not affected these loans yet, and neither BDCs nor their equity investors have priced software exposure differently. Recently, credit spreads have narrowed, reducing the buffers to absorb losses, and a few large BDCs are exposed to a shared pool of borrowers, though low lev"
     }
   ],
   "errors": [
@@ -215,5 +206,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-20T22:59:33.129040+00:00"
+  "generated_at": "2026-07-21T22:55:12.661367+00:00"
 }
