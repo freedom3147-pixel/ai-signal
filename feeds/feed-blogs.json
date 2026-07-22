@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/wang-huning-tours-tibet-us-government",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Wang Huning tours Tibet; US government officials go after Moonshot; Wang Yi-Rubio meeting; PRC-Philippines; H1 fiscal revenue and expenditure data",
+      "url": "https://sinocism.com/p/wang-huning-tours-tibet-us-government",
+      "published": "2026-07-22T22:12:05+00:00",
+      "summary": "The head of the White House Office of Science and Technology Policy, the Treasury Secretary and a senior State Department official all tweeted similar things about Kimi and distillation today. Secretary Bessent was most specific about possible policy responses - ”sanctions and Entity List designations will be on the table”. \nKratsios, the head of the OSTP, accused Moonshot of “a sophisticated internal platform to conduct large scale distillation against U.S. models, allowing them to quickly switch between multiple methods of access to avoid detection. Moonshot AI has also acquired GB300-equipp"
+    },
+    {
+      "id": "https://www.bis.org/publ/work1371.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "What drives exchange rate pass-throughs? Evidence from a non-parametric method",
+      "url": "https://www.bis.org/publ/work1371.htm",
+      "published": "2026-07-22T08:32:00+00:00",
+      "summary": "by Emanuel Kohlscheen, Aaron Mehrotra \nWe provide new evidence on the drivers of the pass-through of exchange rate movements into consumer prices across four decades and close to a hundred countries, combining econometrics and random forests. Random forests are particularly useful for modelling highly non-linear relationships, as well as for identifying the relative importance of the different theoretical factors that can affect the degree of pass-through."
+    },
+    {
       "id": "https://sinocism.com/p/stock-market-rescue-progress-open",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -163,15 +181,6 @@
       "summary": "Sportswear, Gold & Jewelry, Luxury, E-commerce & 618, Pop Mart, and Tea & Coffee"
     },
     {
-      "id": "https://sinocism.com/p/sharp-china-k-shaped-economic-data",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Sharp China: K-Shaped Economic Data And Its Implications; Ma Xingrui News; Closing Window for Open Source AI?; The SCS and International Law",
-      "url": "https://sinocism.com/p/sharp-china-k-shaped-economic-data",
-      "published": "2026-07-16T09:01:11+00:00",
-      "summary": "On today’s show, Andrew and Bill begin by parsing the economic data released by the PRC this week, including slower-than-expected growth, the Party’s response to the status quo, export-powered growth that is widening trade imbalances, and the questions all of this will raise for foreign policymakers. From there: The Party's findings on Ma Xingrui, questions that remain unanswered, and cadre risk aversion for the next 18 months. Then: PRC messaging around openness in AI, an ongoing U.S. debate over open-source AI models, three chip bills that may end up in the NDAA, and the continued adventures"
-    },
-    {
       "id": "https://www.bis.org/publ/work1369.htm",
       "source": "bis",
       "source_name": "BIS Research Papers",
@@ -179,24 +188,6 @@
       "url": "https://www.bis.org/publ/work1369.htm",
       "published": "2026-07-16T08:32:00+00:00",
       "summary": "by Stefan Avdjiev, Bryan Hardy, Maximilian Jager \nThis paper documents that the traditional sovereign-bank nexus has morphed into a broader nexus that now also includes non-bank financial institutions (NBFIs): the sovereign-bank-NBFI nexus. The classical sovereign-bank nexus has been a major financial stability concern following the eurozone crisis. Since then, sovereign debt levels have increased substantially in many major economies, while NBFIs' footprint in sovereign bond markets has grown significantly."
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/capitalizing-on-nonbanks-regulatory-arbitrage-within-bank-holding-companies/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "Capitalizing on Nonbanks: Regulatory Arbitrage Within Bank Holding Companies",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/capitalizing-on-nonbanks-regulatory-arbitrage-within-bank-holding-companies/",
-      "published": "2026-07-15T17:00:00+00:00",
-      "summary": "This post is the first in a three-part series on how bank regulation interacts with the organizational structure of banking firms. The series draws on the authors' recent Staff Report, \" Regulatory Arbitrage Within the Firm .\""
-    },
-    {
-      "id": "https://www.bis.org/publ/work1368.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "Geopolitical risk and emerging market sovereign risk premia",
-      "url": "https://www.bis.org/publ/work1368.htm",
-      "published": "2026-07-15T08:32:00+00:00",
-      "summary": "by Fredy Gamboa, José Vicente Romero \nThis study examines how geopolitical risk (GPR) transmits to sovereign credit risk in emerging market economies (EMEs), using monthly data on the 5-year sovereign credit default swap (SCDS) and the J.P. Morgan Emerging Markets Bond Index (EMBI) spread for 13 EMEs over the period of January 2005–October 2025. Using fixed-effects panel local projections, the framework is extended to allow for state-dependent transmission. Differences in impulse responses across states are attributed to specific macro financial fundamentals. Three main findings are identified"
     }
   ],
   "errors": [
@@ -206,5 +197,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-21T22:55:12.661367+00:00"
+  "generated_at": "2026-07-22T23:01:30.553129+00:00"
 }
