@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/another-csrc-meeting-deepseek-ceo",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Another CSRC meeting; DeepSeek CEO comments; SAMR warns about \"externalization of involution 内卷外化\"; US-China; Strengthening social work",
+      "url": "https://sinocism.com/p/another-csrc-meeting-deepseek-ceo",
+      "published": "2026-07-23T22:29:22+00:00",
+      "summary": "President Trump confirmed that Xi will visit the US on September 24. That is not a surprise, the Rubio-Wang meeting readouts were clear they were working towards that visit. Vice Foreign Minister Ma Zhaoxu, one of the top contenders to eventually replace Wang Yi, has been in the Washington, DC this week, and today visited the Pentagon. A MOFCOM official said on Thursday that “at present the Chinese and US economic and trade teams are maintaining close communication on specific arrangements for the trade council, including its structure, functions, and mode of operation, and are discussing adva"
+    },
+    {
+      "id": "https://www.baiguan.news/p/china-may-attain-healthcares-holy",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "China may attain healthcare’s Holy Grail: cracking the \"impossible trinity\"",
+      "url": "https://www.baiguan.news/p/china-may-attain-healthcares-holy",
+      "published": "2026-07-23T10:17:03+00:00",
+      "summary": "Healthcare’s Holy Grail is to advance affordability, service quality and accessibility at the same time. China’s route is to crack the impossible trinity by pushing the feasible boundary outward"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/kimi-k3-and-xis-ai-speech",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "Kimi and Xi",
+      "url": "https://www.chinatalk.media/p/kimi-k3-and-xis-ai-speech",
+      "published": "2026-07-23T10:02:47+00:00",
+      "summary": "The ChinaTalk Crew Discusses!"
+    },
+    {
       "id": "https://sinocism.com/p/wang-huning-tours-tibet-us-government",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -134,60 +161,6 @@
       "url": "https://www.baiguan.news/p/chinas-ai-bubble-checkup-cxmts-ipo",
       "published": "2026-07-17T10:03:13+00:00",
       "summary": "This is a follow-up to our earlier Baiguan Pro note tracking the A-share AI boom."
-    },
-    {
-      "id": "https://sinocism.com/p/waic-another-order-for-ai-kimis-new",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "WAIC; Another order for AI; Kimi's new model; Smart China hire by Australian government; Consumption; Extended dog days of summer 三伏天",
-      "url": "https://sinocism.com/p/waic-another-order-for-ai-kimis-new",
-      "published": "2026-07-16T22:11:28+00:00",
-      "summary": "Moonshot is the latest PRC firm showing the way to building open-source AI, with the release today of Kimi K3, which from early reviews is a frontier-class model. Kimi obviously timed the release for the eve of the WAIC, and I will assume they coordinated it with the relevant organs. If it is as good as the initial reviews say it is, this could change lots of assumptions."
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/how-basel-iii-changes-where-capital-sits-nonbank-subsidiaries-as-equity-reservoirs/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "How Basel III Changes Where Capital Sits: Nonbank Subsidiaries as Equity Reservoirs",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/how-basel-iii-changes-where-capital-sits-nonbank-subsidiaries-as-equity-reservoirs/",
-      "published": "2026-07-16T13:00:00+00:00",
-      "summary": "This post is the second in a three-part series on how bank regulation interacts with the organizational structure of banking firms. The first post documented that nonbank subsidiaries inside bank holding companies (BHCs) are large, equity-rich \"reservoirs,\" and that bank-level capital diverged sharply from consolidated capital after Basel III took effect in 2015. This post asks why, and traces the answer through the internal plumbing of the holding company. The series draws on the authors' recent Staff Report, \" Regulatory Arbitrage Within the Firm .\""
-    },
-    {
-      "id": "https://www.pekingnology.com/p/cai-fangs-prescription-for-ai-job",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Cai Fang's prescription for AI job disruption in China",
-      "url": "https://www.pekingnology.com/p/cai-fangs-prescription-for-ai-job",
-      "published": "2026-07-16T12:07:41+00:00",
-      "summary": "In a front-page Study Times article, the vice-minister-level economist at CASS suggests lifelong training, a transition towards living wages, and unconditional basic pensions for older people."
-    },
-    {
-      "id": "https://www.chinatalk.media/p/chinas-mythos-moment",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "China’s Mythos Moment",
-      "url": "https://www.chinatalk.media/p/chinas-mythos-moment",
-      "published": "2026-07-16T11:02:08+00:00",
-      "summary": "How will Beijing respond when it comes?"
-    },
-    {
-      "id": "https://www.baiguan.news/p/china-consumer-data-june-2026-sportswear-footwear-lululemon-adidas-gold-jewelry-laopu-luxury-hermes-lv-gucci-618-tmall-jd-douyin-kuaishou-popmart-labubu-tea-coffee-luckin-guming-delivery-war",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "Data Update — June 2026",
-      "url": "https://www.baiguan.news/p/china-consumer-data-june-2026-sportswear-footwear-lululemon-adidas-gold-jewelry-laopu-luxury-hermes-lv-gucci-618-tmall-jd-douyin-kuaishou-popmart-labubu-tea-coffee-luckin-guming-delivery-war",
-      "published": "2026-07-16T10:02:24+00:00",
-      "summary": "Sportswear, Gold & Jewelry, Luxury, E-commerce & 618, Pop Mart, and Tea & Coffee"
-    },
-    {
-      "id": "https://www.bis.org/publ/work1369.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "The evolving nexus: sovereigns, banks and NBFIs",
-      "url": "https://www.bis.org/publ/work1369.htm",
-      "published": "2026-07-16T08:32:00+00:00",
-      "summary": "by Stefan Avdjiev, Bryan Hardy, Maximilian Jager \nThis paper documents that the traditional sovereign-bank nexus has morphed into a broader nexus that now also includes non-bank financial institutions (NBFIs): the sovereign-bank-NBFI nexus. The classical sovereign-bank nexus has been a major financial stability concern following the eurozone crisis. Since then, sovereign debt levels have increased substantially in many major economies, while NBFIs' footprint in sovereign bond markets has grown significantly."
     }
   ],
   "errors": [
@@ -197,5 +170,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-22T23:01:30.553129+00:00"
+  "generated_at": "2026-07-23T22:55:12.079590+00:00"
 }
