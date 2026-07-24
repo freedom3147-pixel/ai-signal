@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "https://www.highcapacity.org/p/podcast-the-real-story-behind-chinas",
+      "source": "high_capacity",
+      "source_name": "High Capacity",
+      "title": "Podcast: The real story behind China's EV rise",
+      "url": "https://www.highcapacity.org/p/podcast-the-real-story-behind-chinas",
+      "published": "2026-07-24T17:23:27+00:00",
+      "summary": "A conversation with Professor Fengming Lu at Australian National University."
+    },
+    {
+      "id": "https://www.chinatalk.media/p/wartalk-groundhog-day-in-iran-rogue",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "WarTalk: Groundhog Day in Iran, Rogue AI, Ukraine",
+      "url": "https://www.chinatalk.media/p/wartalk-groundhog-day-in-iran-rogue",
+      "published": "2026-07-24T17:10:54+00:00",
+      "summary": "I guess we're doing this again..."
+    },
+    {
+      "id": "https://www.eastisread.com/p/li-xunlei-china-is-growing-older",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Li Xunlei: China Is Growing Older — and Less Mobile",
+      "url": "https://www.eastisread.com/p/li-xunlei-china-is-growing-older",
+      "published": "2026-07-24T12:20:35+00:00",
+      "summary": "A skewed sex ratio weighs on marriage and fertility, while an ageing migrant workforce is redrawing China’s economic map."
+    },
+    {
+      "id": "https://www.chinatalk.media/p/ai-roleplay-a-deep-dive",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "Chinese Labs' Latest Product? Roleplay",
+      "url": "https://www.chinatalk.media/p/ai-roleplay-a-deep-dive",
+      "published": "2026-07-24T10:02:16+00:00",
+      "summary": "Why Deepseek is hiring for feelings"
+    },
+    {
       "id": "https://sinocism.com/p/another-csrc-meeting-deepseek-ceo",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -143,24 +179,6 @@
       "url": "https://www.pekingnology.com/p/the-rice-that-grew-only-on-paper",
       "published": "2026-07-18T19:18:20+00:00",
       "summary": "A state broadcaster investigation into false planting figures in Hunan exposed a deeper conflict between China’s food-security policies and the interests of its farmers."
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/nonbank-subsidiaries-and-the-hidden-fragility-of-internal-capital-markets-reallocation/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "Nonbank Subsidiaries and the Hidden Fragility of Internal Capital Markets Reallocation",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/nonbank-subsidiaries-and-the-hidden-fragility-of-internal-capital-markets-reallocation/",
-      "published": "2026-07-17T11:00:00+00:00",
-      "summary": "This post concludes a three-part series on how bank regulation interacts with the organizational structure of banking firms. The first post documented the equity-rich nonbank subsidiaries inside bank holding companies (BHCs); the second post showed that BHCs met Basel III by reallocating capital internally, moving equity from nonbank affiliates to bank subsidiaries rather than raising new external capital. Here we ask what that reallocation meant for financial stability. The series draws on the authors' recent Staff Report, \" Regulatory Arbitrage Within the Firm .\""
-    },
-    {
-      "id": "https://www.baiguan.news/p/chinas-ai-bubble-checkup-cxmts-ipo",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "China’s AI Bubble Checkup, CXMT’s IPO, and Beijing’s Market Calculus",
-      "url": "https://www.baiguan.news/p/chinas-ai-bubble-checkup-cxmts-ipo",
-      "published": "2026-07-17T10:03:13+00:00",
-      "summary": "This is a follow-up to our earlier Baiguan Pro note tracking the A-share AI boom."
     }
   ],
   "errors": [
@@ -170,5 +188,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-23T22:55:12.079590+00:00"
+  "generated_at": "2026-07-24T23:00:03.651285+00:00"
 }

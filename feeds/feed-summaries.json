@@ -10,36 +10,6 @@
       "x": [],
       "podcasts": [
         {
-          "id": "9ec12a992577b672",
-          "title": "Will China’s Kimi K3 Win The AI Model Race?| The Brainstorm 141",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=aQ-BxFtxVWE",
-          "summary_path": "content/summaries/podcasts/zh_short/ark-invest-will-china-s-kimi-k3-win-the-ai-model-race-the-brainstorm-141.md",
-          "summary_chars": 693,
-          "source_hash": "84f2da1242a61c3257d7e715037baa7b406f101d4e800fc7e8e902e0b3f6dbda",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-22T23:03:21.953405+00:00",
-          "status": "generated",
-          "channel": "ARK Invest",
-          "pub_date": "2026-07-22T20:00:37+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "1d2515b9f323aa65",
-          "title": "大摩周期论剑闭门会（2026-7-22最新）《各行业最新的投资策略解析》",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=VPKNkJ3d7Cs",
-          "summary_path": "content/summaries/podcasts/zh_short/2026-7-22.md",
-          "summary_chars": 569,
-          "source_hash": "0a127eb6523c6fb2837620a875692c6391ae66417241ec2c81e3c1626241a16a",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-22T23:03:29.650669+00:00",
-          "status": "generated",
-          "channel": "解读君",
-          "pub_date": "2026-07-22T07:52:21+00:00",
-          "source_label": "description"
-        },
-        {
           "id": "15bafb0f871e3975",
           "title": "Why Apple Is Heading Into a Pivotal Moment",
           "domain": "macro",
@@ -83,6 +53,36 @@
           "channel": "解读君",
           "pub_date": "2026-07-23T01:12:33+00:00",
           "source_label": "description"
+        },
+        {
+          "id": "9ec12a992577b672",
+          "title": "Will China’s Kimi K3 Win The AI Model Race?| The Brainstorm 141",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=aQ-BxFtxVWE",
+          "summary_path": "content/summaries/podcasts/zh_short/ark-invest-will-china-s-kimi-k3-win-the-ai-model-race-the-brainstorm-141.md",
+          "summary_chars": 693,
+          "source_hash": "84f2da1242a61c3257d7e715037baa7b406f101d4e800fc7e8e902e0b3f6dbda",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-22T23:03:21.953405+00:00",
+          "status": "generated",
+          "channel": "ARK Invest",
+          "pub_date": "2026-07-22T20:00:37+00:00",
+          "source_label": "description"
+        },
+        {
+          "id": "79d294b8a7c45c89",
+          "title": "How Franchise Restaurants Opened the Door to the Gig Economy",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/how-franchise-restaurants-opened-the-door-to-the-gig-economy",
+          "summary_path": "content/summaries/podcasts/zh_short/odd-lots-how-franchise-restaurants-opened-the-door-to-the-gig-economy.md",
+          "summary_chars": 626,
+          "source_hash": "2ae4d5b4923a9bc90b6ee62fc49a20390d6cdf6d7cba7311bfc25eb3d8193d54",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-24T23:00:39.736935+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-24T08:00:00+00:00",
+          "source_label": "description"
         }
       ],
       "papers": []
@@ -96,36 +96,6 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
-        {
-          "id": "9ec12a992577b672",
-          "title": "Will China’s Kimi K3 Win The AI Model Race?| The Brainstorm 141",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=aQ-BxFtxVWE",
-          "summary_path": "content/summaries/podcasts/zh_standard/ark-invest-will-china-s-kimi-k3-win-the-ai-model-race-the-brainstorm-141.md",
-          "summary_chars": 1340,
-          "source_hash": "a535e01e68e8566e3371621a193e9e242508b4b0c353d1673b7f9c214eb59d16",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-22T23:03:51.973084+00:00",
-          "status": "generated",
-          "channel": "ARK Invest",
-          "pub_date": "2026-07-22T20:00:37+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "1d2515b9f323aa65",
-          "title": "大摩周期论剑闭门会（2026-7-22最新）《各行业最新的投资策略解析》",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=VPKNkJ3d7Cs",
-          "summary_path": "content/summaries/podcasts/zh_standard/2026-7-22.md",
-          "summary_chars": 1005,
-          "source_hash": "8bac0a6c168115025d578a057fecd54b75c0446be82222622ea3f1a8b0cf6d8c",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-22T23:04:04.574681+00:00",
-          "status": "generated",
-          "channel": "解读君",
-          "pub_date": "2026-07-22T07:52:21+00:00",
-          "source_label": "description"
-        },
         {
           "id": "15bafb0f871e3975",
           "title": "Why Apple Is Heading Into a Pivotal Moment",
@@ -170,6 +140,36 @@
           "channel": "解读君",
           "pub_date": "2026-07-23T01:12:33+00:00",
           "source_label": "description"
+        },
+        {
+          "id": "9ec12a992577b672",
+          "title": "Will China’s Kimi K3 Win The AI Model Race?| The Brainstorm 141",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=aQ-BxFtxVWE",
+          "summary_path": "content/summaries/podcasts/zh_standard/ark-invest-will-china-s-kimi-k3-win-the-ai-model-race-the-brainstorm-141.md",
+          "summary_chars": 1340,
+          "source_hash": "a535e01e68e8566e3371621a193e9e242508b4b0c353d1673b7f9c214eb59d16",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-22T23:03:51.973084+00:00",
+          "status": "generated",
+          "channel": "ARK Invest",
+          "pub_date": "2026-07-22T20:00:37+00:00",
+          "source_label": "description"
+        },
+        {
+          "id": "79d294b8a7c45c89",
+          "title": "How Franchise Restaurants Opened the Door to the Gig Economy",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/how-franchise-restaurants-opened-the-door-to-the-gig-economy",
+          "summary_path": "content/summaries/podcasts/zh_standard/odd-lots-how-franchise-restaurants-opened-the-door-to-the-gig-economy.md",
+          "summary_chars": 1100,
+          "source_hash": "d42e6b22ca29344e50b9de439e78bb13679dc048fecb768474c7a657c4a4a975",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-24T23:00:50.112102+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-24T08:00:00+00:00",
+          "source_label": "description"
         }
       ],
       "papers": []
@@ -183,36 +183,6 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
-        {
-          "id": "9ec12a992577b672",
-          "title": "Will China’s Kimi K3 Win The AI Model Race?| The Brainstorm 141",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=aQ-BxFtxVWE",
-          "summary_path": "content/summaries/podcasts/zh_deep/ark-invest-will-china-s-kimi-k3-win-the-ai-model-race-the-brainstorm-141.md",
-          "summary_chars": 2292,
-          "source_hash": "f19d7702970c78158a8979ee41cc9f196f039709794f501fb9499a7b1159f0b8",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-22T23:04:32.899742+00:00",
-          "status": "generated",
-          "channel": "ARK Invest",
-          "pub_date": "2026-07-22T20:00:37+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "1d2515b9f323aa65",
-          "title": "大摩周期论剑闭门会（2026-7-22最新）《各行业最新的投资策略解析》",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=VPKNkJ3d7Cs",
-          "summary_path": "content/summaries/podcasts/zh_deep/2026-7-22.md",
-          "summary_chars": 1922,
-          "source_hash": "51a0e7ab2512b3096246a697ab5f447aba82439e5d2f5ac01782aa0b50e02d44",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-22T23:04:55.928611+00:00",
-          "status": "generated",
-          "channel": "解读君",
-          "pub_date": "2026-07-22T07:52:21+00:00",
-          "source_label": "description"
-        },
         {
           "id": "15bafb0f871e3975",
           "title": "Why Apple Is Heading Into a Pivotal Moment",
@@ -257,11 +227,41 @@
           "channel": "解读君",
           "pub_date": "2026-07-23T01:12:33+00:00",
           "source_label": "description"
+        },
+        {
+          "id": "9ec12a992577b672",
+          "title": "Will China’s Kimi K3 Win The AI Model Race?| The Brainstorm 141",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=aQ-BxFtxVWE",
+          "summary_path": "content/summaries/podcasts/zh_deep/ark-invest-will-china-s-kimi-k3-win-the-ai-model-race-the-brainstorm-141.md",
+          "summary_chars": 2292,
+          "source_hash": "f19d7702970c78158a8979ee41cc9f196f039709794f501fb9499a7b1159f0b8",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-22T23:04:32.899742+00:00",
+          "status": "generated",
+          "channel": "ARK Invest",
+          "pub_date": "2026-07-22T20:00:37+00:00",
+          "source_label": "description"
+        },
+        {
+          "id": "79d294b8a7c45c89",
+          "title": "How Franchise Restaurants Opened the Door to the Gig Economy",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/how-franchise-restaurants-opened-the-door-to-the-gig-economy",
+          "summary_path": "content/summaries/podcasts/zh_deep/odd-lots-how-franchise-restaurants-opened-the-door-to-the-gig-economy.md",
+          "summary_chars": 2352,
+          "source_hash": "b1716633368e47495150b86c17249534ed105338610e6022eabc1e0f71059933",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-24T23:01:12.012253+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-24T08:00:00+00:00",
+          "source_label": "description"
         }
       ],
       "papers": []
     }
   },
-  "generated_at": "2026-07-23T22:57:41.188534+00:00",
+  "generated_at": "2026-07-24T23:01:12.013822+00:00",
   "model": "deepseek-v4-pro"
 }
