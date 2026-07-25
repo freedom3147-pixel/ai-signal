@@ -170,15 +170,6 @@
       "url": "https://www.eastisread.com/p/zhang-ming-a-chinese-model-for-currency",
       "published": "2026-07-19T11:06:36+00:00",
       "summary": "Manufacturing strength and growing overseas investment are giving Beijing a path different from the United States's."
-    },
-    {
-      "id": "https://www.pekingnology.com/p/the-rice-that-grew-only-on-paper",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "The rice that grew only on paper",
-      "url": "https://www.pekingnology.com/p/the-rice-that-grew-only-on-paper",
-      "published": "2026-07-18T19:18:20+00:00",
-      "summary": "A state broadcaster investigation into false planting figures in Hunan exposed a deeper conflict between China’s food-security policies and the interests of its farmers."
     }
   ],
   "errors": [
@@ -188,5 +179,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-24T23:00:03.651285+00:00"
+  "generated_at": "2026-07-25T22:54:33.420318+00:00"
 }

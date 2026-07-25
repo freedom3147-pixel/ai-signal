@@ -10,6 +10,21 @@
       "x": [],
       "podcasts": [
         {
+          "id": "79d294b8a7c45c89",
+          "title": "How Franchise Restaurants Opened the Door to the Gig Economy",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/how-franchise-restaurants-opened-the-door-to-the-gig-economy",
+          "summary_path": "content/summaries/podcasts/zh_short/odd-lots-how-franchise-restaurants-opened-the-door-to-the-gig-economy.md",
+          "summary_chars": 626,
+          "source_hash": "2ae4d5b4923a9bc90b6ee62fc49a20390d6cdf6d7cba7311bfc25eb3d8193d54",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-24T23:00:39.736935+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-24T08:00:00+00:00",
+          "source_label": "description"
+        },
+        {
           "id": "15bafb0f871e3975",
           "title": "Why Apple Is Heading Into a Pivotal Moment",
           "domain": "macro",
@@ -55,33 +70,18 @@
           "source_label": "description"
         },
         {
-          "id": "9ec12a992577b672",
-          "title": "Will China’s Kimi K3 Win The AI Model Race?| The Brainstorm 141",
+          "id": "5c08609c4168b7ba",
+          "title": "水皮大佬最新的重要分享和分析（2026-7-25）大家千万不要跑太快了！当前市场有机会的！很多普通人在关键时刻放弃了，太可惜！",
           "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=aQ-BxFtxVWE",
-          "summary_path": "content/summaries/podcasts/zh_short/ark-invest-will-china-s-kimi-k3-win-the-ai-model-race-the-brainstorm-141.md",
-          "summary_chars": 693,
-          "source_hash": "84f2da1242a61c3257d7e715037baa7b406f101d4e800fc7e8e902e0b3f6dbda",
+          "source_url": "https://www.youtube.com/watch?v=_FLJYu7uGj4",
+          "summary_path": "content/summaries/podcasts/zh_short/2026-7-25.md",
+          "summary_chars": 478,
+          "source_hash": "f8fe16b39ad59c936869ef3d2b649348c7c73df5608247a02e08a634237e2ac4",
           "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-22T23:03:21.953405+00:00",
+          "generated_at": "2026-07-25T22:55:19.861851+00:00",
           "status": "generated",
-          "channel": "ARK Invest",
-          "pub_date": "2026-07-22T20:00:37+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "79d294b8a7c45c89",
-          "title": "How Franchise Restaurants Opened the Door to the Gig Economy",
-          "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/how-franchise-restaurants-opened-the-door-to-the-gig-economy",
-          "summary_path": "content/summaries/podcasts/zh_short/odd-lots-how-franchise-restaurants-opened-the-door-to-the-gig-economy.md",
-          "summary_chars": 626,
-          "source_hash": "2ae4d5b4923a9bc90b6ee62fc49a20390d6cdf6d7cba7311bfc25eb3d8193d54",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-24T23:00:39.736935+00:00",
-          "status": "generated",
-          "channel": "Odd Lots",
-          "pub_date": "2026-07-24T08:00:00+00:00",
+          "channel": "解读君",
+          "pub_date": "2026-07-25T03:17:05+00:00",
           "source_label": "description"
         }
       ],
@@ -96,6 +96,21 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
+        {
+          "id": "79d294b8a7c45c89",
+          "title": "How Franchise Restaurants Opened the Door to the Gig Economy",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/how-franchise-restaurants-opened-the-door-to-the-gig-economy",
+          "summary_path": "content/summaries/podcasts/zh_standard/odd-lots-how-franchise-restaurants-opened-the-door-to-the-gig-economy.md",
+          "summary_chars": 1100,
+          "source_hash": "d42e6b22ca29344e50b9de439e78bb13679dc048fecb768474c7a657c4a4a975",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-24T23:00:50.112102+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-24T08:00:00+00:00",
+          "source_label": "description"
+        },
         {
           "id": "15bafb0f871e3975",
           "title": "Why Apple Is Heading Into a Pivotal Moment",
@@ -142,33 +157,18 @@
           "source_label": "description"
         },
         {
-          "id": "9ec12a992577b672",
-          "title": "Will China’s Kimi K3 Win The AI Model Race?| The Brainstorm 141",
+          "id": "5c08609c4168b7ba",
+          "title": "水皮大佬最新的重要分享和分析（2026-7-25）大家千万不要跑太快了！当前市场有机会的！很多普通人在关键时刻放弃了，太可惜！",
           "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=aQ-BxFtxVWE",
-          "summary_path": "content/summaries/podcasts/zh_standard/ark-invest-will-china-s-kimi-k3-win-the-ai-model-race-the-brainstorm-141.md",
-          "summary_chars": 1340,
-          "source_hash": "a535e01e68e8566e3371621a193e9e242508b4b0c353d1673b7f9c214eb59d16",
+          "source_url": "https://www.youtube.com/watch?v=_FLJYu7uGj4",
+          "summary_path": "content/summaries/podcasts/zh_standard/2026-7-25.md",
+          "summary_chars": 911,
+          "source_hash": "a151d6813292ed21fe73caaea4d8dff3a36bb7ba782125e63ea628cb92df4883",
           "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-22T23:03:51.973084+00:00",
+          "generated_at": "2026-07-25T22:55:29.919107+00:00",
           "status": "generated",
-          "channel": "ARK Invest",
-          "pub_date": "2026-07-22T20:00:37+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "79d294b8a7c45c89",
-          "title": "How Franchise Restaurants Opened the Door to the Gig Economy",
-          "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/how-franchise-restaurants-opened-the-door-to-the-gig-economy",
-          "summary_path": "content/summaries/podcasts/zh_standard/odd-lots-how-franchise-restaurants-opened-the-door-to-the-gig-economy.md",
-          "summary_chars": 1100,
-          "source_hash": "d42e6b22ca29344e50b9de439e78bb13679dc048fecb768474c7a657c4a4a975",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-24T23:00:50.112102+00:00",
-          "status": "generated",
-          "channel": "Odd Lots",
-          "pub_date": "2026-07-24T08:00:00+00:00",
+          "channel": "解读君",
+          "pub_date": "2026-07-25T03:17:05+00:00",
           "source_label": "description"
         }
       ],
@@ -183,6 +183,21 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
+        {
+          "id": "79d294b8a7c45c89",
+          "title": "How Franchise Restaurants Opened the Door to the Gig Economy",
+          "domain": "macro",
+          "source_url": "https://omny.fm/shows/odd-lots/how-franchise-restaurants-opened-the-door-to-the-gig-economy",
+          "summary_path": "content/summaries/podcasts/zh_deep/odd-lots-how-franchise-restaurants-opened-the-door-to-the-gig-economy.md",
+          "summary_chars": 2352,
+          "source_hash": "b1716633368e47495150b86c17249534ed105338610e6022eabc1e0f71059933",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-07-24T23:01:12.012253+00:00",
+          "status": "generated",
+          "channel": "Odd Lots",
+          "pub_date": "2026-07-24T08:00:00+00:00",
+          "source_label": "description"
+        },
         {
           "id": "15bafb0f871e3975",
           "title": "Why Apple Is Heading Into a Pivotal Moment",
@@ -229,39 +244,24 @@
           "source_label": "description"
         },
         {
-          "id": "9ec12a992577b672",
-          "title": "Will China’s Kimi K3 Win The AI Model Race?| The Brainstorm 141",
+          "id": "5c08609c4168b7ba",
+          "title": "水皮大佬最新的重要分享和分析（2026-7-25）大家千万不要跑太快了！当前市场有机会的！很多普通人在关键时刻放弃了，太可惜！",
           "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=aQ-BxFtxVWE",
-          "summary_path": "content/summaries/podcasts/zh_deep/ark-invest-will-china-s-kimi-k3-win-the-ai-model-race-the-brainstorm-141.md",
-          "summary_chars": 2292,
-          "source_hash": "f19d7702970c78158a8979ee41cc9f196f039709794f501fb9499a7b1159f0b8",
+          "source_url": "https://www.youtube.com/watch?v=_FLJYu7uGj4",
+          "summary_path": "content/summaries/podcasts/zh_deep/2026-7-25.md",
+          "summary_chars": 2001,
+          "source_hash": "a0c73c264f2091c218fa3486d481474ea7f4cd92749b6a5e624d3f1945995314",
           "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-22T23:04:32.899742+00:00",
+          "generated_at": "2026-07-25T22:55:50.700818+00:00",
           "status": "generated",
-          "channel": "ARK Invest",
-          "pub_date": "2026-07-22T20:00:37+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "79d294b8a7c45c89",
-          "title": "How Franchise Restaurants Opened the Door to the Gig Economy",
-          "domain": "macro",
-          "source_url": "https://omny.fm/shows/odd-lots/how-franchise-restaurants-opened-the-door-to-the-gig-economy",
-          "summary_path": "content/summaries/podcasts/zh_deep/odd-lots-how-franchise-restaurants-opened-the-door-to-the-gig-economy.md",
-          "summary_chars": 2352,
-          "source_hash": "b1716633368e47495150b86c17249534ed105338610e6022eabc1e0f71059933",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-24T23:01:12.012253+00:00",
-          "status": "generated",
-          "channel": "Odd Lots",
-          "pub_date": "2026-07-24T08:00:00+00:00",
+          "channel": "解读君",
+          "pub_date": "2026-07-25T03:17:05+00:00",
           "source_label": "description"
         }
       ],
       "papers": []
     }
   },
-  "generated_at": "2026-07-24T23:01:12.013822+00:00",
+  "generated_at": "2026-07-25T22:55:50.702867+00:00",
   "model": "deepseek-v4-pro"
 }
