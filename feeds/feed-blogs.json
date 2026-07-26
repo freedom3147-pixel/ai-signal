@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://www.baiguan.news/p/the-market-holds-its-breath-for-cxmt",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "The Market Holds Its Breath for CXMT",
+      "url": "https://www.baiguan.news/p/the-market-holds-its-breath-for-cxmt",
+      "published": "2026-07-26T13:05:17+00:00",
+      "summary": "This is an analysis of CXMT’s listing impact on the Chinese market, with a scenario analysis of Day-1 outcomes."
+    },
+    {
+      "id": "https://www.chinatalk.media/p/wartalk-ancient-greece-edition",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "WarTalk: Ancient Greece Edition",
+      "url": "https://www.chinatalk.media/p/wartalk-ancient-greece-edition",
+      "published": "2026-07-26T11:32:33+00:00",
+      "summary": "Thucydides Trap, 300, and what the classics actually say about war"
+    },
+    {
       "id": "https://www.highcapacity.org/p/podcast-the-real-story-behind-chinas",
       "source": "high_capacity",
       "source_name": "High Capacity",
@@ -152,24 +170,6 @@
       "url": "https://www.bis.org/publ/bisbull129.htm",
       "published": "2026-07-20T06:49:00+00:00",
       "summary": "by Iñaki Aldasoro, Raphael Auer, Jon Frost, Fernando Perez-Cruz \nFrontier artificial intelligence (AI) models increase the speed, scale and complexity of cyber attacks, and they also strengthen cyber defence. But the costs are asymmetric and may favour attackers. The medium-term impact on systemic cyber risk depends on the various actors' access to the most advanced tools, on compute power to run the tools and on economic incentives. Given the pace of recent developments, swift adoption of frontier AI models to review code bases and fix vulnerabilities is essential. International coordination"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/xiaohongshus-silence-becomes-part",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Xiaohongshu’s silence becomes part of its IPO story",
-      "url": "https://www.pekingnology.com/p/xiaohongshus-silence-becomes-part",
-      "published": "2026-07-19T12:55:20+00:00",
-      "summary": "RedNote may consider the labor dispute too weak to merit an answer. For a platform built on authentic sharing, that strategy looks increasingly peculiar."
-    },
-    {
-      "id": "https://www.eastisread.com/p/zhang-ming-a-chinese-model-for-currency",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Zhang Ming: A Chinese model for currency internationalisation is taking shape",
-      "url": "https://www.eastisread.com/p/zhang-ming-a-chinese-model-for-currency",
-      "published": "2026-07-19T11:06:36+00:00",
-      "summary": "Manufacturing strength and growing overseas investment are giving Beijing a path different from the United States's."
     }
   ],
   "errors": [
@@ -179,5 +179,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-25T22:54:33.420318+00:00"
+  "generated_at": "2026-07-26T22:57:58.177129+00:00"
 }
