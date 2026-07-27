@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/cxmt-ipo-taxing-offshore-assets-fang",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "CXMT IPO; Taxing offshore assets; Fang Xinghai; US-China; AI; Lula supports China-Mercosur deal",
+      "url": "https://sinocism.com/p/cxmt-ipo-taxing-offshore-assets-fang",
+      "published": "2026-07-27T22:34:47+00:00",
+      "summary": "The July Politburo meeting should happen this week, and should include as part of its agenda “analyzing and studying the current economic situation, and deploying economic work for the second half of the year 分析研究当前经济形势”. The 2025 July meeting was on Wednesday, July 30th, and also announced the date for the Fourth Plenum. \nAnd then on or around August 1 the top leaders will disappear from public for two weeks or so for the “Beidaihe Break”, even though we do not know if they all go to the seaside resort. Last year at this time there were lots of crazy rumors about Xi and possible coups; this y"
+    },
+    {
+      "id": "https://www.eastisread.com/p/louis-vuittons-legal-win-turns-into",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Louis Vuitton’s Legal Win Turns Into a Reputation Crisis in China",
+      "url": "https://www.eastisread.com/p/louis-vuittons-legal-win-turns-into",
+      "published": "2026-07-27T15:16:08+00:00",
+      "summary": "French luxury brand's trademark suit against a tea chain generated hundreds of trending topics, state-media scrutiny, and a wave of false claims."
+    },
+    {
+      "id": "https://www.highcapacity.org/p/chinas-global-ai-strategy",
+      "source": "high_capacity",
+      "source_name": "High Capacity",
+      "title": "China's global AI strategy",
+      "url": "https://www.highcapacity.org/p/chinas-global-ai-strategy",
+      "published": "2026-07-27T14:52:37+00:00",
+      "summary": "How China is trying to be the Android to America's Apple"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/prove-youre-human",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "Prove You're Human",
+      "url": "https://www.chinatalk.media/p/prove-youre-human",
+      "published": "2026-07-27T10:53:45+00:00",
+      "summary": "AI, Chinese Illustrators, and Becoming Tokenizable"
+    },
+    {
+      "id": "https://www.pekingnology.com/p/yan-xuetong-an-autonomous-knowledge",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Yan Xuetong: an autonomous knowledge system needs more than Chinese characteristics",
+      "url": "https://www.pekingnology.com/p/yan-xuetong-an-autonomous-knowledge",
+      "published": "2026-07-27T02:31:53+00:00",
+      "summary": "Leading international-relations scholar stresses original research, internal academic debate, and researchers’ freedom to set their own agendas."
+    },
+    {
       "id": "https://www.baiguan.news/p/the-market-holds-its-breath-for-cxmt",
       "source": "baiguan",
       "source_name": "Baiguan (BigOne Lab)",
@@ -143,33 +188,6 @@
       "url": "https://www.bis.org/publ/work1370.htm",
       "published": "2026-07-21T06:24:00+00:00",
       "summary": "by Boris Hofmann, Aaron Mehrotra, Jan Paulick \nThe emergence of stablecoins has created a new channel to access US dollar liquidity in emerging market and developing economies (EMDEs), similar to the historical role of foreign currency deposits, or \"deposit dollarisation\". This has raised concerns about the possible implications for monetary control in EMDEs. Drawing on data on foreign currency deposits and dollar-pegged stablecoin inflows for more than 130 economies, we compare the dynamics and drivers of \"stablecoin dollarisation\" with those of conventional deposit dollarisation."
-    },
-    {
-      "id": "https://sinocism.com/p/stock-market-rescue-world-ai-conference",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Stock market rescue; World AI Conference and open models; Second Thomas Shoal fight; Involution battles",
-      "url": "https://sinocism.com/p/stock-market-rescue-world-ai-conference",
-      "published": "2026-07-20T22:32:10+00:00",
-      "summary": "Operation stock market rescue - The National team is back to try to turn around the stock market, after losses approaching ten trillion RMB this month. China Reform Holdings Corp. Ltd. and China Chengtong Holdings Group Ltd. announced Sunday they were buying around 60B RMB of ETFs and domestic stocks, five insurance firms and multiple SOEs announced Monday they were buying stocks, and CSRC head Wu Qing held an “investor symposium” at a brokerage branch in Beijing to meet “with 8 representatives from various categories of investors — large, medium, small, and retail — to hear their opinions and"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/chinas-mythos-moment-366",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "China's Mythos Moment",
-      "url": "https://www.chinatalk.media/p/chinas-mythos-moment-366",
-      "published": "2026-07-20T16:36:42+00:00",
-      "summary": "Will Xi license, lock down, or let it rip?"
-    },
-    {
-      "id": "https://www.bis.org/publ/bisbull129.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "A Mythos moment? Frontier AI and cyber risk",
-      "url": "https://www.bis.org/publ/bisbull129.htm",
-      "published": "2026-07-20T06:49:00+00:00",
-      "summary": "by Iñaki Aldasoro, Raphael Auer, Jon Frost, Fernando Perez-Cruz \nFrontier artificial intelligence (AI) models increase the speed, scale and complexity of cyber attacks, and they also strengthen cyber defence. But the costs are asymmetric and may favour attackers. The medium-term impact on systemic cyber risk depends on the various actors' access to the most advanced tools, on compute power to run the tools and on economic incentives. Given the pace of recent developments, swift adoption of frontier AI models to review code bases and fix vulnerabilities is essential. International coordination"
     }
   ],
   "errors": [
@@ -179,5 +197,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-26T22:57:58.177129+00:00"
+  "generated_at": "2026-07-27T23:00:07.979464+00:00"
 }
