@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "https://www.pekingnology.com/p/manufacturing-personality",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Manufacturing Personality",
+      "url": "https://www.pekingnology.com/p/manufacturing-personality",
+      "published": "2026-07-28T12:20:09+00:00",
+      "summary": "Chinese newsrooms are trying to create individual stars - and often without allowing too much individuality."
+    },
+    {
+      "id": "https://www.chinatalk.media/p/chinas-dying-companies",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "China's 'dying' companies",
+      "url": "https://www.chinatalk.media/p/chinas-dying-companies",
+      "published": "2026-07-28T10:39:26+00:00",
+      "summary": "and where productivity growth will really come from"
+    },
+    {
+      "id": "https://www.baiguan.news/p/louis-vuitton-lvmh-molly-tea-china-trademark-lawsuit-backlash-toilet-bag-meme-sales-drop-baoxiang-flower-cultural-appropriation-bigone-lab",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "Louis Vuitton won. But Chinese netizens now call it a \"toilet bag.\"",
+      "url": "https://www.baiguan.news/p/louis-vuitton-lvmh-molly-tea-china-trademark-lawsuit-backlash-toilet-bag-meme-sales-drop-baoxiang-flower-cultural-appropriation-bigone-lab",
+      "published": "2026-07-28T10:10:02+00:00",
+      "summary": "LVMH’s trademark verdict against Molly Tea"
+    },
+    {
+      "id": "https://www.bis.org/publ/bisbull130.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "AI and the global economy: implications for central banks",
+      "url": "https://www.bis.org/publ/bisbull130.htm",
+      "published": "2026-07-28T09:52:00+00:00",
+      "summary": "by Iñaki Aldasoro, Leonardo Gambacorta, Enisse Kharroubi, Matthias Rottner \nThe AI boom is driving a large, increasingly debt-financed investment surge and boosting trade and equity markets, generating sizeable terms-of-trade and wealth effects that differ across countries. The productivity payoff from AI, though potentially large, remains uncertain and uneven, across both sectors and countries. By simultaneously affecting demand and supply, AI blurs cyclical signals, complicating central banks' assessment of underlying economic conditions and monetary policy calibration."
+    },
+    {
       "id": "https://sinocism.com/p/cxmt-ipo-taxing-offshore-assets-fang",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -118,15 +154,6 @@
       "summary": "Healthcare’s Holy Grail is to advance affordability, service quality and accessibility at the same time. China’s route is to crack the impossible trinity by pushing the feasible boundary outward"
     },
     {
-      "id": "https://www.chinatalk.media/p/kimi-k3-and-xis-ai-speech",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "Kimi and Xi",
-      "url": "https://www.chinatalk.media/p/kimi-k3-and-xis-ai-speech",
-      "published": "2026-07-23T10:02:47+00:00",
-      "summary": "The ChinaTalk Crew Discusses!"
-    },
-    {
       "id": "https://sinocism.com/p/wang-huning-tours-tibet-us-government",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -143,51 +170,6 @@
       "url": "https://www.bis.org/publ/work1371.htm",
       "published": "2026-07-22T08:32:00+00:00",
       "summary": "by Emanuel Kohlscheen, Aaron Mehrotra \nWe provide new evidence on the drivers of the pass-through of exchange rate movements into consumer prices across four decades and close to a hundred countries, combining econometrics and random forests. Random forests are particularly useful for modelling highly non-linear relationships, as well as for identifying the relative importance of the different theoretical factors that can affect the degree of pass-through."
-    },
-    {
-      "id": "https://sinocism.com/p/stock-market-rescue-progress-open",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Stock market rescue progress; \"Open\" AI with Chinese characteristics?; PRC-Philippines trade accusations as Wang Yi arrives for ASEAN; EU-China discussions",
-      "url": "https://sinocism.com/p/stock-market-rescue-progress-open",
-      "published": "2026-07-21T22:45:10+00:00",
-      "summary": "“Strengthening the guidance of capital-market expectations” likely means more positive talk about market prospects, and “further institutionalizing mechanisms for market stabilization” sounds like a call for more “national team” support, SOE buybacks, and long-term institutional money, in a more institutionalized way...“Industry institutions would step up counter-cyclical positioning and earnestly raise the level of their investor services; and that experts and scholars would actively offer advice and proposals and speak out rationally, so as to jointly foster a sound market environment” sound"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/henry-huiyao-wang-to-prosper-china",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Henry Huiyao Wang: To prosper, China must become a magnet for international students",
-      "url": "https://www.pekingnology.com/p/henry-huiyao-wang-to-prosper-china",
-      "published": "2026-07-21T20:17:36+00:00",
-      "summary": "CCG President says China must seize the opportunity to become a global education hub. Reform of its universities should begin now"
-    },
-    {
-      "id": "https://www.baiguan.news/p/china-60-trillion-retail-target-15th-five-year-plan-consumption-beta-trade-services-experience-economy-valuation-divergence-csi300-ai-agents-h2-2026-catalyst",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "Will China's RMB 60 trillion retail target unlock a consumption beta trade? Charts of the Week",
-      "url": "https://www.baiguan.news/p/china-60-trillion-retail-target-15th-five-year-plan-consumption-beta-trade-services-experience-economy-valuation-divergence-csi300-ai-agents-h2-2026-catalyst",
-      "published": "2026-07-21T10:02:32+00:00",
-      "summary": "“Charts of the Week” is Baiguan’s series that features key data points to help you quickly grasp the general state of affairs in China in just a few minutes. We handpick the highlights of the data charts from a variety of sources, analyzing and delivering insights"
-    },
-    {
-      "id": "https://sinocism.com/p/sharp-china-kimi-madness-xis-ai-vision",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Sharp China: Kimi Madness; Xi's AI Vision and US Questions; Trump's Election Data Claims; The Connected Vehicle Security Act",
-      "url": "https://sinocism.com/p/sharp-china-kimi-madness-xis-ai-vision",
-      "published": "2026-07-21T09:01:59+00:00",
-      "summary": "Show Notes:"
-    },
-    {
-      "id": "https://www.bis.org/publ/work1370.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "Dollarisation and monetary control: what lessons for the rise of stablecoins?",
-      "url": "https://www.bis.org/publ/work1370.htm",
-      "published": "2026-07-21T06:24:00+00:00",
-      "summary": "by Boris Hofmann, Aaron Mehrotra, Jan Paulick \nThe emergence of stablecoins has created a new channel to access US dollar liquidity in emerging market and developing economies (EMDEs), similar to the historical role of foreign currency deposits, or \"deposit dollarisation\". This has raised concerns about the possible implications for monetary control in EMDEs. Drawing on data on foreign currency deposits and dollar-pegged stablecoin inflows for more than 130 economies, we compare the dynamics and drivers of \"stablecoin dollarisation\" with those of conventional deposit dollarisation."
     }
   ],
   "errors": [
@@ -197,5 +179,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-27T23:00:07.979464+00:00"
+  "generated_at": "2026-07-28T22:56:54.259413+00:00"
 }
