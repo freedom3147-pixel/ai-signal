@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/rmb-and-global-imbalances-prc-missiles",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "RMB and global imbalances; PRC missiles to Iran?; National Plan for Addressing Climate Change; Commercial space industry",
+      "url": "https://sinocism.com/p/rmb-and-global-imbalances-prc-missiles",
+      "published": "2026-07-29T22:10:05+00:00",
+      "summary": "We are still waiting for the July Politburo meeting.\nGita Gopinath, Pierre-Olivier Gourinchas and Hélène Rey - two former IMF chief economists and the incoming chief economic advisor at the Bank for International Settlements, respectively - wrote “Don’t blame global imbalances on the undervalued yuan” for The Economist arguing that calling on the PRC to revalue the yuan to fix imbalances, as German Chancellor Merz has done, “gets both the diagnosis and the cure wrong”. They conclude the piece:\nThe G7 and the IMF locate the problem correctly: it lies in the constellation of domestic macroeconom"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/china-and-the-iran-war-oil-shock",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "China and the Iran War Oil Shock That Wasn’t",
+      "url": "https://www.chinatalk.media/p/china-and-the-iran-war-oil-shock",
+      "published": "2026-07-29T13:27:41+00:00",
+      "summary": "and China's five-million-barrel mystery"
+    },
+    {
+      "id": "https://www.eastisread.com/p/liu-shijins-proposals-to-turn-excess",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Liu Shijin’s Proposals to Turn Excess Saving into Domestic Demand",
+      "url": "https://www.eastisread.com/p/liu-shijins-proposals-to-turn-excess",
+      "published": "2026-07-29T02:53:44+00:00",
+      "summary": "One of China’s most senior policy economists calls for redirecting corporate earnings, state assets, and government stimulus towards household consumption."
+    },
+    {
+      "id": "https://sinocism.com/p/xi-meets-slovak-president-excess",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Xi meets Slovak president; “Excess capacity” or “Overcapacity”? ; CXMT IPO; Overseas Chinese affairs conference; Li Qiang in Tangshan; Chips and AI",
+      "url": "https://sinocism.com/p/xi-meets-slovak-president-excess",
+      "published": "2026-07-28T23:14:50+00:00",
+      "summary": "In this issue:\nXi meets Slovak president\n“Excess capacity” or “Overcapacity”?\nCXMT IPO the day after\nXinhua’s mid-year review of the Chinese economy\nLi Qiang commemorates the 50th anniversary of the Tangshan earthquake\nNational Conference on Overseas Chinese Affairs Work\nAI and chips\nUS to ban new PRC robots"
+    },
+    {
       "id": "https://www.pekingnology.com/p/manufacturing-personality",
       "source": "pekingnology",
       "source_name": "Pekingnology",
@@ -127,15 +163,6 @@
       "summary": "A skewed sex ratio weighs on marriage and fertility, while an ageing migrant workforce is redrawing China’s economic map."
     },
     {
-      "id": "https://www.chinatalk.media/p/ai-roleplay-a-deep-dive",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "Chinese Labs' Latest Product? Roleplay",
-      "url": "https://www.chinatalk.media/p/ai-roleplay-a-deep-dive",
-      "published": "2026-07-24T10:02:16+00:00",
-      "summary": "Why Deepseek is hiring for feelings"
-    },
-    {
       "id": "https://sinocism.com/p/another-csrc-meeting-deepseek-ceo",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -152,24 +179,6 @@
       "url": "https://www.baiguan.news/p/china-may-attain-healthcares-holy",
       "published": "2026-07-23T10:17:03+00:00",
       "summary": "Healthcare’s Holy Grail is to advance affordability, service quality and accessibility at the same time. China’s route is to crack the impossible trinity by pushing the feasible boundary outward"
-    },
-    {
-      "id": "https://sinocism.com/p/wang-huning-tours-tibet-us-government",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Wang Huning tours Tibet; US government officials go after Moonshot; Wang Yi-Rubio meeting; PRC-Philippines; H1 fiscal revenue and expenditure data",
-      "url": "https://sinocism.com/p/wang-huning-tours-tibet-us-government",
-      "published": "2026-07-22T22:12:05+00:00",
-      "summary": "The head of the White House Office of Science and Technology Policy, the Treasury Secretary and a senior State Department official all tweeted similar things about Kimi and distillation today. Secretary Bessent was most specific about possible policy responses - ”sanctions and Entity List designations will be on the table”. \nKratsios, the head of the OSTP, accused Moonshot of “a sophisticated internal platform to conduct large scale distillation against U.S. models, allowing them to quickly switch between multiple methods of access to avoid detection. Moonshot AI has also acquired GB300-equipp"
-    },
-    {
-      "id": "https://www.bis.org/publ/work1371.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "What drives exchange rate pass-throughs? Evidence from a non-parametric method",
-      "url": "https://www.bis.org/publ/work1371.htm",
-      "published": "2026-07-22T08:32:00+00:00",
-      "summary": "by Emanuel Kohlscheen, Aaron Mehrotra \nWe provide new evidence on the drivers of the pass-through of exchange rate movements into consumer prices across four decades and close to a hundred countries, combining econometrics and random forests. Random forests are particularly useful for modelling highly non-linear relationships, as well as for identifying the relative importance of the different theoretical factors that can affect the degree of pass-through."
     }
   ],
   "errors": [
@@ -179,5 +188,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-28T22:56:54.259413+00:00"
+  "generated_at": "2026-07-29T22:58:22.877644+00:00"
 }
