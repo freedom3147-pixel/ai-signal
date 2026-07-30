@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "https://www.eastisread.com/p/bytedance-folds-feishu-teams-into",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "ByteDance folds Feishu teams into Doubao, Volcano Engine in enterprise AI push",
+      "url": "https://www.eastisread.com/p/bytedance-folds-feishu-teams-into",
+      "published": "2026-07-30T16:54:02+00:00",
+      "summary": "TikTok’s Chinese parent is drawing its AI models, cloud infrastructure, and workplace software closer together as China’s tech giants race to bring AI into the workplace."
+    },
+    {
+      "id": "https://www.pekingnology.com/p/reading-the-july-politburo-meeting",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Reading the July Politburo Meeting: More Support, Same Priorities",
+      "url": "https://www.pekingnology.com/p/reading-the-july-politburo-meeting",
+      "published": "2026-07-30T14:14:40+00:00",
+      "summary": "Beijing has sharpened its economic diagnosis and moved additional policies closer to deployment, while preparing an October plenum centered on Party discipline against corruption."
+    },
+    {
+      "id": "https://sinocism.com/p/july-2026-politburo-meeting-fifth",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "July 2026 Politburo meeting; Fifth Plenum set for October; Signals of marginal, incremental policy support",
+      "url": "https://sinocism.com/p/july-2026-politburo-meeting-fifth",
+      "published": "2026-07-30T12:59:37+00:00",
+      "summary": "The Politburo held its July meeting today. Some of the highlights:\nFifth Plenum scheduled for October, agenda is “to study major issues concerning the unremitting advancement of full and rigorous Party self-governance”;\nDiagnosis of economic situation section includes “it is necessary to attach great importance to the difficulties and challenges in economic performance 要高度重视经济运行中的困难挑战”, which suggests increasing concern about the state of economy;\nReadout language signals at least some additional, marginal policy support - promptly plan and introduce practical and effective incremental policie"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/chinas-other-minerals-monopoly",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "China's Other Minerals Monopoly",
+      "url": "https://www.chinatalk.media/p/chinas-other-minerals-monopoly",
+      "published": "2026-07-30T10:54:20+00:00",
+      "summary": "autonomous mining!"
+    },
+    {
+      "id": "https://sinocism.com/p/a-memory-maker-makes-history-new",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "A Memory-Maker Makes History; New Robot Rules; The Open Weights Debate Rages; End of July News and Notes",
+      "url": "https://sinocism.com/p/a-memory-maker-makes-history-new",
+      "published": "2026-07-30T09:01:56+00:00",
+      "summary": "Show Notes:"
+    },
+    {
       "id": "https://sinocism.com/p/rmb-and-global-imbalances-prc-missiles",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -145,15 +190,6 @@
       "summary": "A conversation with Professor Fengming Lu at Australian National University."
     },
     {
-      "id": "https://www.chinatalk.media/p/wartalk-groundhog-day-in-iran-rogue",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "WarTalk: Groundhog Day in Iran, Rogue AI, Ukraine",
-      "url": "https://www.chinatalk.media/p/wartalk-groundhog-day-in-iran-rogue",
-      "published": "2026-07-24T17:10:54+00:00",
-      "summary": "I guess we're doing this again..."
-    },
-    {
       "id": "https://www.eastisread.com/p/li-xunlei-china-is-growing-older",
       "source": "east_is_read",
       "source_name": "The East is Read",
@@ -161,24 +197,6 @@
       "url": "https://www.eastisread.com/p/li-xunlei-china-is-growing-older",
       "published": "2026-07-24T12:20:35+00:00",
       "summary": "A skewed sex ratio weighs on marriage and fertility, while an ageing migrant workforce is redrawing China’s economic map."
-    },
-    {
-      "id": "https://sinocism.com/p/another-csrc-meeting-deepseek-ceo",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Another CSRC meeting; DeepSeek CEO comments; SAMR warns about \"externalization of involution 内卷外化\"; US-China; Strengthening social work",
-      "url": "https://sinocism.com/p/another-csrc-meeting-deepseek-ceo",
-      "published": "2026-07-23T22:29:22+00:00",
-      "summary": "President Trump confirmed that Xi will visit the US on September 24. That is not a surprise, the Rubio-Wang meeting readouts were clear they were working towards that visit. Vice Foreign Minister Ma Zhaoxu, one of the top contenders to eventually replace Wang Yi, has been in the Washington, DC this week, and today visited the Pentagon. A MOFCOM official said on Thursday that “at present the Chinese and US economic and trade teams are maintaining close communication on specific arrangements for the trade council, including its structure, functions, and mode of operation, and are discussing adva"
-    },
-    {
-      "id": "https://www.baiguan.news/p/china-may-attain-healthcares-holy",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "China may attain healthcare’s Holy Grail: cracking the \"impossible trinity\"",
-      "url": "https://www.baiguan.news/p/china-may-attain-healthcares-holy",
-      "published": "2026-07-23T10:17:03+00:00",
-      "summary": "Healthcare’s Holy Grail is to advance affordability, service quality and accessibility at the same time. China’s route is to crack the impossible trinity by pushing the feasible boundary outward"
     }
   ],
   "errors": [
@@ -188,5 +206,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-29T22:58:22.877644+00:00"
+  "generated_at": "2026-07-30T23:05:25.693536+00:00"
 }
