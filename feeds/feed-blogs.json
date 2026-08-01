@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://www.china-translated.com/p/cxmt",
+      "source": "china_translated",
+      "source_name": "China Translated / Robert Wu",
+      "title": "CXMT",
+      "url": "https://www.china-translated.com/p/cxmt",
+      "published": "2026-08-01T10:59:01+00:00",
+      "summary": "China Translated - Briefing #71"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/cold-war-lessons-for-a-constrained",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "Cold War Lessons for a Constrained America",
+      "url": "https://www.chinatalk.media/p/cold-war-lessons-for-a-constrained",
+      "published": "2026-07-31T22:57:17+00:00",
+      "summary": "The China Differential"
+    },
+    {
       "id": "https://www.eastisread.com/p/zhao-shukai-how-china-allowed-private",
       "source": "east_is_read",
       "source_name": "The East is Read",
@@ -188,15 +206,6 @@
       "url": "https://www.baiguan.news/p/the-market-holds-its-breath-for-cxmt",
       "published": "2026-07-26T13:05:17+00:00",
       "summary": "This is an analysis of CXMT’s listing impact on the Chinese market, with a scenario analysis of Day-1 outcomes."
-    },
-    {
-      "id": "https://www.chinatalk.media/p/wartalk-ancient-greece-edition",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "WarTalk: Ancient Greece Edition",
-      "url": "https://www.chinatalk.media/p/wartalk-ancient-greece-edition",
-      "published": "2026-07-26T11:32:33+00:00",
-      "summary": "Thucydides Trap, 300, and what the classics actually say about war"
     }
   ],
   "errors": [
@@ -206,5 +215,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-07-31T22:58:26.649906+00:00"
+  "generated_at": "2026-08-01T22:53:54.917715+00:00"
 }
