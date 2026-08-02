@@ -10,36 +10,6 @@
       "x": [],
       "podcasts": [
         {
-          "id": "d66d8e0ca05055c9",
-          "title": "「野村&高盛&CF40」20260730：7月政治局会议点评，正确政绩观、从严治党下的高压反腐、地方政府换届都将制约地方官员的投资意愿，尽管下半年财政资源充裕",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=NrLUvvs7vdw",
-          "summary_path": "content/summaries/podcasts/zh_short/cf40-20260730-7.md",
-          "summary_chars": 459,
-          "source_hash": "330efb59b4ae0c06365128e4121ba93d335b604aa7d602a326dd5e0597de48ac",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-31T22:59:07.164054+00:00",
-          "status": "generated",
-          "channel": "老厉害",
-          "pub_date": "2026-07-31T16:00:32+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "fef95943e808fe26",
-          "title": "Six Minutes Across Dublin: Drones Replacing Hospital Taxis",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/shorts/jPWNX_GOFP0",
-          "summary_path": "content/summaries/podcasts/zh_short/ark-invest-six-minutes-across-dublin-drones-replacing-hospital-taxis.md",
-          "summary_chars": 441,
-          "source_hash": "2ae98175eeaa70149e024aa036fca3f0acae5c0d0bb04b50d31f6540732be208",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-31T22:59:12.216990+00:00",
-          "status": "generated",
-          "channel": "ARK Invest",
-          "pub_date": "2026-07-31T14:39:57+00:00",
-          "source_label": "description"
-        },
-        {
           "id": "ea37bf65e578f54f",
           "title": "【必听干货！】  洪灏重磅：详细谈到接下来可能会发生的市场新变局，大变局！",
           "domain": "macro",
@@ -83,6 +53,36 @@
           "channel": "解读君",
           "pub_date": "2026-08-01T02:14:40+00:00",
           "source_label": "description"
+        },
+        {
+          "id": "026a603ae36fcdd9",
+          "title": "水皮最新分享（2026-8-1最新）接下来的科技板块的投资布局策略和逻辑",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=f11OWRU-ESk",
+          "summary_path": "content/summaries/podcasts/zh_short/2026-8-1.md",
+          "summary_chars": 507,
+          "source_hash": "bd01aeb2d1e6b655cd229d0e003b64bcadfe40e6c115b20327c12952a8cbd2e4",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-02T22:55:45.437643+00:00",
+          "status": "generated",
+          "channel": "解读君",
+          "pub_date": "2026-08-02T07:10:29+00:00",
+          "source_label": "description"
+        },
+        {
+          "id": "e9391bbc8c93060c",
+          "title": "【最新对话】孟晓苏对话刘纪鹏（2026-8-1）市场为何上下剧烈波动，能稳住吗",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=mPXP362cW8k",
+          "summary_path": "content/summaries/podcasts/zh_short/2026-8-1.md",
+          "summary_chars": 575,
+          "source_hash": "79e1dda321212c96e40366abbd5d7b6e1a26485efde1d1756732ae4e6bfc36bb",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-02T22:55:52.573082+00:00",
+          "status": "generated",
+          "channel": "解读君",
+          "pub_date": "2026-08-02T01:07:14+00:00",
+          "source_label": "description"
         }
       ],
       "papers": []
@@ -96,36 +96,6 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
-        {
-          "id": "d66d8e0ca05055c9",
-          "title": "「野村&高盛&CF40」20260730：7月政治局会议点评，正确政绩观、从严治党下的高压反腐、地方政府换届都将制约地方官员的投资意愿，尽管下半年财政资源充裕",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=NrLUvvs7vdw",
-          "summary_path": "content/summaries/podcasts/zh_standard/cf40-20260730-7.md",
-          "summary_chars": 1282,
-          "source_hash": "b9bb81d28f82948723dd9f57e816ed5a04e266f9c141d6cbf14c47a4d57df57f",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-31T22:59:47.290080+00:00",
-          "status": "generated",
-          "channel": "老厉害",
-          "pub_date": "2026-07-31T16:00:32+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "fef95943e808fe26",
-          "title": "Six Minutes Across Dublin: Drones Replacing Hospital Taxis",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/shorts/jPWNX_GOFP0",
-          "summary_path": "content/summaries/podcasts/zh_standard/ark-invest-six-minutes-across-dublin-drones-replacing-hospital-taxis.md",
-          "summary_chars": 823,
-          "source_hash": "504aeba8a08095e1c9ceb2db40ddb6590074f39f4988bfdd41e8b881b8ceea6e",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-31T22:59:55.373767+00:00",
-          "status": "generated",
-          "channel": "ARK Invest",
-          "pub_date": "2026-07-31T14:39:57+00:00",
-          "source_label": "description"
-        },
         {
           "id": "ea37bf65e578f54f",
           "title": "【必听干货！】  洪灏重磅：详细谈到接下来可能会发生的市场新变局，大变局！",
@@ -170,6 +140,36 @@
           "channel": "解读君",
           "pub_date": "2026-08-01T02:14:40+00:00",
           "source_label": "description"
+        },
+        {
+          "id": "026a603ae36fcdd9",
+          "title": "水皮最新分享（2026-8-1最新）接下来的科技板块的投资布局策略和逻辑",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=f11OWRU-ESk",
+          "summary_path": "content/summaries/podcasts/zh_standard/2026-8-1.md",
+          "summary_chars": 1031,
+          "source_hash": "a94a5295fdadd45fa9041423c763e94882363967e2b342dd0ff56e2d995e116d",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-02T22:56:16.183935+00:00",
+          "status": "generated",
+          "channel": "解读君",
+          "pub_date": "2026-08-02T07:10:29+00:00",
+          "source_label": "description"
+        },
+        {
+          "id": "e9391bbc8c93060c",
+          "title": "【最新对话】孟晓苏对话刘纪鹏（2026-8-1）市场为何上下剧烈波动，能稳住吗",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=mPXP362cW8k",
+          "summary_path": "content/summaries/podcasts/zh_standard/2026-8-1.md",
+          "summary_chars": 1056,
+          "source_hash": "ab14a214c660dd33163d41bf0a6ee4c88ce9d15d16f29482ebd31a638b423837",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-02T22:56:26.642450+00:00",
+          "status": "generated",
+          "channel": "解读君",
+          "pub_date": "2026-08-02T01:07:14+00:00",
+          "source_label": "description"
         }
       ],
       "papers": []
@@ -183,36 +183,6 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
-        {
-          "id": "d66d8e0ca05055c9",
-          "title": "「野村&高盛&CF40」20260730：7月政治局会议点评，正确政绩观、从严治党下的高压反腐、地方政府换届都将制约地方官员的投资意愿，尽管下半年财政资源充裕",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=NrLUvvs7vdw",
-          "summary_path": "content/summaries/podcasts/zh_deep/cf40-20260730-7.md",
-          "summary_chars": 2423,
-          "source_hash": "bac3af90256e33c78ae19740d107fd95237ba13f4f14a6da334ffeb204b5ff0c",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-31T23:00:58.140521+00:00",
-          "status": "generated",
-          "channel": "老厉害",
-          "pub_date": "2026-07-31T16:00:32+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "fef95943e808fe26",
-          "title": "Six Minutes Across Dublin: Drones Replacing Hospital Taxis",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/shorts/jPWNX_GOFP0",
-          "summary_path": "content/summaries/podcasts/zh_deep/ark-invest-six-minutes-across-dublin-drones-replacing-hospital-taxis.md",
-          "summary_chars": 2191,
-          "source_hash": "4154ad93be7fd8d48ef24e53233c7565dd8f980cee4e1148550a38e5a7a0da89",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-07-31T23:01:22.015467+00:00",
-          "status": "generated",
-          "channel": "ARK Invest",
-          "pub_date": "2026-07-31T14:39:57+00:00",
-          "source_label": "description"
-        },
         {
           "id": "ea37bf65e578f54f",
           "title": "【必听干货！】  洪灏重磅：详细谈到接下来可能会发生的市场新变局，大变局！",
@@ -257,11 +227,41 @@
           "channel": "解读君",
           "pub_date": "2026-08-01T02:14:40+00:00",
           "source_label": "description"
+        },
+        {
+          "id": "026a603ae36fcdd9",
+          "title": "水皮最新分享（2026-8-1最新）接下来的科技板块的投资布局策略和逻辑",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=f11OWRU-ESk",
+          "summary_path": "content/summaries/podcasts/zh_deep/2026-8-1.md",
+          "summary_chars": 2769,
+          "source_hash": "b1bb9f4a0b620e30380ff587260897135ceacd57ecebab90f5e104fcd745bb17",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-02T22:56:51.164872+00:00",
+          "status": "generated",
+          "channel": "解读君",
+          "pub_date": "2026-08-02T07:10:29+00:00",
+          "source_label": "description"
+        },
+        {
+          "id": "e9391bbc8c93060c",
+          "title": "【最新对话】孟晓苏对话刘纪鹏（2026-8-1）市场为何上下剧烈波动，能稳住吗",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=mPXP362cW8k",
+          "summary_path": "content/summaries/podcasts/zh_deep/2026-8-1.md",
+          "summary_chars": 2355,
+          "source_hash": "bed663e46f58ccc4c674a1affadb195e0aef4622386401d16802b19da09e1d44",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-02T22:57:14.683776+00:00",
+          "status": "generated",
+          "channel": "解读君",
+          "pub_date": "2026-08-02T01:07:14+00:00",
+          "source_label": "description"
         }
       ],
       "papers": []
     }
   },
-  "generated_at": "2026-08-01T22:57:13.380993+00:00",
+  "generated_at": "2026-08-02T22:57:14.685252+00:00",
   "model": "deepseek-v4-pro"
 }

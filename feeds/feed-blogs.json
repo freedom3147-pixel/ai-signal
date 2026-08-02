@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://www.pekingnology.com/p/xu-gao-three-questions-china-must",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Xu Gao: Three Questions China Must Clarify to Promote Effective Investment",
+      "url": "https://www.pekingnology.com/p/xu-gao-three-questions-china-must",
+      "published": "2026-08-02T17:01:17+00:00",
+      "summary": "The economist and adjunct professor at PKU examines investment’s relationship with consumption, how its returns should be assessed, and how the resulting debt should be understood."
+    },
+    {
       "id": "https://www.china-translated.com/p/cxmt",
       "source": "china_translated",
       "source_name": "China Translated / Robert Wu",
@@ -197,15 +206,6 @@
       "url": "https://www.pekingnology.com/p/yan-xuetong-an-autonomous-knowledge",
       "published": "2026-07-27T02:31:53+00:00",
       "summary": "Leading international-relations scholar stresses original research, internal academic debate, and researchers’ freedom to set their own agendas."
-    },
-    {
-      "id": "https://www.baiguan.news/p/the-market-holds-its-breath-for-cxmt",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "The Market Holds Its Breath for CXMT",
-      "url": "https://www.baiguan.news/p/the-market-holds-its-breath-for-cxmt",
-      "published": "2026-07-26T13:05:17+00:00",
-      "summary": "This is an analysis of CXMT’s listing impact on the Chinese market, with a scenario analysis of Day-1 outcomes."
     }
   ],
   "errors": [
@@ -215,5 +215,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-01T22:53:54.917715+00:00"
+  "generated_at": "2026-08-02T22:55:01.523599+00:00"
 }
