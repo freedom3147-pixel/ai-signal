@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/a-window-into-bond-investors-uncertainty-about-r-star/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "A Window into Bond Investors’ Uncertainty About R‑Star",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/a-window-into-bond-investors-uncertainty-about-r-star/",
+      "published": "2026-08-04T11:00:00+00:00",
+      "summary": "Monetary policymakers closely monitor the term structure of sovereign bond yields to uncover market participants’ beliefs about the future monetary policy stance, inflation, and activity. A particular object of interest is the natural real rate of return, or “r-star,” which acts as a guide for monetary policy decisions. Numerous papers have questioned how much information investors possess, and how precisely they know r-star. In this post based on a recent Staff Report , we explore what the term structure of interest rates can teach us about r-star and its perception by investors."
+    },
+    {
+      "id": "https://www.eastisread.com/p/huang-yiping-on-china-shock-20-debate",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Huang Yiping on China Shock 2.0 debate",
+      "url": "https://www.eastisread.com/p/huang-yiping-on-china-shock-20-debate",
+      "published": "2026-08-04T10:40:27+00:00",
+      "summary": "NSD director suggests deeper China-Europe cooperation in green transition, advanced manufacturing, industrial AI, high-end services, and third-country markets."
+    },
+    {
+      "id": "https://www.baiguan.news/p/baiguan-pro-launch-china-equity-investors-crrai-june-2026-hong-kong-constructive-a-shares-semiconductor-equipment-ai-bubble-internet-profit-ip-consumption-dividend-buyback",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "Our view on Chinese assets: July 2026",
+      "url": "https://www.baiguan.news/p/baiguan-pro-launch-china-equity-investors-crrai-june-2026-hong-kong-constructive-a-shares-semiconductor-equipment-ai-bubble-internet-profit-ip-consumption-dividend-buyback",
+      "published": "2026-08-04T10:02:43+00:00",
+      "summary": "*On April 1, we officially launched Baiguan Pro, our professional-tier subscription designed for investors seeking deeper, more specific coverage of Chinese equities."
+    },
+    {
       "id": "https://sinocism.com/p/advantage-does-not-equal-victory",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -161,42 +188,6 @@
       "url": "https://www.eastisread.com/p/liu-shijins-proposals-to-turn-excess",
       "published": "2026-07-29T02:53:44+00:00",
       "summary": "One of China’s most senior policy economists calls for redirecting corporate earnings, state assets, and government stimulus towards household consumption."
-    },
-    {
-      "id": "https://www.pekingnology.com/p/manufacturing-personality",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Manufacturing Personality",
-      "url": "https://www.pekingnology.com/p/manufacturing-personality",
-      "published": "2026-07-28T12:20:09+00:00",
-      "summary": "Chinese newsrooms are trying to create individual stars - and often without allowing too much individuality."
-    },
-    {
-      "id": "https://www.chinatalk.media/p/chinas-dying-companies",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "China's 'dying' companies",
-      "url": "https://www.chinatalk.media/p/chinas-dying-companies",
-      "published": "2026-07-28T10:39:26+00:00",
-      "summary": "and where productivity growth will really come from"
-    },
-    {
-      "id": "https://www.baiguan.news/p/louis-vuitton-lvmh-molly-tea-china-trademark-lawsuit-backlash-toilet-bag-meme-sales-drop-baoxiang-flower-cultural-appropriation-bigone-lab",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "Louis Vuitton won. But Chinese netizens now call it a \"toilet bag.\"",
-      "url": "https://www.baiguan.news/p/louis-vuitton-lvmh-molly-tea-china-trademark-lawsuit-backlash-toilet-bag-meme-sales-drop-baoxiang-flower-cultural-appropriation-bigone-lab",
-      "published": "2026-07-28T10:10:02+00:00",
-      "summary": "LVMH’s trademark verdict against Molly Tea"
-    },
-    {
-      "id": "https://www.bis.org/publ/bisbull130.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "AI and the global economy: implications for central banks",
-      "url": "https://www.bis.org/publ/bisbull130.htm",
-      "published": "2026-07-28T09:52:00+00:00",
-      "summary": "by Iñaki Aldasoro, Leonardo Gambacorta, Enisse Kharroubi, Matthias Rottner \nThe AI boom is driving a large, increasingly debt-financed investment surge and boosting trade and equity markets, generating sizeable terms-of-trade and wealth effects that differ across countries. The productivity payoff from AI, though potentially large, remains uncertain and uneven, across both sectors and countries. By simultaneously affecting demand and supply, AI blurs cyclical signals, complicating central banks' assessment of underlying economic conditions and monetary policy calibration."
     }
   ],
   "errors": [
@@ -206,5 +197,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-03T22:58:24.452013+00:00"
+  "generated_at": "2026-08-04T23:02:10.637745+00:00"
 }
