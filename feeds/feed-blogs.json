@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "https://www.eastisread.com/p/huawei-mocked-over-a-childs-toy",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Huawei mocked over a child's toy",
+      "url": "https://www.eastisread.com/p/huawei-mocked-over-a-childs-toy",
+      "published": "2026-08-05T11:17:11+00:00",
+      "summary": "A viral bamboo cicada joke exposed the tensions between Huawei’s status as a symbol of China’s technological rise and its role as a consumer brand."
+    },
+    {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/ais-impact-on-labor-and-hiring/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "AI’s Impact on Labor and Hiring",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/ais-impact-on-labor-and-hiring/",
+      "published": "2026-08-05T11:00:00+00:00",
+      "summary": "Welcome to Street Level , my new series on Liberty Street Economics . As research director, I try to keep track of the wide range of work that the economists at the New York Fed produce. My goal for this series is to periodically offer some thematic discussion of that work, highlighting recent analysis by Research staff and adding my own observations on the issue at hand. In this inaugural post, I’ll focus on perhaps the hottest topic going: How artificial intelligence is changing the labor market and hiring behaviors."
+    },
+    {
+      "id": "https://www.china-translated.com/p/who-is-the-good-guy-now-in-ai",
+      "source": "china_translated",
+      "source_name": "China Translated / Robert Wu",
+      "title": "Who is the good guy now in AI?",
+      "url": "https://www.china-translated.com/p/who-is-the-good-guy-now-in-ai",
+      "published": "2026-08-05T10:22:26+00:00",
+      "summary": "China Translated - Briefing #72"
+    },
+    {
+      "id": "https://www.baiguan.news/p/deepseek-lvmh-vs-molly-tea-state",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "DeepSeek, LVMH vs Molly Tea, state of economy - Baiguan Radio #39",
+      "url": "https://www.baiguan.news/p/deepseek-lvmh-vs-molly-tea-state",
+      "published": "2026-08-05T09:41:26+00:00",
+      "summary": "With Olivia Plotnick"
+    },
+    {
+      "id": "https://www.bis.org/publ/bisbull131.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Energy shocks and inflation: challenges for monetary policy",
+      "url": "https://www.bis.org/publ/bisbull131.htm",
+      "published": "2026-08-05T07:23:00+00:00",
+      "summary": "by Ryan Niladri Banerjee, Fiorella De Fiore, Marco Jacopo Lombardi, Giovanni Lombardo \nThe recent energy shock ranks among the most significant since the 1990s. Structural factors and initial conditions influence how energy shocks propagate into inflation – directly and through second-round effects. The appropriate monetary policy reaction depends on the persistence of the inflationary pressures as well as the magnitude of the growth impact, and it differs across economies. Uncertainty about these effects further complicates the policy challenge."
+    },
+    {
       "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/a-window-into-bond-investors-uncertainty-about-r-star/",
       "source": "nyfed_lse",
       "source_name": "NY Fed Liberty Street Economics",
@@ -161,33 +206,6 @@
       "url": "https://sinocism.com/p/a-memory-maker-makes-history-new",
       "published": "2026-07-30T09:01:56+00:00",
       "summary": "Show Notes:"
-    },
-    {
-      "id": "https://sinocism.com/p/rmb-and-global-imbalances-prc-missiles",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "RMB and global imbalances; PRC missiles to Iran?; National Plan for Addressing Climate Change; Commercial space industry",
-      "url": "https://sinocism.com/p/rmb-and-global-imbalances-prc-missiles",
-      "published": "2026-07-29T22:10:05+00:00",
-      "summary": "We are still waiting for the July Politburo meeting.\nGita Gopinath, Pierre-Olivier Gourinchas and Hélène Rey - two former IMF chief economists and the incoming chief economic advisor at the Bank for International Settlements, respectively - wrote “Don’t blame global imbalances on the undervalued yuan” for The Economist arguing that calling on the PRC to revalue the yuan to fix imbalances, as German Chancellor Merz has done, “gets both the diagnosis and the cure wrong”. They conclude the piece:\nThe G7 and the IMF locate the problem correctly: it lies in the constellation of domestic macroeconom"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/china-and-the-iran-war-oil-shock",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "China and the Iran War Oil Shock That Wasn’t",
-      "url": "https://www.chinatalk.media/p/china-and-the-iran-war-oil-shock",
-      "published": "2026-07-29T13:27:41+00:00",
-      "summary": "and China's five-million-barrel mystery"
-    },
-    {
-      "id": "https://www.eastisread.com/p/liu-shijins-proposals-to-turn-excess",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Liu Shijin’s Proposals to Turn Excess Saving into Domestic Demand",
-      "url": "https://www.eastisread.com/p/liu-shijins-proposals-to-turn-excess",
-      "published": "2026-07-29T02:53:44+00:00",
-      "summary": "One of China’s most senior policy economists calls for redirecting corporate earnings, state assets, and government stimulus towards household consumption."
     }
   ],
   "errors": [
@@ -197,5 +215,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-04T23:02:10.637745+00:00"
+  "generated_at": "2026-08-05T22:56:50.398704+00:00"
 }

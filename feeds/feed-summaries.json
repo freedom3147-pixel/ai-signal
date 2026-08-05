@@ -10,36 +10,6 @@
       "x": [],
       "podcasts": [
         {
-          "id": "856e123ef434f3d2",
-          "title": "「央行半年度工作会议」20260802：走向现代非独立央行，“安全”优先于“发展”，删除“香港金融市场稳定和繁荣“",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=vsoGLm-d2Uc",
-          "summary_path": "content/summaries/podcasts/zh_short/20260802.md",
-          "summary_chars": 573,
-          "source_hash": "aa03ff50e11205fcddd96c972205da678f0393addea2014754137cccf8f26789",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-08-03T22:59:08.141697+00:00",
-          "status": "generated",
-          "channel": "老厉害",
-          "pub_date": "2026-08-03T16:00:25+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "63625be33eb80237",
-          "title": "Big Ideas 2026: AI Consumer Operating System",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=m5ZHlhh_JLQ",
-          "summary_path": "content/summaries/podcasts/zh_short/ark-invest-big-ideas-2026-ai-consumer-operating-system.md",
-          "summary_chars": 491,
-          "source_hash": "8d138f9ef00a6260130abeb6414a0e0766103b959a3909780389bab5142c19fc",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-08-03T22:59:13.619156+00:00",
-          "status": "generated",
-          "channel": "ARK Invest",
-          "pub_date": "2026-08-03T12:30:20+00:00",
-          "source_label": "description"
-        },
-        {
           "id": "d50329d592dcf029",
           "title": "10x Drone Delivery Growth",
           "domain": "macro",
@@ -83,6 +53,36 @@
           "channel": "Invest Like the Best",
           "pub_date": "2026-08-04T08:00:00+00:00",
           "source_label": "description"
+        },
+        {
+          "id": "856e123ef434f3d2",
+          "title": "「央行半年度工作会议」20260802：走向现代非独立央行，“安全”优先于“发展”，删除“香港金融市场稳定和繁荣“",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=vsoGLm-d2Uc",
+          "summary_path": "content/summaries/podcasts/zh_short/20260802.md",
+          "summary_chars": 573,
+          "source_hash": "aa03ff50e11205fcddd96c972205da678f0393addea2014754137cccf8f26789",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-03T22:59:08.141697+00:00",
+          "status": "generated",
+          "channel": "老厉害",
+          "pub_date": "2026-08-03T16:00:25+00:00",
+          "source_label": "description"
+        },
+        {
+          "id": "8c991a009071959d",
+          "title": "【最新出炉】 大摩周期论剑闭门会（2026-8-5附文稿）具体行业投资策略",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=OxJ17iWZVKw",
+          "summary_path": "content/summaries/podcasts/zh_short/2026-8-5.md",
+          "summary_chars": 483,
+          "source_hash": "ec3aed566b54f0eba46dce72025bb7333bd5441da8f7df66a4653a971f59ea26",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-05T22:57:32.793779+00:00",
+          "status": "generated",
+          "channel": "解读君",
+          "pub_date": "2026-08-05T08:36:12+00:00",
+          "source_label": "description"
         }
       ],
       "papers": []
@@ -96,36 +96,6 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
-        {
-          "id": "856e123ef434f3d2",
-          "title": "「央行半年度工作会议」20260802：走向现代非独立央行，“安全”优先于“发展”，删除“香港金融市场稳定和繁荣“",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=vsoGLm-d2Uc",
-          "summary_path": "content/summaries/podcasts/zh_standard/20260802.md",
-          "summary_chars": 841,
-          "source_hash": "1405a45ace9a42c600783c666db4152f83538f32fc38f92cb49e08da07a2105b",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-08-03T22:59:41.328408+00:00",
-          "status": "generated",
-          "channel": "老厉害",
-          "pub_date": "2026-08-03T16:00:25+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "63625be33eb80237",
-          "title": "Big Ideas 2026: AI Consumer Operating System",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=m5ZHlhh_JLQ",
-          "summary_path": "content/summaries/podcasts/zh_standard/ark-invest-big-ideas-2026-ai-consumer-operating-system.md",
-          "summary_chars": 812,
-          "source_hash": "24308013c200e36289a8edfd88a12323c897816702fa4e54cdd5afb0eb3e7c2b",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-08-03T22:59:50.656526+00:00",
-          "status": "generated",
-          "channel": "ARK Invest",
-          "pub_date": "2026-08-03T12:30:20+00:00",
-          "source_label": "description"
-        },
         {
           "id": "d50329d592dcf029",
           "title": "10x Drone Delivery Growth",
@@ -170,6 +140,36 @@
           "channel": "Invest Like the Best",
           "pub_date": "2026-08-04T08:00:00+00:00",
           "source_label": "description"
+        },
+        {
+          "id": "856e123ef434f3d2",
+          "title": "「央行半年度工作会议」20260802：走向现代非独立央行，“安全”优先于“发展”，删除“香港金融市场稳定和繁荣“",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=vsoGLm-d2Uc",
+          "summary_path": "content/summaries/podcasts/zh_standard/20260802.md",
+          "summary_chars": 841,
+          "source_hash": "1405a45ace9a42c600783c666db4152f83538f32fc38f92cb49e08da07a2105b",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-03T22:59:41.328408+00:00",
+          "status": "generated",
+          "channel": "老厉害",
+          "pub_date": "2026-08-03T16:00:25+00:00",
+          "source_label": "description"
+        },
+        {
+          "id": "8c991a009071959d",
+          "title": "【最新出炉】 大摩周期论剑闭门会（2026-8-5附文稿）具体行业投资策略",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=OxJ17iWZVKw",
+          "summary_path": "content/summaries/podcasts/zh_standard/2026-8-5.md",
+          "summary_chars": 1019,
+          "source_hash": "bed80cda62f983abde032f499fc14f7aaa408f5a0d17e11d7bd893a2c5fd0b5a",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-05T22:57:46.654030+00:00",
+          "status": "generated",
+          "channel": "解读君",
+          "pub_date": "2026-08-05T08:36:12+00:00",
+          "source_label": "description"
         }
       ],
       "papers": []
@@ -183,36 +183,6 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
-        {
-          "id": "856e123ef434f3d2",
-          "title": "「央行半年度工作会议」20260802：走向现代非独立央行，“安全”优先于“发展”，删除“香港金融市场稳定和繁荣“",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=vsoGLm-d2Uc",
-          "summary_path": "content/summaries/podcasts/zh_deep/20260802.md",
-          "summary_chars": 1829,
-          "source_hash": "88dcd58d7ff7d0fa4bc984e71d35775d011a6740e3ad63a5856d29468b5d0c2c",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-08-03T23:00:44.010925+00:00",
-          "status": "generated",
-          "channel": "老厉害",
-          "pub_date": "2026-08-03T16:00:25+00:00",
-          "source_label": "description"
-        },
-        {
-          "id": "63625be33eb80237",
-          "title": "Big Ideas 2026: AI Consumer Operating System",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=m5ZHlhh_JLQ",
-          "summary_path": "content/summaries/podcasts/zh_deep/ark-invest-big-ideas-2026-ai-consumer-operating-system.md",
-          "summary_chars": 1950,
-          "source_hash": "c57feec337512300c6bc83e805a5ad4b5d5ea5bb51a4e8691daca908b0d921a8",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-08-03T23:01:03.598295+00:00",
-          "status": "generated",
-          "channel": "ARK Invest",
-          "pub_date": "2026-08-03T12:30:20+00:00",
-          "source_label": "description"
-        },
         {
           "id": "d50329d592dcf029",
           "title": "10x Drone Delivery Growth",
@@ -257,11 +227,41 @@
           "channel": "Invest Like the Best",
           "pub_date": "2026-08-04T08:00:00+00:00",
           "source_label": "description"
+        },
+        {
+          "id": "856e123ef434f3d2",
+          "title": "「央行半年度工作会议」20260802：走向现代非独立央行，“安全”优先于“发展”，删除“香港金融市场稳定和繁荣“",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=vsoGLm-d2Uc",
+          "summary_path": "content/summaries/podcasts/zh_deep/20260802.md",
+          "summary_chars": 1829,
+          "source_hash": "88dcd58d7ff7d0fa4bc984e71d35775d011a6740e3ad63a5856d29468b5d0c2c",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-03T23:00:44.010925+00:00",
+          "status": "generated",
+          "channel": "老厉害",
+          "pub_date": "2026-08-03T16:00:25+00:00",
+          "source_label": "description"
+        },
+        {
+          "id": "8c991a009071959d",
+          "title": "【最新出炉】 大摩周期论剑闭门会（2026-8-5附文稿）具体行业投资策略",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=OxJ17iWZVKw",
+          "summary_path": "content/summaries/podcasts/zh_deep/2026-8-5.md",
+          "summary_chars": 2202,
+          "source_hash": "d7a189a2c3757b02483bcdf612fa5c3fc800d359b2b89a331c5b428089947630",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-05T22:58:30.868968+00:00",
+          "status": "generated",
+          "channel": "解读君",
+          "pub_date": "2026-08-05T08:36:12+00:00",
+          "source_label": "description"
         }
       ],
       "papers": []
     }
   },
-  "generated_at": "2026-08-04T23:05:34.755207+00:00",
+  "generated_at": "2026-08-05T22:58:30.870542+00:00",
   "model": "deepseek-v4-pro"
 }
