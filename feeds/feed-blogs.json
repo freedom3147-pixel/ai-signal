@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/why-do-fewer-renters-expect-to-move/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "Why Do Fewer Renters Expect to Move?",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/why-do-fewer-renters-expect-to-move/",
+      "published": "2026-08-06T11:00:00+00:00",
+      "summary": "Americans are moving less than they used to. Moving rates have declined steadily for decades, falling from close to 20 percent annually in the mid-1980s to below 10 percent by 2019. This decline has persisted through business cycles and has been evident across all regions, and has affected a broad range of demographic groups. Falling mobility matters because moving helps households access job opportunities, adjust to changing circumstances, and improve their housing situations. In this post, we show that the decline in mobility also holds for renters, with growing challenges to owning a home b"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/fccs-adam-chan-on-the-new-robot-rule",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "FCC’s Adam Chan on the New Robot Rule",
+      "url": "https://www.chinatalk.media/p/fccs-adam-chan-on-the-new-robot-rule",
+      "published": "2026-08-06T10:13:18+00:00",
+      "summary": "import substitution as industrial policy"
+    },
+    {
+      "id": "https://www.baiguan.news/p/grandma-economy-china-genz-millennials-nostalgia-cultural-force-douyin-silver-influencers-naze-naze-handmade-craft-heritage-brand-urbanization-cyber-ancestors-tian-laolao",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "The “Grandma Economy”: Young Chinese Turn Nostalgia into a Cultural Force",
+      "url": "https://www.baiguan.news/p/grandma-economy-china-genz-millennials-nostalgia-cultural-force-douyin-silver-influencers-naze-naze-handmade-craft-heritage-brand-urbanization-cyber-ancestors-tian-laolao",
+      "published": "2026-08-06T10:02:37+00:00",
+      "summary": "From elderly influencers on Douyin to Dulong River weavers, Gen Z and millennials are finding warmth and luxury in the hands of the elderly."
+    },
+    {
+      "id": "https://www.pekingnology.com/p/bytedances-ban-on-distilling-rival",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "ByteDance’s Ban on Distilling Rival AI Models unrelated to U.S. regulatory concern and dates back to 2023: Report",
+      "url": "https://www.pekingnology.com/p/bytedances-ban-on-distilling-rival",
+      "published": "2026-08-06T08:53:08+00:00",
+      "summary": "Zhang Yiming’s decision was driven by a belief that ByteDance’s Seed lab must develop frontier intelligence on its own—even at the cost of falling behind in the short term, Guixinren reports today"
+    },
+    {
+      "id": "https://www.pekingnology.com/p/yao-yang-hong-wangs-groundbreaking",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Yao Yang: Hong Wang's groundbreaking achievement and Chinese women's retreating ground",
+      "url": "https://www.pekingnology.com/p/yao-yang-hong-wangs-groundbreaking",
+      "published": "2026-08-06T04:38:08+00:00",
+      "summary": "Declining workforce participation, dismal representation in political leadership, and resurgent traditional expectations suggest that decades of gains can no longer be taken for granted."
+    },
+    {
       "id": "https://www.eastisread.com/p/huawei-mocked-over-a-childs-toy",
       "source": "east_is_read",
       "source_name": "The East is Read",
@@ -161,51 +206,6 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/stablecoins-and-noncrypto-shocks-a-2026-update/",
       "published": "2026-07-31T11:00:00+00:00",
       "summary": "Stablecoins are digital assets whose value is pegged to that of a fiat currency, typically the U.S. dollar at a peg of $1.00 per token.  In a previous blog post , we described the rapid growth of stablecoins through early 2025, highlighted changes in stablecoins’ reserve-asset composition, and examined their reactions to Bitcoin price shocks. In this post, we document the growth of stablecoins since our last post. Then, we examine how shocks from outside the crypto industry can impact the composition of stablecoins’ reserve assets. For our case study, we use the 2023 failure of Silicon Valley"
-    },
-    {
-      "id": "https://www.eastisread.com/p/bytedance-folds-feishu-teams-into",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "ByteDance folds Feishu teams into Doubao, Volcano Engine in enterprise AI push",
-      "url": "https://www.eastisread.com/p/bytedance-folds-feishu-teams-into",
-      "published": "2026-07-30T16:54:02+00:00",
-      "summary": "TikTok’s Chinese parent is drawing its AI models, cloud infrastructure, and workplace software closer together as China’s tech giants race to bring AI into the workplace."
-    },
-    {
-      "id": "https://www.pekingnology.com/p/reading-the-july-politburo-meeting",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Reading the July Politburo Meeting: More Support, Same Priorities",
-      "url": "https://www.pekingnology.com/p/reading-the-july-politburo-meeting",
-      "published": "2026-07-30T14:14:40+00:00",
-      "summary": "Beijing has sharpened its economic diagnosis and moved additional policies closer to deployment, while preparing an October plenum centered on Party discipline against corruption."
-    },
-    {
-      "id": "https://sinocism.com/p/july-2026-politburo-meeting-fifth",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "July 2026 Politburo meeting; Fifth Plenum set for October; Signals of marginal, incremental policy support",
-      "url": "https://sinocism.com/p/july-2026-politburo-meeting-fifth",
-      "published": "2026-07-30T12:59:37+00:00",
-      "summary": "The Politburo held its July meeting today. Some of the highlights:\nFifth Plenum scheduled for October, agenda is “to study major issues concerning the unremitting advancement of full and rigorous Party self-governance”;\nDiagnosis of economic situation section includes “it is necessary to attach great importance to the difficulties and challenges in economic performance 要高度重视经济运行中的困难挑战”, which suggests increasing concern about the state of economy;\nReadout language signals at least some additional, marginal policy support - promptly plan and introduce practical and effective incremental policie"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/chinas-other-minerals-monopoly",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "China's Other Minerals Monopoly",
-      "url": "https://www.chinatalk.media/p/chinas-other-minerals-monopoly",
-      "published": "2026-07-30T10:54:20+00:00",
-      "summary": "autonomous mining!"
-    },
-    {
-      "id": "https://sinocism.com/p/a-memory-maker-makes-history-new",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "A Memory-Maker Makes History; New Robot Rules; The Open Weights Debate Rages; End of July News and Notes",
-      "url": "https://sinocism.com/p/a-memory-maker-makes-history-new",
-      "published": "2026-07-30T09:01:56+00:00",
-      "summary": "Show Notes:"
     }
   ],
   "errors": [
@@ -215,5 +215,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-05T22:56:50.398704+00:00"
+  "generated_at": "2026-08-07T01:29:49.188284+00:00"
 }
