@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://www.chinatalk.media/p/wartalk-ammo-ccas-are-dumb",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "WarTalk: Ammo + CCAs Are Dumb?",
+      "url": "https://www.chinatalk.media/p/wartalk-ammo-ccas-are-dumb",
+      "published": "2026-08-07T11:12:30+00:00",
+      "summary": "what’s left in the magazine after six months of Iran"
+    },
+    {
+      "id": "https://www.eastisread.com/p/zhao-shukai-from-national-policy",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Zhao Shukai: From National Policy to Local Politics",
+      "url": "https://www.eastisread.com/p/zhao-shukai-from-national-policy",
+      "published": "2026-08-07T02:47:09+00:00",
+      "summary": "Regional traditions, local leaders, and the political cultures behind markedly different policy implementation across China."
+    },
+    {
       "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/why-do-fewer-renters-expect-to-move/",
       "source": "nyfed_lse",
       "source_name": "NY Fed Liberty Street Economics",
@@ -188,24 +206,6 @@
       "url": "https://www.chinatalk.media/p/cold-war-lessons-for-a-constrained",
       "published": "2026-07-31T22:57:17+00:00",
       "summary": "The China Differential"
-    },
-    {
-      "id": "https://www.eastisread.com/p/zhao-shukai-how-china-allowed-private",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Zhao Shukai: How China Allowed Private Employment",
-      "url": "https://www.eastisread.com/p/zhao-shukai-how-china-allowed-private",
-      "published": "2026-07-31T12:01:57+00:00",
-      "summary": "The policy shift emerged through rural experiments, divisions among senior leaders and deliberate policy ambiguity. The transition was also remarkably circuitous."
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/07/stablecoins-and-noncrypto-shocks-a-2026-update/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "Stablecoins and (Non)Crypto Shocks: A 2026 Update",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/stablecoins-and-noncrypto-shocks-a-2026-update/",
-      "published": "2026-07-31T11:00:00+00:00",
-      "summary": "Stablecoins are digital assets whose value is pegged to that of a fiat currency, typically the U.S. dollar at a peg of $1.00 per token.  In a previous blog post , we described the rapid growth of stablecoins through early 2025, highlighted changes in stablecoins’ reserve-asset composition, and examined their reactions to Bitcoin price shocks. In this post, we document the growth of stablecoins since our last post. Then, we examine how shocks from outside the crypto industry can impact the composition of stablecoins’ reserve assets. For our case study, we use the 2023 failure of Silicon Valley"
     }
   ],
   "errors": [
@@ -215,5 +215,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-07T01:29:49.188284+00:00"
+  "generated_at": "2026-08-07T22:32:59.537968+00:00"
 }
