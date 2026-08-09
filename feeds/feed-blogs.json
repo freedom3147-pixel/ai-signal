@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://www.pekingnology.com/p/xue-lan-on-ai-governance",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Xue Lan on AI Governance",
+      "url": "https://www.pekingnology.com/p/xue-lan-on-ai-governance",
+      "published": "2026-08-09T15:46:17+00:00",
+      "summary": "China's Leading AI governance expert argues that the winners of the AI era will be those that integrate technology with infrastructure, institutions and social trust."
+    },
+    {
+      "id": "https://www.china-translated.com/p/the-asymmetry-of-paranoia-between",
+      "source": "china_translated",
+      "source_name": "China Translated / Robert Wu",
+      "title": "The Asymmetry of Paranoia between US and China",
+      "url": "https://www.china-translated.com/p/the-asymmetry-of-paranoia-between",
+      "published": "2026-08-09T05:12:27+00:00",
+      "summary": "China Translated - Briefing #73"
+    },
+    {
       "id": "https://www.chinatalk.media/p/wartalk-odyssey-edition",
       "source": "chinatalk",
       "source_name": "ChinaTalk",
@@ -188,15 +206,6 @@
       "url": "https://www.eastisread.com/p/zhang-ming-the-ai-booms-missing-growth",
       "published": "2026-08-03T12:20:23+00:00",
       "summary": "CASS economist addresses two questions: Why has the AI wave so far failed to significantly accelerate economic growth, and will humanity eventually be replaced or even enslaved by machines?"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/xu-gao-three-questions-china-must",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Xu Gao: Three Questions China Must Clarify to Promote Effective Investment",
-      "url": "https://www.pekingnology.com/p/xu-gao-three-questions-china-must",
-      "published": "2026-08-02T17:01:17+00:00",
-      "summary": "The economist and adjunct professor at PKU examines investment’s relationship with consumption, how its returns should be assessed, and how the resulting debt should be understood."
     }
   ],
   "errors": [
@@ -206,5 +215,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-08T22:27:11.797895+00:00"
+  "generated_at": "2026-08-09T22:29:07.697521+00:00"
 }
