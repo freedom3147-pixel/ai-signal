@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/stripping-strips-trading-activity/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "Stripping STRIPs Trading Activity",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/stripping-strips-trading-activity/",
+      "published": "2026-08-10T11:00:00+00:00",
+      "summary": "In March 2020, the Financial Industry Regulatory Authority (FINRA) began reporting aggregate trading volume for securities issued by the U.S. Treasury Department. The public data do not, however, include information about the trading activity of Separate Trading of Registered Interest and Principal of Securities (STRIPS). STRIPS are created from existing Treasury securities and offer risk […]"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/25k-contest-evals-for-the-situation",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "$25k Contest: Evals for the Situation Room",
+      "url": "https://www.chinatalk.media/p/25k-contest-evals-for-the-situation",
+      "published": "2026-08-10T10:23:34+00:00",
+      "summary": "humanity needs you!"
+    },
+    {
+      "id": "https://www.eastisread.com/p/a-key-pentagon-claim-behind-wuxi",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "A Key Pentagon Claim Behind WuXi AppTec’s Chinese Military Listing Was Based on a Retail Mutual Fund",
+      "url": "https://www.eastisread.com/p/a-key-pentagon-claim-behind-wuxi",
+      "published": "2026-08-09T23:12:37+00:00",
+      "summary": "The court caught one glaring error. But everyone in the case missed something more fundamental about the “AVIC Military-Civil Fusion Fund.”"
+    },
+    {
       "id": "https://www.pekingnology.com/p/xue-lan-on-ai-governance",
       "source": "pekingnology",
       "source_name": "Pekingnology",
@@ -161,51 +188,6 @@
       "url": "https://www.baiguan.news/p/baiguan-pro-launch-china-equity-investors-crrai-june-2026-hong-kong-constructive-a-shares-semiconductor-equipment-ai-bubble-internet-profit-ip-consumption-dividend-buyback",
       "published": "2026-08-04T10:02:43+00:00",
       "summary": "*On April 1, we officially launched Baiguan Pro, our professional-tier subscription designed for investors seeking deeper, more specific coverage of Chinese equities."
-    },
-    {
-      "id": "https://sinocism.com/p/advantage-does-not-equal-victory",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Advantage Does Not Equal Victory | Sinification: July 2026",
-      "url": "https://sinocism.com/p/advantage-does-not-equal-victory",
-      "published": "2026-08-03T20:33:05+00:00",
-      "summary": "US-China & Global Order | Europe | Chinese Economy & Going Out | Middle East | South China Sea | Neighbourhood Diplomacy | Regional Relations | AI & Tech | Society"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/50k-chinatalk-submission-hiring-contest",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "$50k ChinaTalk Submission + Hiring Contest!",
-      "url": "https://www.chinatalk.media/p/50k-chinatalk-submission-hiring-contest",
-      "published": "2026-08-03T16:26:33+00:00",
-      "summary": "Proposals Due August 23rd"
-    },
-    {
-      "id": "https://sinocism.com/p/politburo-study-session-regulation",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Politburo study session; Regulation on Exit and Entry Administration; US-China; AI; Scarborough Shoal/Huangyan Dao",
-      "url": "https://sinocism.com/p/politburo-study-session-regulation",
-      "published": "2026-08-03T16:25:59+00:00",
-      "summary": "I thought I would be on vacation already but there too many interesting things over the last few days to not do one more newsletter before heading off on my version of the “Beidaihe Break”.\nThe Beidaihe Break has officially started, signaled by the CCTV report on Cai Qi visiting “experts vacationing in Beidaihe”:"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/gordon-g-liu-what-ai-canand-cannotfix",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Gordon G. Liu: What AI Can—and Cannot—Fix in Chinese Healthcare",
-      "url": "https://www.pekingnology.com/p/gordon-g-liu-what-ai-canand-cannotfix",
-      "published": "2026-08-03T16:11:34+00:00",
-      "summary": "Peking University health economist on AI-powered primary care, medical research fraud, and the institutional reforms China’s health system still needs"
-    },
-    {
-      "id": "https://www.eastisread.com/p/zhang-ming-the-ai-booms-missing-growth",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Zhang Ming: the AI boom’s missing growth dividend & its winner-take-all risks",
-      "url": "https://www.eastisread.com/p/zhang-ming-the-ai-booms-missing-growth",
-      "published": "2026-08-03T12:20:23+00:00",
-      "summary": "CASS economist addresses two questions: Why has the AI wave so far failed to significantly accelerate economic growth, and will humanity eventually be replaced or even enslaved by machines?"
     }
   ],
   "errors": [
@@ -215,5 +197,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-09T22:29:07.697521+00:00"
+  "generated_at": "2026-08-10T22:35:37.741258+00:00"
 }
