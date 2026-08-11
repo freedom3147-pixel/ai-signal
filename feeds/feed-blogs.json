@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "https://www.eastisread.com/p/the-middleman-in-the-mirror",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "The middleman in the mirror",
+      "url": "https://www.eastisread.com/p/the-middleman-in-the-mirror",
+      "published": "2026-08-11T15:30:27+00:00",
+      "summary": "China’s bottled-water king has discovered an old argument against commerce—just as commerce is becoming less convenient for him"
+    },
+    {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/how-distressed-are-consumers-reconciling-diverging-credit-card-delinquency-measures/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "How Distressed Are Consumers? Reconciling Diverging Credit Card Delinquency Measures",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/how-distressed-are-consumers-reconciling-diverging-credit-card-delinquency-measures/",
+      "published": "2026-08-11T15:00:00+00:00",
+      "summary": "Total debt balances declined slightly by $13 billion in the second quarter of 2026, according to the latest Quarterly Report on Household Debt and Credit from the New York Fed’s Center for Microeconomic Data . Mortgage and student loan balances saw a small decline, while there were increases across other debt products. Delinquency rates across most products remained fairly stable. Still, between 2022:Q3 and 2026:Q1, the percentage of credit card balances 90+ days delinquent rose from 7.6 percent to 12.8 percent, prompting concerns that Americans are falling behind on their debt payments at rat"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/ai-evals-for-the-situation-room-explained",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "AI Evals for the Situation Room, Explained",
+      "url": "https://www.chinatalk.media/p/ai-evals-for-the-situation-room-explained",
+      "published": "2026-08-11T10:48:28+00:00",
+      "summary": "$25k contest to understand nuke happy models"
+    },
+    {
+      "id": "https://www.bis.org/publ/bisbull132.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Africa's public debt amid global headwinds: balancing resilience and vulnerabilities",
+      "url": "https://www.bis.org/publ/bisbull132.htm",
+      "published": "2026-08-11T10:43:00+00:00",
+      "summary": "by Michael Chui, Leonardo Gambacorta \nThe conflict in the Middle East has raised energy and fertiliser prices, weakened growth and intensified fiscal pressures across Africa at a time when public debt and debt service burdens remain elevated. \nThe shift towards domestic currency debt has reduced exchange rate risk for issuers and preserved market access, but higher interest rates and shorter maturities have increased debt service costs and rollover risks. \nA heavy reliance on banks and central banks for government financing can reinforce the sovereign-bank nexus, crowd out private credit and t"
+    },
+    {
+      "id": "https://www.baiguan.news/p/eel-caviar-and-electricity-chinas",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "Eel, Caviar and Electricity: China’s Answer to Guns, Germs, and Steel",
+      "url": "https://www.baiguan.news/p/eel-caviar-and-electricity-chinas",
+      "published": "2026-08-11T10:27:54+00:00",
+      "summary": "How a strong energy sector and engineering mindset turn every industry in China into the manufacturing industry"
+    },
+    {
+      "id": "https://www.pekingnology.com/p/chinas-debt-to-its-migrant-workers",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "China’s Debt to Its Migrant Workers",
+      "url": "https://www.pekingnology.com/p/chinas-debt-to-its-migrant-workers",
+      "published": "2026-08-11T01:37:13+00:00",
+      "summary": "Veteran rural policy official Zhao Shukai recalls discriminatory restrictions, arbitrary detention, and forced labour imposed on rural migrants from the 1990s into the early 2000s."
+    },
+    {
       "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/stripping-strips-trading-activity/",
       "source": "nyfed_lse",
       "source_name": "NY Fed Liberty Street Economics",
@@ -161,33 +215,6 @@
       "url": "https://www.bis.org/publ/bisbull131.htm",
       "published": "2026-08-05T07:23:00+00:00",
       "summary": "by Ryan Niladri Banerjee, Fiorella De Fiore, Marco Jacopo Lombardi, Giovanni Lombardo \nThe recent energy shock ranks among the most significant since the 1990s. Structural factors and initial conditions influence how energy shocks propagate into inflation – directly and through second-round effects. The appropriate monetary policy reaction depends on the persistence of the inflationary pressures as well as the magnitude of the growth impact, and it differs across economies. Uncertainty about these effects further complicates the policy challenge."
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/a-window-into-bond-investors-uncertainty-about-r-star/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "A Window into Bond Investors’ Uncertainty About R‑Star",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/a-window-into-bond-investors-uncertainty-about-r-star/",
-      "published": "2026-08-04T11:00:00+00:00",
-      "summary": "Monetary policymakers closely monitor the term structure of sovereign bond yields to uncover market participants’ beliefs about the future monetary policy stance, inflation, and activity. A particular object of interest is the natural real rate of return, or “r-star,” which acts as a guide for monetary policy decisions. Numerous papers have questioned how much information investors possess, and how precisely they know r-star. In this post based on a recent Staff Report , we explore what the term structure of interest rates can teach us about r-star and its perception by investors."
-    },
-    {
-      "id": "https://www.eastisread.com/p/huang-yiping-on-china-shock-20-debate",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Huang Yiping on China Shock 2.0 debate",
-      "url": "https://www.eastisread.com/p/huang-yiping-on-china-shock-20-debate",
-      "published": "2026-08-04T10:40:27+00:00",
-      "summary": "NSD director suggests deeper China-Europe cooperation in green transition, advanced manufacturing, industrial AI, high-end services, and third-country markets."
-    },
-    {
-      "id": "https://www.baiguan.news/p/baiguan-pro-launch-china-equity-investors-crrai-june-2026-hong-kong-constructive-a-shares-semiconductor-equipment-ai-bubble-internet-profit-ip-consumption-dividend-buyback",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "Our view on Chinese assets: July 2026",
-      "url": "https://www.baiguan.news/p/baiguan-pro-launch-china-equity-investors-crrai-june-2026-hong-kong-constructive-a-shares-semiconductor-equipment-ai-bubble-internet-profit-ip-consumption-dividend-buyback",
-      "published": "2026-08-04T10:02:43+00:00",
-      "summary": "*On April 1, we officially launched Baiguan Pro, our professional-tier subscription designed for investors seeking deeper, more specific coverage of Chinese equities."
     }
   ],
   "errors": [
@@ -197,5 +224,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-10T22:35:37.741258+00:00"
+  "generated_at": "2026-08-11T22:39:32.522943+00:00"
 }
