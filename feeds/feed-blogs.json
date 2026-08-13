@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "https://www.chinatalk.media/p/the-deepseek-thesis",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "The DeepSeek Thesis",
+      "url": "https://www.chinatalk.media/p/the-deepseek-thesis",
+      "published": "2026-08-13T10:19:25+00:00",
+      "summary": "a very different kind of guy"
+    },
+    {
+      "id": "https://www.baiguan.news/p/rsvp-now-2026-autumn-baiguan-china",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "RSVP Now: 2026 Autumn Baiguan China Tour “Marathon”",
+      "url": "https://www.baiguan.news/p/rsvp-now-2026-autumn-baiguan-china",
+      "published": "2026-08-13T10:08:20+00:00",
+      "summary": "We are witnessing a paradigm shift in global interest around China."
+    },
+    {
+      "id": "https://www.bis.org/fsi/publ/insights77.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "High expectation but low integration? Experiences in modernising and integrating information systems for supervision",
+      "url": "https://www.bis.org/fsi/publ/insights77.htm",
+      "published": "2026-08-13T07:21:00+00:00",
+      "summary": "This paper examines the evolution of information systems that support supervision and the current maturity level of supervisory authorities in terms of systems integration."
+    },
+    {
       "id": "https://www.chinatalk.media/p/chinas-quantum-flywheel",
       "source": "chinatalk",
       "source_name": "ChinaTalk",
@@ -136,15 +163,6 @@
       "summary": "yes you need more odyssey content"
     },
     {
-      "id": "https://www.chinatalk.media/p/wartalk-ammo-ccas-are-dumb",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "WarTalk: Ammo + CCAs Are Dumb?",
-      "url": "https://www.chinatalk.media/p/wartalk-ammo-ccas-are-dumb",
-      "published": "2026-08-07T11:12:30+00:00",
-      "summary": "what’s left in the magazine after six months of Iran"
-    },
-    {
       "id": "https://www.eastisread.com/p/zhao-shukai-from-national-policy",
       "source": "east_is_read",
       "source_name": "The East is Read",
@@ -152,42 +170,6 @@
       "url": "https://www.eastisread.com/p/zhao-shukai-from-national-policy",
       "published": "2026-08-07T02:47:09+00:00",
       "summary": "Regional traditions, local leaders, and the political cultures behind markedly different policy implementation across China."
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/why-do-fewer-renters-expect-to-move/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "Why Do Fewer Renters Expect to Move?",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/why-do-fewer-renters-expect-to-move/",
-      "published": "2026-08-06T11:00:00+00:00",
-      "summary": "Americans are moving less than they used to. Moving rates have declined steadily for decades, falling from close to 20 percent annually in the mid-1980s to below 10 percent by 2019. This decline has persisted through business cycles and has been evident across all regions, and has affected a broad range of demographic groups. Falling mobility matters because moving helps households access job opportunities, adjust to changing circumstances, and improve their housing situations. In this post, we show that the decline in mobility also holds for renters, with growing challenges to owning a home b"
-    },
-    {
-      "id": "https://www.baiguan.news/p/grandma-economy-china-genz-millennials-nostalgia-cultural-force-douyin-silver-influencers-naze-naze-handmade-craft-heritage-brand-urbanization-cyber-ancestors-tian-laolao",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "The “Grandma Economy”: Young Chinese Turn Nostalgia into a Cultural Force",
-      "url": "https://www.baiguan.news/p/grandma-economy-china-genz-millennials-nostalgia-cultural-force-douyin-silver-influencers-naze-naze-handmade-craft-heritage-brand-urbanization-cyber-ancestors-tian-laolao",
-      "published": "2026-08-06T10:02:37+00:00",
-      "summary": "From elderly influencers on Douyin to Dulong River weavers, Gen Z and millennials are finding warmth and luxury in the hands of the elderly."
-    },
-    {
-      "id": "https://www.pekingnology.com/p/bytedances-ban-on-distilling-rival",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "ByteDance’s Ban on Distilling Rival AI Models unrelated to U.S. regulatory concern and dates back to 2023: Report",
-      "url": "https://www.pekingnology.com/p/bytedances-ban-on-distilling-rival",
-      "published": "2026-08-06T08:53:08+00:00",
-      "summary": "Zhang Yiming’s decision was driven by a belief that ByteDance’s Seed lab must develop frontier intelligence on its own—even at the cost of falling behind in the short term, Guixinren reports today"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/yao-yang-hong-wangs-groundbreaking",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Yao Yang: Hong Wang's groundbreaking achievement and Chinese women's retreating ground",
-      "url": "https://www.pekingnology.com/p/yao-yang-hong-wangs-groundbreaking",
-      "published": "2026-08-06T04:38:08+00:00",
-      "summary": "Declining workforce participation, dismal representation in political leadership, and resurgent traditional expectations suggest that decades of gains can no longer be taken for granted."
     }
   ],
   "errors": [
@@ -197,5 +179,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-12T22:38:10.333328+00:00"
+  "generated_at": "2026-08-13T22:39:40.783816+00:00"
 }
