@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "id": "https://www.china-translated.com/p/chinese-people-dont-know-breakneck",
+      "source": "china_translated",
+      "source_name": "China Translated / Robert Wu",
+      "title": "Chinese people don't know \"breakneck\"",
+      "url": "https://www.china-translated.com/p/chinese-people-dont-know-breakneck",
+      "published": "2026-08-14T10:59:44+00:00",
+      "summary": "and why I am inviting you to take on a journey with me"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/chinas-best-music-in-2026-so-far",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "China's Best Music in 2026 (So Far)",
+      "url": "https://www.chinatalk.media/p/chinas-best-music-in-2026-so-far",
+      "published": "2026-08-14T10:29:35+00:00",
+      "summary": "Jake Newby is the author of the Concrete Avalanche Substack, which covers the best music coming out of China."
+    },
+    {
+      "id": "https://www.baiguan.news/p/live-q-and-a-baiguan-china-tour-info",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "Live Q&A: Baiguan China Tour Info Session",
+      "url": "https://www.baiguan.news/p/live-q-and-a-baiguan-china-tour-info",
+      "published": "2026-08-14T10:03:10+00:00",
+      "summary": "Yesterday, we formally announced the 2026 Autumn Baiguan China Tour, consisting of 4 separate tours on AI & robotics, advanced manufacturing, energy and consumption, plus 3 weekend tours in 3 unique cities that provide valuable context for understanding modern-day China."
+    },
+    {
+      "id": "https://www.eastisread.com/p/zhao-shukai-chinas-rural-reform-began",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Zhao Shukai: China’s Rural Reform Began with Political Change",
+      "url": "https://www.eastisread.com/p/zhao-shukai-chinas-rural-reform-began",
+      "published": "2026-08-14T02:23:53+00:00",
+      "summary": "How a less monolithic leadership, competing approaches to rural policy, and the easing of political control paved the way for reform."
+    },
+    {
+      "id": "https://www.pekingnology.com/p/david-daokui-li-on-the-end-of-offshore",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "David Daokui Li On The End of Offshore Tax Evasion for China’s Wealthy",
+      "url": "https://www.pekingnology.com/p/david-daokui-li-on-the-end-of-offshore",
+      "published": "2026-08-14T02:19:39+00:00",
+      "summary": "The Tsinghua economist welcomes China’s new offshore trust tax rules and reflects on the stark disparity between taxes on capital and labour."
+    },
+    {
       "id": "https://www.chinatalk.media/p/the-deepseek-thesis",
       "source": "chinatalk",
       "source_name": "ChinaTalk",
@@ -152,24 +197,6 @@
       "url": "https://www.china-translated.com/p/the-asymmetry-of-paranoia-between",
       "published": "2026-08-09T05:12:27+00:00",
       "summary": "China Translated - Briefing #73"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/wartalk-odyssey-edition",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "WarTalk: Odyssey Edition",
-      "url": "https://www.chinatalk.media/p/wartalk-odyssey-edition",
-      "published": "2026-08-08T11:37:27+00:00",
-      "summary": "yes you need more odyssey content"
-    },
-    {
-      "id": "https://www.eastisread.com/p/zhao-shukai-from-national-policy",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Zhao Shukai: From National Policy to Local Politics",
-      "url": "https://www.eastisread.com/p/zhao-shukai-from-national-policy",
-      "published": "2026-08-07T02:47:09+00:00",
-      "summary": "Regional traditions, local leaders, and the political cultures behind markedly different policy implementation across China."
     }
   ],
   "errors": [
@@ -179,5 +206,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-13T22:39:40.783816+00:00"
+  "generated_at": "2026-08-14T22:20:30.595937+00:00"
 }
