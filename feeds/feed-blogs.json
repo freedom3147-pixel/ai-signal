@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/beidaihe-break-is-over-jiang-zemins",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "\"Beidaihe Break\" is over; Jiang Zemin's 100th; RIP Zhu Rongji; US-China; July economic data; New Qiushi",
+      "url": "https://sinocism.com/p/beidaihe-break-is-over-jiang-zemins",
+      "published": "2026-08-16T18:16:02+00:00",
+      "summary": "Former Premier Zhu Rongji died on August 11 at the age of 98. His memorial service will be on August 18. Zhu has not been politically relevant for many years, and his death should not cause any issues for Xi and the leadership. There is a playbook for managing any outpouring of grief or reminiscences hinting at dissatisfaction with the current Era after the passing of a senior leader, and for the memorial service. The Party has recent practice in managing the deaths of retired Premiers, as Li Peng died at 90 in 2019 and Li Keqiang died at 68 in 2023. The People’s Daily treatment of the respect"
+    },
+    {
+      "id": "https://www.eastisread.com/p/chinas-unsolicited-consultants",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "China’s unsolicited consultants",
+      "url": "https://www.eastisread.com/p/chinas-unsolicited-consultants",
+      "published": "2026-08-16T17:02:56+00:00",
+      "summary": "The country’s media are remarkably fond of telling companies how to do business"
+    },
+    {
+      "id": "https://www.highcapacity.org/p/podcast-chinas-hidden-ai-economy",
+      "source": "high_capacity",
+      "source_name": "High Capacity",
+      "title": "Podcast: China's hidden AI economy",
+      "url": "https://www.highcapacity.org/p/podcast-chinas-hidden-ai-economy",
+      "published": "2026-08-16T13:05:45+00:00",
+      "summary": "A conversation with Zilan Qian at the Oxford China Policy Lab"
+    },
+    {
+      "id": "https://www.pekingnology.com/p/a-useful-time-to-complain",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "A useful time to complain",
+      "url": "https://www.pekingnology.com/p/a-useful-time-to-complain",
+      "published": "2026-08-16T12:34:32+00:00",
+      "summary": "Mainland workers are discovering that an employer’s Hong Kong IPO can turn an ordinary labour dispute into a more potent one"
+    },
+    {
       "id": "https://www.pekingnology.com/p/zhao-shukai-chinas-national-conditions",
       "source": "pekingnology",
       "source_name": "Pekingnology",
@@ -188,24 +224,6 @@
       "url": "https://www.eastisread.com/p/a-key-pentagon-claim-behind-wuxi",
       "published": "2026-08-09T23:12:37+00:00",
       "summary": "The court caught one glaring error. But everyone in the case missed something more fundamental about the “AVIC Military-Civil Fusion Fund.”"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/xue-lan-on-ai-governance",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Xue Lan on AI Governance",
-      "url": "https://www.pekingnology.com/p/xue-lan-on-ai-governance",
-      "published": "2026-08-09T15:46:17+00:00",
-      "summary": "China's Leading AI governance expert argues that the winners of the AI era will be those that integrate technology with infrastructure, institutions and social trust."
-    },
-    {
-      "id": "https://www.china-translated.com/p/the-asymmetry-of-paranoia-between",
-      "source": "china_translated",
-      "source_name": "China Translated / Robert Wu",
-      "title": "The Asymmetry of Paranoia between US and China",
-      "url": "https://www.china-translated.com/p/the-asymmetry-of-paranoia-between",
-      "published": "2026-08-09T05:12:27+00:00",
-      "summary": "China Translated - Briefing #73"
     }
   ],
   "errors": [
@@ -215,5 +233,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-15T22:18:41.931291+00:00"
+  "generated_at": "2026-08-16T22:18:41.421931+00:00"
 }
