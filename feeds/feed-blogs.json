@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://www.pekingnology.com/p/ren-xiao-a-chinese-theory-of-international",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Ren Xiao: A Chinese Theory of International Relations, on China’s Own Terms",
+      "url": "https://www.pekingnology.com/p/ren-xiao-a-chinese-theory-of-international",
+      "published": "2026-08-17T12:20:37+00:00",
+      "summary": "Writing in the Party's top theoretical journal, the IR professor says “international relations theory” should not be treated as synonymous with Western international relations theory."
+    },
+    {
+      "id": "https://www.chinatalk.media/p/the-rise-of-chinas-electric-vehicle",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "The Rise of China’s Electric Vehicle Industry",
+      "url": "https://www.chinatalk.media/p/the-rise-of-chinas-electric-vehicle",
+      "published": "2026-08-17T10:08:23+00:00",
+      "summary": "How did China grow its EV industry?"
+    },
+    {
       "id": "https://sinocism.com/p/beidaihe-break-is-over-jiang-zemins",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -197,33 +215,6 @@
       "url": "https://www.pekingnology.com/p/chinas-debt-to-its-migrant-workers",
       "published": "2026-08-11T01:37:13+00:00",
       "summary": "Veteran rural policy official Zhao Shukai recalls discriminatory restrictions, arbitrary detention, and forced labour imposed on rural migrants from the 1990s into the early 2000s."
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/stripping-strips-trading-activity/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "Stripping STRIPs Trading Activity",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/stripping-strips-trading-activity/",
-      "published": "2026-08-10T11:00:00+00:00",
-      "summary": "In March 2020, the Financial Industry Regulatory Authority (FINRA) began reporting aggregate trading volume for securities issued by the U.S. Treasury Department. The public data do not, however, include information about the trading activity of Separate Trading of Registered Interest and Principal of Securities (STRIPS). STRIPS are created from existing Treasury securities and offer risk […]"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/25k-contest-evals-for-the-situation",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "$25k Contest: Evals for the Situation Room",
-      "url": "https://www.chinatalk.media/p/25k-contest-evals-for-the-situation",
-      "published": "2026-08-10T10:23:34+00:00",
-      "summary": "humanity needs you!"
-    },
-    {
-      "id": "https://www.eastisread.com/p/a-key-pentagon-claim-behind-wuxi",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "A Key Pentagon Claim Behind WuXi AppTec’s Chinese Military Listing Was Based on a Retail Mutual Fund",
-      "url": "https://www.eastisread.com/p/a-key-pentagon-claim-behind-wuxi",
-      "published": "2026-08-09T23:12:37+00:00",
-      "summary": "The court caught one glaring error. But everyone in the case missed something more fundamental about the “AVIC Military-Civil Fusion Fund.”"
     }
   ],
   "errors": [
@@ -233,5 +224,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-16T22:18:41.421931+00:00"
+  "generated_at": "2026-08-17T22:22:09.261747+00:00"
 }
