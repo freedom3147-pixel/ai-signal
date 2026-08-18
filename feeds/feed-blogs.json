@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "https://www.eastisread.com/p/li-xunlei-where-to-invest-in-china",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Li Xunlei: Where to Invest in China",
+      "url": "https://www.eastisread.com/p/li-xunlei-where-to-invest-in-china",
+      "published": "2026-08-18T12:21:24+00:00",
+      "summary": "Why abundant liquidity is chasing too few high-quality asset, and where opportunities may emerge in AI, M&A, strategic resources, consumer stocks, and major-city property."
+    },
+    {
+      "id": "https://www.chinatalk.media/p/why-chinas-ai-bubble-is-also-industrial",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "Why China’s AI Bubble Is Also Industrial Policy",
+      "url": "https://www.chinatalk.media/p/why-chinas-ai-bubble-is-also-industrial",
+      "published": "2026-08-18T10:08:02+00:00",
+      "summary": "Inside China’s Venture Capital Game"
+    },
+    {
+      "id": "https://www.baiguan.news/p/china-2026-experiential-consumption-shift-goods-services-digital-tourism-live-events-ip-gaming-music-investment-basket-trip-atour-popmart-damai-maoyan-bloks-tencent-netease-tme-bilibili-trend",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "The Experience Trade: what China buys when it stops buying things",
+      "url": "https://www.baiguan.news/p/china-2026-experiential-consumption-shift-goods-services-digital-tourism-live-events-ip-gaming-music-investment-basket-trip-atour-popmart-damai-maoyan-bloks-tencent-netease-tme-bilibili-trend",
+      "published": "2026-08-18T10:02:09+00:00",
+      "summary": "Before today’s post — a quick note. Applications are open for the 2026 Autumn Baiguan China Tour, a month-long “marathon” of modular expeditions across October and November: Robotics & AI in Beijing, advanced manufacturing from Foshan to Shenzhen, the next energy cycle across Shanghai–Suzhou–Hangzhou, and premium consumption in Shanghai — plus weekend immersions in Datong, Yiwu and Nanjing."
+    },
+    {
+      "id": "https://sinocism.com/p/more-weak-july-economic-data-state",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "More weak July economic data; State Council Plenary session; Jiang Zemin Commemoration; AI tokens; Xi's DC visit; “Once Upon a Time in the Middle East”",
+      "url": "https://sinocism.com/p/more-weak-july-economic-data-state",
+      "published": "2026-08-17T22:33:36+00:00",
+      "summary": "Jiang Zemin Commemoration - There were few surprises at the Monday commemoration for the 100th anniversary of the birth of Jiang Zemin. All living, retired Standing Committee members except Hu Jintao, Li Ruihuan, Wu Guanzheng, and Luo Gan attended. Xi Jinping laid out five things the Party should learn from Jiang Zemin at Monday's centenary commemoration, and linked them to his agenda:\nWe must learn from Comrade Jiang Zemin’s rock-solid political faith. 我们要学习江泽民同志坚定如磐的政治信仰。\nWe must learn from Comrade Jiang Zemin’s sincere and profound feeling for the people. 我们要学习江泽民同志真挚深厚的为民情怀。\nWe must learn"
+    },
+    {
       "id": "https://www.pekingnology.com/p/ren-xiao-a-chinese-theory-of-international",
       "source": "pekingnology",
       "source_name": "Pekingnology",
@@ -161,60 +197,6 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/does-the-equity-term-structure-respond-to-monetary-policy-shocks/",
       "published": "2026-08-12T11:00:00+00:00",
       "summary": "A long-standing body of research, inspired by Bernanke and Kuttner (2005), has documented the effects of Fed interest rate surprises on stock markets. While stock markets provide valuable information about the investor risk premium and dividend growth expectations, researchers have only recently developed more comprehensive tools to estimate the term structure of equity risk premia and dividend growth expectations across a broad range of maturities. In this post, we investigate the impact of monetary policy surprises (or shocks) on short- and long-term estimates of risk premia and growth expec"
-    },
-    {
-      "id": "https://www.eastisread.com/p/the-middleman-in-the-mirror",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "The middleman in the mirror",
-      "url": "https://www.eastisread.com/p/the-middleman-in-the-mirror",
-      "published": "2026-08-11T15:30:27+00:00",
-      "summary": "China’s bottled-water king has discovered an old argument against commerce—just as commerce is becoming less convenient for him"
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/how-distressed-are-consumers-reconciling-diverging-credit-card-delinquency-measures/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "How Distressed Are Consumers? Reconciling Diverging Credit Card Delinquency Measures",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/how-distressed-are-consumers-reconciling-diverging-credit-card-delinquency-measures/",
-      "published": "2026-08-11T15:00:00+00:00",
-      "summary": "Total debt balances declined slightly by $13 billion in the second quarter of 2026, according to the latest Quarterly Report on Household Debt and Credit from the New York Fed’s Center for Microeconomic Data . Mortgage and student loan balances saw a small decline, while there were increases across other debt products. Delinquency rates across most products remained fairly stable. Still, between 2022:Q3 and 2026:Q1, the percentage of credit card balances 90+ days delinquent rose from 7.6 percent to 12.8 percent, prompting concerns that Americans are falling behind on their debt payments at rat"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/ai-evals-for-the-situation-room-explained",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "AI Evals for the Situation Room, Explained",
-      "url": "https://www.chinatalk.media/p/ai-evals-for-the-situation-room-explained",
-      "published": "2026-08-11T10:48:28+00:00",
-      "summary": "$25k contest to understand nuke happy models"
-    },
-    {
-      "id": "https://www.bis.org/publ/bisbull132.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "Africa's public debt amid global headwinds: balancing resilience and vulnerabilities",
-      "url": "https://www.bis.org/publ/bisbull132.htm",
-      "published": "2026-08-11T10:43:00+00:00",
-      "summary": "by Michael Chui, Leonardo Gambacorta \nThe conflict in the Middle East has raised energy and fertiliser prices, weakened growth and intensified fiscal pressures across Africa at a time when public debt and debt service burdens remain elevated. \nThe shift towards domestic currency debt has reduced exchange rate risk for issuers and preserved market access, but higher interest rates and shorter maturities have increased debt service costs and rollover risks. \nA heavy reliance on banks and central banks for government financing can reinforce the sovereign-bank nexus, crowd out private credit and t"
-    },
-    {
-      "id": "https://www.baiguan.news/p/eel-caviar-and-electricity-chinas",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "Eel, Caviar and Electricity: China’s Answer to Guns, Germs, and Steel",
-      "url": "https://www.baiguan.news/p/eel-caviar-and-electricity-chinas",
-      "published": "2026-08-11T10:27:54+00:00",
-      "summary": "How a strong energy sector and engineering mindset turn every industry in China into the manufacturing industry"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/chinas-debt-to-its-migrant-workers",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "China’s Debt to Its Migrant Workers",
-      "url": "https://www.pekingnology.com/p/chinas-debt-to-its-migrant-workers",
-      "published": "2026-08-11T01:37:13+00:00",
-      "summary": "Veteran rural policy official Zhao Shukai recalls discriminatory restrictions, arbitrary detention, and forced labour imposed on rural migrants from the 1990s into the early 2000s."
     }
   ],
   "errors": [
@@ -224,5 +206,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-17T22:22:09.261747+00:00"
+  "generated_at": "2026-08-18T22:20:44.624912+00:00"
 }
