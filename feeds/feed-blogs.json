@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "https://www.pekingnology.com/p/zhu-rongjis-four-phrases-for-the",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Zhu Rongji’s Four Phrases for the State-run Press",
+      "url": "https://www.pekingnology.com/p/zhu-rongjis-four-phrases-for-the",
+      "published": "2026-08-19T18:41:15+00:00",
+      "summary": "“Media oversight, the voice of the people, a mirror for the government, and a vanguard of reform”: the Chinese Premier in 1998"
+    },
+    {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/has-broader-stock-market-participation-changed-how-interest-rates-affect-the-economy/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "Has Broader Stock Market Participation Changed How Interest Rates Affect the Economy?",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/has-broader-stock-market-participation-changed-how-interest-rates-affect-the-economy/",
+      "published": "2026-08-19T11:00:00+00:00",
+      "summary": "Stock market participation in the U.S. has changed dramatically over the past four decades. In the mid-1980s, fewer than 30 percent of households held equity. By the early 2000s, more than half of U.S. households owned equity, either directly or through mutual funds, 401(k)s, and IRAs. As participation widened, the way stock market fluctuations passed through to household spending may have changed, with potential implications for how the broader economy behaves. An argument can be made that the rise in equity market participation has dampened the response of output to interest rate changes as"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/north-korean-messiah",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "North Korean Messiah",
+      "url": "https://www.chinatalk.media/p/north-korean-messiah",
+      "published": "2026-08-19T10:08:02+00:00",
+      "summary": "American Protestant Christianity and the DPRK cult of personality"
+    },
+    {
+      "id": "https://www.baiguan.news/p/unitrees-ipo-chinese-premier-chinese",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "Unitree’s IPO, Chinese Premier, Chinese Mayor - Baiguan Radio #40",
+      "url": "https://www.baiguan.news/p/unitrees-ipo-chinese-premier-chinese",
+      "published": "2026-08-19T09:37:34+00:00",
+      "summary": "And what you can expect to see in our upcoming robotics tour"
+    },
+    {
+      "id": "https://www.bis.org/publ/bisbull133.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "High public debt in the Americas: non-linear implications for risk premia and inflation expectations",
+      "url": "https://www.bis.org/publ/bisbull133.htm",
+      "published": "2026-08-19T07:04:00+00:00",
+      "summary": "by Eduardo Amaral, Rafael Guerra, Alejandrina Salcedo, Pablo Tomasini, Christian Upper"
+    },
+    {
+      "id": "https://sinocism.com/p/funeral-for-zhu-rongji-xi-meets-ecuadorian",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Funeral for Zhu Rongji; Xi meets Ecuadorian President Noboa; Jiang Zemin; Housing provident fund; Consumption; What does China want?",
+      "url": "https://sinocism.com/p/funeral-for-zhu-rongji-xi-meets-ecuadorian",
+      "published": "2026-08-18T22:52:05+00:00",
+      "summary": "Wang Yi will visit South Korea for two days starting Wednesday. According to the Korea Herald:\nA Seoul Foreign Ministry official, requesting anonymity, said Tuesday that Lee’s broader vision for peaceful coexistence on the Korean Peninsula is expected to feature naturally in Wang’s meetings in Seoul.\nLee’s latest proposal is part of his administration’s efforts to improve strained inter-Korean relations and support the resumption of dialogue between North Korea and the United States, with Seoul casting itself as a “pacemaker” for diplomacy.\nIt is not clear when the Wang trip was arranged, but"
+    },
+    {
       "id": "https://www.eastisread.com/p/li-xunlei-where-to-invest-in-china",
       "source": "east_is_read",
       "source_name": "The East is Read",
@@ -170,33 +224,6 @@
       "url": "https://www.bis.org/fsi/publ/insights77.htm",
       "published": "2026-08-13T07:21:00+00:00",
       "summary": "This paper examines the evolution of information systems that support supervision and the current maturity level of supervisory authorities in terms of systems integration."
-    },
-    {
-      "id": "https://www.chinatalk.media/p/chinas-quantum-flywheel",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "China's Quantum Flywheel",
-      "url": "https://www.chinatalk.media/p/chinas-quantum-flywheel",
-      "published": "2026-08-12T15:34:48+00:00",
-      "summary": "Six months of Party mobilization"
-    },
-    {
-      "id": "https://www.eastisread.com/p/zhao-shukai-the-policy-failures-that",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Zhao Shukai: the policy failures that enabled China's rural reform",
-      "url": "https://www.eastisread.com/p/zhao-shukai-the-policy-failures-that",
-      "published": "2026-08-12T12:21:44+00:00",
-      "summary": "Farmers pushed change forward while policymakers retreated, adapted, and ultimately accepted realities on the ground."
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/08/does-the-equity-term-structure-respond-to-monetary-policy-shocks/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "Does the Equity Term Structure Respond to Monetary Policy Shocks?",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/does-the-equity-term-structure-respond-to-monetary-policy-shocks/",
-      "published": "2026-08-12T11:00:00+00:00",
-      "summary": "A long-standing body of research, inspired by Bernanke and Kuttner (2005), has documented the effects of Fed interest rate surprises on stock markets. While stock markets provide valuable information about the investor risk premium and dividend growth expectations, researchers have only recently developed more comprehensive tools to estimate the term structure of equity risk premia and dividend growth expectations across a broad range of maturities. In this post, we investigate the impact of monetary policy surprises (or shocks) on short- and long-term estimates of risk premia and growth expec"
     }
   ],
   "errors": [
@@ -206,5 +233,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-18T22:20:44.624912+00:00"
+  "generated_at": "2026-08-19T22:22:11.176802+00:00"
 }
