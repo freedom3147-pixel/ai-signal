@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "https://www.chinatalk.media/p/overcaffeinated-in-indonesia",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "Overcaffeinated in Indonesia",
+      "url": "https://www.chinatalk.media/p/overcaffeinated-in-indonesia",
+      "published": "2026-08-21T10:19:24+00:00",
+      "summary": "ChinaTalk travel writing returns!"
+    },
+    {
+      "id": "https://www.baiguan.news/p/bigone-lab-baiguan-pro-july-2026-china-consumer-spending-report-luxury-gold-tea-pop-mart-sportswear-sales-analysis-lv-laopu-luckin-lululemon-offline-data-typhoon-impact-equity-correction-brand-performance-monthly-update",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "Data Update — July 2026",
+      "url": "https://www.baiguan.news/p/bigone-lab-baiguan-pro-july-2026-china-consumer-spending-report-luxury-gold-tea-pop-mart-sportswear-sales-analysis-lv-laopu-luckin-lululemon-offline-data-typhoon-impact-equity-correction-brand-performance-monthly-update",
+      "published": "2026-08-21T10:02:21+00:00",
+      "summary": "*On April 1, we officially launched Baiguan Pro, our professional-tier subscription designed for investors seeking deeper, more specific coverage of Chinese equities."
+    },
+    {
+      "id": "https://www.baiguan.news/p/what-you-will-actually-learn-in-baiguan",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "What you will actually learn in Baiguan China Tour?",
+      "url": "https://www.baiguan.news/p/what-you-will-actually-learn-in-baiguan",
+      "published": "2026-08-21T09:30:43+00:00",
+      "summary": "16 essential quesitons"
+    },
+    {
+      "id": "https://www.pekingnology.com/p/a-barbarous-cliche",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "A Barbarous Cliché",
+      "url": "https://www.pekingnology.com/p/a-barbarous-cliche",
+      "published": "2026-08-21T02:35:22+00:00",
+      "summary": "Western China-watchers should stop calling their Chinese interlocutors “barbarian handlers”. The joke is condescending—and, today, remarkably ungrateful."
+    },
+    {
+      "id": "https://www.eastisread.com/p/peng-weixue-on-cross-strait-situation",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Peng Weixue on Cross-Strait Situation",
+      "url": "https://www.eastisread.com/p/peng-weixue-on-cross-strait-situation",
+      "published": "2026-08-21T01:06:30+00:00",
+      "summary": "CASS scholar sees mainland strategic gains but acknowledges a resurgent Lai Ching-te, an increasingly entrenched Taiwan-centred identity, and continued U.S. involvement."
+    },
+    {
+      "id": "https://sinocism.com/p/us-may-impose-more-sanctions-on-china",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "US may impose more sanctions on China over Iran?; PRC-South Korea; Life for Evergrande’s Xu; AI governance; Supply chain punishment for Taiwan; “Pseudo-history”",
+      "url": "https://sinocism.com/p/us-may-impose-more-sanctions-on-china",
+      "published": "2026-08-20T23:22:04+00:00",
+      "summary": "Given the PRC’s economic relations with Iran, Trump is clearly threatening “TREMENDOUS Economic Consequences” for China. But can he really follow through on this threat, or will Xi just respond with two words: “rare earths”?\nTreasury Secretary Bessent said this on CNBC today about possible actions against China:\nwe are confident that everyone wants the strait reopened and for energy prices to come back down. And, Sara, keep in mind that the Chinese get 50 percent, 5-0, of their energy from inside, from the Gulf. So it would do them a big service to get with the program\nAnd then later Thursday"
+    },
+    {
       "id": "https://sinocism.com/p/sharp-china-wang-yi-visits-south",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -127,15 +181,6 @@
       "summary": "How did China grow its EV industry?"
     },
     {
-      "id": "https://sinocism.com/p/beidaihe-break-is-over-jiang-zemins",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "\"Beidaihe Break\" is over; Jiang Zemin's 100th; RIP Zhu Rongji; US-China; July economic data; New Qiushi",
-      "url": "https://sinocism.com/p/beidaihe-break-is-over-jiang-zemins",
-      "published": "2026-08-16T18:16:02+00:00",
-      "summary": "Former Premier Zhu Rongji died on August 11 at the age of 98. His memorial service will be on August 18. Zhu has not been politically relevant for many years, and his death should not cause any issues for Xi and the leadership. There is a playbook for managing any outpouring of grief or reminiscences hinting at dissatisfaction with the current Era after the passing of a senior leader, and for the memorial service. The Party has recent practice in managing the deaths of retired Premiers, as Li Peng died at 90 in 2019 and Li Keqiang died at 68 in 2023. The People’s Daily treatment of the respect"
-    },
-    {
       "id": "https://www.eastisread.com/p/chinas-unsolicited-consultants",
       "source": "east_is_read",
       "source_name": "The East is Read",
@@ -170,51 +215,6 @@
       "url": "https://www.pekingnology.com/p/zhao-shukai-chinas-national-conditions",
       "published": "2026-08-15T15:01:46+00:00",
       "summary": "Veteran rural policy official examines the the limits of rule by virtuous officials and the unfinished work of enlightenment."
-    },
-    {
-      "id": "https://www.china-translated.com/p/chinese-people-dont-know-breakneck",
-      "source": "china_translated",
-      "source_name": "China Translated / Robert Wu",
-      "title": "Chinese people don't know \"breakneck\"",
-      "url": "https://www.china-translated.com/p/chinese-people-dont-know-breakneck",
-      "published": "2026-08-14T10:59:44+00:00",
-      "summary": "and why I am inviting you to take on a journey with me"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/chinas-best-music-in-2026-so-far",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "China's Best Music in 2026 (So Far)",
-      "url": "https://www.chinatalk.media/p/chinas-best-music-in-2026-so-far",
-      "published": "2026-08-14T10:29:35+00:00",
-      "summary": "Jake Newby is the author of the Concrete Avalanche Substack, which covers the best music coming out of China."
-    },
-    {
-      "id": "https://www.baiguan.news/p/live-q-and-a-baiguan-china-tour-info",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "Live Q&A: Baiguan China Tour Info Session",
-      "url": "https://www.baiguan.news/p/live-q-and-a-baiguan-china-tour-info",
-      "published": "2026-08-14T10:03:10+00:00",
-      "summary": "Yesterday, we formally announced the 2026 Autumn Baiguan China Tour, consisting of 4 separate tours on AI & robotics, advanced manufacturing, energy and consumption, plus 3 weekend tours in 3 unique cities that provide valuable context for understanding modern-day China."
-    },
-    {
-      "id": "https://www.eastisread.com/p/zhao-shukai-chinas-rural-reform-began",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Zhao Shukai: China’s Rural Reform Began with Political Change",
-      "url": "https://www.eastisread.com/p/zhao-shukai-chinas-rural-reform-began",
-      "published": "2026-08-14T02:23:53+00:00",
-      "summary": "How a less monolithic leadership, competing approaches to rural policy, and the easing of political control paved the way for reform."
-    },
-    {
-      "id": "https://www.pekingnology.com/p/david-daokui-li-on-the-end-of-offshore",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "David Daokui Li On The End of Offshore Tax Evasion for China’s Wealthy",
-      "url": "https://www.pekingnology.com/p/david-daokui-li-on-the-end-of-offshore",
-      "published": "2026-08-14T02:19:39+00:00",
-      "summary": "The Tsinghua economist welcomes China’s new offshore trust tax rules and reflects on the stark disparity between taxes on capital and labour."
     }
   ],
   "errors": [
@@ -224,5 +224,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-20T22:25:02.872029+00:00"
+  "generated_at": "2026-08-21T22:22:27.179616+00:00"
 }
