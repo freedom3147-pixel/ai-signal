@@ -10,21 +10,6 @@
       "x": [],
       "podcasts": [
         {
-          "id": "9dd4761cb116d386",
-          "title": "「高盛」20260815：AI 对就业的冲击暂时局限在4大行业和1类群体，并未显著影响就业总量｜分享观众投稿｜",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=N_6HkOeg6vk",
-          "summary_path": "content/summaries/podcasts/zh_short/20260815-ai-4-1.md",
-          "summary_chars": 686,
-          "source_hash": "2edc6230927dac2fa134c01b8185fb663f66418f583304824b46e1cf9e76d72c",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-08-20T22:25:43.900807+00:00",
-          "status": "generated",
-          "channel": "老厉害",
-          "pub_date": "2026-08-20T16:00:22+00:00",
-          "source_label": "description"
-        },
-        {
           "id": "9a4fdc9b0ac404a8",
           "title": "【最新】付鹏最新重磅（2026-8-21附文稿）展望下半年美股港股以及黄金和比特币的投资",
           "domain": "macro",
@@ -83,6 +68,21 @@
           "channel": "解读君",
           "pub_date": "2026-08-21T02:15:44+00:00",
           "source_label": "description"
+        },
+        {
+          "id": "9dd4761cb116d386",
+          "title": "「高盛」20260815：AI 对就业的冲击暂时局限在4大行业和1类群体，并未显著影响就业总量｜分享观众投稿｜",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=N_6HkOeg6vk",
+          "summary_path": "content/summaries/podcasts/zh_short/20260815-ai-4-1.md",
+          "summary_chars": 686,
+          "source_hash": "2edc6230927dac2fa134c01b8185fb663f66418f583304824b46e1cf9e76d72c",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-20T22:25:43.900807+00:00",
+          "status": "generated",
+          "channel": "老厉害",
+          "pub_date": "2026-08-20T16:00:22+00:00",
+          "source_label": "description"
         }
       ],
       "papers": []
@@ -96,21 +96,6 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
-        {
-          "id": "9dd4761cb116d386",
-          "title": "「高盛」20260815：AI 对就业的冲击暂时局限在4大行业和1类群体，并未显著影响就业总量｜分享观众投稿｜",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=N_6HkOeg6vk",
-          "summary_path": "content/summaries/podcasts/zh_standard/20260815-ai-4-1.md",
-          "summary_chars": 1107,
-          "source_hash": "6d5be3e0173682cab3de15a6f4e7646d41bef8a1c93623d5ade5a5dea923d876",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-08-20T22:26:22.143353+00:00",
-          "status": "generated",
-          "channel": "老厉害",
-          "pub_date": "2026-08-20T16:00:22+00:00",
-          "source_label": "description"
-        },
         {
           "id": "9a4fdc9b0ac404a8",
           "title": "【最新】付鹏最新重磅（2026-8-21附文稿）展望下半年美股港股以及黄金和比特币的投资",
@@ -170,6 +155,21 @@
           "channel": "解读君",
           "pub_date": "2026-08-21T02:15:44+00:00",
           "source_label": "description"
+        },
+        {
+          "id": "9dd4761cb116d386",
+          "title": "「高盛」20260815：AI 对就业的冲击暂时局限在4大行业和1类群体，并未显著影响就业总量｜分享观众投稿｜",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=N_6HkOeg6vk",
+          "summary_path": "content/summaries/podcasts/zh_standard/20260815-ai-4-1.md",
+          "summary_chars": 1107,
+          "source_hash": "6d5be3e0173682cab3de15a6f4e7646d41bef8a1c93623d5ade5a5dea923d876",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-20T22:26:22.143353+00:00",
+          "status": "generated",
+          "channel": "老厉害",
+          "pub_date": "2026-08-20T16:00:22+00:00",
+          "source_label": "description"
         }
       ],
       "papers": []
@@ -183,21 +183,6 @@
       "paper_target_chars": null,
       "x": [],
       "podcasts": [
-        {
-          "id": "9dd4761cb116d386",
-          "title": "「高盛」20260815：AI 对就业的冲击暂时局限在4大行业和1类群体，并未显著影响就业总量｜分享观众投稿｜",
-          "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=N_6HkOeg6vk",
-          "summary_path": "content/summaries/podcasts/zh_deep/20260815-ai-4-1.md",
-          "summary_chars": 2678,
-          "source_hash": "461a545a87cd708b2eecc0bfd1dc619dd40355b7c7084c9fbb58db54f2079360",
-          "model": "deepseek-v4-pro",
-          "generated_at": "2026-08-20T22:27:53.093773+00:00",
-          "status": "generated",
-          "channel": "老厉害",
-          "pub_date": "2026-08-20T16:00:22+00:00",
-          "source_label": "description"
-        },
         {
           "id": "9a4fdc9b0ac404a8",
           "title": "【最新】付鹏最新重磅（2026-8-21附文稿）展望下半年美股港股以及黄金和比特币的投资",
@@ -257,11 +242,26 @@
           "channel": "解读君",
           "pub_date": "2026-08-21T02:15:44+00:00",
           "source_label": "description"
+        },
+        {
+          "id": "9dd4761cb116d386",
+          "title": "「高盛」20260815：AI 对就业的冲击暂时局限在4大行业和1类群体，并未显著影响就业总量｜分享观众投稿｜",
+          "domain": "macro",
+          "source_url": "https://www.youtube.com/watch?v=N_6HkOeg6vk",
+          "summary_path": "content/summaries/podcasts/zh_deep/20260815-ai-4-1.md",
+          "summary_chars": 2678,
+          "source_hash": "461a545a87cd708b2eecc0bfd1dc619dd40355b7c7084c9fbb58db54f2079360",
+          "model": "deepseek-v4-pro",
+          "generated_at": "2026-08-20T22:27:53.093773+00:00",
+          "status": "generated",
+          "channel": "老厉害",
+          "pub_date": "2026-08-20T16:00:22+00:00",
+          "source_label": "description"
         }
       ],
       "papers": []
     }
   },
-  "generated_at": "2026-08-21T22:26:24.794131+00:00",
+  "generated_at": "2026-08-22T22:20:11.313569+00:00",
   "model": "deepseek-v4-pro"
 }

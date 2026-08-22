@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://www.pekingnology.com/p/zhao-shukai-chinas-rural-reform-had",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Zhao Shukai: China’s Rural Reform Had No Master Plan",
+      "url": "https://www.pekingnology.com/p/zhao-shukai-chinas-rural-reform-had",
+      "published": "2026-08-22T17:15:00+00:00",
+      "summary": "The breakthroughs of the 1980s came not from top-level design, but from political pluralism, local autonomy, and competition among policy alternat"
+    },
+    {
+      "id": "https://www.china-translated.com/p/may-the-bull-come",
+      "source": "china_translated",
+      "source_name": "China Translated / Robert Wu",
+      "title": "May the Bull come",
+      "url": "https://www.china-translated.com/p/may-the-bull-come",
+      "published": "2026-08-22T12:07:02+00:00",
+      "summary": "My takes on why Niu Lai became a viral sensation - China Translated Briefing No.74"
+    },
+    {
       "id": "https://www.chinatalk.media/p/overcaffeinated-in-indonesia",
       "source": "chinatalk",
       "source_name": "ChinaTalk",
@@ -206,15 +224,6 @@
       "url": "https://www.pekingnology.com/p/a-useful-time-to-complain",
       "published": "2026-08-16T12:34:32+00:00",
       "summary": "Mainland workers are discovering that an employer’s Hong Kong IPO can turn an ordinary labour dispute into a more potent one"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/zhao-shukai-chinas-national-conditions",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Zhao Shukai: China's “National Conditions” Are No Argument Against Reform or Enlightenment",
-      "url": "https://www.pekingnology.com/p/zhao-shukai-chinas-national-conditions",
-      "published": "2026-08-15T15:01:46+00:00",
-      "summary": "Veteran rural policy official examines the the limits of rule by virtuous officials and the unfinished work of enlightenment."
     }
   ],
   "errors": [
@@ -224,5 +233,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-21T22:22:27.179616+00:00"
+  "generated_at": "2026-08-22T22:19:46.095153+00:00"
 }
