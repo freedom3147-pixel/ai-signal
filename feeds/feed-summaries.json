@@ -70,18 +70,18 @@
           "source_label": "description"
         },
         {
-          "id": "9dd4761cb116d386",
-          "title": "「高盛」20260815：AI 对就业的冲击暂时局限在4大行业和1类群体，并未显著影响就业总量｜分享观众投稿｜",
+          "id": "a5f961e2040239f2",
+          "title": "华创张瑜旬度会（2026-8-23最新）这一次，市场拐点到了吗？",
           "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=N_6HkOeg6vk",
-          "summary_path": "content/summaries/podcasts/zh_short/20260815-ai-4-1.md",
-          "summary_chars": 686,
-          "source_hash": "2edc6230927dac2fa134c01b8185fb663f66418f583304824b46e1cf9e76d72c",
+          "source_url": "https://www.youtube.com/watch?v=FSmnVkAPaic",
+          "summary_path": "content/summaries/podcasts/zh_short/2026-8-23.md",
+          "summary_chars": 500,
+          "source_hash": "ce1d1888f40189a7a1a8267b1f3007222172b2c5b54f2457967f4f339e89da49",
           "model": "deepseek-v4-pro",
-          "generated_at": "2026-08-20T22:25:43.900807+00:00",
+          "generated_at": "2026-08-23T22:19:41.195593+00:00",
           "status": "generated",
-          "channel": "老厉害",
-          "pub_date": "2026-08-20T16:00:22+00:00",
+          "channel": "解读君",
+          "pub_date": "2026-08-23T15:38:15+00:00",
           "source_label": "description"
         }
       ],
@@ -157,18 +157,18 @@
           "source_label": "description"
         },
         {
-          "id": "9dd4761cb116d386",
-          "title": "「高盛」20260815：AI 对就业的冲击暂时局限在4大行业和1类群体，并未显著影响就业总量｜分享观众投稿｜",
+          "id": "a5f961e2040239f2",
+          "title": "华创张瑜旬度会（2026-8-23最新）这一次，市场拐点到了吗？",
           "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=N_6HkOeg6vk",
-          "summary_path": "content/summaries/podcasts/zh_standard/20260815-ai-4-1.md",
-          "summary_chars": 1107,
-          "source_hash": "6d5be3e0173682cab3de15a6f4e7646d41bef8a1c93623d5ade5a5dea923d876",
+          "source_url": "https://www.youtube.com/watch?v=FSmnVkAPaic",
+          "summary_path": "content/summaries/podcasts/zh_standard/2026-8-23.md",
+          "summary_chars": 951,
+          "source_hash": "ed70c8e7956676e398f05a2e469a13eccef0c4a1e0d03a98476521a5a5164e4b",
           "model": "deepseek-v4-pro",
-          "generated_at": "2026-08-20T22:26:22.143353+00:00",
+          "generated_at": "2026-08-23T22:19:50.978701+00:00",
           "status": "generated",
-          "channel": "老厉害",
-          "pub_date": "2026-08-20T16:00:22+00:00",
+          "channel": "解读君",
+          "pub_date": "2026-08-23T15:38:15+00:00",
           "source_label": "description"
         }
       ],
@@ -244,24 +244,24 @@
           "source_label": "description"
         },
         {
-          "id": "9dd4761cb116d386",
-          "title": "「高盛」20260815：AI 对就业的冲击暂时局限在4大行业和1类群体，并未显著影响就业总量｜分享观众投稿｜",
+          "id": "a5f961e2040239f2",
+          "title": "华创张瑜旬度会（2026-8-23最新）这一次，市场拐点到了吗？",
           "domain": "macro",
-          "source_url": "https://www.youtube.com/watch?v=N_6HkOeg6vk",
-          "summary_path": "content/summaries/podcasts/zh_deep/20260815-ai-4-1.md",
-          "summary_chars": 2678,
-          "source_hash": "461a545a87cd708b2eecc0bfd1dc619dd40355b7c7084c9fbb58db54f2079360",
+          "source_url": "https://www.youtube.com/watch?v=FSmnVkAPaic",
+          "summary_path": "content/summaries/podcasts/zh_deep/2026-8-23.md",
+          "summary_chars": 2376,
+          "source_hash": "a4b0a06a657fe4ee30db90b67ba0bb845074d9ca08c8fe1b44348be056d3c2c7",
           "model": "deepseek-v4-pro",
-          "generated_at": "2026-08-20T22:27:53.093773+00:00",
+          "generated_at": "2026-08-23T22:20:15.373672+00:00",
           "status": "generated",
-          "channel": "老厉害",
-          "pub_date": "2026-08-20T16:00:22+00:00",
+          "channel": "解读君",
+          "pub_date": "2026-08-23T15:38:15+00:00",
           "source_label": "description"
         }
       ],
       "papers": []
     }
   },
-  "generated_at": "2026-08-22T22:20:11.313569+00:00",
+  "generated_at": "2026-08-23T22:20:15.375270+00:00",
   "model": "deepseek-v4-pro"
 }

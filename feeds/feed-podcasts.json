@@ -1,6 +1,40 @@
 {
   "podcasts": [
     {
+      "channel": "老厉害",
+      "domain": "macro",
+      "guid": "2LtdhtVL0d4",
+      "title": "「伯恩斯坦」20260821：当前中国企业员工平均工时超过G7国家45%｜分享观众投稿｜",
+      "pub_date": "2026-08-23T16:00:33+00:00",
+      "link": "https://www.youtube.com/watch?v=2LtdhtVL0d4",
+      "audio_url": "",
+      "duration": "",
+      "description": "【水印用于防盗搬，请见谅】\n\n投稿邮箱：oldpowerful@gmail.com\n\n【本期研报Google Drive下载链接】：https://drive.google.com/file/d/1LVlh_Ru5gZfnXwr62wvY9lZ_jJlnLaOl/view?usp=drive_link",
+      "transcript": null,
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": "2LtdhtVL0d4",
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=2LtdhtVL0d4! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+    },
+    {
+      "channel": "解读君",
+      "domain": "macro",
+      "guid": "FSmnVkAPaic",
+      "title": "华创张瑜旬度会（2026-8-23最新）这一次，市场拐点到了吗？",
+      "pub_date": "2026-08-23T15:38:15+00:00",
+      "link": "https://www.youtube.com/watch?v=FSmnVkAPaic",
+      "audio_url": "",
+      "duration": "",
+      "description": "订阅【解读君文字稿件】合集，第一时间收到《深度提炼分析》：https://www.patreon.com/collection/1965208?view=condensed\n\n【投资必读的经典好书合集】一次性系统学明白投资：https://www.patreon.com/collection/1985826?view=expanded\n\n【听音频】不方便看视频，可以去下面平台订阅听音频\n（1）Spotify：https://open.spotify.com/show/5DEoCWkpbk8ie6hpaOfjx9\n（2）Apple播客：https://podcasts.apple.com/us/podcast/%E8%A7%A3%E8%AF%BB%E5%90%9B%E8%B4%A2%E7%BB%8F/id1794288458\n\n【看文稿】关注解读君的推特X：《文字稿件》和《精华要点总结》已经发布在X平台，请订阅：https://x.com/JIEDUJUN        \n\n官方合作联系邮箱：hello@jiedujun.com\n\n\n我们是具备高度专业素养的专业合规团队，帮助普通人解析晦涩难懂的财经视频变成通俗易懂的语言\n我们团队拥有合规的财经数据来源和第一手合规财经内容素材，通过整理分析\n每一个我们的视频前段和中后段都有我们自己原创独家的解读分析。  \n我们依据原素材分析，外加查询数据以及分析市场之后得出来的珍贵分析解读  \n经过三年合规运营，我们已经形成自己的战略优势矩阵\n\nWe are a team with high quality, helping ordinary people understand complex financial videos in easy-to-understand language. Our team possesses compliant financial data sources and firsthand compliant financial content materials. Through analysis and organization, each of our videos features our own original and exclusive interpretations and analyses at the beginning, middle, and end. This valuable analysis and interpretation is derived from our analysis of original materials, combined with data research and market analysis.\n\nOfficial contact email: hello@jiedujun.com\n\n\n免责声明：本频道（解读君频道 JIEDU369）所有视频、文章及相关内容，均源于我们团队的独立研究与结构性商业分析。所有内容仅供学习、知识分享与探讨，绝不构成任何形式的财务、投资或法律建议。\n\n金融市场瞬息万变且充满风险，任何投资决策均应基于您个人的独立思考与充分的尽职调查（DYOR）。解读君及其团队不对任何因参考本频道信息而导致的直接或间接资产损失承担任何责任。\n\n🌐 更多深度图文解读和信息资料，请访问解读君官网：https://www.Jiedujun.com\n\n\nDisclaimer:  All videos, articles, and related content on this channel (JIEDU369) are based on our independent research and structural business analysis. The content is provided strictly for educational purposes and knowledge sharing, and does NOT constitute financial, investment, or legal advice of any kind.\n\nFinancial markets are highly volatile and involve significant risks. Any investment decisions you make should be based on your own independent judgment and thorough due diligence (DYOR). JIEDU369 and its team assume no liabil",
+      "transcript": null,
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": "FSmnVkAPaic",
+      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=FSmnVkAPaic! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+    },
+    {
       "channel": "ARK Invest",
       "domain": "macro",
       "guid": "Rff2A8PWUUA",
@@ -134,7 +168,7 @@
       "transcript_source": null,
       "transcript_url": null,
       "transcript_video_id": null,
-      "transcript_error": "episode_page: text too sparse to be a transcript (1415 chars for 82 min); youtube: No YouTube video id in link"
+      "transcript_error": "episode_page: text too sparse to be a transcript (1406 chars for 82 min); youtube: No YouTube video id in link"
     },
     {
       "channel": "Odd Lots",
@@ -373,42 +407,8 @@
       "transcript_url": null,
       "transcript_video_id": "-BNEYkscDj8",
       "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=-BNEYkscDj8! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
-    },
-    {
-      "channel": "老厉害",
-      "domain": "macro",
-      "guid": "8RTcQ2EEcHs",
-      "title": "「小摩&大摩」20260814：政治局会议后未见起色，7月官方贷款数据续创历史新低，8月至今政府债券发行节奏仍大幅落后去年同期",
-      "pub_date": "2026-08-16T16:00:24+00:00",
-      "link": "https://www.youtube.com/watch?v=8RTcQ2EEcHs",
-      "audio_url": "",
-      "duration": "",
-      "description": "影片录完发现国家统计局竟然把经济数据发布时间调整到下午3点A股收盘之后了\n\n\n【水印用于防盗搬，请见谅】\n\n【本期研报Google Drive下载链接】：\n小摩：https://drive.google.com/file/d/1VlVy7HaqDQq-R6U9-9yghH_G5vkoKPCD/view?usp=drive_link\n大摩：https://drive.google.com/file/d/1pV4kzgZmV9Eu-Wrk0mLcqaHb8UndQvQ1/view?usp=drive_link\n\n【本期影片中涉及的往期影片及链接】：\n「高盛&大摩&花旗」20260618：金融三部委陆家嘴论坛要点总结\n链接：youtube.com/watch?v=BTO2MWxcgh8",
-      "transcript": null,
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": "8RTcQ2EEcHs",
-      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=8RTcQ2EEcHs! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
-    },
-    {
-      "channel": "解读君",
-      "domain": "macro",
-      "guid": "7V6IYgpHtHM",
-      "title": "【全程硬核内容】  但斌最新1小时深度分享（2026-8-16附文稿）解析AI投资机会和布局，是否有泡沫，下一步财富机会",
-      "pub_date": "2026-08-16T05:26:02+00:00",
-      "link": "https://www.youtube.com/watch?v=7V6IYgpHtHM",
-      "audio_url": "",
-      "duration": "",
-      "description": "面对短期市场剧烈波动与所谓的“AI泡沫论”，投资者该如何坚守信念？但斌深度拆解了7月股市震荡背后的逻辑、开源大模型对现有AI生态的冲击，以及台积电与全球科技巨头的真实算力需求。同时，深度探讨了中美AI赛道的不同走向，以及AI在医药、金融等核心行业的颠覆性应用，帮您提前发掘下一步财富机会！1小时深度投资分享！我们正处于AI人工智能时代的浪潮初期，\n\n订阅【解读君文字稿件】合集，第一时间收到《深度提炼分析》：https://www.patreon.com/collection/1965208?view=condensed\n\n\n\n【投资必读的经典好书合集】一次性系统学明白投资：https://www.patreon.com/collection/1985826?view=expanded\n\n【听音频】不方便看视频，可以去下面平台订阅听音频\n（1）Spotify：https://open.spotify.com/show/5DEoCWkpbk8ie6hpaOfjx9\n（2）Apple播客：https://podcasts.apple.com/us/podcast/%E8%A7%A3%E8%AF%BB%E5%90%9B%E8%B4%A2%E7%BB%8F/id1794288458\n\n【看文稿】关注解读君的推特X：《文字稿件》和《精华要点总结》已经发布在X平台，请订阅：https://x.com/JIEDUJUN        \n\n官方合作联系邮箱：hello@jiedujun.com\n\n\n我们是具备高度专业素养的专业合规团队，帮助普通人解析晦涩难懂的财经视频变成通俗易懂的语言\n我们团队拥有合规的财经数据来源和第一手合规财经内容素材，通过整理分析\n每一个我们的视频前段和中后段都有我们自己原创独家的解读分析。  \n我们依据原素材分析，外加查询数据以及分析市场之后得出来的珍贵分析解读  \n经过三年合规运营，我们已经形成自己的战略优势矩阵\n\nWe are a team with high quality, helping ordinary people understand complex financial videos in easy-to-understand language. Our team possesses compliant financial data sources and firsthand compliant financial content materials. Through analysis and organization, each of our videos features our own original and exclusive interpretations and analyses at the beginning, middle, and end. This valuable analysis and interpretation is derived from our analysis of original materials, combined with data research and market analysis.\n\nOfficial contact email: hello@jiedujun.com\n\n\n免责声明：本频道（解读君频道 JIEDU369）所有视频、文章及相关内容，均源于我们团队的独立研究与结构性商业分析。所有内容仅供学习、知识分享与探讨，绝不构成任何形式的财务、投资或法律建议。\n\n金融市场瞬息万变且充满风险，任何投资决策均应基于您个人的独立思考与充分的尽职调查（DYOR）。解读君及其团队不对任何因参考本频道信息而导致的直接或间接资产损失承担任何责任。\n\n🌐 更多深度图文解读和信息资料，请访问解读君官网：https://www.Jiedujun.com\n\n\nDisclaimer:  All videos, articles, and related content on this channel (JIEDU369) are based on our independent research and structural business analysis. The content is provided strictly for educational purposes and knowledge sharing, and does NOT constitute financial, investment, or legal advice of any kind.\n\nFinancial markets are highly volatile and involv",
-      "transcript": null,
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": "7V6IYgpHtHM",
-      "transcript_error": "episode_page: No transcript link or transcript-like page text found; youtube: \nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=7V6IYgpHtHM! This is most likely caused by:\n\nYouTube is blocking requests from your IP. This usually is due to one of the following reasons:\n- You have done too many requests and your IP has been blocked by YouTube\n- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.\n\nThere are two things you can do to work around this:\n1. Use proxies to hide your IP address, as explained in the \"Working around IP bans\" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).\n2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
     }
   ],
   "errors": null,
-  "generated_at": "2026-08-22T22:19:46.095153+00:00"
+  "generated_at": "2026-08-23T22:19:08.251096+00:00"
 }
