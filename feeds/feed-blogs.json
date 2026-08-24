@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://www.bis.org/publ/work1372.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Hard to shift, easy to reshape: central bank reserve demand and frictions",
+      "url": "https://www.bis.org/publ/work1372.htm",
+      "published": "2026-08-24T12:43:00+00:00",
+      "summary": "by Mathias Drehmann, Xuewen Fu \nHow far can central banks shrink their balance sheets? The answer sets the limits to quantitative tightening (QT), and depends critically on the demand for reserves and whether the drivers widely thought to have increased it over the past decade actually do so. We assess the impact of three such drivers: post-crisis liquidity regulation, monetization frictions, and fragmented interbank markets. Building on the canonical Poole (1968) model, we show that these drivers tend to reshape, rather than horizontally shift, reserve demand."
+    },
+    {
+      "id": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "How AI Becomes a Political Crisis",
+      "url": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis",
+      "published": "2026-08-24T10:08:34+00:00",
+      "summary": "The political economy of AI — things are getting weird, it seems."
+    },
+    {
       "id": "https://www.pekingnology.com/p/when-flexibility-sounds-like-an-insult",
       "source": "pekingnology",
       "source_name": "Pekingnology",
@@ -197,24 +215,6 @@
       "url": "https://sinocism.com/p/more-weak-july-economic-data-state",
       "published": "2026-08-17T22:33:36+00:00",
       "summary": "Jiang Zemin Commemoration - There were few surprises at the Monday commemoration for the 100th anniversary of the birth of Jiang Zemin. All living, retired Standing Committee members except Hu Jintao, Li Ruihuan, Wu Guanzheng, and Luo Gan attended. Xi Jinping laid out five things the Party should learn from Jiang Zemin at Monday's centenary commemoration, and linked them to his agenda:\nWe must learn from Comrade Jiang Zemin’s rock-solid political faith. 我们要学习江泽民同志坚定如磐的政治信仰。\nWe must learn from Comrade Jiang Zemin’s sincere and profound feeling for the people. 我们要学习江泽民同志真挚深厚的为民情怀。\nWe must learn"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/ren-xiao-a-chinese-theory-of-international",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Ren Xiao: A Chinese Theory of International Relations, on China’s Own Terms",
-      "url": "https://www.pekingnology.com/p/ren-xiao-a-chinese-theory-of-international",
-      "published": "2026-08-17T12:20:37+00:00",
-      "summary": "Writing in the Party's top theoretical journal, the IR professor says “international relations theory” should not be treated as synonymous with Western international relations theory."
-    },
-    {
-      "id": "https://www.chinatalk.media/p/the-rise-of-chinas-electric-vehicle",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "The Rise of China’s Electric Vehicle Industry",
-      "url": "https://www.chinatalk.media/p/the-rise-of-chinas-electric-vehicle",
-      "published": "2026-08-17T10:08:23+00:00",
-      "summary": "How did China grow its EV industry?"
     }
   ],
   "errors": [
@@ -224,5 +224,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-23T22:19:08.251096+00:00"
+  "generated_at": "2026-08-24T22:23:46.564354+00:00"
 }
