@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "https://www.pekingnology.com/p/a-hit-chinese-legal-drama-reopens",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "A Hit Chinese Legal Drama Reopens an Old Question About Lawyers",
+      "url": "https://www.pekingnology.com/p/a-hit-chinese-legal-drama-reopens",
+      "published": "2026-08-25T16:20:14+00:00",
+      "summary": "China’s most famous law professor elaborates on the production by the country’s highest court and procuratorate"
+    },
+    {
+      "id": "https://www.bis.org/publ/work1373.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Settlement liquidity in the Colombian large-value payment system: the role of reserve requirements",
+      "url": "https://www.bis.org/publ/work1373.htm",
+      "published": "2026-08-25T11:26:00+00:00",
+      "summary": "by Freddy Cepeda-Lopéz, Fredy Gamboa, Javier Miguelez-Márquez \nThis paper analyzes the intraday timing of transactions in Colombia's large-value payment system (CUD) from 2018 to 2025, focusing on how changes in reserve requirements affect liquidity management by financial institutions. Using high-frequency transaction data, we document that reductions in reserve requirements in April 2020 and September 2024 are associated with a shift of settlement activity toward later hours of the day."
+    },
+    {
+      "id": "https://www.baiguan.news/p/world-robot-conference-beijing-26-humanoid-motion-improvement-tien-kung-ultra-reinforcement-learning-unitree-combat-commercial-automation-tea-coffee-quadruped-data-bottleneck-tcm-pulse-exoskeleton-rehab",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "Field notes from the World Robot Conference in Beijing",
+      "url": "https://www.baiguan.news/p/world-robot-conference-beijing-26-humanoid-motion-improvement-tien-kung-ultra-reinforcement-learning-unitree-combat-commercial-automation-tea-coffee-quadruped-data-bottleneck-tcm-pulse-exoskeleton-rehab",
+      "published": "2026-08-25T10:56:00+00:00",
+      "summary": "I spent some time at the World Robot Conference (August 19–23) in Beijing."
+    },
+    {
+      "id": "https://sinocism.com/p/xi-meets-jordans-king-state-of-the",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Xi meets Jordan’s king; State of the economy; Formaldehyde-dipped cabbages; CCDI Sixth Plenum; US-China",
+      "url": "https://sinocism.com/p/xi-meets-jordans-king-state-of-the",
+      "published": "2026-08-24T23:30:29+00:00",
+      "summary": "In this issue: Xi meets Jordan’s king\nSixth Plenum of the CPC Central Commission for Discipline Inspection\n“Zhong Caiwen 钟才文” on the economy\nFiscal revenue grew in July \nFormaldehyde-dipped cabbage\nUS-China"
+    },
+    {
       "id": "https://www.bis.org/publ/work1372.htm",
       "source": "bis",
       "source_name": "BIS Research Papers",
@@ -17,6 +53,15 @@
       "url": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis",
       "published": "2026-08-24T10:08:34+00:00",
       "summary": "The political economy of AI — things are getting weird, it seems."
+    },
+    {
+      "id": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis-432",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "How AI Becomes a Political Crisis",
+      "url": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis-432",
+      "published": "2026-08-24T07:58:00+00:00",
+      "summary": "Unemployment, Data Center Backlash, and the Brewing Storm"
     },
     {
       "id": "https://www.pekingnology.com/p/when-flexibility-sounds-like-an-insult",
@@ -80,6 +125,15 @@
       "url": "https://www.baiguan.news/p/what-you-will-actually-learn-in-baiguan",
       "published": "2026-08-21T09:30:43+00:00",
       "summary": "16 essential quesitons"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/lessons-from-the-american-civil-war-687",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "Lessons from the American Civil War",
+      "url": "https://www.chinatalk.media/p/lessons-from-the-american-civil-war-687",
+      "published": "2026-08-21T07:58:00+00:00",
+      "summary": "I promise this is useful"
     },
     {
       "id": "https://www.pekingnology.com/p/a-barbarous-cliche",
@@ -179,42 +233,6 @@
       "url": "https://sinocism.com/p/funeral-for-zhu-rongji-xi-meets-ecuadorian",
       "published": "2026-08-18T22:52:05+00:00",
       "summary": "Wang Yi will visit South Korea for two days starting Wednesday. According to the Korea Herald:\nA Seoul Foreign Ministry official, requesting anonymity, said Tuesday that Lee’s broader vision for peaceful coexistence on the Korean Peninsula is expected to feature naturally in Wang’s meetings in Seoul.\nLee’s latest proposal is part of his administration’s efforts to improve strained inter-Korean relations and support the resumption of dialogue between North Korea and the United States, with Seoul casting itself as a “pacemaker” for diplomacy.\nIt is not clear when the Wang trip was arranged, but"
-    },
-    {
-      "id": "https://www.eastisread.com/p/li-xunlei-where-to-invest-in-china",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Li Xunlei: Where to Invest in China",
-      "url": "https://www.eastisread.com/p/li-xunlei-where-to-invest-in-china",
-      "published": "2026-08-18T12:21:24+00:00",
-      "summary": "Why abundant liquidity is chasing too few high-quality asset, and where opportunities may emerge in AI, M&A, strategic resources, consumer stocks, and major-city property."
-    },
-    {
-      "id": "https://www.chinatalk.media/p/why-chinas-ai-bubble-is-also-industrial",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "Why China’s AI Bubble Is Also Industrial Policy",
-      "url": "https://www.chinatalk.media/p/why-chinas-ai-bubble-is-also-industrial",
-      "published": "2026-08-18T10:08:02+00:00",
-      "summary": "Inside China’s Venture Capital Game"
-    },
-    {
-      "id": "https://www.baiguan.news/p/china-2026-experiential-consumption-shift-goods-services-digital-tourism-live-events-ip-gaming-music-investment-basket-trip-atour-popmart-damai-maoyan-bloks-tencent-netease-tme-bilibili-trend",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "The Experience Trade: what China buys when it stops buying things",
-      "url": "https://www.baiguan.news/p/china-2026-experiential-consumption-shift-goods-services-digital-tourism-live-events-ip-gaming-music-investment-basket-trip-atour-popmart-damai-maoyan-bloks-tencent-netease-tme-bilibili-trend",
-      "published": "2026-08-18T10:02:09+00:00",
-      "summary": "Before today’s post — a quick note. Applications are open for the 2026 Autumn Baiguan China Tour, a month-long “marathon” of modular expeditions across October and November: Robotics & AI in Beijing, advanced manufacturing from Foshan to Shenzhen, the next energy cycle across Shanghai–Suzhou–Hangzhou, and premium consumption in Shanghai — plus weekend immersions in Datong, Yiwu and Nanjing."
-    },
-    {
-      "id": "https://sinocism.com/p/more-weak-july-economic-data-state",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "More weak July economic data; State Council Plenary session; Jiang Zemin Commemoration; AI tokens; Xi's DC visit; “Once Upon a Time in the Middle East”",
-      "url": "https://sinocism.com/p/more-weak-july-economic-data-state",
-      "published": "2026-08-17T22:33:36+00:00",
-      "summary": "Jiang Zemin Commemoration - There were few surprises at the Monday commemoration for the 100th anniversary of the birth of Jiang Zemin. All living, retired Standing Committee members except Hu Jintao, Li Ruihuan, Wu Guanzheng, and Luo Gan attended. Xi Jinping laid out five things the Party should learn from Jiang Zemin at Monday's centenary commemoration, and linked them to his agenda:\nWe must learn from Comrade Jiang Zemin’s rock-solid political faith. 我们要学习江泽民同志坚定如磐的政治信仰。\nWe must learn from Comrade Jiang Zemin’s sincere and profound feeling for the people. 我们要学习江泽民同志真挚深厚的为民情怀。\nWe must learn"
     }
   ],
   "errors": [
@@ -224,5 +242,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-24T22:23:46.564354+00:00"
+  "generated_at": "2026-08-25T22:24:43.320509+00:00"
 }
