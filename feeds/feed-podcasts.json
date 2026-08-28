@@ -1,6 +1,40 @@
 {
   "podcasts": [
     {
+      "channel": "MacroVoices",
+      "domain": "macro",
+      "guid": "macrovoices.podbean.com/0ca6507c-75c0-3f81-af76-42749e4e0dbc",
+      "title": "MacroVoices #547 Daniel Lacalle: The Future of Reserve Currency",
+      "pub_date": "2026-08-27T12:13:58-05:00",
+      "link": "https://macrovoices.podbean.com/e/macrovoices-547-daniel-lacalle-the-future-of-reserve-currency/",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/m6qcztpwx4jq97ij/Macrovoices-2026-08-27-Daniel-Lacalle.mp3",
+      "duration": "2517",
+      "description": "<p class=\"p1\">MacroVoices Erik Townsend &amp; Patrick Ceresna welcome, Daniel Lacalle. They discuss sovereign debt, inflation, and the rise of cryptocurrencies and stablecoins forcing a shift toward more decentralised monetary systems.\n\n</p>\n<p class=\"p1\">✅Sign up for a FREE 14-day trial at Big Picture Trading: <a href='https://secure.bigpicturetrading.com/membership/signup/fOY4YJYX'>https://secure.bigpicturetrading.com/membership/signup/fOY4YJYX</a></p>\n<p class=\"p2\"> </p>\n<p class=\"p1\">🔴 Subscribe to Patrick’s Youtube Channel: <a href='https://www.youtube.com/@Patrick_Ceresna'>https://www.youtube.com/@Patrick_Ceresna</a></p>\n<p class=\"p1\"> </p>\n<p class=\"p1\">🔴 Subscribe to Erik's Substack: <a href='https://eriktownsend.substack.com/'>https://eriktownsend.substack.com/</a></p>\n<p class=\"p1\"> </p>\n",
+      "transcript": null,
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "episode_page: text too sparse to be a transcript (1466 chars for 41 min); youtube: No YouTube video id in link"
+    },
+    {
+      "channel": "Odd Lots",
+      "domain": "macro",
+      "guid": "23fe5a8c-d1c2-4e74-975b-b4b30028ce5d",
+      "title": "Kansas City Fed President Jeffrey Schmid on the First Jackson Hole of the Warsh Era",
+      "pub_date": "2026-08-27T11:30:00+00:00",
+      "link": "https://omny.fm/shows/odd-lots/kansas-city-fed-president-jeffrey-schmid-on-the-first-jackson-hole-of-the-warsh-era",
+      "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/23fe5a8c-d1c2-4e74-975b-b4b30028ce5d/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+      "duration": "1736",
+      "description": "<p>We are back in Jackson Hole! And this year's Federal Reserve Bank of Kansas City symposium on monetary policy might be one of the most interesting editions in years. It marks the first under new Fed Chairman Kevin Warsh, and Fed observers all over the world will be closely watching his Friday speech for signs of how he might further distinguish himself, and the institution he is in charge of, from the Jerome Powell era. This meeting at Jackson Hole also comes at a fascinating, and pretty tense, time for monetary policy in the US and abroad: high bond yields, above-target inflation, and AI's still unrealized effect on broader parts of the economy like the job market. As we have in the past, we speak with Jeffrey Schmid, the president and CEO of the Kansas City Fed, about what to expect and he also shares his thoughts on the wave of baby boomer retirements and how it's affecting the labor force, his recent FOMC votes, and he explains why this symposium is so focused on payments.</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>",
+      "transcript": null,
+      "transcript_available": false,
+      "transcript_source": null,
+      "transcript_url": null,
+      "transcript_video_id": null,
+      "transcript_error": "rss_transcript: Fetched text was too short or did not look like a transcript (31536 chars); rss_transcript: Fetched text was too short or did not look like a transcript (40333 chars); rss_transcript: Fetched text was too short or did not look like a transcript (27844 chars); episode_page: text too sparse to be a transcript (2098 chars for 28 min); youtube: No YouTube video id in link"
+    },
+    {
       "channel": "Invest Like the Best",
       "domain": "macro",
       "guid": "d56fad4c-876e-11f1-9151-5f1834daf707",
@@ -32,7 +66,7 @@
       "transcript_source": null,
       "transcript_url": null,
       "transcript_video_id": null,
-      "transcript_error": "rss_transcript: Fetched text was too short or did not look like a transcript (60607 chars); rss_transcript: Fetched text was too short or did not look like a transcript (76464 chars); rss_transcript: Fetched text was too short or did not look like a transcript (52199 chars); episode_page: text too sparse to be a transcript (2854 chars for 58 min); youtube: No YouTube video id in link"
+      "transcript_error": "rss_transcript: Fetched text was too short or did not look like a transcript (60607 chars); rss_transcript: Fetched text was too short or did not look like a transcript (76464 chars); rss_transcript: Fetched text was too short or did not look like a transcript (52199 chars); episode_page: text too sparse to be a transcript (2872 chars for 58 min); youtube: No YouTube video id in link"
     },
     {
       "channel": "Odd Lots",
@@ -49,47 +83,13 @@
       "transcript_source": null,
       "transcript_url": null,
       "transcript_video_id": null,
-      "transcript_error": "rss_transcript: Fetched text was too short or did not look like a transcript (66713 chars); rss_transcript: Fetched text was too short or did not look like a transcript (84644 chars); rss_transcript: Fetched text was too short or did not look like a transcript (57703 chars); episode_page: text too sparse to be a transcript (2649 chars for 51 min); youtube: No YouTube video id in link"
-    },
-    {
-      "channel": "MacroVoices",
-      "domain": "macro",
-      "guid": "macrovoices.podbean.com/afd1671e-4766-360c-a380-7f77928a47d7",
-      "title": "MacroVoices #546 Darius Dale: Darius Dale for POTUS 2028",
-      "pub_date": "2026-08-20T13:15:02-05:00",
-      "link": "https://macrovoices.podbean.com/e/macrovoices-546-darius-dale-darius-dale-for-potus-2028/",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/qecdpzd4z8nj7yav/Macrovoices-2026-08-20-Darius-Dale.mp3",
-      "duration": "4974",
-      "description": "<p class=\"p1\">MacroVoices Erik Townsend &amp; Patrick Ceresna welcome, Darius Dale. They discuss how fourth-turning dynamics, debt “disease,” and policy manipulation are reshaping bond markets. <a href='https://bit.ly/4cSYSJI'>https://bit.ly/4cSYSJI</a></p>\n<p class=\"p2\"> </p>\n<p class=\"p1\">✅Sign up for a FREE 14-day trial at Big Picture Trading: <a href='https://secure.bigpicturetrading.com/membership/signup/fOY4YJYX'>https://secure.bigpicturetrading.com/membership/signup/fOY4YJYX</a></p>\n<p class=\"p2\"> </p>\n<p class=\"p1\">🔴 Subscribe to Patrick’s Youtube Channel: <a href='https://www.youtube.com/@Patrick_Ceresna'>https://www.youtube.com/@Patrick_Ceresna</a></p>\n<p class=\"p1\"> </p>\n<p class=\"p1\">🔴 Subscribe to Erik's Substack: <a href='https://eriktownsend.substack.com/'>https://eriktownsend.substack.com/</a></p>\n",
-      "transcript": null,
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "episode_page: text too sparse to be a transcript (1431 chars for 82 min); youtube: No YouTube video id in link"
-    },
-    {
-      "channel": "Odd Lots",
-      "domain": "macro",
-      "guid": "bcc22dff-b144-40ae-8f68-b4ab00f28c30",
-      "title": "Nick Bostrom on What Happens if AI Solves All of Our Problems",
-      "pub_date": "2026-08-20T08:00:00+00:00",
-      "link": "https://omny.fm/shows/odd-lots/nick-bostrom-on-what-happens-if-ai-solves-all-of-our-problems",
-      "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/bcc22dff-b144-40ae-8f68-b4ab00f28c30/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
-      "duration": "3356",
-      "description": "<p data-renderer-start-pos=\"99\">The philosopher Nick Bostrom was one of the first thinkers who mapped out the existential risk of AI. In his 2014 book, <em data-renderer-mark=\"true\">Superintelligence: Paths, Dangers, Strategies,</em> he delved into various scenarios &mdash; like the now-famous &ldquo;paperclip maximizer&rdquo; &mdash; to show the dangers that unfettered and highly intelligent AI posed to humans. A decade later, in <em data-renderer-mark=\"true\">Deep Utopia: Life and Meaning in a Solved World,</em> he looked at the other side of the AI coin, and theorizes what human experience might look like if AI is capable of solving all of our problems. What happens if AI and robots can literally do every single thing better than humans can? How would we find any meaning or satisfaction from life? On this episode, he speaks to us about the two divergent ways of understanding AI's future, what we might do, and what we can do right now to improve the chances that AI actually improves our lives.</p> <p data-renderer-start-pos=\"985\">Come see <a href=\"https://events.bloombergevents.com/event/ODDLOTSLA/summary\">Odd Lots live in Los Angeles</a>, get your tickets now.<br><br>Read more:<br><a href=\"https://www.bloomberg.com/news/features/2026-08-19/tech-tries-charm-offensive-to-save-trillion-dollar-ai-buildout?utm_medium=referral&amp;utm_source=podcast&amp;utm_campaign=odd_lots&amp;utm_content=article\" data-renderer-mark=\"true\" data-is-router-link=\"false\" data-testid=\"link-with-safety\">Tech Deploys Charm Offensive to Combat AI Data Center Backlash</a><br><a href=\"https://www.bloomberg.com/news/articles/2026-08-19/young-americans-become-more-hostile-to-ai-fearing-job-losses?utm_medium=referral&amp;utm_source=podcast&amp;utm_campaign=odd_lots&amp;utm_content=article\" data-renderer-mark=\"true\" data-is-router-link=\"false\" data-testid=\"link-with-safety\">Young Americans Become More Hostile to AI, Fearing Job Losses</a></p> <p data-renderer-start-pos=\"1122\">Only <a href=\"http://b",
-      "transcript": null,
-      "transcript_available": false,
-      "transcript_source": null,
-      "transcript_url": null,
-      "transcript_video_id": null,
-      "transcript_error": "rss_transcript: Fetched text was too short or did not look like a transcript (67110 chars); rss_transcript: Fetched text was too short or did not look like a transcript (84980 chars); rss_transcript: Fetched text was too short or did not look like a transcript (57673 chars); episode_page: text too sparse to be a transcript (2450 chars for 55 min); youtube: No YouTube video id in link"
+      "transcript_error": "rss_transcript: Fetched text was too short or did not look like a transcript (66713 chars); rss_transcript: Fetched text was too short or did not look like a transcript (84644 chars); rss_transcript: Fetched text was too short or did not look like a transcript (57703 chars); episode_page: text too sparse to be a transcript (2667 chars for 51 min); youtube: No YouTube video id in link"
     }
   ],
   "errors": [
-    "解读君: https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA attempt 1/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA attempt 2/3: Server error '500 Internal Server Error' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500 | https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA attempt 3/3: Server error '500 Internal Server Error' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "解读君: https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA attempt 1/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA attempt 2/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA attempt 3/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCl6fIbYfUuLB292Jh90raAA'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
     "ARK Invest: https://www.youtube.com/feeds/videos.xml?channel_id=UCK-zlnUfoDHzUwXcbddtnkg attempt 1/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCK-zlnUfoDHzUwXcbddtnkg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | https://www.youtube.com/feeds/videos.xml?channel_id=UCK-zlnUfoDHzUwXcbddtnkg attempt 2/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCK-zlnUfoDHzUwXcbddtnkg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | https://www.youtube.com/feeds/videos.xml?channel_id=UCK-zlnUfoDHzUwXcbddtnkg attempt 3/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCK-zlnUfoDHzUwXcbddtnkg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-    "老厉害: https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw attempt 1/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw attempt 2/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw attempt 3/3: Server error '500 Internal Server Error' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    "老厉害: https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw attempt 1/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw attempt 2/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw attempt 3/3: Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8gZZWIWmBuCb_gzC8DUrvw'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
   ],
-  "generated_at": "2026-08-27T02:55:37.687670+00:00"
+  "generated_at": "2026-08-28T05:57:22.351321+00:00"
 }

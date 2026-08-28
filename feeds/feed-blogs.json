@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/sharp-china-five-us-china-and-russia",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Sharp China: Five US-China (and Russia) Questions; Cabbage with Formaldehyde; The Continuing Tax Crackdown; Unitree Stock Down 45%",
+      "url": "https://sinocism.com/p/sharp-china-five-us-china-and-russia",
+      "published": "2026-08-27T09:57:36+00:00",
+      "summary": "Listen now | Show Notes:"
+    },
+    {
+      "id": "https://www.bis.org/fsi/fsisummaries/exsum_24903.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Effective resolution strategies and plans for insurers &#8211; Executive Summary",
+      "url": "https://www.bis.org/fsi/fsisummaries/exsum_24903.htm",
+      "published": "2026-08-27T08:51:00+00:00",
+      "summary": "The Key Attributes of Effective Resolution Regimes for Financial Institutions (Key Attributes) of the Financial Stability Board (FSB) require resolution plans to be developed for all financial institutions, including insurers, that could be systemically significant or critical upon failure."
+    },
+    {
+      "id": "https://www.bis.org/fsi/fsibriefs33.htm",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Regulating stablecoin issuance: permissible entities and activities",
+      "url": "https://www.bis.org/fsi/fsibriefs33.htm",
+      "published": "2026-08-27T08:00:00+00:00",
+      "summary": "Regulatory approaches for stablecoin issuance differ significantly, particularly in terms of the types of entities allowed to issue them and the scope of activities permitted beyond core issuance. These differences are important since additional activities such as lending, staking or providing custody services can alter an entity's risk profile and influence the safeguards needed for its core issuance operations."
+    },
+    {
       "id": "https://sinocism.com/p/disaster-at-tibet-nepal-border-xi",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -170,42 +197,6 @@
       "url": "https://www.chinatalk.media/p/lessons-from-the-american-civil-war-687",
       "published": "2026-08-21T07:58:00+00:00",
       "summary": "I promise this is useful"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/a-barbarous-cliche",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "A Barbarous Cliché",
-      "url": "https://www.pekingnology.com/p/a-barbarous-cliche",
-      "published": "2026-08-21T02:35:22+00:00",
-      "summary": "Western China-watchers should stop calling their Chinese interlocutors “barbarian handlers”. The joke is condescending—and, today, remarkably ungrateful."
-    },
-    {
-      "id": "https://www.eastisread.com/p/peng-weixue-on-cross-strait-situation",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Peng Weixue on Cross-Strait Situation",
-      "url": "https://www.eastisread.com/p/peng-weixue-on-cross-strait-situation",
-      "published": "2026-08-21T01:06:30+00:00",
-      "summary": "CASS scholar sees mainland strategic gains but acknowledges a resurgent Lai Ching-te, an increasingly entrenched Taiwan-centred identity, and continued U.S. involvement."
-    },
-    {
-      "id": "https://sinocism.com/p/us-may-impose-more-sanctions-on-china",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "US may impose more sanctions on China over Iran?; PRC-South Korea; Life for Evergrande’s Xu; AI governance; Supply chain punishment for Taiwan; “Pseudo-history”",
-      "url": "https://sinocism.com/p/us-may-impose-more-sanctions-on-china",
-      "published": "2026-08-20T23:22:04+00:00",
-      "summary": "Given the PRC’s economic relations with Iran, Trump is clearly threatening “TREMENDOUS Economic Consequences” for China. But can he really follow through on this threat, or will Xi just respond with two words: “rare earths”?\nTreasury Secretary Bessent said this on CNBC today about possible actions against China:\nwe are confident that everyone wants the strait reopened and for energy prices to come back down. And, Sara, keep in mind that the Chinese get 50 percent, 5-0, of their energy from inside, from the Gulf. So it would do them a big service to get with the program\nAnd then later Thursday"
-    },
-    {
-      "id": "https://sinocism.com/p/sharp-china-wang-yi-visits-south",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Sharp China: Wang Yi Visits South Korea; Remembering Zhu Rongji; US-China Ahead of Xi's Visit; How China Monitors Foreigners",
-      "url": "https://sinocism.com/p/sharp-china-wang-yi-visits-south",
-      "published": "2026-08-20T09:02:13+00:00",
-      "summary": "This episode of Sharp China is outside the paywall."
     }
   ],
   "errors": [
@@ -215,5 +206,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-27T02:55:37.687670+00:00"
+  "generated_at": "2026-08-28T05:57:22.351321+00:00"
 }
