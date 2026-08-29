@@ -19,24 +19,6 @@
       "summary": "Listen now | Show Notes:"
     },
     {
-      "id": "https://www.bis.org/fsi/fsisummaries/exsum_24903.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "Effective resolution strategies and plans for insurers &#8211; Executive Summary",
-      "url": "https://www.bis.org/fsi/fsisummaries/exsum_24903.htm",
-      "published": "2026-08-27T08:51:00+00:00",
-      "summary": "The Key Attributes of Effective Resolution Regimes for Financial Institutions (Key Attributes) of the Financial Stability Board (FSB) require resolution plans to be developed for all financial institutions, including insurers, that could be systemically significant or critical upon failure."
-    },
-    {
-      "id": "https://www.bis.org/fsi/fsibriefs33.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "Regulating stablecoin issuance: permissible entities and activities",
-      "url": "https://www.bis.org/fsi/fsibriefs33.htm",
-      "published": "2026-08-27T08:00:00+00:00",
-      "summary": "Regulatory approaches for stablecoin issuance differ significantly, particularly in terms of the types of entities allowed to issue them and the scope of activities permitted beyond core issuance. These differences are important since additional activities such as lending, staking or providing custody services can alter an entity's risk profile and influence the safeguards needed for its core issuance operations."
-    },
-    {
       "id": "https://sinocism.com/p/disaster-at-tibet-nepal-border-xi",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -53,15 +35,6 @@
       "url": "https://www.baiguan.news/p/how-would-chinese-technology-look",
       "published": "2026-08-26T10:03:26+00:00",
       "summary": "A Q&A with a true industry insider"
-    },
-    {
-      "id": "https://www.bis.org/publ/bisbull134.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "Supervisory screening with large language models: finding divergences",
-      "url": "https://www.bis.org/publ/bisbull134.htm",
-      "published": "2026-08-26T08:36:00+00:00",
-      "summary": "by Fernando Perez-Cruz, Kumar Rishabh, Ayush Uchil \nWe develop a procedure based on large language models to help supervisors review prospectuses against capital rules. This procedure ranks potential divergences for their consideration. We apply it to Additional Tier 1 (AT1) prospectuses from European global systemically important banks."
     },
     {
       "id": "https://sinocism.com/p/prc-response-to-economic-d-day-the",
@@ -82,15 +55,6 @@
       "summary": "China’s most famous law professor elaborates on the production by the country’s highest court and procuratorate"
     },
     {
-      "id": "https://www.bis.org/publ/work1373.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "Settlement liquidity in the Colombian large-value payment system: the role of reserve requirements",
-      "url": "https://www.bis.org/publ/work1373.htm",
-      "published": "2026-08-25T11:26:00+00:00",
-      "summary": "by Freddy Cepeda-Lopéz, Fredy Gamboa, Javier Miguelez-Márquez \nThis paper analyzes the intraday timing of transactions in Colombia's large-value payment system (CUD) from 2018 to 2025, focusing on how changes in reserve requirements affect liquidity management by financial institutions. Using high-frequency transaction data, we document that reductions in reserve requirements in April 2020 and September 2024 are associated with a shift of settlement activity toward later hours of the day."
-    },
-    {
       "id": "https://www.baiguan.news/p/world-robot-conference-beijing-26-humanoid-motion-improvement-tien-kung-ultra-reinforcement-learning-unitree-combat-commercial-automation-tea-coffee-quadruped-data-bottleneck-tcm-pulse-exoskeleton-rehab",
       "source": "baiguan",
       "source_name": "Baiguan (BigOne Lab)",
@@ -107,15 +71,6 @@
       "url": "https://sinocism.com/p/xi-meets-jordans-king-state-of-the",
       "published": "2026-08-24T23:30:29+00:00",
       "summary": "In this issue: Xi meets Jordan’s king\nSixth Plenum of the CPC Central Commission for Discipline Inspection\n“Zhong Caiwen 钟才文” on the economy\nFiscal revenue grew in July \nFormaldehyde-dipped cabbage\nUS-China"
-    },
-    {
-      "id": "https://www.bis.org/publ/work1372.htm",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "Hard to shift, easy to reshape: central bank reserve demand and frictions",
-      "url": "https://www.bis.org/publ/work1372.htm",
-      "published": "2026-08-24T12:43:00+00:00",
-      "summary": "by Mathias Drehmann, Xuewen Fu \nHow far can central banks shrink their balance sheets? The answer sets the limits to quantitative tightening (QT), and depends critically on the demand for reserves and whether the drivers widely thought to have increased it over the past decade actually do so. We assess the impact of three such drivers: post-crisis liquidity regulation, monetization frictions, and fragmented interbank markets. Building on the canonical Poole (1968) model, we show that these drivers tend to reshape, rather than horizontally shift, reserve demand."
     },
     {
       "id": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis",
@@ -152,32 +107,15 @@
       "url": "https://www.eastisread.com/p/zhao-shukai-rural-reform-and-the",
       "published": "2026-08-23T10:21:33+00:00",
       "summary": "Local experimentation transformed policymaking, even as the redistribution of power remained limited and informal."
-    },
-    {
-      "id": "https://www.pekingnology.com/p/zhao-shukai-chinas-rural-reform-had",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Zhao Shukai: China’s Rural Reform Had No Master Plan",
-      "url": "https://www.pekingnology.com/p/zhao-shukai-chinas-rural-reform-had",
-      "published": "2026-08-22T17:15:00+00:00",
-      "summary": "The breakthroughs of the 1980s came not from top-level design, but from political pluralism, local autonomy, and competition among policy alternat"
-    },
-    {
-      "id": "https://www.china-translated.com/p/may-the-bull-come",
-      "source": "china_translated",
-      "source_name": "China Translated / Robert Wu",
-      "title": "May the Bull come",
-      "url": "https://www.china-translated.com/p/may-the-bull-come",
-      "published": "2026-08-22T12:07:02+00:00",
-      "summary": "My takes on why Niu Lai became a viral sensation - China Translated Briefing No.74"
     }
   ],
   "errors": [
+    "BIS Research Papers: unbound prefix: line 9, column 4",
     "NBER Working Papers: Client error '403 Forbidden' for url 'https://www.nber.org/rss/new.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "FT Alphaville: Client error '403 Forbidden' for url 'https://ftav.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "2060 Newsletter: Client error '403 Forbidden' for url 'https://yijing2060advisory.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-29T03:30:22.264102+00:00"
+  "generated_at": "2026-08-29T23:53:26.044567+00:00"
 }
