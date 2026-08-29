@@ -1,6 +1,15 @@
 {
   "articles": [
     {
+      "id": "https://www.chinatalk.media/p/how-the-us-and-china-are-meme-ifying",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "How the U.S. and China Are Meme-ifying Modern War",
+      "url": "https://www.chinatalk.media/p/how-the-us-and-china-are-meme-ifying",
+      "published": "2026-08-28T10:05:01+00:00",
+      "summary": "\"Glossy coat, shiny fur, I’m a beautiful little piggy\""
+    },
+    {
       "id": "https://sinocism.com/p/sharp-china-five-us-china-and-russia",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -161,42 +170,6 @@
       "url": "https://www.china-translated.com/p/may-the-bull-come",
       "published": "2026-08-22T12:07:02+00:00",
       "summary": "My takes on why Niu Lai became a viral sensation - China Translated Briefing No.74"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/overcaffeinated-in-indonesia",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "Overcaffeinated in Indonesia",
-      "url": "https://www.chinatalk.media/p/overcaffeinated-in-indonesia",
-      "published": "2026-08-21T10:19:24+00:00",
-      "summary": "ChinaTalk travel writing returns!"
-    },
-    {
-      "id": "https://www.baiguan.news/p/bigone-lab-baiguan-pro-july-2026-china-consumer-spending-report-luxury-gold-tea-pop-mart-sportswear-sales-analysis-lv-laopu-luckin-lululemon-offline-data-typhoon-impact-equity-correction-brand-performance-monthly-update",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "Data Update — July 2026",
-      "url": "https://www.baiguan.news/p/bigone-lab-baiguan-pro-july-2026-china-consumer-spending-report-luxury-gold-tea-pop-mart-sportswear-sales-analysis-lv-laopu-luckin-lululemon-offline-data-typhoon-impact-equity-correction-brand-performance-monthly-update",
-      "published": "2026-08-21T10:02:21+00:00",
-      "summary": "*On April 1, we officially launched Baiguan Pro, our professional-tier subscription designed for investors seeking deeper, more specific coverage of Chinese equities."
-    },
-    {
-      "id": "https://www.baiguan.news/p/what-you-will-actually-learn-in-baiguan",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "What you will actually learn in Baiguan China Tour?",
-      "url": "https://www.baiguan.news/p/what-you-will-actually-learn-in-baiguan",
-      "published": "2026-08-21T09:30:43+00:00",
-      "summary": "16 essential quesitons"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/lessons-from-the-american-civil-war-687",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "Lessons from the American Civil War",
-      "url": "https://www.chinatalk.media/p/lessons-from-the-american-civil-war-687",
-      "published": "2026-08-21T07:58:00+00:00",
-      "summary": "I promise this is useful"
     }
   ],
   "errors": [
@@ -206,5 +179,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-28T05:57:22.351321+00:00"
+  "generated_at": "2026-08-29T03:30:22.264102+00:00"
 }
