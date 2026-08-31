@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/changes-unseen-strategies-uncharted",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Changes Unseen, Strategies Uncharted | Sinification: August 2026",
+      "url": "https://sinocism.com/p/changes-unseen-strategies-uncharted",
+      "published": "2026-08-30T22:23:14+00:00",
+      "summary": "This month’s digest pulls in different directions—insofar as we can follow a single thread, it is that of traditional systems being swept away and of “changes unseen in a century” coming to pass: in discussions of nuclear proliferation, the Cold War nuclear order has “irreversibly come to an end”; in the Middle East, the US security architecture is crumbling; in the maritime domain, volatility threatens sea lanes; and overseas, Chinese firms’ modus operandi is shifting.\nWhile most scholars identify the increasing security risks attendant on such changes, what comes next and what China should d"
+    },
+    {
+      "id": "https://www.highcapacity.org/p/how-china-became-climate-pilled",
+      "source": "high_capacity",
+      "source_name": "High Capacity",
+      "title": "How China became climate-pilled—and what that means for AI",
+      "url": "https://www.highcapacity.org/p/how-china-became-climate-pilled",
+      "published": "2026-08-30T12:02:18+00:00",
+      "summary": "AI safety needs to be seen as a domestic priority for Chinese policymakers, not a foreign demand. Climate change offers a useful parallel."
+    },
+    {
       "id": "https://www.chinatalk.media/p/how-the-us-and-china-are-meme-ifying",
       "source": "chinatalk",
       "source_name": "ChinaTalk",
@@ -89,24 +107,6 @@
       "url": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis-432",
       "published": "2026-08-24T07:58:00+00:00",
       "summary": "Unemployment, Data Center Backlash, and the Brewing Storm"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/when-flexibility-sounds-like-an-insult",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "When “Flexibility” Sounds Like an Insult",
-      "url": "https://www.pekingnology.com/p/when-flexibility-sounds-like-an-insult",
-      "published": "2026-08-23T12:31:55+00:00",
-      "summary": "The furore over a Peking University economist says as much about China’s precarious workers—and its battered faith in experts—as it does about one contentious phrase"
-    },
-    {
-      "id": "https://www.eastisread.com/p/zhao-shukai-rural-reform-and-the",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Zhao Shukai: Rural Reform and the Limited Opening of Policymaking Power",
-      "url": "https://www.eastisread.com/p/zhao-shukai-rural-reform-and-the",
-      "published": "2026-08-23T10:21:33+00:00",
-      "summary": "Local experimentation transformed policymaking, even as the redistribution of power remained limited and informal."
     }
   ],
   "errors": [
@@ -117,5 +117,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-29T23:53:26.044567+00:00"
+  "generated_at": "2026-08-31T00:12:11.622799+00:00"
 }
