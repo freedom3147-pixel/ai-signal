@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/xi-at-the-sco-chinas-global-strategy",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Xi at the SCO; China’s global strategy; Li Qiang meets US business leaders; Taxing foreigners; Overseas guidelines for PRC automakers",
+      "url": "https://sinocism.com/p/xi-at-the-sco-chinas-global-strategy",
+      "published": "2026-09-01T22:10:03+00:00",
+      "summary": "In this issue:\nXi at the SCO\nChina’s global strategy\nLi Qiang meets US business delegation\nTax changes for foreigners\nAuto industry overseas conduct guidelines\nLatest issue of Qiushi"
+    },
+    {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/09/businesses-are-using-ai-to-transform-work-not-cut-jobs/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "Businesses Are Using AI to Transform Work, Not Cut Jobs",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/businesses-are-using-ai-to-transform-work-not-cut-jobs/",
+      "published": "2026-09-01T11:00:00+00:00",
+      "summary": "The ongoing advancement and adoption of artificial intelligence continues to raise concerns about widespread job losses. Over the past three years, our regional business surveys have asked firms about their AI adoption and its effects on their workforces. This year, we found that AI use among regional businesses has continued to rise sharply, with more than 60 percent of service firms and about half of manufacturers now using AI—a notable increase from 40 percent and 26 percent, respectively, reported in 2025. Despite this rapid adoption, regional firms’ investments in AI are generally modest,"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/chinas-rare-earths-duopoly",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "China's Rare Earths Duopoly",
+      "url": "https://www.chinatalk.media/p/chinas-rare-earths-duopoly",
+      "published": "2026-09-01T10:03:39+00:00",
+      "summary": "If you know anything about rare earths, you know China is great at digging them up and refining them, while America sucks at both."
+    },
+    {
+      "id": "https://www.baiguan.news/p/baiguan-pro-august-2026-chinese-equities-market-outlook-ai-capex-returns-hong-kong-ashares-semiconductors-open-source-models-valuation-dividend-buyback-global-champions-experiential-consumption-policy-support-domestic-demand",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "Our view on Chinese assets: August 2026",
+      "url": "https://www.baiguan.news/p/baiguan-pro-august-2026-chinese-equities-market-outlook-ai-capex-returns-hong-kong-ashares-semiconductors-open-source-models-valuation-dividend-buyback-global-champions-experiential-consumption-policy-support-domestic-demand",
+      "published": "2026-09-01T10:03:31+00:00",
+      "summary": "On April 1, we officially launched Baiguan Pro, our professional-tier subscription designed for investors seeking deeper, more specific coverage of Chinese equities."
+    },
+    {
       "id": "https://sinocism.com/p/the-disaster-in-nepal-and-tibet-xi",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -80,33 +116,6 @@
       "url": "https://www.baiguan.news/p/how-would-chinese-technology-look",
       "published": "2026-08-26T10:03:26+00:00",
       "summary": "A Q&A with a true industry insider"
-    },
-    {
-      "id": "https://sinocism.com/p/prc-response-to-economic-d-day-the",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "PRC response to “Economic D-Day”; The Zhong Caiwen articles ; Cadre accountability for environmental damage; Formaldehyde Kimchi?; Rocket Force procurement",
-      "url": "https://sinocism.com/p/prc-response-to-economic-d-day-the",
-      "published": "2026-08-25T22:26:40+00:00",
-      "summary": "PRC response to “Economic D-Day” - The Foreign Ministry spokesperson said Tuesday:\nChina’s cooperation with Iran has always been conducted within the framework of international law and should not be interfered with or undermined. China is closely following relevant developments and will take all necessary measures to resolutely safeguard its rights and interests.\nThe US government may have set another trap for itself around the Iran quagmire. If they only sanction mostly meaningless PRC entities like they did Monday, Trump and team look like paper tigers, but if they move against major PRC fin"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/a-hit-chinese-legal-drama-reopens",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "A Hit Chinese Legal Drama Reopens an Old Question About Lawyers",
-      "url": "https://www.pekingnology.com/p/a-hit-chinese-legal-drama-reopens",
-      "published": "2026-08-25T16:20:14+00:00",
-      "summary": "China’s most famous law professor elaborates on the production by the country’s highest court and procuratorate"
-    },
-    {
-      "id": "https://www.baiguan.news/p/world-robot-conference-beijing-26-humanoid-motion-improvement-tien-kung-ultra-reinforcement-learning-unitree-combat-commercial-automation-tea-coffee-quadruped-data-bottleneck-tcm-pulse-exoskeleton-rehab",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "Field notes from the World Robot Conference in Beijing",
-      "url": "https://www.baiguan.news/p/world-robot-conference-beijing-26-humanoid-motion-improvement-tien-kung-ultra-reinforcement-learning-unitree-combat-commercial-automation-tea-coffee-quadruped-data-bottleneck-tcm-pulse-exoskeleton-rehab",
-      "published": "2026-08-25T10:56:00+00:00",
-      "summary": "I spent some time at the World Robot Conference (August 19–23) in Beijing."
     }
   ],
   "errors": [
@@ -117,5 +126,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-09-01T00:59:06.071667+00:00"
+  "generated_at": "2026-09-01T23:47:59.817956+00:00"
 }
