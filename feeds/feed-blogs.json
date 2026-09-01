@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/the-disaster-in-nepal-and-tibet-xi",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "The disaster in Nepal and Tibet; Xi at the SCO; Supporting consumption; National Defense Mobilization Law; Signals for PRC-US AI dialogue; New era for real estate",
+      "url": "https://sinocism.com/p/the-disaster-in-nepal-and-tibet-xi",
+      "published": "2026-08-31T23:01:59+00:00",
+      "summary": "In this issue: The disaster in Nepal and Tibet\nXi at the SCO\nState Council Executive meeting\nMeasures to expand and upgrade consumer goods consumption\nRevised National Defense Mobilization Law\nSignals for PRC-US AI dialogue\nCracking down excessive competition in the domestic auto market\nNew era for real estate"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/good-books-so-far-this-year",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "good books so far this year",
+      "url": "https://www.chinatalk.media/p/good-books-so-far-this-year",
+      "published": "2026-08-31T10:57:35+00:00",
+      "summary": "Homer, Shakespeare, and Kim Il Sung. Plus: nyc’s best fish head"
+    },
+    {
+      "id": "https://www.baiguan.news/p/after-solar-and-ev-whats-next-for",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "After solar and EV, what’s next for China’s energy sector?",
+      "url": "https://www.baiguan.news/p/after-solar-and-ev-whats-next-for",
+      "published": "2026-08-31T10:16:33+00:00",
+      "summary": "Q&A with an industry insider"
+    },
+    {
       "id": "https://sinocism.com/p/changes-unseen-strategies-uncharted",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -80,33 +107,6 @@
       "url": "https://www.baiguan.news/p/world-robot-conference-beijing-26-humanoid-motion-improvement-tien-kung-ultra-reinforcement-learning-unitree-combat-commercial-automation-tea-coffee-quadruped-data-bottleneck-tcm-pulse-exoskeleton-rehab",
       "published": "2026-08-25T10:56:00+00:00",
       "summary": "I spent some time at the World Robot Conference (August 19–23) in Beijing."
-    },
-    {
-      "id": "https://sinocism.com/p/xi-meets-jordans-king-state-of-the",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Xi meets Jordan’s king; State of the economy; Formaldehyde-dipped cabbages; CCDI Sixth Plenum; US-China",
-      "url": "https://sinocism.com/p/xi-meets-jordans-king-state-of-the",
-      "published": "2026-08-24T23:30:29+00:00",
-      "summary": "In this issue: Xi meets Jordan’s king\nSixth Plenum of the CPC Central Commission for Discipline Inspection\n“Zhong Caiwen 钟才文” on the economy\nFiscal revenue grew in July \nFormaldehyde-dipped cabbage\nUS-China"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "How AI Becomes a Political Crisis",
-      "url": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis",
-      "published": "2026-08-24T10:08:34+00:00",
-      "summary": "The political economy of AI — things are getting weird, it seems."
-    },
-    {
-      "id": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis-432",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "How AI Becomes a Political Crisis",
-      "url": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis-432",
-      "published": "2026-08-24T07:58:00+00:00",
-      "summary": "Unemployment, Data Center Backlash, and the Brewing Storm"
     }
   ],
   "errors": [
@@ -117,5 +117,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-08-31T00:12:11.622799+00:00"
+  "generated_at": "2026-09-01T00:59:06.071667+00:00"
 }
