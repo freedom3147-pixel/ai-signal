@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/xis-egypt-visit-g20-meeting-bond",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Xi’s Egypt visit; G20 meeting; Bond issuance for rest of the year; EU-China trade",
+      "url": "https://sinocism.com/p/xis-egypt-visit-g20-meeting-bond",
+      "published": "2026-09-02T22:13:17+00:00",
+      "summary": "In this issue:\nXi’s Egypt visit\nG20 Finance Ministers and Central Bank Governors meeting\nBond issuance for rest of the year\nEU-China trade"
+    },
+    {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/09/are-central-banks-moving-out-of-dollar-assets/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "Are Central Banks Moving Out of Dollar Assets?",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/are-central-banks-moving-out-of-dollar-assets/",
+      "published": "2026-09-02T14:00:00+00:00",
+      "summary": "The dollar’s share of global official foreign exchange reserves fell from 64 percent in 2015 to 56 percent in 2025. This downward trajectory is sometimes read as evidence that the dollar’s role in international financial markets is eroding. However, aggregate statistics obscure the composition of changes occurring at the country level. In this post, we show that the aggregate decline is not a systematic global shift away from dollar assets. Rather, the aggregate decline reflects the actions of a handful of large reserve holders, changing either their currency preferences or the size of their r"
+    },
+    {
+      "id": "https://www.eastisread.com/p/li-xunlei-on-chinas-transport-overcapacity",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Li Xunlei on China’s Transport Overcapacity",
+      "url": "https://www.eastisread.com/p/li-xunlei-on-chinas-transport-overcapacity",
+      "published": "2026-09-02T12:22:18+00:00",
+      "summary": "A data-driven look across China’s expressways, high-speed rail, airports, and urban transit at excessive expansion, weak utilisation, and regional mismatches."
+    },
+    {
+      "id": "https://www.eastisread.com/p/record-of-the-press-conference-of",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
+      "title": "Record of the Press Conference of the Taiwan Affairs Office 2026-09-02",
+      "url": "https://www.eastisread.com/p/record-of-the-press-conference-of",
+      "published": "2026-09-02T10:33:42+00:00",
+      "summary": "What Beijing’s Taiwan Affairs Office Said This Week"
+    },
+    {
+      "id": "https://www.baiguan.news/p/what-china-markets-are-really-saying-august-2026-micro-evidence-non-consensus-tech-decline-not-foreign-outflows-earnings-revisions-ai-capex-capital-discipline-alibaba-financing-consumption-weakness-open-source-upside-summary",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "What China’s Markets Are Really Saying",
+      "url": "https://www.baiguan.news/p/what-china-markets-are-really-saying-august-2026-micro-evidence-non-consensus-tech-decline-not-foreign-outflows-earnings-revisions-ai-capex-capital-discipline-alibaba-financing-consumption-weakness-open-source-upside-summary",
+      "published": "2026-09-02T10:02:47+00:00",
+      "summary": "Micro Evidence & Non-Consensus Observations — August 2026"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/cyber-apocalypse-now",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "Cyber Apocalypse, Now?",
+      "url": "https://www.chinatalk.media/p/cyber-apocalypse-now",
+      "published": "2026-09-02T09:56:33+00:00",
+      "summary": "The Hugging Face hack, crime, and nation states with AI cyber"
+    },
+    {
       "id": "https://sinocism.com/p/xi-at-the-sco-chinas-global-strategy",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -98,24 +152,6 @@
       "url": "https://sinocism.com/p/sharp-china-five-us-china-and-russia",
       "published": "2026-08-27T09:57:36+00:00",
       "summary": "Listen now | Show Notes:"
-    },
-    {
-      "id": "https://sinocism.com/p/disaster-at-tibet-nepal-border-xi",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Disaster at Tibet-Nepal border; Xi to attend SCO Summit and visit Egypt; PRC-India; Food safety; New Z.ai model",
-      "url": "https://sinocism.com/p/disaster-at-tibet-nepal-border-xi",
-      "published": "2026-08-26T23:11:49+00:00",
-      "summary": "Xi to attend SCO Summit and visit Egypt - Xi will travel to Bishkek, Kyrgyzstan to attend the SCO summit and pay a state visit there. He will then go on to Egypt for a state visit. He leaves August 30 and returns September 3. Xi’s most-watched meetings at the event may be with India’s Modi and Russia’s Putin. We still do not know why the director of the CIA flew to Russia yesterday for two hours, but it may have been to warn Putin about escalating in Ukraine and perhaps against NATO. If Xi and Putin meet in Bishkek, will Putin give Xi any advance notice of his plans? If he is planning to escal"
-    },
-    {
-      "id": "https://www.baiguan.news/p/how-would-chinese-technology-look",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "How would Chinese technology look like five years from now?",
-      "url": "https://www.baiguan.news/p/how-would-chinese-technology-look",
-      "published": "2026-08-26T10:03:26+00:00",
-      "summary": "A Q&A with a true industry insider"
     }
   ],
   "errors": [
@@ -126,5 +162,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-09-01T23:47:59.817956+00:00"
+  "generated_at": "2026-09-02T23:51:44.466412+00:00"
 }
