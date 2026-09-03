@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "id": "https://sinocism.com/p/prc-explanation-of-why-there-was",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "PRC explanation of why there was no G20 communiqué; Accelerating “six networks” projects; EU-China; Oil consumption; AI",
+      "url": "https://sinocism.com/p/prc-explanation-of-why-there-was",
+      "published": "2026-09-03T22:04:24+00:00",
+      "summary": "PRC explanation of why there was no G20 communiqué\nNDRC wants to accelerate “Six Networks” projects\nEU-China\nQ2 carbon emissions fall\nChina and AI\nThe Memory Museum"
+    },
+    {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/09/jackson-hole-exploring-the-financial-frontier/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "Jackson Hole: Exploring the Financial Frontier",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/jackson-hole-exploring-the-financial-frontier/",
+      "published": "2026-09-03T11:00:00+00:00",
+      "summary": "After two days of heady discussions with academics and policymakers from around the world in high-altitude Jackson Hole, Wyoming, I’m now decompressing back at Street Level . The main theme of this year’s Kansas City Fed symposium was financial innovation in the payments space—a fast-evolving topic with major implications for consumers and central bankers alike. In this post, I’ll share some general takeaways from those Jackson Hole talks and highlight related New York Fed research on payments and financial intermediation."
+    },
+    {
+      "id": "https://www.chinatalk.media/p/china-on-the-hugging-face-incident",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "China on the Hugging Face Incident",
+      "url": "https://www.chinatalk.media/p/china-on-the-hugging-face-incident",
+      "published": "2026-09-03T10:53:45+00:00",
+      "summary": "Why Beijing seeks to re-narrate AI safety"
+    },
+    {
+      "id": "https://www.baiguan.news/p/what-does-the-most-capitalist-city",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "What does the “most capitalist” city in China tell about the future of globalization",
+      "url": "https://www.baiguan.news/p/what-does-the-most-capitalist-city",
+      "published": "2026-09-03T10:10:29+00:00",
+      "summary": "A conversation with David Fishman"
+    },
+    {
+      "id": "https://www.bis.org/publications/fsi-insight-78-simple-resilient-and-proportional-revisiting-regulation-small-banks",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Simple, resilient and proportional: revisiting regulation for small banks",
+      "url": "https://www.bis.org/publications/fsi-insight-78-simple-resilient-and-proportional-revisiting-regulation-small-banks",
+      "published": "2026-09-03T00:00:00+00:00",
+      "summary": "Small banks are the backbone of local economies but have distinct business models and risk profiles compared to larger banks. Recognising these differences, the Basel Committee on Banking Supervision (BCBS) promotes proportionality in global banking standards, encouraging tailored requirements based on bank size, complexity, and risk profile. The BCBS does not define ‘small banks’ or prescribe tailoring methods, allowing authorities flexibility to develop approaches suited to local circumstances."
+    },
+    {
+      "id": "https://www.bis.org/publications/working-paper-1375-zombie-firms-emerging-asia-domestic-and-cross-border-implications",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Zombie firms in emerging Asia: domestic and cross border implications",
+      "url": "https://www.bis.org/publications/working-paper-1375-zombie-firms-emerging-asia-domestic-and-cross-border-implications",
+      "published": "2026-09-03T00:00:00+00:00",
+      "summary": "Using firm-bank linked data for 10 Asian emerging market economies (EMEs) over 2005–2021, we study the domestic and cross-border implications of zombie firms. We document three main findings."
+    },
+    {
       "id": "https://sinocism.com/p/xis-egypt-visit-g20-meeting-bond",
       "source": "sinocism",
       "source_name": "Sinocism",
@@ -53,6 +107,15 @@
       "url": "https://www.chinatalk.media/p/cyber-apocalypse-now",
       "published": "2026-09-02T09:56:33+00:00",
       "summary": "The Hugging Face hack, crime, and nation states with AI cyber"
+    },
+    {
+      "id": "https://www.bis.org/publications/working-paper-1374-verifiable-official-statistics-blockchain-based-approach",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Verifiable official statistics: a blockchain-based approach",
+      "url": "https://www.bis.org/publications/working-paper-1374-verifiable-official-statistics-blockchain-based-approach",
+      "published": "2026-09-02T00:00:00+00:00",
+      "summary": "International organisations including the Bank for International Settlements (BIS) have adopted SDMx (Statistical Data and Metadata) as the standard for exchanging official statistics. Trust in published data is essential for evidence-based policymaking. This paper shows how binding each SDMx dataset to its source using blockchain technology can enhance confidence in official statistics."
     },
     {
       "id": "https://sinocism.com/p/xi-at-the-sco-chinas-global-strategy",
@@ -143,24 +206,14 @@
       "url": "https://www.chinatalk.media/p/how-the-us-and-china-are-meme-ifying",
       "published": "2026-08-28T10:05:01+00:00",
       "summary": "\"Glossy coat, shiny fur, I’m a beautiful little piggy\""
-    },
-    {
-      "id": "https://sinocism.com/p/sharp-china-five-us-china-and-russia",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Sharp China: Five US-China (and Russia) Questions; Cabbage with Formaldehyde; The Continuing Tax Crackdown; Unitree Stock Down 45%",
-      "url": "https://sinocism.com/p/sharp-china-five-us-china-and-russia",
-      "published": "2026-08-27T09:57:36+00:00",
-      "summary": "Listen now | Show Notes:"
     }
   ],
   "errors": [
-    "BIS Research Papers: unbound prefix: line 9, column 4",
     "NBER Working Papers: Client error '403 Forbidden' for url 'https://www.nber.org/rss/new.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "FT Alphaville: Client error '403 Forbidden' for url 'https://ftav.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "2060 Newsletter: Client error '403 Forbidden' for url 'https://yijing2060advisory.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-09-02T23:51:44.466412+00:00"
+  "generated_at": "2026-09-03T23:46:50.818981+00:00"
 }
