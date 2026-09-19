@@ -1,220 +1,211 @@
 {
   "articles": [
     {
-      "id": "https://sinocism.com/p/august-trade-data-capital-boost-for",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "August trade data; Capital boost for state financial firms; Xi’s DC visit and US-China AI",
-      "url": "https://sinocism.com/p/august-trade-data-capital-boost-for",
-      "published": "2026-09-08T22:18:52+00:00",
-      "summary": "The PRC has still not confirmed that Xi Jinping will travel to India for the BRICS Summit 2026 in New Delhi this weekend, but the expectation is that he will attend. In this issue:\nAugust trade data\nCapital boost for state financial firms\nPreparations for Xi’s DC visit\nAI on the the Trump-Xi agenda\nChina and Rubio’s South America visit"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/us-china-biorisk-cooperation-yes",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "US-China Biorisk Cooperation: Yes, It’s Possible",
-      "url": "https://www.chinatalk.media/p/us-china-biorisk-cooperation-yes",
-      "published": "2026-09-08T11:04:50+00:00",
-      "summary": "The U.S. AI CEOs all want to screen dangerous biological orders. Coming to an agreement with China is the next step."
-    },
-    {
-      "id": "https://www.baiguan.news/p/last-call-early-bird-ends-sept-13",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "Last Call: Early-Bird Ends Sept 13 — 2026 Autumn Baiguan China Tour",
-      "url": "https://www.baiguan.news/p/last-call-early-bird-ends-sept-13",
-      "published": "2026-09-08T10:04:44+00:00",
-      "summary": "This is the last call for the 2026 Autumn Baiguan China Tour early-bird discount (10% off all tour programs), valid only until 11:59 PM Beijing Time on September 13, 2026. After that, standard pricing applies and remaining seats will be released on a first-come, first-served basis."
-    },
-    {
-      "id": "https://www.pekingnology.com/p/why-english-keeps-returning-to-chinas",
+      "id": "https://www.pekingnology.com/p/would-beijing-accept-taiwan-on-these",
       "source": "pekingnology",
       "source_name": "Pekingnology",
-      "title": "Why English keeps returning to China’s culture wars",
-      "url": "https://www.pekingnology.com/p/why-english-keeps-returning-to-chinas",
-      "published": "2026-09-08T05:54:38+00:00",
-      "summary": "A recurring online argument reflects the unease of a rising power still navigating a world in which someone else’s language remains unusually useful"
+      "title": "Would Beijing Accept Taiwan on These Terms?",
+      "url": "https://www.pekingnology.com/p/would-beijing-accept-taiwan-on-these",
+      "published": "2026-09-18T18:19:41+00:00",
+      "summary": "A Taiwan scholar has laid out far-reaching principles under “One Country, Two Systems.”Beijing has now twice helped bring the debate into public view."
     },
     {
-      "id": "https://www.bis.org/publications/working-paper-1376-what-determines-banks-excess-demand-reserves",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "What determines banks' excess demand for reserves?",
-      "url": "https://www.bis.org/publications/working-paper-1376-what-determines-banks-excess-demand-reserves",
-      "published": "2026-09-07T00:00:00+00:00",
-      "summary": "FocusThe amount of central bank reserves to supply has become a highly contentious policy issue for many central banks that shrink their balance sheets which were built up during quantitative easing. However, there is little evidence about the amount of reserves banks actually want to hold and the factors that shape this choice. To trace bank-level demand for reserves empirically, we exploit new microdata and a unique feature of Sveriges Riksbank's operational framework, under which banks…"
-    },
-    {
-      "id": "https://www.pekingnology.com/p/xue-lan-chinas-ai-responsibility",
-      "source": "pekingnology",
-      "source_name": "Pekingnology",
-      "title": "Xue Lan: China’s AI Responsibility and Global Action",
-      "url": "https://www.pekingnology.com/p/xue-lan-chinas-ai-responsibility",
-      "published": "2026-09-06T15:56:00+00:00",
-      "summary": "Tsinghua expert discusses China’s role in global AI governance and why humanity must retain ultimate control."
-    },
-    {
-      "id": "https://www.chinatalk.media/p/open-models-are-the-united-front",
+      "id": "https://www.chinatalk.media/p/how-anthropic-became-chinas-goliath",
       "source": "chinatalk",
       "source_name": "ChinaTalk",
-      "title": "Open Models are the United Front of AI",
-      "url": "https://www.chinatalk.media/p/open-models-are-the-united-front",
-      "published": "2026-09-06T10:45:34+00:00",
-      "summary": "funny Sundays return!"
+      "title": "How Chinese AI Radicalizes",
+      "url": "https://www.chinatalk.media/p/how-anthropic-became-chinas-goliath",
+      "published": "2026-09-18T15:38:10+00:00",
+      "summary": "Deepseek, Dario, and the boy who cried wolf"
     },
     {
-      "id": "https://www.eastisread.com/p/surveying-the-us-debate-on-taiwan",
+      "id": "https://www.highcapacity.org/p/is-china-getting-more-worried-about",
+      "source": "high_capacity",
+      "source_name": "High Capacity",
+      "title": "Is China getting more worried about AI risks?",
+      "url": "https://www.highcapacity.org/p/is-china-getting-more-worried-about",
+      "published": "2026-09-18T14:22:55+00:00",
+      "summary": "In a New York Times op-ed and an interview with The New Yorker, I talk about China’s changing views of AI risks and what this means for possible US-China cooperation."
+    },
+    {
+      "id": "https://libertystreeteconomics.newyorkfed.org/2026/09/the-new-york-fed-dsge-model-forecast-september-2026/",
+      "source": "nyfed_lse",
+      "source_name": "NY Fed Liberty Street Economics",
+      "title": "The New York Fed DSGE Model Forecast—September 2026",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/the-new-york-fed-dsge-model-forecast-september-2026/",
+      "published": "2026-09-18T13:00:00+00:00",
+      "summary": "This post presents an update of the economic forecasts generated by the Federal Reserve Bank of New York’s dynamic stochastic general equilibrium (DSGE) model. We describe very briefly our forecast and its change since June 2026 . The New York Fed DSGE model expects similar growth, and slightly more persistent inflation, compared to its forecasts in June. r* forecasts are slightly lower for 2026 but higher for the remainder of the forecast horizon."
+    },
+    {
+      "id": "https://www.eastisread.com/p/zhang-bin-china-should-not-mistake",
       "source": "east_is_read",
       "source_name": "The East is Read",
-      "title": "Surveying The U.S. Debate on Taiwan Policy",
-      "url": "https://www.eastisread.com/p/surveying-the-us-debate-on-taiwan",
-      "published": "2026-09-05T13:05:29+00:00",
-      "summary": "Chinese scholars trace a shift from Biden-era calls for strategic clarity to a renewed emphasis on strategic ambiguity and the growing influence of Taiwan-abandonment arguments under Trump."
+      "title": "Zhang Bin: China still needs more investment",
+      "url": "https://www.eastisread.com/p/zhang-bin-china-should-not-mistake",
+      "published": "2026-09-18T12:20:39+00:00",
+      "summary": "CASS economist argues that the appeal of redistribution and structural reform can obscure the need for countercyclical policy and public investment."
     },
     {
-      "id": "https://www.pekingnology.com/p/new-open-access-book-china-and-the",
+      "id": "https://www.pekingnology.com/p/ccg-joins-wto-public-forum-2026-in",
       "source": "pekingnology",
       "source_name": "Pekingnology",
+      "title": "CCG joins WTO Public Forum 2026 in Geneva",
+      "url": "https://www.pekingnology.com/p/ccg-joins-wto-public-forum-2026-in",
+      "published": "2026-09-18T08:04:53+00:00",
+      "summary": "Henry Huiyao Wang and Mabel Lu Miao take part in discussions on WTO reform and global trade, as CCG convenes a session on unilateralism and the multilateral trading system."
+    },
+    {
+      "id": "https://sinocism.com/p/national-advanced-manufacturing-conference",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "National Advanced Manufacturing Conference; China pushing Iran to rein in the Houthis?; Xi’s visit to DC and US-China AI Dialogue",
+      "url": "https://sinocism.com/p/national-advanced-manufacturing-conference",
+      "published": "2026-09-17T16:47:09+00:00",
+      "summary": "Xi visit to DC - More details are coming about the plans for Xi’s visit to DC next week, with the most interesting report today coming from Politico, which says that Trump will personally greet Xi on the tarmac when he deplanes. \nEarlier today, Wang Yi and US Secretary of State Rubio had a call. From the brief Xinhua readout"
+    },
+    {
+      "id": "https://www.pekingnology.com/p/yan-xuetong-leaders-not-geopolitics",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Yan Xuetong: Leaders, Not Geopolitics or Institutions, Shape Gulf Security",
+      "url": "https://www.pekingnology.com/p/yan-xuetong-leaders-not-geopolitics",
+      "published": "2026-09-17T03:07:33+00:00",
+      "summary": "For years, Yan Xuetong, one of China’s best-known international relations scholars, has advanced a striking argument: changes in world politics cannot be understood through structural forces alone."
+    },
+    {
+      "id": "https://www.bis.org/publications/working-paper-1378-maritime-chokepoints-and-the-global-economy-evidence-strait-hormuz",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Maritime chokepoints and the global economy: evidence from the Strait of Hormuz",
+      "url": "https://www.bis.org/publications/working-paper-1378-maritime-chokepoints-and-the-global-economy-evidence-strait-hormuz",
+      "published": "2026-09-17T00:00:00+00:00",
+      "summary": "The conflict in the Middle East and the subsequent disruption of traffic in the Strait of Hormuz have triggered an unprecedented shock to the global economy. Using historical data from the IMF/University of Oxford Portwatch database on maritime traffic, this paper empirically examines some of the potential economic and financial consequences of disruptions to traffic in the Strait of Hormuz."
+    },
+    {
+      "id": "https://sinocism.com/p/xi-rumors-iran-fm-in-beijing-pboc",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Xi rumors; Iran FM in Beijing; PBoC head on lending; US-China meeting; AI; EU-China",
+      "url": "https://sinocism.com/p/xi-rumors-iran-fm-in-beijing-pboc",
+      "published": "2026-09-16T22:47:10+00:00",
+      "summary": "There is a new round of rumors about Xi’s health. I think it is BS but since I have been getting lots of pings about it, it makes sense to address them"
+    },
+    {
+      "id": "https://www.baiguan.news/p/china-power-grid-investment-state-grid-capex-15th-five-year-plan-uhv-transmission-renewable-energy-storage-grid-forming-inverters-pcs-equipment-stocks-transformer-exports-risks-renewable-curtailment",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "The power grid trade: China's most certain spending",
+      "url": "https://www.baiguan.news/p/china-power-grid-investment-state-grid-capex-15th-five-year-plan-uhv-transmission-renewable-energy-storage-grid-forming-inverters-pcs-equipment-stocks-transformer-exports-risks-renewable-curtailment",
+      "published": "2026-09-16T10:03:33+00:00",
+      "summary": "China built the power, now it has to move it"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/can-taiwan-build-drone-part-2",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "Can Taiwan Build Drones? Part 2",
+      "url": "https://www.chinatalk.media/p/can-taiwan-build-drone-part-2",
+      "published": "2026-09-16T10:03:02+00:00",
+      "summary": "This is Part 2 of our Taiwan drone series!"
+    },
+    {
+      "id": "https://sinocism.com/p/sharp-china-the-limited-potential",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "Sharp China: The Limited Potential for a Pacing Deal; MSS on PRC AI Risks; Distillation and Data Security; The Party's Approach to Social Media",
+      "url": "https://sinocism.com/p/sharp-china-the-limited-potential",
+      "published": "2026-09-16T09:01:18+00:00",
+      "summary": "Show Notes:"
+    },
+    {
+      "id": "https://sinocism.com/p/more-weak-august-data-advance-work",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "More weak August data; Advance work for Xi-Trump meeting; ICBC documents leak; New exit-entry rules go into effect",
+      "url": "https://sinocism.com/p/more-weak-august-data-advance-work",
+      "published": "2026-09-15T22:24:47+00:00",
+      "summary": "In this issue:\n1. More weak August data\n2. Advance work for Xi-Trump meeting\n3. ICBC documents leak\n4. New exit-entry rules go into effect"
+    },
+    {
+      "id": "https://www.pekingnology.com/p/huawei-assumes-ai-may-be-the-last",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Huawei assumes AI may be the last technological revolution of human society: Guo Ping",
+      "url": "https://www.pekingnology.com/p/huawei-assumes-ai-may-be-the-last",
+      "published": "2026-09-15T15:31:43+00:00",
+      "summary": "Huawei’s supervisory board chairman on AI, chips, large models, sanctions, smart driving, and how the company sees its next era"
+    },
+    {
+      "id": "https://www.chinatalk.media/p/modeltalk-pacing-the-frontier",
+      "source": "chinatalk",
+      "source_name": "ChinaTalk",
+      "title": "ModelTalk: Pacing the Frontier",
+      "url": "https://www.chinatalk.media/p/modeltalk-pacing-the-frontier",
+      "published": "2026-09-15T10:59:50+00:00",
+      "summary": "Jasmine and Nathan Lambert Discuss!"
+    },
+    {
+      "id": "https://sinocism.com/p/us-china-strategic-ai-dialogue-said",
+      "source": "sinocism",
+      "source_name": "Sinocism",
+      "title": "US-China Strategic AI Dialogue (SAID) Proposal",
+      "url": "https://sinocism.com/p/us-china-strategic-ai-dialogue-said",
+      "published": "2026-09-15T02:14:04+00:00",
+      "summary": "A structured U.S.-PRC government dialogue on strategic artificial intelligence risk reduction - The US and China should be talking about AI safety and governance, and while I am skeptical this can happen given the politics I thought it is still constructive to make some suggestions. I created this proposal with Astra after much back and forth. If the two sides are going to dialogue about AI, the AI should have a say"
+    },
+    {
+      "id": "https://www.bis.org/publications/working-paper-1377-hidden-complexity-measuring-stablecoin-crypto-and-decentralised-finance-ecosystems",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "Hidden by complexity? Measuring stablecoin, crypto and decentralised finance ecosystems",
+      "url": "https://www.bis.org/publications/working-paper-1377-hidden-complexity-measuring-stablecoin-crypto-and-decentralised-finance-ecosystems",
+      "published": "2026-09-15T00:00:00+00:00",
+      "summary": "Decentralised finance data presents a distinctive paradox: while every data point is publicly recorded and accessible, deriving meaningful insights is obscured by the scale, fragmentation and complexity of the ecosystem. Key metrics illustrate that the rapidly evolving DeFi ecosystem introduces unique challenges for economic and financial research in accurately capturing financial activity in DeFi."
+    },
+    {
+      "id": "https://www.baiguan.news/p/xis-busy-travel-schedule-long-form",
+      "source": "baiguan",
+      "source_name": "Baiguan (BigOne Lab)",
+      "title": "Xi's Busy Travel Schedule, Long-Form AI Video, Dating Scam Bust by Anthropic, Moonshot IPO - Baiguan Radio #42",
+      "url": "https://www.baiguan.news/p/xis-busy-travel-schedule-long-form",
+      "published": "2026-09-14T10:05:32+00:00",
+      "summary": "Episode in Brief"
+    },
+    {
+      "id": "https://www.bis.org/publications/qr-202609",
+      "source": "bis",
+      "source_name": "BIS Research Papers",
+      "title": "BIS Quarterly Review, September 2026",
+      "url": "https://www.bis.org/publications/qr-202609",
+      "published": "2026-09-14T00:00:00+00:00",
+      "summary": ""
+    },
+    {
+      "id": "https://www.highcapacity.org/p/podcast-us-china-ai-race",
+      "source": "high_capacity",
+      "source_name": "High Capacity",
+      "title": "Podcast: Are the US and China in an AI Race? AGI vs. Diffusion, AI Risk, Bad Actors, the Case for Cooperation",
+      "url": "https://www.highcapacity.org/p/podcast-us-china-ai-race",
+      "published": "2026-09-13T17:50:49+00:00",
+      "summary": "A conversation with Alvin Wang Graylin"
+    },
+    {
+      "id": "https://www.pekingnology.com/p/wu-jianmin-chinas-swift-response",
+      "source": "pekingnology",
+      "source_name": "Pekingnology",
+      "title": "Wu Jianmin: China’s Swift Response to 9/11",
+      "url": "https://www.pekingnology.com/p/wu-jianmin-chinas-swift-response",
+      "published": "2026-09-13T13:20:45+00:00",
+      "summary": "A veteran diplomat recalls how Beijing’s immediate response to the attacks helped reset a troubled U.S.-China relationship"
+    },
+    {
+      "id": "https://www.eastisread.com/p/new-open-access-book-china-and-the",
+      "source": "east_is_read",
+      "source_name": "The East is Read",
       "title": "New Open-Access Book: China and the Next Global Order",
-      "url": "https://www.pekingnology.com/p/new-open-access-book-china-and-the",
-      "published": "2026-09-04T12:37:34+00:00",
+      "url": "https://www.eastisread.com/p/new-open-access-book-china-and-the",
+      "published": "2026-09-13T07:12:32+00:00",
       "summary": "Henry Huiyao Wang examines the emerging multipolar world and the evolving balance between competition and cooperation among major powers."
-    },
-    {
-      "id": "https://www.chinatalk.media/p/how-trump-and-xi-can-do-ai-safety",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "How Trump and Xi Can Do AI Safety",
-      "url": "https://www.chinatalk.media/p/how-trump-and-xi-can-do-ai-safety",
-      "published": "2026-09-04T11:12:29+00:00",
-      "summary": "it may be possible!"
-    },
-    {
-      "id": "https://www.baiguan.news/p/alibabas-10b-ai-equity-raise-niu",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "Alibaba's $10B AI Equity Raise, Niu Lai, and Beijing's ‘Going Global’ Support Plan - Baiguan Radio #41",
-      "url": "https://www.baiguan.news/p/alibabas-10b-ai-equity-raise-niu",
-      "published": "2026-09-04T09:59:04+00:00",
-      "summary": "Notice: Early bird pricing for Baiguan China Tour will end on September 13."
-    },
-    {
-      "id": "https://sinocism.com/p/sharp-china-chinas-global-strategy",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Sharp China: China's Global Strategy; Tragedy on the Nepal-Tibet Border; A 19-1 Vote at the G-20; TikTok Dodges Congress",
-      "url": "https://sinocism.com/p/sharp-china-chinas-global-strategy",
-      "published": "2026-09-04T09:00:58+00:00",
-      "summary": "Listen now | This episode of Sharp China is outside the paywall."
-    },
-    {
-      "id": "https://sinocism.com/p/prc-explanation-of-why-there-was",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "PRC explanation of why there was no G20 communiqué; Accelerating “six networks” projects; EU-China; Oil consumption; AI",
-      "url": "https://sinocism.com/p/prc-explanation-of-why-there-was",
-      "published": "2026-09-03T22:04:24+00:00",
-      "summary": "PRC explanation of why there was no G20 communiqué\nNDRC wants to accelerate “Six Networks” projects\nEU-China\nQ2 carbon emissions fall\nChina and AI\nThe Memory Museum"
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/09/jackson-hole-exploring-the-financial-frontier/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "Jackson Hole: Exploring the Financial Frontier",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/jackson-hole-exploring-the-financial-frontier/",
-      "published": "2026-09-03T11:00:00+00:00",
-      "summary": "After two days of heady discussions with academics and policymakers from around the world in high-altitude Jackson Hole, Wyoming, I’m now decompressing back at Street Level . The main theme of this year’s Kansas City Fed symposium was financial innovation in the payments space—a fast-evolving topic with major implications for consumers and central bankers alike. In this post, I’ll share some general takeaways from those Jackson Hole talks and highlight related New York Fed research on payments and financial intermediation."
-    },
-    {
-      "id": "https://www.chinatalk.media/p/china-on-the-hugging-face-incident",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "China on the Hugging Face Incident",
-      "url": "https://www.chinatalk.media/p/china-on-the-hugging-face-incident",
-      "published": "2026-09-03T10:53:45+00:00",
-      "summary": "Why Beijing seeks to re-narrate AI safety"
-    },
-    {
-      "id": "https://www.baiguan.news/p/what-does-the-most-capitalist-city",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "What does the “most capitalist” city in China tell about the future of globalization",
-      "url": "https://www.baiguan.news/p/what-does-the-most-capitalist-city",
-      "published": "2026-09-03T10:10:29+00:00",
-      "summary": "A conversation with David Fishman"
-    },
-    {
-      "id": "https://www.bis.org/publications/fsi-insight-78-simple-resilient-and-proportional-revisiting-regulation-small-banks",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "Simple, resilient and proportional: revisiting regulation for small banks",
-      "url": "https://www.bis.org/publications/fsi-insight-78-simple-resilient-and-proportional-revisiting-regulation-small-banks",
-      "published": "2026-09-03T00:00:00+00:00",
-      "summary": "Small banks are the backbone of local economies but have distinct business models and risk profiles compared to larger banks. Recognising these differences, the Basel Committee on Banking Supervision (BCBS) promotes proportionality in global banking standards, encouraging tailored requirements based on bank size, complexity, and risk profile. The BCBS does not define ‘small banks’ or prescribe tailoring methods, allowing authorities flexibility to develop approaches suited to local circumstances."
-    },
-    {
-      "id": "https://www.bis.org/publications/working-paper-1375-zombie-firms-emerging-asia-domestic-and-cross-border-implications",
-      "source": "bis",
-      "source_name": "BIS Research Papers",
-      "title": "Zombie firms in emerging Asia: domestic and cross border implications",
-      "url": "https://www.bis.org/publications/working-paper-1375-zombie-firms-emerging-asia-domestic-and-cross-border-implications",
-      "published": "2026-09-03T00:00:00+00:00",
-      "summary": "Using firm-bank linked data for 10 Asian emerging market economies (EMEs) over 2005–2021, we study the domestic and cross-border implications of zombie firms. We document three main findings."
-    },
-    {
-      "id": "https://sinocism.com/p/xis-egypt-visit-g20-meeting-bond",
-      "source": "sinocism",
-      "source_name": "Sinocism",
-      "title": "Xi’s Egypt visit; G20 meeting; Bond issuance for rest of the year; EU-China trade",
-      "url": "https://sinocism.com/p/xis-egypt-visit-g20-meeting-bond",
-      "published": "2026-09-02T22:13:17+00:00",
-      "summary": "In this issue:\nXi’s Egypt visit\nG20 Finance Ministers and Central Bank Governors meeting\nBond issuance for rest of the year\nEU-China trade"
-    },
-    {
-      "id": "https://libertystreeteconomics.newyorkfed.org/2026/09/are-central-banks-moving-out-of-dollar-assets/",
-      "source": "nyfed_lse",
-      "source_name": "NY Fed Liberty Street Economics",
-      "title": "Are Central Banks Moving Out of Dollar Assets?",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/are-central-banks-moving-out-of-dollar-assets/",
-      "published": "2026-09-02T14:00:00+00:00",
-      "summary": "The dollar’s share of global official foreign exchange reserves fell from 64 percent in 2015 to 56 percent in 2025. This downward trajectory is sometimes read as evidence that the dollar’s role in international financial markets is eroding. However, aggregate statistics obscure the composition of changes occurring at the country level. In this post, we show that the aggregate decline is not a systematic global shift away from dollar assets. Rather, the aggregate decline reflects the actions of a handful of large reserve holders, changing either their currency preferences or the size of their r"
-    },
-    {
-      "id": "https://www.eastisread.com/p/li-xunlei-on-chinas-transport-overcapacity",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Li Xunlei on China’s Transport Overcapacity",
-      "url": "https://www.eastisread.com/p/li-xunlei-on-chinas-transport-overcapacity",
-      "published": "2026-09-02T12:22:18+00:00",
-      "summary": "A data-driven look across China’s expressways, high-speed rail, airports, and urban transit at excessive expansion, weak utilisation, and regional mismatches."
-    },
-    {
-      "id": "https://www.eastisread.com/p/record-of-the-press-conference-of",
-      "source": "east_is_read",
-      "source_name": "The East is Read",
-      "title": "Record of the Press Conference of the Taiwan Affairs Office 2026-09-02",
-      "url": "https://www.eastisread.com/p/record-of-the-press-conference-of",
-      "published": "2026-09-02T10:33:42+00:00",
-      "summary": "What Beijing’s Taiwan Affairs Office Said This Week"
-    },
-    {
-      "id": "https://www.baiguan.news/p/what-china-markets-are-really-saying-august-2026-micro-evidence-non-consensus-tech-decline-not-foreign-outflows-earnings-revisions-ai-capex-capital-discipline-alibaba-financing-consumption-weakness-open-source-upside-summary",
-      "source": "baiguan",
-      "source_name": "Baiguan (BigOne Lab)",
-      "title": "What China’s Markets Are Really Saying",
-      "url": "https://www.baiguan.news/p/what-china-markets-are-really-saying-august-2026-micro-evidence-non-consensus-tech-decline-not-foreign-outflows-earnings-revisions-ai-capex-capital-discipline-alibaba-financing-consumption-weakness-open-source-upside-summary",
-      "published": "2026-09-02T10:02:47+00:00",
-      "summary": "Micro Evidence & Non-Consensus Observations — August 2026"
-    },
-    {
-      "id": "https://www.chinatalk.media/p/cyber-apocalypse-now",
-      "source": "chinatalk",
-      "source_name": "ChinaTalk",
-      "title": "Cyber Apocalypse, Now?",
-      "url": "https://www.chinatalk.media/p/cyber-apocalypse-now",
-      "published": "2026-09-02T09:56:33+00:00",
-      "summary": "The Hugging Face hack, crime, and nation states with AI cyber"
     }
   ],
   "errors": [
@@ -224,5 +215,5 @@
     "Voice of Context: Client error '403 Forbidden' for url 'https://voiceofcontext.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "Moatless Musings: Client error '403 Forbidden' for url 'https://realmoatlesscapital.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   ],
-  "generated_at": "2026-09-08T23:50:17.779684+00:00"
+  "generated_at": "2026-09-18T23:52:50.429080+00:00"
 }
